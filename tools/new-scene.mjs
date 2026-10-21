@@ -12,4 +12,6 @@ if(args.includes('--image'))base.image=importImage(get('--image'));
 if(args.includes('--left'))base.left.image=importImage(get('--left'));
 if(args.includes('--right'))base.right.image=importImage(get('--right'));
 if(args.includes('--pose')){delete base.characterImage;base.characterPose=get('--pose');}
+const pose=base.characterPose??path.basename(base.characterImage??'neutral.png','.png');
+if(['neutral','talk','point_right','point_left','think'].includes(pose)){delete base.characterImage;base.characterPose=pose;base.characterVersion='v02_highres';}
 base.revision='1.0.1';validateConfig(base);mkdirSync(path.dirname(out),{recursive:true});writeFileSync(out,JSON.stringify(base,null,2),{flag:'wx'});console.log(out);

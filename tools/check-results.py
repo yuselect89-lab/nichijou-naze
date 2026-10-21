@@ -36,7 +36,8 @@ assert overlay.getpixel((0,0))[3]==0
 assert overlay.getchannel('A').crop((0,1510,1080,1920)).getextrema()==(0,0)
 registry=json.loads((r/'library-registry.json').read_text())
 for rel,digest in registry['originalFiles'].items():assert hashlib.sha256((r/'vendor/common-library/1.0.0'/rel).read_bytes()).hexdigest()==digest
-for pose in registry['character']['poses']:
+legacy=registry.get('legacyCharacter',registry['character'])
+for pose in legacy['poses']:
     p=r/'public'/pose['path'];im=Image.open(p);assert im.mode=='RGBA' and im.height==253
     assert hashlib.sha256(p.read_bytes()).hexdigest()==pose['sha256']
 baseline=Path('/tmp/nnz-existing-hashes.json')
@@ -51,7 +52,7 @@ for i,(name,frame) in enumerate([('arrow',100),('compare',100),('zoom',100),('pa
     im=Image.open(r/f'validation/{name}-{frame}.png').convert('RGB').resize((340,604));sheet.paste(im,(i*360+10,62));ImageDraw.Draw(sheet).text((i*360+16,15),name,font=font,fill='#182b34')
 sheet.save(r/'validation/contact-sheet.jpg',quality=94)
 gallery=Image.new('RGB',(800,650),'#f5f6ef')
-for i,pose in enumerate(registry['character']['poses']):
+for i,pose in enumerate(legacy['poses']):
     im=Image.open(r/'public'/pose['path']);x=i%4*200+(200-im.width)//2;y=i//4*325+28
     gallery.paste(im,(x,y),im);ImageDraw.Draw(gallery).text((i%4*200+12,i//4*325+285),pose['pose'],font=font,fill='#182b34')
 gallery.save(r/'validation/character-gallery.png')

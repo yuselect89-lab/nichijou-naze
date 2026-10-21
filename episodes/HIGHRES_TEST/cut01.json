@@ -1,0 +1,36 @@
+{
+  "id": "NNZ_TMP_ARROW_01",
+  "title": "内部からの圧力",
+  "durationSeconds": 5,
+  "image": "episodes/HIGHRES_TEST/assets/bottle_diagram.svg",
+  "arrows": [
+    {
+      "x1": 530,
+      "y1": 925,
+      "x2": 360,
+      "y2": 875,
+      "label": "内側から押す",
+      "color": "#e95541"
+    },
+    {
+      "x1": 530,
+      "y1": 1000,
+      "x2": 742,
+      "y2": 960,
+      "label": "圧力",
+      "color": "#e95541"
+    },
+    {
+      "x1": 525,
+      "y1": 1075,
+      "x2": 525,
+      "y2": 1260,
+      "label": "下にも力",
+      "color": "#e95541"
+    }
+  ],
+  "revision": "1.0.1",
+  "mode": "standalone",
+  "characterPose": "neutral",
+  "characterVersion": "v02_highres"
+}

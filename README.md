@@ -1,5 +1,13 @@
 # 日常のなぜ？ 独立制作環境 / 共通ライブラリ導入版
 
+## 女性キャラ 本番用5ポーズ v02_highres
+
+**[高解像度5ポーズ一式ZIP](https://github.com/yuselect89-lab/nichijou-naze/raw/refs/heads/main/releases/NNZ_CHAR_FEMALE_01_v02_highres.zip)** ／ [5ポーズ一覧](common_assets/nichijou_naze/characters/female_v01/preview_v02_highres.jpg) ／ [縦画面検証動画](validation/highres/character-layout-1080x1920.mp4) ／ [詳しい仕様・生成元解像度](common_assets/nichijou_naze/characters/female_v01/README.md)
+
+通常立ち・話す・指差し右・指差し左・考えるを1536×2304pxの透過PNGとして登録しました。新しい高精細な描き起こしを透過整形・サイズ統一した素材で、ネイティブ生成時のピクセル数はmanifestに明記しています。`characterVersion: "v02_highres"` と `characterPose` で選択。旧短名の試作8ポーズ、過去EP・検証出力・旧ZIPは保持しています。新しいシーン作成CLIは対象5ポーズに新版を指定します。
+
+一覧をブラウザで見る場合は、このリポジトリを取得して `index.html` を開いてください。白・暗・チェック背景を切り替えられます。GitHub上ではHTMLがソース表示になるため、上の一覧画像も用意しています。
+
 - **[導入済み一式ZIPを直接ダウンロード](https://github.com/yuselect89-lab/nichijou-naze/raw/refs/heads/main/releases/nichijou-naze-common-library-integrated-v1.0.1.zip)**
 - [実レンダリングの一覧](validation/contact-sheet.jpg)／[女性キャラ8ポーズ](validation/character-gallery.png)
 - [ChatGPT Workへの引渡し手順](docs/WORK_HANDOFF.md)
@@ -10,7 +18,7 @@ GitHub上のZIPを開いて保存する場合は **Download raw file** を使っ
 
 ## 登録した実体
 
-- `NNZ_CHAR_FEMALE_01`：8ポーズ。`neutral / talk / point_left / point_right / think / surprise / happy / troubled`。
+- `NNZ_CHAR_FEMALE_01`：本番用v02_highresの5ポーズと、旧試作8ポーズを版を分けて保持。新版は `neutral / talk / point_right / point_left / think`。
 - `NNZ_TMP_ARROW_01`：矢印説明。
 - `NNZ_TMP_COMPARE_01`：左右比較。
 - `NNZ_TMP_ZOOM_01`：拡大・注目。
@@ -79,11 +87,11 @@ import {SeriesFrame} from './src/integration/v1.0.1/Series';
 
 ## レイアウト
 
-1080×1920 / 30fps。中央x=540、左右同幅を基本とし、字幕は x=96..984、y=1510..1790。キャラは原本の253px高を保ち、y=1197..1450の補助枠へ配置します。拡大ルーペとラベルもy=1470より上へ移しました。左右比較のカードは幅432、左右余白96、間隔24です。
+1080×1920 / 30fps。中央x=540、左右同幅を基本とし、字幕は x=96..984、y=1510..1790。旧設定のキャラは253px高・y=1197..1450を保持し、v02_highresの図解補助配置は280px高・y=1170..1450です。大表示は専用検証シーンで1220px高まで確認。拡大ルーペとラベルもy=1470より上へ移しました。左右比較のカードは幅432、左右余白96、間隔24です。
 
 Zoomは画像の実際の縦横比を読み、object-fit時の余白を含めて注目位置を計算します。ルーペでも同じ縦横比を維持します。新しい素材を指定した場合も0..1の注目座標を使えます。
 
-女性キャラは試作用の123〜148×253px PNGです。高解像度化・口パク・表情パーツは制作していません。原本の権利・類似性に関する注意は維持します。今回の導入を本番内容や権利の承認とは扱いません。
+旧女性キャラは試作用の123〜148×253px PNG、新版の優先5ポーズは1536×2304px RGBAです。口パク・表情パーツは未制作。原本の権利・類似性に関する注意は維持し、画像の導入を本編内容や権利の承認とは扱いません。
 
 ## テンプレ追加・更新
 

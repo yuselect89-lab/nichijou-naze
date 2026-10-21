@@ -1,0 +1,187 @@
+{
+  "asset_id": "NNZ_CHAR_FEMALE_01",
+  "name": "日常のなぜ？ 女性解説キャラクター 本番用5ポーズ",
+  "version": "v02_highres",
+  "date": "2026-10-22",
+  "style": "既存デザインに合わせたデフォルメ・アニメ線画、柔らかな陰影",
+  "character_description": "茶系お団子ヘア、茶色の大きな目、クリーム系パーカー、紺系パンツ、グレー／クリームのスニーカー。約3頭身。",
+  "available_poses": [
+    "neutral",
+    "talk",
+    "point_right",
+    "point_left",
+    "think"
+  ],
+  "source_reference": {
+    "design_authority": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/preview.jpg",
+    "legacy_sprites": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/",
+    "method": "Reference-conditioned high-detail redraws; all poses anchored to the same neutral redraw.",
+    "reference_issue": "Original point_left sprite points screen-right; v02 corrects its direction without renaming other assets."
+  },
+  "resolution": {
+    "canvas": [
+      1536,
+      2304
+    ],
+    "target_content_height": 2160,
+    "native_generation_note": "Generated source pixels are recorded per pose (mostly 1024x1536). Delivery size is normalized from new detailed redraws, not native 2304px generation and not an enlargement of 253px sprites."
+  },
+  "background_transparency": "RGBA true alpha, no matte or floor. Alpha specks removed; nearly opaque interiors normalized.",
+  "processing": [
+    "Inspect generated pose identity, hands and silhouette",
+    "Clean alpha <=6 and normalize opaque interiors",
+    "Crop transparent border, align full-body height 2160px",
+    "Lanczos resample of new generated redraws and centered placement on 1536x2304 canvas",
+    "Retain raw generated masters and prototype files"
+  ],
+  "usage_notes": [
+    "Use version v02_highres explicitly to preserve old episode rendering.",
+    "point_right/point_left refer to viewer/screen direction.",
+    "Static talk pose is not lip-sync or mouth animation.",
+    "For large placement use <=1200px full-body display height as validated; avoid enlarging beyond delivered pixels.",
+    "All previous short-name prototype files remain unchanged."
+  ],
+  "poses": [
+    {
+      "pose": "neutral",
+      "filename": "poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+      "width": 1536,
+      "height": 2304,
+      "alpha_content_bbox": [
+        354,
+        72,
+        1181,
+        2232
+      ],
+      "generated_source_resolution": [
+        1024,
+        1536
+      ],
+      "generated_content_crop": [
+        236,
+        33,
+        798,
+        1501
+      ],
+      "technical_scale_factor": 1.4713896457765667,
+      "source": "sources/v02_highres/neutral_generated.png",
+      "sha256": "564048ae1008365874853a2648b27217058592df6d693fea9e4e575036960d74",
+      "direction": "front / slight three-quarter"
+    },
+    {
+      "pose": "talk",
+      "filename": "poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+      "width": 1536,
+      "height": 2304,
+      "alpha_content_bbox": [
+        215,
+        72,
+        1320,
+        2232
+      ],
+      "generated_source_resolution": [
+        1024,
+        1536
+      ],
+      "generated_content_crop": [
+        144,
+        25,
+        899,
+        1501
+      ],
+      "technical_scale_factor": 1.4634146341463414,
+      "source": "sources/v02_highres/talk_generated.png",
+      "sha256": "e64a83818064b80757f9f402e8d65954062b74a264bb8eff63d69be094d5149c",
+      "direction": "front / slight three-quarter"
+    },
+    {
+      "pose": "point_right",
+      "filename": "poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+      "width": 1536,
+      "height": 2304,
+      "alpha_content_bbox": [
+        146,
+        72,
+        1390,
+        2232
+      ],
+      "generated_source_resolution": [
+        1024,
+        1536
+      ],
+      "generated_content_crop": [
+        141,
+        31,
+        993,
+        1510
+      ],
+      "technical_scale_factor": 1.460446247464503,
+      "source": "sources/v02_highres/point_right_generated.png",
+      "sha256": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b",
+      "direction": "screen right"
+    },
+    {
+      "pose": "point_left",
+      "filename": "poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+      "width": 1536,
+      "height": 2304,
+      "alpha_content_bbox": [
+        135,
+        72,
+        1401,
+        2232
+      ],
+      "generated_source_resolution": [
+        1024,
+        1536
+      ],
+      "generated_content_crop": [
+        62,
+        14,
+        934,
+        1502
+      ],
+      "technical_scale_factor": 1.4516129032258065,
+      "source": "sources/v02_highres/point_left_generated.png",
+      "sha256": "1534b205eca595a4b82dd95a93df7f9d6d5f0edb1f93dd03bd58f68197b568fe",
+      "direction": "screen left"
+    },
+    {
+      "pose": "think",
+      "filename": "poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+      "width": 1536,
+      "height": 2304,
+      "alpha_content_bbox": [
+        377,
+        72,
+        1158,
+        2232
+      ],
+      "generated_source_resolution": [
+        887,
+        1774
+      ],
+      "generated_content_crop": [
+        140,
+        15,
+        772,
+        1761
+      ],
+      "technical_scale_factor": 1.2371134020618557,
+      "source": "sources/v02_highres/think_generated.png",
+      "sha256": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339",
+      "direction": "front / slight three-quarter"
+    }
+  ],
+  "qc_status": "render_verified",
+  "limitations": [
+    "Small stylistic pose differences remain in expression and viewing angle, not a rigged identical-face model.",
+    "Native generation resolution is lower than delivery resolution for these newly redrawn masters.",
+    "Mouth shape layers and lip-sync are not included."
+  ],
+  "validation": {
+    "report": "validation/highres/qc-report.json",
+    "scene": "src/highres-validation/index.tsx",
+    "video": "validation/highres/character-layout-1080x1920.mp4"
+  }
+}

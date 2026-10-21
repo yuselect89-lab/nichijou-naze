@@ -7,6 +7,8 @@ export function validateConfig(c){
  if(!(c.durationSeconds>=2&&c.durationSeconds<=20))throw new Error('durationSeconds must be 2..20');
  if(typeof c.title!=='string'||c.title.length>32)throw new Error('title must be at most 32 characters');
  if(c.characterPose&&!poses.includes(c.characterPose))throw new Error('Unknown character pose');
+ if(c.characterVersion&&!['prototype','v02_highres'].includes(c.characterVersion))throw new Error('Unknown character version');
+ if(c.characterVersion==='v02_highres'&&!['neutral','talk','point_right','point_left','think'].includes(c.characterPose??'neutral'))throw new Error('No high-resolution asset for that pose');
  if(c.id!=='NNZ_TMP_COMPARE_01'&&typeof c.image!=='string')throw new Error('image is required');
  if(c.id==='NNZ_TMP_ARROW_01'){
   if(!Array.isArray(c.arrows)||c.arrows.length<1||c.arrows.length>8)throw new Error('1..8 arrows required');

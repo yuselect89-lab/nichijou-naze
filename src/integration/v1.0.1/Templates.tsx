@@ -1,15 +1,17 @@
 import React,{useState,useEffect} from 'react';
 import {AbsoluteFill,Img,useCurrentFrame,interpolate,Easing,delayRender,continueRender,cancelRender} from 'remotion';
 import {asset,fonts,FontReady} from './Series';
+import {characterPath} from '../character';
 export const IDs=['NNZ_TMP_ARROW_01','NNZ_TMP_COMPARE_01','NNZ_TMP_ZOOM_01'] as const;
 export type ID=typeof IDs[number];
 type Choice={image:string;label:string;marker:string};
-export type Config={id:ID;revision?:string;mode?:'standalone'|'overlay';showTitle?:boolean;title:string;durationSeconds:number;image?:string;characterImage?:string;characterPose?:string;arrows?:{x1:number;y1:number;x2:number;y2:number;label?:string;color?:string}[];left?:Choice;right?:Choice;highlight?:{x:number;y:number};zoom?:number;label?:string};
+export type Config={id:ID;revision?:string;mode?:'standalone'|'overlay';showTitle?:boolean;title:string;durationSeconds:number;image?:string;characterImage?:string;characterPose?:string;characterVersion?:'prototype'|'v02_highres';arrows?:{x1:number;y1:number;x2:number;y2:number;label?:string;color?:string}[];left?:Choice;right?:Choice;highlight?:{x:number;y:number};zoom?:number;label?:string};
 const ease=(f:number,a:number,b:number)=>interpolate(f,[a,b],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:Easing.out(Easing.cubic)});
 const Card:React.FC<{children:React.ReactNode;style:React.CSSProperties}>=({children,style})=><div data-qc="card" style={{position:'absolute',background:'#ffffffed',border:'4px solid #dce7dd',borderRadius:30,boxShadow:'0 12px 34px #4262521f',...style}}>{children}</div>;
 const Mascot:React.FC<{config:Config;side?:'left'|'right'}>=({config,side='right'})=>{
- const frame=useCurrentFrame();const source=config.characterImage??`common_assets/nichijou_naze/characters/female_v01/poses/${config.characterPose??'neutral'}.png`;
- return <Img data-qc="character" src={asset(source)} style={{position:'absolute',top:1197,[side]:96,height:253,width:'auto',maxWidth:148,objectFit:'contain',opacity:ease(frame,20,38)}}/>;
+ const frame=useCurrentFrame();const source=config.characterImage??characterPath(config.characterPose??'neutral',config.characterVersion);
+ const highres=config.characterVersion==='v02_highres';
+ return <Img data-qc="character" src={asset(source)} style={{position:'absolute',top:highres?1170:1197,[side]:96,height:highres?280:253,width:'auto',maxWidth:highres?187:148,objectFit:'contain',opacity:ease(frame,20,38)}}/>;
 };
 const Arrow:React.FC<{config:Config}>=({config:c})=>{const f=useCurrentFrame();return <>
  <Card style={{top:520,left:108,width:864,height:650,display:'grid',placeItems:'center',opacity:ease(f,2,24)}}><Img src={asset(c.image!)} style={{width:500,height:600,objectFit:'contain'}}/></Card>

@@ -1,0 +1,372 @@
+[
+  {
+    "frame": 45,
+    "images": [
+      {
+        "kind": "large-character",
+        "x": 133.328125,
+        "y": 280,
+        "width": 813.328125,
+        "height": 1220,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 135,
+    "images": [
+      {
+        "kind": "large-character",
+        "x": 133.328125,
+        "y": 280,
+        "width": 813.328125,
+        "height": 1220,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 225,
+    "images": [
+      {
+        "kind": "large-character",
+        "x": 133.328125,
+        "y": 280,
+        "width": 813.328125,
+        "height": 1220,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 315,
+    "images": [
+      {
+        "kind": "large-character",
+        "x": 133.328125,
+        "y": 280,
+        "width": 813.328125,
+        "height": 1220,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 405,
+    "images": [
+      {
+        "kind": "large-character",
+        "x": 133.328125,
+        "y": 280,
+        "width": 813.328125,
+        "height": 1220,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 480,
+    "images": [
+      {
+        "kind": "large-character",
+        "x": 96,
+        "y": 350,
+        "width": 733.328125,
+        "height": 1100,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 540,
+    "images": [
+      {
+        "kind": "large-character",
+        "x": 250.671875,
+        "y": 350,
+        "width": 733.328125,
+        "height": 1100,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 640,
+    "images": [
+      {
+        "kind": "character",
+        "x": 797.34375,
+        "y": 1170,
+        "width": 186.65625,
+        "height": 280,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 730,
+    "images": [
+      {
+        "kind": "character",
+        "x": 797.34375,
+        "y": 1170,
+        "width": 186.65625,
+        "height": 280,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  },
+  {
+    "frame": 820,
+    "images": [
+      {
+        "kind": "character",
+        "x": 96,
+        "y": 1170,
+        "width": 186.65625,
+        "height": 280,
+        "text": ""
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "width": 888,
+        "height": 14,
+        "text": ""
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1920,
+        "text": ""
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1510,
+        "width": 888,
+        "height": 280,
+        "text": "高解像度素材の\n画面配置を確認します。"
+      }
+    ]
+  }
+]

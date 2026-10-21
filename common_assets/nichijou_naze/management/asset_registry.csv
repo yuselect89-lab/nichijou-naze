@@ -1,0 +1,12 @@
+﻿Asset ID,種別,名前・用途,ステータス,Version,相対パス,使用回,権利・制作元,QC,備考,Active
+NNZ_CHAR_FEMALE_01,キャラ,女性キャラ8ポーズ,prototype,1.0.0,characters/female_v01/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,False
+NNZ_CHAR_MALE_01,キャラ,男性キャラ未制作,planned,0.0.0,characters/male_v01/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,False
+NNZ_TMP_ARROW_01,テンプレ,方向と圧力を矢印アニメで説明,implemented,1.0.0,diagram_templates/arrow_01/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,True
+NNZ_TMP_COMPARE_01,テンプレ,左右比較と○×判定,implemented,1.0.0,diagram_templates/compare_01/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,True
+NNZ_TMP_ZOOM_01,テンプレ,画像上の一点を拡大表示,implemented,1.0.0,diagram_templates/zoom_01/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,True
+NNZ_TMP_LABEL_01,テンプレ,部分名称を順に表示,planned,0.0.0,diagram_templates/label_01/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,False
+NNZ_TMP_STEP3_01,テンプレ,三段階の因果説明,planned,0.0.0,diagram_templates/step3_01/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,False
+NNZ_TMP_CROSSSECTION_01,テンプレ,断面・内部構造,planned,0.0.0,diagram_templates/crosssection_01/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,False
+NNZ_PROP_PETBOTTLE_01,小道具,ペットボトル模式図,sample,1.0.0,props/pet_bottle/bottle_diagram.svg,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,True
+NNZ_PROP_MILKCARTON_01,小道具,紙パック切欠き有無模式図,sample,1.0.0,props/milk_carton/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,True
+NNZ_CHAR_FEMALE_01,キャラ,女性解説キャラ 本番用高解像度5ポーズ,render_verified,v02_highres,characters/female_v01/manifest.json,共通素材,既存資料を参照してAI描き起こし＋透過・余白・サイズ整形,PASS 1080x1920 / 30fps / 5 poses / large and side placement / 3 templates,1536x2304 RGBA / 5 poses / native generation sizes in manifest,True

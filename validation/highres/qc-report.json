@@ -1,0 +1,119 @@
+{
+  "asset_id": "NNZ_CHAR_FEMALE_01",
+  "version": "v02_highres",
+  "status": "PASS render verified",
+  "poses": [
+    {
+      "pose": "neutral",
+      "pixels": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "contentBbox": [
+        354,
+        72,
+        1181,
+        2232
+      ],
+      "alpha": "PASS true alpha and empty borders"
+    },
+    {
+      "pose": "talk",
+      "pixels": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "contentBbox": [
+        215,
+        72,
+        1320,
+        2232
+      ],
+      "alpha": "PASS true alpha and empty borders"
+    },
+    {
+      "pose": "point_right",
+      "pixels": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "contentBbox": [
+        146,
+        72,
+        1390,
+        2232
+      ],
+      "alpha": "PASS true alpha and empty borders"
+    },
+    {
+      "pose": "point_left",
+      "pixels": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "contentBbox": [
+        135,
+        72,
+        1401,
+        2232
+      ],
+      "alpha": "PASS true alpha and empty borders"
+    },
+    {
+      "pose": "think",
+      "pixels": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "contentBbox": [
+        377,
+        72,
+        1158,
+        2232
+      ],
+      "alpha": "PASS true alpha and empty borders"
+    }
+  ],
+  "render": {
+    "resolution": [
+      1080,
+      1920
+    ],
+    "fps": 30,
+    "frames": 840,
+    "fullDecode": "PASS",
+    "largeDisplayHeight": 1220,
+    "sideDisplayHeight": 1100,
+    "helperDisplayHeight": 280,
+    "screenCases": [
+      45,
+      135,
+      225,
+      315,
+      405,
+      480,
+      540,
+      640,
+      730,
+      820
+    ],
+    "bannerAndCaptionAlphaCollision": "NONE"
+  },
+  "preservedPriorAssets": 99,
+  "visualReview": [
+    "Five poses visibly match bun, hair color, cream hoodie, navy pants and sneakers.",
+    "Face and hands reviewed at large screen size; no obvious broken anatomy.",
+    "Screen-left and screen-right pointing verified.",
+    "White dark and checker composites reviewed; transparent padding and soft alpha edges retained."
+  ],
+  "limitations": [
+    "Small stylistic pose differences remain in expression and viewing angle, not a rigged identical-face model.",
+    "Native generation resolution is lower than delivery resolution for these newly redrawn masters.",
+    "Mouth shape layers and lip-sync are not included."
+  ]
+}
