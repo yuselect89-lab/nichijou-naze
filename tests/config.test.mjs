@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {validateConfig} from '../tools/config.mjs';
+import {cleanCaption,episodeProgress,validateCues} from '../src/integration/captions.ts';
+test('all three uploaded template examples keep their asset IDs',()=>{for(const n of ['arrow','compare','zoom'])assert.equal(validateConfig(JSON.parse(readFileSync(`examples/${n}.json`))).revision,'1.0.1')});
+test('unimplemented templates and unknown versions cannot silently render',()=>{const c=JSON.parse(readFileSync('examples/arrow.json'));assert.throws(()=>validateConfig({...c,id:'NNZ_TMP_STEP3_01'}));assert.throws(()=>validateConfig({...c,revision:'9.0.0'}))});
+test('arrow coordinates outside the caption-free content region are rejected',()=>{const c=JSON.parse(readFileSync('examples/arrow.json'));c.arrows[0].y2=1700;assert.throws(()=>validateConfig(c))});
+test('captions remove Japanese commas and preserve full stops',()=>{assert.equal(cleanCaption('これは、検証です。\n次の文。'),'これは検証です。\n次の文。')});
+test('episode progress stays global across a nonzero sequence offset',()=>{assert.equal(episodeProgress(0,360),0);assert.equal(episodeProgress(359,360),1);assert.equal(episodeProgress(90,360),90/359);assert.notEqual(episodeProgress(90,360),0)});
+test('caption ranges cannot overlap or exceed the full episode',()=>{assert.throws(()=>validateCues([{fromFrame:0,toFrame:100,text:'一。'},{fromFrame:90,toFrame:120,text:'二。'}],150));assert.throws(()=>validateCues([{fromFrame:0,toFrame:200,text:'一。'}],150));validateCues([{fromFrame:0,toFrame:100,text:'一。'},{fromFrame:100,toFrame:120,text:'二。'}],150)});

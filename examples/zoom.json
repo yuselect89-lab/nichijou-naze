@@ -1,0 +1,15 @@
+{
+  "id": "NNZ_TMP_ZOOM_01",
+  "title": "ここに注目！",
+  "durationSeconds": 5,
+  "image": "common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+  "highlight": {
+    "x": 0.3,
+    "y": 0.18
+  },
+  "zoom": 2.6,
+  "label": "上端の切欠き",
+  "characterImage": "common_assets/nichijou_naze/characters/female_v01/poses/point_right.png",
+  "revision": "1.0.1",
+  "mode": "standalone"
+}

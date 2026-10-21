@@ -1,0 +1,1 @@
+{"name":"nichijou-naze-studio","private":true,"version":"1.0.0","scripts":{"studio":"remotion studio src/index.tsx","render":"node tools/render.mjs","check":"tsc --noEmit","test":"node --test tests/*.test.mjs"},"dependencies":{"@remotion/cli":"4.0.526","remotion":"4.0.526","react":"18.3.1","react-dom":"18.3.1"},"devDependencies":{"@types/react":"18.3.31","typescript":"5.9.3"}}

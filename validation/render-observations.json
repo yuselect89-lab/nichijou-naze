@@ -1,0 +1,1121 @@
+[
+  {
+    "name": "arrow",
+    "frames": 150,
+    "observations": [
+      {
+        "frame": 0,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "内部からの圧力",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 30,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "内部からの圧力",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 108,
+            "y": 520,
+            "w": 864,
+            "h": 650,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 240,
+            "y": 801,
+            "w": 240,
+            "h": 58,
+            "text": "内側から押す",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 857,
+            "y": 1197,
+            "w": 127,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.20134228187919462"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 100,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "内部からの圧力",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 108,
+            "y": 520,
+            "w": 864,
+            "h": 650,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 240,
+            "y": 801,
+            "w": 240,
+            "h": 58,
+            "text": "内側から押す",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 702,
+            "y": 886,
+            "w": 80,
+            "h": 58,
+            "text": "圧力",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 445,
+            "y": 1186,
+            "w": 160,
+            "h": 58,
+            "text": "下にも力",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 857,
+            "y": 1197,
+            "w": 127,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.6711409395973155"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 149,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "内部からの圧力",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 108,
+            "y": 520,
+            "w": 864,
+            "h": 650,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 240,
+            "y": 801,
+            "w": 240,
+            "h": 58,
+            "text": "内側から押す",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 702,
+            "y": 886,
+            "w": 80,
+            "h": 58,
+            "text": "圧力",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 445,
+            "y": 1186,
+            "w": 160,
+            "h": 58,
+            "text": "下にも力",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 857,
+            "y": 1197,
+            "w": 127,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "compare",
+    "frames": 180,
+    "observations": [
+      {
+        "frame": 0,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "切欠きはどっち？",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 30,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "切欠きはどっち？",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 96,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きあり○",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 202,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きあり",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 560.4412841796875,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きなし×",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 666.4412841796875,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きなし",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 836,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.16759776536312848"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 100,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "切欠きはどっち？",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 96,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きあり○",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 202,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きあり",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 275.984375,
+            "y": 1050,
+            "w": 72.015625,
+            "h": 105,
+            "text": "○",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 552,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きなし×",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 658,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きなし",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 731.984375,
+            "y": 1050,
+            "w": 72.015625,
+            "h": 105,
+            "text": "×",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 310,
+            "y": 1270,
+            "w": 460,
+            "h": 72,
+            "text": "違いはここ！",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 836,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.5586592178770949"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 179,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "切欠きはどっち？",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 96,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きあり○",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 202,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きあり",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 275.984375,
+            "y": 1050,
+            "w": 72.015625,
+            "h": 105,
+            "text": "○",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 552,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きなし×",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 658,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きなし",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 731.984375,
+            "y": 1050,
+            "w": 72.015625,
+            "h": 105,
+            "text": "×",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 310,
+            "y": 1270,
+            "w": 460,
+            "h": 72,
+            "text": "違いはここ！",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 836,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zoom",
+    "frames": 150,
+    "observations": [
+      {
+        "frame": 0,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "ここに注目！",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 30,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "ここに注目！",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 225,
+            "y": 520,
+            "w": 630,
+            "h": 590,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 96,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.20134228187919462"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 100,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "ここに注目！",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 225,
+            "y": 520,
+            "w": 630,
+            "h": 590,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "focus",
+            "x": 410.09375,
+            "y": 585.796875,
+            "w": 100,
+            "h": 100,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "lens",
+            "x": 615,
+            "y": 1120,
+            "w": 280,
+            "h": 280,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 560,
+            "y": 1410,
+            "w": 390,
+            "h": 58,
+            "text": "上端の切欠き",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 96,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.6711409395973155"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 149,
+        "elements": [
+          {
+            "kind": "title",
+            "x": 96,
+            "y": 335,
+            "w": 888,
+            "h": 150,
+            "text": "ここに注目！",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 225,
+            "y": 520,
+            "w": 630,
+            "h": 590,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "focus",
+            "x": 410.09375,
+            "y": 585.796875,
+            "w": 100,
+            "h": 100,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "lens",
+            "x": 615,
+            "y": 1120,
+            "w": 280,
+            "h": 280,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 560,
+            "y": 1410,
+            "w": 390,
+            "h": 58,
+            "text": "上端の切欠き",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 96,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "parent",
+    "frames": 360,
+    "observations": [
+      {
+        "frame": 0,
+        "elements": [
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 30,
+        "elements": [
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.08356545961002786"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 90,
+        "elements": [
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.25069637883008355"
+          },
+          {
+            "kind": "banner",
+            "x": 0,
+            "y": 0,
+            "w": 1080,
+            "h": 1920,
+            "text": "",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 150,
+        "elements": [
+          {
+            "kind": "card",
+            "x": 96,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きあり○",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 202,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きあり",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 275.984375,
+            "y": 1050,
+            "w": 72.015625,
+            "h": 105,
+            "text": "○",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 552,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きなし×",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 658,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きなし",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 731.984375,
+            "y": 1050,
+            "w": 72.015625,
+            "h": 105,
+            "text": "×",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 836,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.4178272980501393"
+          },
+          {
+            "kind": "caption",
+            "x": 96,
+            "y": 1510,
+            "w": 888,
+            "h": 280,
+            "text": "これは検証用の\n日本語字幕です。",
+            "progress": null
+          }
+        ]
+      },
+      {
+        "frame": 269,
+        "elements": [
+          {
+            "kind": "card",
+            "x": 96,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きあり○",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 202,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きあり",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 275.984375,
+            "y": 1050,
+            "w": 72.015625,
+            "h": 105,
+            "text": "○",
+            "progress": null
+          },
+          {
+            "kind": "card",
+            "x": 552,
+            "y": 520,
+            "w": 432,
+            "h": 650,
+            "text": "切欠きなし×",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 658,
+            "y": 556,
+            "w": 220,
+            "h": 64,
+            "text": "切欠きなし",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 731.984375,
+            "y": 1050,
+            "w": 72.015625,
+            "h": 105,
+            "text": "×",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 310,
+            "y": 1270,
+            "w": 460,
+            "h": 72,
+            "text": "違いはここ！",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 836,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "0.7493036211699164"
+          }
+        ]
+      },
+      {
+        "frame": 359,
+        "elements": [
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "1"
+          }
+        ]
+      },
+      {
+        "frame": 359,
+        "elements": [
+          {
+            "kind": "progress",
+            "x": 96,
+            "y": 78,
+            "w": 888,
+            "h": 14,
+            "text": "",
+            "progress": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "overlay-transparent",
+    "observations": [
+      {
+        "frame": 100,
+        "elements": [
+          {
+            "kind": "card",
+            "x": 225,
+            "y": 520,
+            "w": 630,
+            "h": 590,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "focus",
+            "x": 410.09375,
+            "y": 585.796875,
+            "w": 100,
+            "h": 100,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "lens",
+            "x": 615,
+            "y": 1120,
+            "w": 280,
+            "h": 280,
+            "text": "",
+            "progress": null
+          },
+          {
+            "kind": "label",
+            "x": 560,
+            "y": 1410,
+            "w": 390,
+            "h": 58,
+            "text": "上端の切欠き",
+            "progress": null
+          },
+          {
+            "kind": "character",
+            "x": 96,
+            "y": 1197,
+            "w": 148,
+            "h": 253,
+            "text": "",
+            "progress": null
+          }
+        ]
+      }
+    ]
+  }
+]

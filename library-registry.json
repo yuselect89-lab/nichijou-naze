@@ -1,0 +1,145 @@
+{
+  "library": "nichijou-naze",
+  "upstreamVersion": "1.0.0",
+  "integrationVersion": "1.0.1",
+  "activeTemplates": [
+    {
+      "id": "NNZ_TMP_ARROW_01",
+      "revision": "1.0.1",
+      "upstreamRevision": "1.0.0",
+      "implementation": "src/integration/v1.0.1/Templates.tsx"
+    },
+    {
+      "id": "NNZ_TMP_COMPARE_01",
+      "revision": "1.0.1",
+      "upstreamRevision": "1.0.0",
+      "implementation": "src/integration/v1.0.1/Templates.tsx"
+    },
+    {
+      "id": "NNZ_TMP_ZOOM_01",
+      "revision": "1.0.1",
+      "upstreamRevision": "1.0.0",
+      "implementation": "src/integration/v1.0.1/Templates.tsx"
+    }
+  ],
+  "character": {
+    "id": "NNZ_CHAR_FEMALE_01",
+    "revision": "1.0.0",
+    "status": "prototype",
+    "poses": [
+      {
+        "pose": "happy",
+        "path": "common_assets/nichijou_naze/characters/female_v01/poses/happy.png",
+        "sha256": "5dc769a57be59c3feb254c23ea805e70f8c0f8d21f800c1f18b3f7b19146beef"
+      },
+      {
+        "pose": "neutral",
+        "path": "common_assets/nichijou_naze/characters/female_v01/poses/neutral.png",
+        "sha256": "7ad4ff7aeeab8aa9d3c84828c50bc32a0a41e8c82020f0611c1435859a8185d7"
+      },
+      {
+        "pose": "point_left",
+        "path": "common_assets/nichijou_naze/characters/female_v01/poses/point_left.png",
+        "sha256": "a4df8b9fe412f27f107da1c4d81bd2f5787e6166734e8b8275f619d819ea1bf4"
+      },
+      {
+        "pose": "point_right",
+        "path": "common_assets/nichijou_naze/characters/female_v01/poses/point_right.png",
+        "sha256": "4472ed8717b9d833b38adbae81304f2d5c66ec4dd107a544c0ba176396a6e48d"
+      },
+      {
+        "pose": "surprise",
+        "path": "common_assets/nichijou_naze/characters/female_v01/poses/surprise.png",
+        "sha256": "3118c99f2b620038b9afdeaa70e51b1850184943c1a4359bc04cb397aafde7fa"
+      },
+      {
+        "pose": "talk",
+        "path": "common_assets/nichijou_naze/characters/female_v01/poses/talk.png",
+        "sha256": "6c3394be104c8d75aa533faa4ba07e1fcf2321418cc3be258bdb83f4871d0235"
+      },
+      {
+        "pose": "think",
+        "path": "common_assets/nichijou_naze/characters/female_v01/poses/think.png",
+        "sha256": "1152204114caacae2c7705d189c3b3191a49a9c984acb9bc536887bb547f882e"
+      },
+      {
+        "pose": "troubled",
+        "path": "common_assets/nichijou_naze/characters/female_v01/poses/troubled.png",
+        "sha256": "3bddee6e4a071309a4b2658218bf3f22e6c59664257565b6ebd1a6add5befed8"
+      }
+    ]
+  },
+  "plannedOnly": [
+    "NNZ_CHAR_MALE_01",
+    "NNZ_TMP_LABEL_01",
+    "NNZ_TMP_STEP3_01",
+    "NNZ_TMP_CROSSSECTION_01"
+  ],
+  "banner": {
+    "path": "public/series/v1/opening_banner.png",
+    "source": "Existing EP004_ICE/shared/opening_banner.png",
+    "sha256": "cc648108d24b3f745f07b63960c9799f76046815dacd9eda2c1813ef81aecc1e",
+    "note": "Uploaded message also shows a round 30-second banner, but no separate original file was present in the supplied ZIP. Existing EP004 banner reused without redesign."
+  },
+  "originalFiles": {
+    ".gitignore": "e146a7d868ece075b324e8703041a17153e63ec6c929d643ea95d6bd00a385fa",
+    "index.html": "4ecccb0126d0ccd12636ba05507a68e2cf5699198449e03ee053e1ed87661ec0",
+    "README.md": "5d4359fb3f0578c629642ef8dbc7adad5645ca17e4f51bec1061fab5a6a3f87a",
+    "integration/Root.example.tsx": "83ded2901c45e821ddcdba42cb36ba0035d0d4ffd6b15d5ae9b094350d0739f8",
+    "integration/README.md": "db05c259a681383da9d9136f008f5201c8515e734e248cbfb90ebc23dd47c637",
+    "tools/install_into_remotion.py": "a7969b0e6919ce542f5dd2e869136e06e40812a5280adf69c49a5fd1953eba9e",
+    "tools/validate.py": "f1deb5951354f84368e95894c9a75c19a3cc0d4d931aacdcf577e74e3cb07551",
+    "common_assets/nichijou_naze/README.md": "33588a24c792564485727ff8ff5b57321da0dadde98edcc9fa869fe32e408f53",
+    "common_assets/nichijou_naze/management/NAMING_AND_QC.md": "6af97ee7681313def820ddbe1327f019861349eee0dcdc0ee3583498089379ee",
+    "common_assets/nichijou_naze/management/asset_registry.csv": "b8025cf977227869a8ee389aee03b37e8c671db3716e817cff24650b4f5b3c05",
+    "common_assets/nichijou_naze/management/asset_registry.xlsx": "ec07c54dcca0e6f82cd4a2a750d2e316a27d5947e9a1b61b85c40c1b7c438360",
+    "common_assets/nichijou_naze/management/asset_registry.json": "706e6ecdfff054ca835aa000ab1ab5e9276f34efb89345686dc6b105b658fc62",
+    "common_assets/nichijou_naze/diagram_templates/compare_01/example.json": "1d03ea07cf72ac1560188fa6b315ce6cc787a2a0927f58a90e55e38d27740df1",
+    "common_assets/nichijou_naze/diagram_templates/compare_01/preview.mp4": "3afc6e44404ddc9e7aa52aa37cb7c112f1627bff224cdc96cf802ed4b35a185b",
+    "common_assets/nichijou_naze/diagram_templates/compare_01/template.tsx": "39a00941f840a1786c301fb7e039560b5a86e2c34f83e2673ae32b3884f2eef4",
+    "common_assets/nichijou_naze/diagram_templates/compare_01/schema.json": "8fa4997d70120f0b28da7df01f2b87aedba056a2b861b74de68e861f6c835885",
+    "common_assets/nichijou_naze/diagram_templates/compare_01/thumb.png": "44f40d1dd39f16b78b88b0d9715f4be8b65dda00632e306fe33bffd3ba08d934",
+    "common_assets/nichijou_naze/diagram_templates/compare_01/README.md": "d2b5fb9f06ddfec70a1f919d20d03a9d584824a36d10af522b5f43d73967148c",
+    "common_assets/nichijou_naze/diagram_templates/_shared/layout.tsx": "6a4e07342e28a917514ac24d01bd6f12b8c0efc597a0a9dad8357f555cca565c",
+    "common_assets/nichijou_naze/diagram_templates/crosssection_01/README.md": "320e2c7b09b5a244ab5cad28afb5dba19e991cb732a6616f8b3c156cf5ffff02",
+    "common_assets/nichijou_naze/diagram_templates/step3_01/README.md": "a0cef92565ae877f6e437748de522ef87b0721b357c66d1f7bd834c8eb6cee6c",
+    "common_assets/nichijou_naze/diagram_templates/zoom_01/example.json": "97b6b1634dacd39b97cee6ac67b67b060ec11e4a490b6c8097876c6fdd2386c5",
+    "common_assets/nichijou_naze/diagram_templates/zoom_01/preview.mp4": "0e523c351056f6b1c5e3e87a73fb3833aa65239c715031405d413aa33e4b37b2",
+    "common_assets/nichijou_naze/diagram_templates/zoom_01/template.tsx": "b486c409b67d3de532b39cbf5fe25c47615225b2bc4a659a12611b084c1ed3bc",
+    "common_assets/nichijou_naze/diagram_templates/zoom_01/schema.json": "af38c9ce1eb9a64ff708ff771297081b8cff147dc6be6319b7235070f70dafe2",
+    "common_assets/nichijou_naze/diagram_templates/zoom_01/thumb.png": "270bed434891a070877745f034171b5cc1927c8ad16c20b16206df30e1b0e1f8",
+    "common_assets/nichijou_naze/diagram_templates/zoom_01/README.md": "d56f8190d0f7c6cc86b9896663e0f2b808c57e03635b2dc208403ef6660fe89d",
+    "common_assets/nichijou_naze/diagram_templates/arrow_01/example.json": "50624da5a8d788435bbe4d96dc10ee603ce2e8ed251ea05b9c47cac6f179cc0d",
+    "common_assets/nichijou_naze/diagram_templates/arrow_01/preview.mp4": "921c7d67aaa33c07487f845f4c9c255d7ff44741ed03dca287473576421afd52",
+    "common_assets/nichijou_naze/diagram_templates/arrow_01/template.tsx": "10e40b9164938f8c1da0b62cccce22359d103260e7278fe9dfca22f05a23bcbe",
+    "common_assets/nichijou_naze/diagram_templates/arrow_01/schema.json": "aa126230d513a3aca6670699e83832a3b2c8c307bab66f572ffcfb393a964799",
+    "common_assets/nichijou_naze/diagram_templates/arrow_01/thumb.png": "32c07ccdc5d44f4d12077ddc8b063ef2e3cba39dee13a09e22538ef076fb6911",
+    "common_assets/nichijou_naze/diagram_templates/arrow_01/README.md": "6a7b6142ee79ad40b2a00e4c6823b604fa36726114525657d38a02bc356c5866",
+    "common_assets/nichijou_naze/diagram_templates/label_01/README.md": "a4c26c2976e66de784520accfb187835b61901d31bc93d32d56a44e9949948fd",
+    "common_assets/nichijou_naze/characters/female_v01/preview.jpg": "4e245db00378d38a8e0e873589ac7a565d913186c3664bbf7242e15222397d65",
+    "common_assets/nichijou_naze/characters/female_v01/manifest.json": "3bb38b11bb7393b3414484ecd8d822b0638be2c230e592bbdebb07c21f269745",
+    "common_assets/nichijou_naze/characters/female_v01/README.md": "bdc407a13cae9dc87a5d01ac8566dae31a925a75a6fd19a12e066e4e300505eb",
+    "common_assets/nichijou_naze/characters/male_v01/README.md": "0b89002bbc115a7ec97406774634b548d219e39a2bc973047aacde69213a88c1",
+    "common_assets/nichijou_naze/characters/female_v01/faces/README.md": "646871de7c80f49e991c1555e227c3a157fc6e76157691b38071f654805e07e3",
+    "common_assets/nichijou_naze/characters/female_v01/props/README.md": "546b1a47a14d1b03bd31cafd5594663826f4656ce1a494198263e2afeee0233d",
+    "common_assets/nichijou_naze/characters/female_v01/poses/neutral.png": "7ad4ff7aeeab8aa9d3c84828c50bc32a0a41e8c82020f0611c1435859a8185d7",
+    "common_assets/nichijou_naze/characters/female_v01/poses/happy.png": "5dc769a57be59c3feb254c23ea805e70f8c0f8d21f800c1f18b3f7b19146beef",
+    "common_assets/nichijou_naze/characters/female_v01/poses/talk.png": "6c3394be104c8d75aa533faa4ba07e1fcf2321418cc3be258bdb83f4871d0235",
+    "common_assets/nichijou_naze/characters/female_v01/poses/point_left.png": "a4df8b9fe412f27f107da1c4d81bd2f5787e6166734e8b8275f619d819ea1bf4",
+    "common_assets/nichijou_naze/characters/female_v01/poses/surprise.png": "3118c99f2b620038b9afdeaa70e51b1850184943c1a4359bc04cb397aafde7fa",
+    "common_assets/nichijou_naze/characters/female_v01/poses/troubled.png": "3bddee6e4a071309a4b2658218bf3f22e6c59664257565b6ebd1a6add5befed8",
+    "common_assets/nichijou_naze/characters/female_v01/poses/think.png": "1152204114caacae2c7705d189c3b3191a49a9c984acb9bc536887bb547f882e",
+    "common_assets/nichijou_naze/characters/female_v01/poses/point_right.png": "4472ed8717b9d833b38adbae81304f2d5c66ec4dd107a544c0ba176396a6e48d",
+    "common_assets/nichijou_naze/characters/female_v01/mouth/README.md": "b85c908c265b2c0f352558c515017461a3cff4a175aa09116836c2a8a010033a",
+    "common_assets/nichijou_naze/scenes/episode_001/README.md": "ccd01a233f5c84801731b11d8684b1716ac55f780081d19378ae981785b558be",
+    "common_assets/nichijou_naze/scenes/episode_002/README.md": "ccd01a233f5c84801731b11d8684b1716ac55f780081d19378ae981785b558be",
+    "common_assets/nichijou_naze/props/manhole/README.md": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688",
+    "common_assets/nichijou_naze/props/arrows/README.md": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688",
+    "common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg": "5fda50d0b19bf1776dfa3e8ccb05664bed0fd8e12bf53c29e0a75179653c2de6",
+    "common_assets/nichijou_naze/props/milk_carton/carton_plain.svg": "990ca4e7170343dcbc167993857b10362abb904d02e7f844d5ace0b0e249beb1",
+    "common_assets/nichijou_naze/props/milk_carton/carton_notch.svg": "8b9053f654481240f12736f85c8fdb786f017d8ca00f4b95b7e452d9a74ee121",
+    "common_assets/nichijou_naze/props/icons/README.md": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688",
+    "common_assets/nichijou_naze/props/ice/README.md": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688",
+    "common_assets/nichijou_naze/props/glass/README.md": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688"
+  }
+}

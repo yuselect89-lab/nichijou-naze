@@ -1,0 +1,25 @@
+{
+  "asset_id": "NNZ_CHAR_FEMALE_01",
+  "name": "女性解説キャラ V0.1",
+  "revision": "1.0.0",
+  "status": "prototype",
+  "license_note": "ChatGPTで生成・加工した素材。公開前に目視の整合性と類似性確認が必要。",
+  "poses": [
+    "neutral",
+    "talk",
+    "point_left",
+    "point_right",
+    "think",
+    "surprise",
+    "happy",
+    "troubled"
+  ],
+  "source": "2026-10-21 ChatGPTで作成した女性キャラV0.1",
+  "format": "RGBA PNG / 123〜148×253 px",
+  "limitations": [
+    "顔や服の細部にポーズ間差異がある可能性",
+    "拡大使用では高解像度版が必要",
+    "口パク・骨格アニメーション未実装"
+  ],
+  "voice": "女性VO回用。男性版は共通の動作APIで差し替え予定。"
+}

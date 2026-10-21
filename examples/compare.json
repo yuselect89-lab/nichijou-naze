@@ -1,0 +1,18 @@
+{
+  "id": "NNZ_TMP_COMPARE_01",
+  "title": "切欠きはどっち？",
+  "durationSeconds": 6,
+  "left": {
+    "image": "common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+    "label": "切欠きあり",
+    "marker": "○"
+  },
+  "right": {
+    "image": "common_assets/nichijou_naze/props/milk_carton/carton_plain.svg",
+    "label": "切欠きなし",
+    "marker": "×"
+  },
+  "characterImage": "common_assets/nichijou_naze/characters/female_v01/poses/point_right.png",
+  "revision": "1.0.1",
+  "mode": "standalone"
+}

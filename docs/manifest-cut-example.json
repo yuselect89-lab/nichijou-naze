@@ -1,0 +1,1 @@
+{"id":"cut01","startSeconds":0,"durationSeconds":5,"durationFrames":150,"files":[{"filename":"cut01/animation.mp4","type":"silent animation"}],"template":{"id":"NNZ_TMP_ARROW_01","revision":"1.0.1","config":"episodes/EP005/cut01.json","composition":"NNZ-TEMPLATE"},"notes":"仮尺。ChatGPT Workで確定VOに同期。overlay時は本編の帯・進行バー・字幕を再利用。"}
