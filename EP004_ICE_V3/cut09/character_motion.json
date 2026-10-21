@@ -1,0 +1,25 @@
+{
+  "asset_id": "NNZ_CHAR_FEMALE_01",
+  "version": "v02_highres",
+  "file": "character_point_right.png",
+  "motion_asset": "NNZ_MOTION_BASIC_01",
+  "motion_version": "1.1.0",
+  "config": {
+    "side": "left",
+    "top": 1140,
+    "height": 320,
+    "entry": "fade",
+    "enterFrame": 13,
+    "exitFrame": 145,
+    "idle": true,
+    "nodAt": [
+      110
+    ],
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "point_right"
+      }
+    ]
+  }
+}

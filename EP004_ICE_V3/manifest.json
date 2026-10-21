@@ -1,0 +1,241 @@
+{
+  "project": "日常のなぜ？ EP004 白い氷",
+  "version": "V3_stage1",
+  "script": "V8 LOCK unchanged",
+  "design": "V3 user brief",
+  "stage": 1,
+  "status": "quality_review_pending",
+  "created_at": "2026-10-22T08:14:05.330873+09:00",
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "full_episode_target_seconds": 46.6,
+  "provisional_timing": true,
+  "scope": "Cut01+Cut09 only. Remaining8cuts require explicit quality approval per user V3 section8. No full-episode MP4.",
+  "safe_zones": {
+    "foreground": {
+      "left": 72,
+      "right": 920,
+      "top": 320,
+      "bottom": 1480
+    },
+    "subtitle_reserved": {
+      "x": 96,
+      "y": 1500,
+      "width": 824,
+      "height": 240
+    },
+    "opening_banner_reserved": {
+      "x": 80,
+      "y": 150,
+      "width": 920,
+      "height": 142
+    },
+    "progress_reserved": {
+      "x": 96,
+      "y": 78,
+      "width": 888,
+      "height": 14
+    },
+    "right_UI_from": 920,
+    "bottom_UI_from": 1740,
+    "background": "Fullbleed1080x1920; these are important-information exclusions, not cropping boundaries."
+  },
+  "provenance": "licenses/provenance.json",
+  "inventory": "qc/inventory.json",
+  "cuts": [
+    {
+      "cut": "cut01",
+      "narration": "家で作る氷って、真ん中が白くなりますよね。",
+      "start_seconds": 0,
+      "duration_seconds": 3.5,
+      "frames": 105,
+      "status": "quality_trial_ready",
+      "files": [
+        {
+          "file": "cut01/background.png",
+          "type": "still",
+          "layer": "fullbleed background + photographic ice",
+          "origin": "new AI reenactment"
+        },
+        {
+          "file": "cut01/main.png",
+          "type": "representative still"
+        },
+        {
+          "file": "cut01/animation.mp4",
+          "type": "silent H264 video",
+          "frames": 105
+        }
+      ],
+      "animation": "Gentle3.5%push; cloudy center visible from frame0; no character or text.",
+      "layer_structure": [
+        "fullbleed photographic background/ice; inseparable optical content",
+        "No band, captions, progress, voice or music."
+      ],
+      "qc": "qc/stage1_report.json"
+    },
+    {
+      "cut": "cut02",
+      "narration": "では、水を一度沸かしてから凍らせたら、お店みたいなきれいな氷になるでしょうか？",
+      "start_seconds": 3.5,
+      "duration_seconds": 6.5,
+      "frames": 195,
+      "status": "awaiting_stage1_approval",
+      "files": []
+    },
+    {
+      "cut": "cut03",
+      "narration": "実は、沸かすだけでは透明になるとは限りません。",
+      "start_seconds": 10,
+      "duration_seconds": 4,
+      "frames": 120,
+      "status": "awaiting_stage1_approval",
+      "files": []
+    },
+    {
+      "cut": "cut04",
+      "narration": "あの白い部分の正体は、氷の中に閉じ込められた小さな空気の泡。",
+      "start_seconds": 14,
+      "duration_seconds": 5,
+      "frames": 150,
+      "status": "awaiting_stage1_approval",
+      "files": []
+    },
+    {
+      "cut": "cut05",
+      "narration": "この泡が光を散らすから、白く見えるんです。",
+      "start_seconds": 19,
+      "duration_seconds": 3.5,
+      "frames": 105,
+      "status": "awaiting_stage1_approval",
+      "files": []
+    },
+    {
+      "cut": "cut06",
+      "narration": "水を沸かすと空気は減ります。",
+      "start_seconds": 22.5,
+      "duration_seconds": 2.5,
+      "frames": 75,
+      "status": "awaiting_stage1_approval",
+      "files": []
+    },
+    {
+      "cut": "cut07",
+      "narration": "でも普通に凍らせると、残った空気が中心に追いやられ、泡になってしまいます。",
+      "start_seconds": 25,
+      "duration_seconds": 6.5,
+      "frames": 195,
+      "status": "awaiting_stage1_approval",
+      "files": []
+    },
+    {
+      "cut": "cut08",
+      "narration": "一方、市販のロックアイスは、水をかき混ぜながらゆっくり凍らせます。",
+      "start_seconds": 31.5,
+      "duration_seconds": 5.5,
+      "frames": 165,
+      "status": "awaiting_stage1_approval",
+      "files": []
+    },
+    {
+      "cut": "cut09",
+      "narration": "そして空気などが集まった中心の水を、凍りきる前に捨てるんです。",
+      "start_seconds": 37,
+      "duration_seconds": 5.5,
+      "frames": 165,
+      "status": "quality_trial_ready",
+      "files": [
+        {
+          "file": "cut09/base_animation.mp4",
+          "type": "silent H264 video",
+          "layer": "3D background + model + liquid/pipe flow, no character/labels"
+        },
+        {
+          "file": "cut09/animation.mp4",
+          "type": "silent H264 video",
+          "layer": "viewable composite, with character and diagram labels"
+        },
+        {
+          "file": "cut09/background.png",
+          "type": "still",
+          "layer": "3D room only"
+        },
+        {
+          "file": "cut09/model.png",
+          "type": "RGBA PNG",
+          "layer": "3D model representative frame85 on alpha"
+        },
+        {
+          "file": "cut09/character_overlay.webm",
+          "type": "VP9 alpha animation",
+          "layer": "character only"
+        },
+        {
+          "file": "cut09/labels_overlay.webm",
+          "type": "VP9 alpha animation",
+          "layer": "diagram labels and flow arrows only"
+        },
+        {
+          "file": "cut09/character_point_right.png",
+          "type": "RGBA PNG",
+          "origin": "reused V02 unchanged"
+        },
+        {
+          "file": "cut09/character_motion.json",
+          "type": "editable motion parameters"
+        },
+        {
+          "file": "cut09/main.png",
+          "type": "representative composite still"
+        }
+      ],
+      "common_assets": [
+        {
+          "id": "NNZ_CHAR_FEMALE_01",
+          "version": "v02_highres",
+          "pose": "point_right"
+        },
+        {
+          "id": "NNZ_MOTION_BASIC_01",
+          "version": "1.1.0"
+        }
+      ],
+      "animation": "0-.85s intake descends;1.02-4.97s central level drops smoothly, upward flow through suction pipe, visible outlet jet and increasing receiver level; final hollow ice remains with small residual liquid.",
+      "layer_structure": [
+        "Full3D room/can/ice/liquid geometry editable in source/scene3d.mjs",
+        "Liquid quantities and timing editable in source/physics.mjs",
+        "Character and labels can be omitted/repositioned using alpha overlays",
+        "No series banner, progress, captions, narration or soundtrack."
+      ],
+      "notes": [
+        "Blue/cyan is a schematic liquid distinction, not dyed factory water.",
+        "Ice is fixed; open-front/back cutaway exists before the shot and is not carved in time.",
+        "This shot shows suction, no air-injection path.",
+        "Do not cut directly to a magically completed solid block; Cut10 is a later manufacturing outcome."
+      ],
+      "qc": "qc/stage1_report.json"
+    },
+    {
+      "cut": "cut10",
+      "narration": "だから、あんなに透明な氷ができるんですね。",
+      "start_seconds": 42.5,
+      "duration_seconds": 4.1,
+      "frames": 123,
+      "status": "awaiting_stage1_approval",
+      "files": []
+    }
+  ],
+  "shared_registration": "New3D rig and photo remain EP-specific quality trials; no production-active common asset is registered before quality approval. Existing common assets unchanged.",
+  "editing_notes": [
+    "Use cut09/animation.mp4 directly, OR base_animation.mp4 plus character_overlay.webm and labels_overlay.webm. Never stack both approaches.",
+    "Alpha WebM requires an alpha-aware decoder; PNG+motion JSON and editable renderer source are included as fallback.",
+    "Series band/progress/captions/VO/BGM/SE are Work responsibilities and absent from delivered cut videos.",
+    "Guide images in preview are QC-only and must not be used as production backgrounds.",
+    "Source native resolution and AI origin are recorded; no claim that the photo is real experimental evidence."
+  ],
+  "technical_qc": "PASS",
+  "quality_approval": "pending"
+}

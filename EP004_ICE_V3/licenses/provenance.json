@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-22T08:14:05.330873+09:00",
+  "items": [
+    {
+      "id": "CUT01_AI_REENACTMENT",
+      "file": "source/cut01_ai_master.png",
+      "source": "OpenAI image_gen tool, new original generation",
+      "native_resolution": [
+        941,
+        1672
+      ],
+      "delivery_resolution": [
+        1080,
+        1920
+      ],
+      "processing": "Lanczos fit/crop to1080x1920, then3.5%camera push in Remotion; no old V1 crop enlargement",
+      "usage": "Illustrative AI reconstruction of household cloudy ice, not an actual experiment record",
+      "third_party_stock": false,
+      "credit": "No third-party photo attribution; retain AI provenance in handoff and do not label as documentary evidence."
+    },
+    {
+      "id": "CUT09_3D_MODEL",
+      "files": [
+        "source/scene3d.mjs",
+        "source/physics.mjs"
+      ],
+      "source": "Original authored geometry, room, lighting, materials, prescribed animation",
+      "usage": "Explanatory crosssection; water tinted cyan for distinction; front and back metal omitted for visibility",
+      "limitations": "Not CFD, factory footage, or measured dimensions. Tube hold-up volume is ignored in the schematic volume balance; receiver geometry area matches the prescribed balance."
+    },
+    {
+      "id": "THREE_JS",
+      "version": "0.180.0",
+      "source_url": "https://registry.npmjs.org/three/-/three-0.180.0.tgz",
+      "retrieved_at": "2026-10-22T08:14:05.330873+09:00",
+      "license": "MIT",
+      "license_file": "licenses/THREE_LICENSE.txt",
+      "credit": "Copyright2010-2025 Three.js authors; retain complete MIT notice provided."
+    },
+    {
+      "id": "NNZ_CHAR_FEMALE_01",
+      "version": "v02_highres",
+      "pose": "point_right",
+      "source": "Existing user-series production asset, used unchanged",
+      "source_manifest": "common_assets/nichijou_naze/characters/female_v01/manifest.json"
+    },
+    {
+      "id": "FONT",
+      "source": "Existing Noto Sans CJK JP Bold",
+      "license": "SIL Open Font License1.1",
+      "license_file": "licenses/FONT_LICENSE.txt"
+    }
+  ],
+  "scientific_references": [
+    {
+      "url": "https://kokuboice.co.jp/rockice/step/",
+      "role": "User-specified manufacturing-process reference",
+      "text_independently_retrieved": false,
+      "reason": "Destination absent from managed network allowlist; prior V1 attempt returned403. No proxy bypass or unauthorized copying."
+    },
+    {
+      "url": "https://icenet.or.jp/about_koriya_junpyo/",
+      "role": "User-specified pure-ice manufacturing reference",
+      "text_independently_retrieved": false,
+      "reason": "Destination absent from managed network allowlist; no independent web-text verification in this session."
+    }
+  ],
+  "reference_images_copied_or_traced": false,
+  "scientific_review": "Checked against LOCKED V8 and V3 brief plus geometric flow invariants. Independent official-process verification and G3 remain pending."
+}

@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-22T08:14:05.330873+09:00",
+  "existing_project": "/workspace/EP004_ICE",
+  "old_materials_zip": {
+    "path": "/workspace/EP004_ICE_materials_V1.zip",
+    "exists": true
+  },
+  "old_rough": {
+    "filename": "EP004_ICE_rough_v1(1).mp4",
+    "found": false,
+    "note": "Not present in workspace/uploads. Old V1 assets inspected instead; no claim to have reviewed this MP4."
+  },
+  "formal_banner": {
+    "independent_original_png_found": false,
+    "existing_series_png": "public/series/v1/opening_banner.png",
+    "note": "Existing PNG was authored for old EP004 V1; it is not the original round30-second user banner shown in chat. Not used or baked into V3. Work supplies the formal original."
+  },
+  "character_sheet": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/preview.jpg",
+  "character_assets": {
+    "v02_highres": "5 production poses, render_verified",
+    "v03_expressions": "3 added expressions, render_verified, with5inherited poses",
+    "used": "v02_highres point_right"
+  },
+  "templates": {
+    "library_extension": "1.1.0 render_verified; manifest and qc-report inspected",
+    "reused": "NNZ_MOTION_BASIC_01 CharacterLayer; other completed templates remain available but are not substitutes for the new3D shot."
+  },
+  "environment": {
+    "Remotion": "4.0.526",
+    "React": "18.3.1",
+    "Chromium": "/usr/bin/chromium",
+    "Blender": "4.3.2 available; CPU draft not used in delivery",
+    "final_3d": "Three.js0.180.0 PBR WebGL2 via Chromium swangle",
+    "dependency_policy": "Three vendored locally; no existing dependency declaration or node_modules changed."
+  }
+}

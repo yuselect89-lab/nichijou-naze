@@ -1,0 +1,320 @@
+{
+  "stage": 1,
+  "technical_result": "PASS",
+  "visual_quality": "Self-reviewed; user approval pending",
+  "G3": "not performed",
+  "remaining_cuts": "Cut02-08+Cut10 not started; await user approval",
+  "videos": [
+    {
+      "file": "cut01/animation.mp4",
+      "frames": 105,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "audio": false,
+      "alpha": false,
+      "alpha_zero_fraction": null,
+      "sha256": "5f1dc68739f6efb3e657abc5d5955791686dd9cf15c0e7eb23fbdb33ee7ab6d5"
+    },
+    {
+      "file": "cut09/base_animation.mp4",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "audio": false,
+      "alpha": false,
+      "alpha_zero_fraction": null,
+      "sha256": "9bdd25af7c3b34145f5c6a7f9314c610b69f463f818584d349ab6914a109d04a"
+    },
+    {
+      "file": "cut09/animation.mp4",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "audio": false,
+      "alpha": false,
+      "alpha_zero_fraction": null,
+      "sha256": "ffbe0068208637c0c679e6237c656d888cff3c7c2c54f8ae54673bb805cf8dc0"
+    },
+    {
+      "file": "cut09/character_overlay.webm",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "audio": false,
+      "alpha": true,
+      "alpha_zero_fraction": 0.9795129243827161,
+      "sha256": "2840e2cf3012ede423d456d5686cd0e5ca4950e680971bd93bdf10eac1988cf7"
+    },
+    {
+      "file": "cut09/labels_overlay.webm",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "audio": false,
+      "alpha": true,
+      "alpha_zero_fraction": 0.9236048418209877,
+      "sha256": "d1138d1f2def3f34bacc555a3fece2fa744dae8a04e99ce7dfb1b436009f7287"
+    }
+  ],
+  "stills": [
+    {
+      "file": "cut01/background.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "cut01/main.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "cut09/background.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "cut09/main.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "cut09/model.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "cut09/character_point_right.png",
+      "size": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "preview/cut09-15.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-150.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-60.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-164.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut01-0.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-45.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-encoded-85.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-encoded-30.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-encoded-110.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-encoded-60.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-85.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-135.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-30.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-encoded-135.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-110.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-0.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut01-104.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-encoded-0.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut09-encoded-164.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    },
+    {
+      "file": "preview/cut01-52.png",
+      "size": [
+        1080,
+        1920
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "preserved_existing_files": 327,
+  "existing_files_changed": [],
+  "physics": {
+    "tests_passed": 3,
+    "core_volume_decreases_continuously": true,
+    "receiver_gain_matches_core_loss": true,
+    "ice_geometry": "Fixed U-shaped solid, constant canonical mesh signature and static transforms; checked in sampled images",
+    "receiver_capacity": "actual width1.04 × depth3.72 × usable height1.40, enough for4.46223 normalized-volume units",
+    "initial_volume": 4.50892,
+    "final_residual_volume": 0.04669,
+    "model": "Prescribed geometric schematic, not CFD; ignores small pipe hold-up."
+  },
+  "safe_zone": "Important3D geometry withinx72..920,y320..1480. Short labels40px; existing character fullbody320px. Checked encoded frames and360px guide images.",
+  "visual_review": {
+    "cut01": "Recognizable cloudy household cube from firstframe, clear outer rim, natural kitchen reflections, fullbleed; AI reconstruction declared.",
+    "cut09": "Large real3D extruded/beveled ice mesh, metal frame, visible depth; cyan liquid distinguished from translucent ice; stable water surface without z-fighting; upward suction and visible discharge into receiver; final cavity remains.",
+    "character": "Unchanged verified V02 point_right; whole-sprite motion only; no rig/lip-sync.",
+    "series_overlays": "No banner, captions, progress, audio or music in production MP4s. Guide images separate."
+  },
+  "limitations": [
+    "Quality approval by user and independent G3 are pending.",
+    "No old rough MP4 or independent original formal banner PNG found.",
+    "Official manufacturing reference text was not independently retrieved under network restrictions.",
+    "3D is a stylized explanatory reconstruction, not photoreal factory footage or measured CFD.",
+    "Cut01 generated source941x1672 normalized to1080x1920.",
+    "VO timing remains provisional; Work edits and supplies formal common overlays."
+  ],
+  "implementation_issues_resolved": [
+    "Initial CPU Cycles draft rejected for visible noise and slow animation cost.",
+    "Chromium legacy swiftshader context failed; supported swangle rendered WebGL2 successfully.",
+    "A near-coplanar liquid surface caused grid artefacts; separated surface by0.008worldunits and reduced ripples.",
+    "Receiver depth matches liquid volume; no undersized receiver pretending to hold all outflow.",
+    "Alpha-WebM timestamp rounding initially added1frame; final composite constrained to165frames.",
+    "Callout leaders fade together with their labels."
+  ],
+  "scientific_reference_status": "Checked against user V8+V3 brief and geometric continuity; independent official-site verification pending."
+}
