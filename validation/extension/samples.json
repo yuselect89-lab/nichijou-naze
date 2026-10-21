@@ -1,0 +1,182 @@
+[
+  {
+    "scene": "expression-surprise",
+    "local": 0,
+    "frame": 0
+  },
+  {
+    "scene": "expression-surprise",
+    "local": 85,
+    "frame": 85
+  },
+  {
+    "scene": "expression-happy",
+    "local": 85,
+    "frame": 205
+  },
+  {
+    "scene": "expression-troubled",
+    "local": 85,
+    "frame": 325
+  },
+  {
+    "scene": "footage-character",
+    "local": 85,
+    "frame": 445
+  },
+  {
+    "scene": "diagram-character",
+    "local": 85,
+    "frame": 625
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 0,
+    "frame": 720
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 24,
+    "frame": 744
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 49,
+    "frame": 769
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 64,
+    "frame": 784
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 80,
+    "frame": 800
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 110,
+    "frame": 830
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 180,
+    "frame": 900
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 205,
+    "frame": 925
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "local": 239,
+    "frame": 959
+  },
+  {
+    "scene": "label-parameters",
+    "local": 85,
+    "frame": 1045
+  },
+  {
+    "scene": "step3-cause",
+    "local": 30,
+    "frame": 1170
+  },
+  {
+    "scene": "step3-cause",
+    "local": 100,
+    "frame": 1240
+  },
+  {
+    "scene": "step3-cause",
+    "local": 170,
+    "frame": 1310
+  },
+  {
+    "scene": "crosssection-carton",
+    "local": 10,
+    "frame": 1390
+  },
+  {
+    "scene": "crosssection-carton",
+    "local": 75,
+    "frame": 1455
+  },
+  {
+    "scene": "crosssection-carton",
+    "local": 165,
+    "frame": 1545
+  },
+  {
+    "scene": "motions",
+    "local": 0,
+    "frame": 1560
+  },
+  {
+    "scene": "motions",
+    "local": 7,
+    "frame": 1567
+  },
+  {
+    "scene": "motions",
+    "local": 30,
+    "frame": 1590
+  },
+  {
+    "scene": "motions",
+    "local": 70,
+    "frame": 1630
+  },
+  {
+    "scene": "motions",
+    "local": 95,
+    "frame": 1655
+  },
+  {
+    "scene": "motions",
+    "local": 130,
+    "frame": 1690
+  },
+  {
+    "scene": "motions",
+    "local": 150,
+    "frame": 1710
+  },
+  {
+    "scene": "motions",
+    "local": 180,
+    "frame": 1740
+  },
+  {
+    "scene": "motions",
+    "local": 226,
+    "frame": 1786
+  },
+  {
+    "scene": "motions",
+    "local": 239,
+    "frame": 1799
+  },
+  {
+    "scene": "legacy-arrow",
+    "local": 85,
+    "frame": 1885
+  },
+  {
+    "scene": "legacy-compare",
+    "local": 85,
+    "frame": 2065
+  },
+  {
+    "scene": "legacy-zoom",
+    "local": 85,
+    "frame": 2245
+  },
+  {
+    "scene": "legacy-zoom",
+    "local": 179,
+    "frame": 2339
+  }
+]

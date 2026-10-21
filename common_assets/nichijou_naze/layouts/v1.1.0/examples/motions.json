@@ -1,0 +1,46 @@
+{
+  "id": "motions",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_FOOTAGE_01",
+  "durationFrames": 240,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg"
+  },
+  "character": {
+    "side": "right",
+    "top": 1100,
+    "height": 360,
+    "entry": "slide",
+    "idle": true,
+    "nodAt": [
+      90,
+      145
+    ],
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "neutral"
+      },
+      {
+        "fromFrame": 65,
+        "pose": "talk"
+      },
+      {
+        "fromFrame": 125,
+        "pose": "happy"
+      },
+      {
+        "fromFrame": 175,
+        "pose": "think"
+      }
+    ]
+  },
+  "protectedSubjects": [
+    {
+      "x": 310,
+      "y": 500,
+      "width": 460,
+      "height": 500
+    }
+  ]
+}

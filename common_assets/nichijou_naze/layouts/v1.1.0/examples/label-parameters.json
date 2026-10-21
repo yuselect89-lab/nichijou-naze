@@ -1,0 +1,43 @@
+{
+  "id": "label-parameters",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_DIAGRAM_01",
+  "durationFrames": 180,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg"
+  },
+  "labels": [
+    {
+      "id": "outer",
+      "text": "外側",
+      "anchor": {
+        "x": 350,
+        "y": 650
+      },
+      "box": {
+        "x": 90,
+        "y": 385,
+        "width": 240,
+        "height": 94
+      },
+      "fromFrame": 5,
+      "color": "#176f9c"
+    },
+    {
+      "id": "inner",
+      "text": "中心",
+      "anchor": {
+        "x": 540,
+        "y": 760
+      },
+      "box": {
+        "x": 650,
+        "y": 1070,
+        "width": 240,
+        "height": 94
+      },
+      "fromFrame": 60,
+      "color": "#c36a32"
+    }
+  ]
+}

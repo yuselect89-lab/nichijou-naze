@@ -1,0 +1,58 @@
+{
+  "id": "footage-character",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_FOOTAGE_01",
+  "durationFrames": 180,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg"
+  },
+  "character": {
+    "side": "left",
+    "top": 1100,
+    "height": 360,
+    "entry": "slide",
+    "idle": true,
+    "nodAt": [
+      60
+    ],
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "troubled"
+      },
+      {
+        "fromFrame": 60,
+        "pose": "surprise"
+      },
+      {
+        "fromFrame": 112,
+        "pose": "happy"
+      }
+    ]
+  },
+  "protectedSubjects": [
+    {
+      "x": 310,
+      "y": 500,
+      "width": 460,
+      "height": 500
+    }
+  ],
+  "labels": [
+    {
+      "id": "core",
+      "text": "白い中心",
+      "anchor": {
+        "x": 540,
+        "y": 760
+      },
+      "box": {
+        "x": 610,
+        "y": 405,
+        "width": 270,
+        "height": 92
+      },
+      "fromFrame": 25
+    }
+  ]
+}

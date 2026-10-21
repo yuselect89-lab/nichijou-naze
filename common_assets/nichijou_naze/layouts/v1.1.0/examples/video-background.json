@@ -1,0 +1,25 @@
+{
+  "id": "video-background",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_FOOTAGE_01",
+  "durationFrames": 120,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-pan-dummy.mp4",
+    "kind": "video"
+  },
+  "character": {
+    "side": "right",
+    "top": 1100,
+    "height": 360,
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "happy"
+      }
+    ],
+    "entry": "fade",
+    "nodAt": [
+      40
+    ]
+  }
+}

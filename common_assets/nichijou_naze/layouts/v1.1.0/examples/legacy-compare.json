@@ -1,0 +1,29 @@
+{
+  "id": "legacy-compare",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_DIAGRAM_01",
+  "durationFrames": 180,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg"
+  },
+  "legacyOverlay": {
+    "id": "NNZ_TMP_COMPARE_01",
+    "fromFrame": 0,
+    "durationFrames": 180,
+    "config": {
+      "title": "",
+      "durationSeconds": 6,
+      "left": {
+        "image": "common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+        "label": "切欠きあり",
+        "marker": "○"
+      },
+      "right": {
+        "image": "common_assets/nichijou_naze/props/milk_carton/carton_plain.svg",
+        "label": "切欠きなし",
+        "marker": ""
+      },
+      "characterPose": "point_left"
+    }
+  }
+}

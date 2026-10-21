@@ -1,0 +1,65 @@
+{
+  "id": "crosssection-carton",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_DIAGRAM_01",
+  "durationFrames": 180,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg"
+  },
+  "crossSection": {
+    "outside": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-outside.svg",
+    "region": {
+      "x": 170,
+      "y": 390,
+      "width": 720,
+      "height": 680
+    },
+    "parts": [
+      {
+        "id": "shell",
+        "image": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-shell.svg",
+        "fromFrame": 0
+      },
+      {
+        "id": "liquid",
+        "image": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-inner.svg",
+        "fromFrame": 50,
+        "toFrame": 150
+      }
+    ]
+  },
+  "labels": [
+    {
+      "id": "liquid",
+      "text": "内部の液体",
+      "anchor": {
+        "x": 540,
+        "y": 900
+      },
+      "box": {
+        "x": 510,
+        "y": 1160,
+        "width": 360,
+        "height": 100
+      },
+      "fromFrame": 70,
+      "toFrame": 150
+    }
+  ],
+  "character": {
+    "side": "left",
+    "top": 1100,
+    "height": 360,
+    "entry": "slide",
+    "idle": true,
+    "nodAt": [
+      60
+    ],
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "think"
+      }
+    ]
+  }
+}

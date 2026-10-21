@@ -10,3 +10,11 @@ NNZ_TMP_CROSSSECTION_01,テンプレ,断面・内部構造,planned,0.0.0,diagram
 NNZ_PROP_PETBOTTLE_01,小道具,ペットボトル模式図,sample,1.0.0,props/pet_bottle/bottle_diagram.svg,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,True
 NNZ_PROP_MILKCARTON_01,小道具,紙パック切欠き有無模式図,sample,1.0.0,props/milk_carton/,未指定,ChatGPT生成／自作構成,試作／本番QC未実施,本番使用時は権利・精度検証,True
 NNZ_CHAR_FEMALE_01,キャラ,女性解説キャラ 本番用高解像度5ポーズ,render_verified,v02_highres,characters/female_v01/manifest.json,共通素材,既存資料を参照してAI描き起こし＋透過・余白・サイズ整形,PASS 1080x1920 / 30fps / 5 poses / large and side placement / 3 templates,1536x2304 RGBA / 5 poses / native generation sizes in manifest,True
+NNZ_CHAR_FEMALE_01,キャラ,追加表情3種＋V02参照8ポーズ,render_verified,v03_expressions,characters/female_v01/versions/v03_expressions/manifest.json,共通素材,既存V02参照AI描き起こし＋整形,validation/extension/qc-report.json,既存V02・旧EP・過去レンダーは不変,True
+NNZ_LAYOUT_FOOTAGE_01,レイアウト,全画面映像＋キャラクター,render_verified,1.1.0,layouts/v1.1.0/manifest.json,共通素材,独自実装／既存共通演出再利用,validation/extension/qc-report.json,既存V02・旧EP・過去レンダーは不変,True
+NNZ_LAYOUT_DIAGRAM_01,レイアウト,全画面図解＋任意キャラクター,render_verified,1.1.0,layouts/v1.1.0/manifest.json,共通素材,独自実装／既存共通演出再利用,validation/extension/qc-report.json,既存V02・旧EP・過去レンダーは不変,True
+NNZ_LAYOUT_FOCUS_01,レイアウト,実物→注目箇所拡大→断面→実物,render_verified,1.1.0,layouts/v1.1.0/manifest.json,共通素材,独自実装／既存共通演出再利用,validation/extension/qc-report.json,既存V02・旧EP・過去レンダーは不変,True
+NNZ_TMP_LABEL_01,テンプレ,部分ラベルの順次表示,render_verified,1.1.0,diagram_templates/label_01/1.1.0/manifest.json,共通素材,独自実装／既存共通演出再利用,validation/extension/qc-report.json,既存V02・旧EP・過去レンダーは不変,True
+NNZ_TMP_STEP3_01,テンプレ,3段階の因果説明,render_verified,1.1.0,diagram_templates/step3_01/1.1.0/manifest.json,共通素材,独自実装／既存共通演出再利用,validation/extension/qc-report.json,既存V02・旧EP・過去レンダーは不変,True
+NNZ_TMP_CROSSSECTION_01,テンプレ,物体に依存しない断面レイヤー,render_verified,1.1.0,diagram_templates/crosssection_01/1.1.0/manifest.json,共通素材,独自実装／既存共通演出再利用,validation/extension/qc-report.json,既存V02・旧EP・過去レンダーは不変,True
+NNZ_MOTION_BASIC_01,動作,登場・退場・待機・うなずき・ポーズ切替,render_verified,1.1.0,animation/basic_01/1.1.0/manifest.json,共通素材,独自実装／既存共通演出再利用,validation/extension/qc-report.json,既存V02・旧EP・過去レンダーは不変,True

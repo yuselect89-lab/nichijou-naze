@@ -1,0 +1,151 @@
+{
+  "library": "nichijou-naze",
+  "version": "1.1.0",
+  "assets": [
+    {
+      "asset_id": "NNZ_LAYOUT_FOOTAGE_01",
+      "name": "全画面映像＋キャラクター",
+      "version": "1.1.0",
+      "status": "render_verified",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "companion_files": [
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx"
+      ],
+      "usage": "Import the named React layer or render an example JSON via node tools/extension/render.mjs <config.json>. One EpisodeChrome outside episode Sequences.",
+      "required_parameters": "background.src / kind / objectPosition, character, protectedSubjects, labels",
+      "example": "common_assets/nichijou_naze/layouts/v1.1.0/examples/footage-character.json",
+      "preview": "validation/extension/footage-character-85.png",
+      "qc": "validation/extension/qc-report.json"
+    },
+    {
+      "asset_id": "NNZ_LAYOUT_DIAGRAM_01",
+      "name": "全画面図解＋任意キャラクター",
+      "version": "1.1.0",
+      "status": "render_verified",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "companion_files": [
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx"
+      ],
+      "usage": "Import the named React layer or render an example JSON via node tools/extension/render.mjs <config.json>. One EpisodeChrome outside episode Sequences.",
+      "required_parameters": "background, optional character, crossSection, labels, arrows, steps",
+      "example": "common_assets/nichijou_naze/layouts/v1.1.0/examples/diagram-character.json",
+      "preview": "validation/extension/diagram-character-85.png",
+      "qc": "validation/extension/qc-report.json"
+    },
+    {
+      "asset_id": "NNZ_LAYOUT_FOCUS_01",
+      "name": "実物→注目箇所拡大→断面→実物",
+      "version": "1.1.0",
+      "status": "render_verified",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "companion_files": [
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx"
+      ],
+      "usage": "Import the named React layer or render an example JSON via node tools/extension/render.mjs <config.json>. One EpisodeChrome outside episode Sequences.",
+      "required_parameters": "background, focus.target/zoom/zoomFromFrame/revealFromFrame/revealFrames/returnFromFrame, crossSection",
+      "example": "common_assets/nichijou_naze/layouts/v1.1.0/examples/focus-crosssection-return.json",
+      "preview": "validation/extension/focus-crosssection-return-110.png",
+      "qc": "validation/extension/qc-report.json"
+    },
+    {
+      "asset_id": "NNZ_TMP_LABEL_01",
+      "name": "部分ラベルの順次表示",
+      "version": "1.1.0",
+      "status": "render_verified",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "companion_files": [
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx"
+      ],
+      "usage": "Import the named React layer or render an example JSON via node tools/extension/render.mjs <config.json>. One EpisodeChrome outside episode Sequences.",
+      "required_parameters": "labels[].id/text/anchor/box/fromFrame/toFrame/color",
+      "example": "common_assets/nichijou_naze/layouts/v1.1.0/examples/label-parameters.json",
+      "preview": "validation/extension/label-parameters-85.png",
+      "qc": "validation/extension/qc-report.json"
+    },
+    {
+      "asset_id": "NNZ_TMP_STEP3_01",
+      "name": "3段階の因果説明",
+      "version": "1.1.0",
+      "status": "render_verified",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "companion_files": [
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx"
+      ],
+      "usage": "Import the named React layer or render an example JSON via node tools/extension/render.mjs <config.json>. One EpisodeChrome outside episode Sequences.",
+      "required_parameters": "steps[3].text/fromFrame/image/shape/color",
+      "example": "common_assets/nichijou_naze/layouts/v1.1.0/examples/step3-cause.json",
+      "preview": "validation/extension/step3-cause-170.png",
+      "qc": "validation/extension/qc-report.json"
+    },
+    {
+      "asset_id": "NNZ_TMP_CROSSSECTION_01",
+      "name": "物体に依存しない断面レイヤー",
+      "version": "1.1.0",
+      "status": "render_verified",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "companion_files": [
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx"
+      ],
+      "usage": "Import the named React layer or render an example JSON via node tools/extension/render.mjs <config.json>. One EpisodeChrome outside episode Sequences.",
+      "required_parameters": "crossSection.outside/region/parts[].id/image/fromFrame/toFrame/opacity/cutLine",
+      "example": "common_assets/nichijou_naze/layouts/v1.1.0/examples/crosssection-carton.json",
+      "preview": "validation/extension/crosssection-carton-75.png",
+      "qc": "validation/extension/qc-report.json"
+    },
+    {
+      "asset_id": "NNZ_MOTION_BASIC_01",
+      "name": "登場・退場・待機・うなずき・ポーズ切替",
+      "version": "1.1.0",
+      "status": "render_verified",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "companion_files": [
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx"
+      ],
+      "usage": "Import the named React layer or render an example JSON via node tools/extension/render.mjs <config.json>. One EpisodeChrome outside episode Sequences.",
+      "required_parameters": "character.side/height/top/enterFrame/exitFrame/transitionFrames/entry/idle/nodAt/poses[]",
+      "example": "common_assets/nichijou_naze/layouts/v1.1.0/examples/motions.json",
+      "preview": "validation/extension/motions-95.png",
+      "qc": "validation/extension/qc-report.json"
+    }
+  ],
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frame_clock": "Sequence-local scene timing; episode-global SeriesFrame progress and caption cues.",
+  "overlay_rule": "Character and diagram layers never include band, captions or progress. EpisodeChrome wraps once at episode level.",
+  "safe_zones": {
+    "foreground": {
+      "left": 72,
+      "right": 920,
+      "top": 320,
+      "bottom": 1480
+    },
+    "captions": {
+      "left": 96,
+      "top": 1500,
+      "width": 824,
+      "height": 240
+    },
+    "shorts_reserved": {
+      "right_from": 920,
+      "bottom_from": 1740
+    }
+  },
+  "character_version": "v03_expressions",
+  "inherited_character_version": "v02_highres",
+  "qc": "render_verified",
+  "drive": {
+    "url": "https://drive.google.com/drive/folders/1YmGCqmzf_XndpvS62sMKFr4wdTrI-CK7",
+    "status": "not_updated",
+    "reason": "No Google Drive connector/authenticated identity available; drive.google.com is not an allowed destination in this environment."
+  }
+}

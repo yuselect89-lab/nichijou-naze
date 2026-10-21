@@ -1,0 +1,29 @@
+{
+  "id": "legacy-arrow",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_DIAGRAM_01",
+  "durationFrames": 180,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg"
+  },
+  "legacyOverlay": {
+    "id": "NNZ_TMP_ARROW_01",
+    "fromFrame": 0,
+    "durationFrames": 180,
+    "config": {
+      "title": "",
+      "durationSeconds": 6,
+      "image": "common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+      "arrows": [
+        {
+          "x1": 290,
+          "y1": 990,
+          "x2": 510,
+          "y2": 1020,
+          "label": "底"
+        }
+      ],
+      "characterPose": "point_left"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "focus-crosssection-return",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_FOCUS_01",
+  "durationFrames": 240,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg"
+  },
+  "focus": {
+    "target": {
+      "x": 540,
+      "y": 750
+    },
+    "zoom": 1.5,
+    "zoomFromFrame": 25,
+    "revealFromFrame": 65,
+    "revealFrames": 30,
+    "returnFromFrame": 185
+  },
+  "crossSection": {
+    "outside": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+    "region": {
+      "x": 195,
+      "y": 325,
+      "width": 690,
+      "height": 750
+    },
+    "parts": [
+      {
+        "id": "shell",
+        "image": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "fromFrame": 0
+      },
+      {
+        "id": "bubbles",
+        "image": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "fromFrame": 80
+      }
+    ]
+  },
+  "character": {
+    "side": "left",
+    "top": 1100,
+    "height": 360,
+    "entry": "slide",
+    "idle": true,
+    "nodAt": [
+      60
+    ],
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "point_right"
+      }
+    ]
+  },
+  "labels": [
+    {
+      "id": "bubble",
+      "text": "内部を拡大",
+      "anchor": {
+        "x": 540,
+        "y": 700
+      },
+      "box": {
+        "x": 550,
+        "y": 1110,
+        "width": 330,
+        "height": 110
+      },
+      "fromFrame": 90,
+      "toFrame": 185
+    }
+  ]
+}

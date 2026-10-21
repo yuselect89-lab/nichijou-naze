@@ -1,0 +1,3738 @@
+[
+  {
+    "scene": "expression-surprise",
+    "frame": 0,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "surprise"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "expression-surprise",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 377.10223388671875,
+        "w": 700,
+        "h": 1050,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.897777478867205,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.036340316374519024",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "surprise"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "expression-happy",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 377.10223388671875,
+        "w": 700,
+        "h": 1050,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.897777478867205,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.08764429243266353",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "happy"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "expression-troubled",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 377.10223388671875,
+        "w": 700,
+        "h": 1050,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.897777478867205,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.13894826849080805",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "troubled"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "footage-character",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 610,
+        "y": 405,
+        "w": 270,
+        "h": 92,
+        "text": "白い中心",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 1097.102294921875,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.897777478867205,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.19025224454895254",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "surprise"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "diagram-character",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "crosssection",
+        "x": 240,
+        "y": 400,
+        "w": 660,
+        "h": 650,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 240,
+        "y": 400,
+        "w": 660,
+        "h": 650,
+        "text": "",
+        "progress": null,
+        "part": "shell",
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 240,
+        "y": 400,
+        "w": 660,
+        "h": 650,
+        "text": "",
+        "progress": null,
+        "part": "bubbles",
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 540,
+        "y": 1110,
+        "w": 340,
+        "h": 110,
+        "text": "小さな気泡",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 1097.102294921875,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.897777478867205,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.2672082086361693",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 0,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.30782385634886705",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 24,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 1102.8531494140625,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":2.8531695488854605,\"rotation\":0}"
+      },
+      {
+        "kind": "focus-ring",
+        "x": 483.3333435058594,
+        "y": 693.3333129882812,
+        "w": 113.33334350585938,
+        "h": 113.33331298828125,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.3180846515604959",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 49,
+    "elements": [
+      {
+        "kind": "background",
+        "x": -270,
+        "y": -425,
+        "w": 1620,
+        "h": 2880,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 1101.6339111328125,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":1.6339171050450818,\"rotation\":0}"
+      },
+      {
+        "kind": "focus-ring",
+        "x": 455,
+        "y": 615,
+        "w": 170,
+        "h": 170,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.32877297990594273",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 64,
+    "elements": [
+      {
+        "kind": "background",
+        "x": -270,
+        "y": -425,
+        "w": 1620,
+        "h": 2880,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 89.64599609375,
+        "y": 1096.9136962890625,
+        "w": 247.56365966796875,
+        "h": 364.9976806640625,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-0.6237350724532772,\"rotation\":1.212435565298214}"
+      },
+      {
+        "kind": "focus-ring",
+        "x": 455,
+        "y": 615,
+        "w": 170,
+        "h": 170,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.3351859769132108",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 80,
+    "elements": [
+      {
+        "kind": "background",
+        "x": -270,
+        "y": -425,
+        "w": 1620,
+        "h": 2880,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "crosssection",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "outside",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": "shell",
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 82.79034423828125,
+        "y": 1094.9393310546875,
+        "w": 247.56365966796875,
+        "h": 364.9976806640625,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.598076211353315,\"rotation\":-1.212435565298214}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.3420265070542967",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 110,
+    "elements": [
+      {
+        "kind": "background",
+        "x": -270,
+        "y": -425,
+        "w": 1620,
+        "h": 2880,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "crosssection",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": "shell",
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": "bubbles",
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 550,
+        "y": 1110,
+        "w": 330,
+        "h": 110,
+        "text": "内部を拡大",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 1098.5,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-1.4999999999999991,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.3548525010688328",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 180,
+    "elements": [
+      {
+        "kind": "background",
+        "x": -270,
+        "y": -425,
+        "w": 1620,
+        "h": 2880,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "crosssection",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": "shell",
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": "bubbles",
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 550,
+        "y": 1114.99072265625,
+        "w": 330,
+        "h": 110,
+        "text": "内部を拡大",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 1100,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":1.102182119232618e-15,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.3847798204360838",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 205,
+    "elements": [
+      {
+        "kind": "background",
+        "x": -70,
+        "y": -110.1851806640625,
+        "w": 1220,
+        "h": 2168.888671875,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "crosssection",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "outside",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": "shell",
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 195,
+        "y": 325,
+        "w": 690,
+        "h": 750,
+        "text": "",
+        "progress": null,
+        "part": "bubbles",
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 1097.102294921875,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.8977774788672046,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.3954681487815306",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "focus-crosssection-return",
+    "frame": 239,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 54.5247802734375,
+        "y": 1109.697265625,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":0.014577259475218707,\"x\":-35.475218658892125,\"y\":9.697219536518979,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.41000427533133815",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "point_right"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "label-parameters",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 90,
+        "y": 385,
+        "w": 240,
+        "h": 94,
+        "text": "外側",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 650,
+        "y": 1070,
+        "w": 240,
+        "h": 94,
+        "text": "中心",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.4467721248396751",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "step3-cause",
+    "frame": 30,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step",
+        "x": 90,
+        "y": 350,
+        "w": 820,
+        "h": 330,
+        "text": "01空気が残る",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.500213766566909",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "step3-cause",
+    "frame": 100,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step",
+        "x": 90,
+        "y": 350,
+        "w": 820,
+        "h": 330,
+        "text": "01空気が残る",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step-link",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step",
+        "x": 90,
+        "y": 720,
+        "w": 820,
+        "h": 330,
+        "text": "02中心に集まる",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.5301410859341599",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "step3-cause",
+    "frame": 170,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step",
+        "x": 90,
+        "y": 350,
+        "w": 820,
+        "h": 330,
+        "text": "01空気が残る",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step-link",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step",
+        "x": 90,
+        "y": 720,
+        "w": 820,
+        "h": 330,
+        "text": "02中心に集まる",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step-link",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "step",
+        "x": 90,
+        "y": 1090,
+        "w": 820,
+        "h": 330,
+        "text": "03気泡で白く見える",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.5600684053014109",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "crosssection-carton",
+    "frame": 10,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 82.86297607421875,
+        "y": 1101.5,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":0.8017492711370262,\"x\":-7.1370262390670565,\"y\":1.4999999999999998,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.5942710560068405",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-inner.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "think"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "crosssection-carton",
+    "frame": 75,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "crosssection",
+        "x": 170,
+        "y": 390,
+        "w": 720,
+        "h": 680,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 170,
+        "y": 390,
+        "w": 720,
+        "h": 680,
+        "text": "",
+        "progress": null,
+        "part": "shell",
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 170,
+        "y": 390,
+        "w": 720,
+        "h": 680,
+        "text": "",
+        "progress": null,
+        "part": "liquid",
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 510,
+        "y": 1164.99072265625,
+        "w": 360,
+        "h": 100,
+        "text": "内部の液体",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 84.10916900634766,
+        "y": 1095.8564453125,
+        "w": 246.18389892578125,
+        "h": 364.0927734375,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.1213203435596424,\"rotation\":-0.9899494936611664}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.6220607097050022",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-inner.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "think"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "crosssection-carton",
+    "frame": 165,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "crosssection",
+        "x": 170,
+        "y": 390,
+        "w": 720,
+        "h": 680,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "cross-part",
+        "x": 170,
+        "y": 390,
+        "w": 720,
+        "h": 680,
+        "text": "",
+        "progress": null,
+        "part": "shell",
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 90,
+        "y": 1102.121337890625,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":2.121320343559645,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.6605386917486105",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-outside.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-shell.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-inner.svg",
+        "width": 460,
+        "height": 500,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "think"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 0,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.6669516887558786",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "neutral"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 7,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 678,
+        "y": 1101.0750732421875,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":0.5,\"x\":18,\"y\":1.0751038486359008,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.6699444206926036",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "neutral"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 30,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 660,
+        "y": 1103,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":3,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.6797776827704147",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "neutral"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 70,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 660,
+        "y": 1098.5,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-1.4999999999999991,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.6968790081231295",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "neutral"
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "talk"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 95,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 659.608642578125,
+        "y": 1094.365478515625,
+        "w": 248.4290771484375,
+        "h": 365.563720703125,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.8977774788672046,\"rotation\":1.3522961568046956}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.7075673364685763",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "talk"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 130,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 660,
+        "y": 1101.5,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":1.4999999999999978,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.7225309961522018",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "talk"
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "happy"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 150,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 659.608642578125,
+        "y": 1100.2633056640625,
+        "w": 248.4290771484375,
+        "h": 365.563720703125,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":3,\"rotation\":1.3522961568046956}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.7310816588285592",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "happy"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 180,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 660,
+        "y": 1100,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":1.102182119232618e-15,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.7439076528430953",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "happy"
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "think"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 226,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 660,
+        "y": 1097.99267578125,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":1,\"x\":0,\"y\":-2.007391819076577,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.7635741769987174",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "think"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "motions",
+    "frame": 239,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 695.4752197265625,
+        "y": 1109.697265625,
+        "w": 240,
+        "h": 360,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": "{\"opacity\":0.014577259475218707,\"x\":35.475218658892125,\"y\":9.697219536518979,\"rotation\":0}"
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.7691321077383497",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": "think"
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "legacy-arrow",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "card",
+        "x": 107.19999694824219,
+        "y": 564,
+        "w": 777.5999755859375,
+        "h": 585,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 451,
+        "y": 947.3999633789062,
+        "w": 36,
+        "h": 52.20001220703125,
+        "text": "底",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 727.609375,
+        "y": 1149,
+        "w": 167.9906005859375,
+        "h": 252,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.8058999572466866",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+        "width": 107,
+        "height": 150,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": null
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "legacy-compare",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "card",
+        "x": 96.39999389648438,
+        "y": 564,
+        "w": 388.79998779296875,
+        "h": 585,
+        "text": "切欠きあり○",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 191.79998779296875,
+        "y": 596.4000244140625,
+        "w": 198,
+        "h": 57.5999755859375,
+        "text": "切欠きあり",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 258.38592529296875,
+        "y": 1041,
+        "w": 64.81405639648438,
+        "h": 94.5,
+        "text": "○",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "card",
+        "x": 506.79998779296875,
+        "y": 564,
+        "w": 388.79998779296875,
+        "h": 585,
+        "text": "切欠きなし",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 602.2000122070312,
+        "y": 596.4000244140625,
+        "w": 197.99993896484375,
+        "h": 57.5999755859375,
+        "text": "切欠きなし",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 701.199951171875,
+        "y": 1041,
+        "w": 0,
+        "h": 0,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 289,
+        "y": 1239,
+        "w": 414,
+        "h": 64.7999267578125,
+        "text": "違いはここ！",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 727.609375,
+        "y": 1149,
+        "w": 167.9906005859375,
+        "h": 252,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.8828559213339033",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+        "width": 107,
+        "height": 150,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/props/milk_carton/carton_plain.svg",
+        "width": 107,
+        "height": 150,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": null
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "legacy-zoom",
+    "frame": 85,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "card",
+        "x": 212.5,
+        "y": 564,
+        "w": 567,
+        "h": 531,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "focus",
+        "x": 451,
+        "y": 965.934326171875,
+        "w": 90,
+        "h": 90,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "lens",
+        "x": 563.5,
+        "y": 1104,
+        "w": 252,
+        "h": 252,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 514,
+        "y": 1365,
+        "w": 351,
+        "h": 52.199951171875,
+        "text": "底の形",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 96.39999389648438,
+        "y": 1149,
+        "w": 167.99063110351562,
+        "h": 252,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "0.9598118854211202",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+        "width": 107,
+        "height": 150,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+        "width": 107,
+        "height": 150,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": null
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  },
+  {
+    "scene": "legacy-zoom",
+    "frame": 179,
+    "elements": [
+      {
+        "kind": "background",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "card",
+        "x": 212.5,
+        "y": 564,
+        "w": 567,
+        "h": 531,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "focus",
+        "x": 451,
+        "y": 965.934326171875,
+        "w": 90,
+        "h": 90,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "lens",
+        "x": 563.5,
+        "y": 1104,
+        "w": 252,
+        "h": 252,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "label",
+        "x": 514,
+        "y": 1365,
+        "w": 351,
+        "h": 52.199951171875,
+        "text": "底の形",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "character",
+        "x": 96.39999389648438,
+        "y": 1149,
+        "w": 167.99063110351562,
+        "h": 252,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "progress",
+        "x": 96,
+        "y": 78,
+        "w": 888,
+        "h": 14,
+        "text": "",
+        "progress": "1",
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "banner",
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1920,
+        "text": "",
+        "progress": null,
+        "part": null,
+        "motion": null
+      },
+      {
+        "kind": "caption",
+        "x": 96,
+        "y": 1500,
+        "w": 824,
+        "h": 240,
+        "text": "検証用の日本語字幕。\n表示領域を確認します。",
+        "progress": null,
+        "part": null,
+        "motion": null
+      }
+    ],
+    "images": [
+      {
+        "src": "/public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+        "width": 107,
+        "height": 150,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+        "width": 107,
+        "height": 150,
+        "pose": null
+      },
+      {
+        "src": "/public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "width": 1536,
+        "height": 2304,
+        "pose": null
+      },
+      {
+        "src": "/public/series/v1/opening_banner.png",
+        "width": 1080,
+        "height": 1920,
+        "pose": null
+      }
+    ]
+  }
+]

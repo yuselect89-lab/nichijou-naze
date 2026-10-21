@@ -1,0 +1,76 @@
+{
+  "id": "diagram-character",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_DIAGRAM_01",
+  "durationFrames": 180,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg"
+  },
+  "character": {
+    "side": "left",
+    "top": 1100,
+    "height": 360,
+    "entry": "slide",
+    "idle": true,
+    "nodAt": [
+      60
+    ],
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "point_right"
+      }
+    ]
+  },
+  "crossSection": {
+    "outside": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+    "region": {
+      "x": 240,
+      "y": 400,
+      "width": 660,
+      "height": 650
+    },
+    "parts": [
+      {
+        "id": "shell",
+        "image": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+        "fromFrame": 0
+      },
+      {
+        "id": "bubbles",
+        "image": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+        "fromFrame": 35
+      }
+    ]
+  },
+  "labels": [
+    {
+      "id": "bubble",
+      "text": "小さな気泡",
+      "anchor": {
+        "x": 570,
+        "y": 730
+      },
+      "box": {
+        "x": 540,
+        "y": 1110,
+        "width": 340,
+        "height": 110
+      },
+      "fromFrame": 40
+    }
+  ],
+  "arrows": [
+    {
+      "to": {
+        "x": 540,
+        "y": 810
+      },
+      "fromFrame": 45,
+      "from": {
+        "x": 470,
+        "y": 1110
+      }
+    }
+  ]
+}

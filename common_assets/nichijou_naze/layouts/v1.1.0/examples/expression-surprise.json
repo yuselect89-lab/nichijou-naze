@@ -1,0 +1,25 @@
+{
+  "id": "expression-surprise",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_FOOTAGE_01",
+  "durationFrames": 120,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg"
+  },
+  "character": {
+    "side": "left",
+    "height": 1050,
+    "top": 380,
+    "entry": "fade",
+    "idle": true,
+    "nodAt": [
+      50
+    ],
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "surprise"
+      }
+    ]
+  }
+}

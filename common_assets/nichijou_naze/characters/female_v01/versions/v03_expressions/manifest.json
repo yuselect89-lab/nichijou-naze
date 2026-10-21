@@ -1,0 +1,140 @@
+{
+  "asset_id": "NNZ_CHAR_FEMALE_01",
+  "version": "v03_expressions",
+  "base_version": "v02_highres",
+  "description": "V02の人物デザインを参照した追加3表情。V02本体は変更しない。",
+  "reference": "../../poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+  "available_poses": [
+    "neutral",
+    "talk",
+    "point_right",
+    "point_left",
+    "think",
+    "surprise",
+    "happy",
+    "troubled"
+  ],
+  "inherited_poses": {
+    "neutral": "../../poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+    "talk": "../../poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+    "point_right": "../../poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+    "point_left": "../../poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+    "think": "../../poses/NNZ_CHAR_FEMALE_01_pose_think.png"
+  },
+  "poses": [
+    {
+      "pose": "surprise",
+      "file": "poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "generated_source_resolution": [
+        1024,
+        1536
+      ],
+      "source": "sources/surprise_generated.png",
+      "source_alpha_bbox": [
+        228,
+        30,
+        795,
+        1497
+      ],
+      "crop_bbox": [
+        228,
+        31,
+        794,
+        1496
+      ],
+      "scale_factor": 1.4744027303754266,
+      "alpha_content_bbox": [
+        350,
+        72,
+        1185,
+        2232
+      ],
+      "sha256": "9f3bb5dae9e1fcd205d5da96a65d5c45b6696a4d19318015aa8097abc7edd4bf"
+    },
+    {
+      "pose": "happy",
+      "file": "poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "generated_source_resolution": [
+        1024,
+        1536
+      ],
+      "source": "sources/happy_generated.png",
+      "source_alpha_bbox": [
+        188,
+        39,
+        815,
+        1489
+      ],
+      "crop_bbox": [
+        188,
+        39,
+        815,
+        1489
+      ],
+      "scale_factor": 1.4896551724137932,
+      "alpha_content_bbox": [
+        301,
+        72,
+        1235,
+        2232
+      ],
+      "sha256": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d"
+    },
+    {
+      "pose": "troubled",
+      "file": "poses/NNZ_CHAR_FEMALE_01_pose_troubled.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "generated_source_resolution": [
+        1024,
+        1536
+      ],
+      "source": "sources/troubled_generated.png",
+      "source_alpha_bbox": [
+        159,
+        38,
+        867,
+        1489
+      ],
+      "crop_bbox": [
+        159,
+        39,
+        867,
+        1489
+      ],
+      "scale_factor": 1.4896551724137932,
+      "alpha_content_bbox": [
+        240,
+        72,
+        1295,
+        2232
+      ],
+      "sha256": "aac0f521e1ed852574182f6f88df32460a1943ba68bc69c5ef2c225275836e08"
+    }
+  ],
+  "background_transparency": "true RGBA alpha; no matte",
+  "processing": [
+    "Reference-conditioned new expression redraw; not enlarged prototype",
+    "Alpha <=6 removed; 253 opaque normalized to255; transparent RGB zeroed",
+    "Crop alpha>=16 bounds; Lanczos resample; align bottom to2232 on1536x2304 canvas"
+  ],
+  "native_resolution_note": "1024x1536 generated sources; delivery is normalized to1536x2304, not native2304 generation.",
+  "usage_notes": [
+    "Use v03_expressions explicitly; inherited five poses resolve to unchanged V02 files.",
+    "Whole-sprite motion only; no mouth or independent limb parts exist.",
+    "Static expression variation; not lip-sync or a rigged animation."
+  ],
+  "qc_status": "render_verified",
+  "qc_report": "validation/extension/qc-report.json",
+  "preview": "validation/extension/character-8poses.jpg"
+}

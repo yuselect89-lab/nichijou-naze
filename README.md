@@ -1,3 +1,18 @@
+# 共通素材ライブラリ拡張 1.1.0
+
+追加表情3種・全画面レイアウト3種・図解3種・基本モーションを登録しました。既存V02の5ポーズと旧EP・レンダーは保持しています。
+
+- [拡張素材・実装一式ZIP](releases/NNZ_COMMON_LIBRARY_EXTENSION_v1.1.0.zip)
+- [追加3表情ZIP](releases/NNZ_CHAR_FEMALE_01_v03_expressions.zip)
+- [8ポーズ一覧](validation/extension/character-8poses.jpg) ／ [全画面プレビュー](validation/extension/contact-sheet.jpg)
+- [1080×1920確認MP4](validation/extension/library-extension-1080x1920.mp4)
+- [利用方法](common_assets/nichijou_naze/runtime/v1.1.0/README.md) ／ [納品報告（A/B/C/D）](docs/LIBRARY_EXTENSION_V1.md)
+
+新規CLI：`node tools/extension/new-scene.mjs <templateID> <output.json> [overrides.json]`。
+新規Studio：`npx remotion studio src/extension/index.tsx`。既存のStudio／CLIはそのまま使用できます。
+
+---
+
 # 日常のなぜ？ 独立制作環境 / 共通ライブラリ導入版
 
 ## 女性キャラ 本番用5ポーズ v02_highres

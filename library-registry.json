@@ -20,6 +20,24 @@
       "revision": "1.0.1",
       "upstreamRevision": "1.0.0",
       "implementation": "src/integration/v1.0.1/Templates.tsx"
+    },
+    {
+      "id": "NNZ_TMP_LABEL_01",
+      "revision": "1.1.0",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "manifest": "common_assets/nichijou_naze/diagram_templates/label_01/1.1.0/manifest.json"
+    },
+    {
+      "id": "NNZ_TMP_STEP3_01",
+      "revision": "1.1.0",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "manifest": "common_assets/nichijou_naze/diagram_templates/step3_01/1.1.0/manifest.json"
+    },
+    {
+      "id": "NNZ_TMP_CROSSSECTION_01",
+      "revision": "1.1.0",
+      "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "manifest": "common_assets/nichijou_naze/diagram_templates/crosssection_01/1.1.0/manifest.json"
     }
   ],
   "character": {
@@ -66,10 +84,7 @@
     ]
   },
   "plannedOnly": [
-    "NNZ_CHAR_MALE_01",
-    "NNZ_TMP_LABEL_01",
-    "NNZ_TMP_STEP3_01",
-    "NNZ_TMP_CROSSSECTION_01"
+    "NNZ_CHAR_MALE_01"
   ],
   "banner": {
     "path": "public/series/v1/opening_banner.png",
@@ -185,5 +200,35 @@
       }
     ]
   },
-  "activeCharacterVersion": "v02_highres"
+  "activeCharacterVersion": "v02_highres",
+  "extensions": {
+    "version": "1.1.0",
+    "manifest": "common_assets/nichijou_naze/runtime/v1.1.0/manifest.json",
+    "status": "render_verified",
+    "assets": [
+      "NNZ_LAYOUT_FOOTAGE_01",
+      "NNZ_LAYOUT_DIAGRAM_01",
+      "NNZ_LAYOUT_FOCUS_01",
+      "NNZ_TMP_LABEL_01",
+      "NNZ_TMP_STEP3_01",
+      "NNZ_TMP_CROSSSECTION_01",
+      "NNZ_MOTION_BASIC_01"
+    ]
+  },
+  "characterVersions": {
+    "v02_highres": {
+      "manifest": "common_assets/nichijou_naze/characters/female_v01/manifest.json",
+      "unchanged": true
+    },
+    "v03_expressions": {
+      "manifest": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/manifest.json",
+      "addedPoses": [
+        "surprise",
+        "happy",
+        "troubled"
+      ],
+      "inherits": "v02_highres",
+      "status": "render_verified"
+    }
+  }
 }

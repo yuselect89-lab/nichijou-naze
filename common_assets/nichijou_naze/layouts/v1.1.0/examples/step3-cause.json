@@ -1,0 +1,26 @@
+{
+  "id": "step3-cause",
+  "revision": "1.1.0",
+  "layout": "NNZ_LAYOUT_DIAGRAM_01",
+  "durationFrames": 240,
+  "background": {
+    "src": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg"
+  },
+  "steps": [
+    {
+      "text": "空気が残る",
+      "fromFrame": 0,
+      "shape": "dots"
+    },
+    {
+      "text": "中心に集まる",
+      "fromFrame": 65,
+      "shape": "inward"
+    },
+    {
+      "text": "気泡で白く見える",
+      "fromFrame": 135,
+      "shape": "bubbles"
+    }
+  ]
+}

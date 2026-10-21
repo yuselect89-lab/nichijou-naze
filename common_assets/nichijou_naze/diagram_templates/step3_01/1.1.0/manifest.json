@@ -1,0 +1,16 @@
+{
+  "asset_id": "NNZ_TMP_STEP3_01",
+  "name": "3段階の因果説明",
+  "version": "1.1.0",
+  "status": "render_verified",
+  "implementation": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+  "companion_files": [
+    "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+    "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx"
+  ],
+  "usage": "Import the named React layer or render an example JSON via node tools/extension/render.mjs <config.json>. One EpisodeChrome outside episode Sequences.",
+  "required_parameters": "steps[3].text/fromFrame/image/shape/color",
+  "example": "common_assets/nichijou_naze/layouts/v1.1.0/examples/step3-cause.json",
+  "preview": "validation/extension/step3-cause-170.png",
+  "qc": "validation/extension/qc-report.json"
+}
