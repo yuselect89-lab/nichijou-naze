@@ -1,5 +1,11 @@
 # 日常のなぜ？ 独立制作環境 / 共通ライブラリ導入版
 
+- **[導入済み一式ZIPを直接ダウンロード](https://github.com/yuselect89-lab/nichijou-naze/raw/refs/heads/main/releases/nichijou-naze-common-library-integrated-v1.0.1.zip)**
+- [実レンダリングの一覧](validation/contact-sheet.jpg)／[女性キャラ8ポーズ](validation/character-gallery.png)
+- [ChatGPT Workへの引渡し手順](docs/WORK_HANDOFF.md)
+
+GitHub上のZIPを開いて保存する場合は **Download raw file** を使ってください。ソースを直接使う場合はこの専用リポジトリをcloneし、`npm ci` で依存関係を導入します。
+
 導入先は **`/workspace/nichijou-naze/`**。Beyond Translationとは独立したpackage.json・依存関係・Remotion入口・public・Git管理を持つ専用プロジェクトです。BeyondのRoot・共通部品・依存宣言・過去EPは変更していません。
 
 ## 登録した実体

@@ -28,4 +28,4 @@ EP004で使った既存PNG/SVGをそのまま再利用。テンプレ原本内�
 
 ## GitHub
 
-専用リポジトリで管理する。Beyond Translationへpushしない。現時点でGitHub APIへのアクセスは403のため、環境からの新規作成は不可。空の非公開リポジトリのURLを受領後、HTTPS Git経由でアクセスを確認してからこの独立リポジトリをpushする。APIの403だけで既存HTTPS Git認証が無効とは判断しない。トークンをチャットへ貼らせない。
+専用リポジトリで管理する。Beyond Translationへpushしない。専用リポジトリは https://github.com/yuselect89-lab/nichijou-naze 。ユーザーが作成し、HTTPS Gitで空のリポジトリへのアクセスを確認済み。新規作成APIは使用せず、この独立リポジトリを保存する。APIの403だけで既存HTTPS Git認証が無効とは判断しない。トークンをチャットへ貼らせない。

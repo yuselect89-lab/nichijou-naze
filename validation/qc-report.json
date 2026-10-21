@@ -63,7 +63,7 @@
   "newSceneCli": "PASS actual render",
   "limitations": [
     "Prototype character resolution retained; no lip-sync or male character.",
-    "Real VO was not supplied; caption behavior verified with explicit synthetic frame cues.",
-    "Dedicated GitHub repository URL pending; no files pushed into Beyond."
-  ]
+    "Real VO was not supplied; caption behavior verified with explicit synthetic frame cues."
+  ],
+  "repository": "https://github.com/yuselect89-lab/nichijou-naze"
 }
