@@ -1,3 +1,5 @@
+import {verifyProduction} from '../verify-production.mjs';
+verifyProduction();
 import {bundle} from '@remotion/bundler';
 import {openBrowser,selectComposition,renderStill,renderMedia} from '@remotion/renderer';
 import {writeFileSync,rmSync,readFileSync,mkdirSync} from 'node:fs';
