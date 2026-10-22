@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "restored_files": 262,
+  "original_baseline_files_preserved": 563,
+  "unit_tests": 24,
+  "browser_tests": 5,
+  "independent_render": "PASS",
+  "drive_saved": false,
+  "full_report": "validation/library-ops/final-report.json"
+}

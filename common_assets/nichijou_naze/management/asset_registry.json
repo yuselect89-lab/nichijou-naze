@@ -362,5 +362,57 @@
     "QC": "EP004_ICE_V3/qc/full_v3/report.json",
     "備考": "青色管は吸水。固体を削らない。中心液体と受器の体積保存。",
     "Active": true
+  },
+  {
+    "Asset ID": "NNZ_MODEL_ICE_MICRO_01",
+    "種別": "model",
+    "名前・用途": "氷内部の気泡と光散乱",
+    "ステータス": "self_qc_render_verified",
+    "Version": "1.1.0",
+    "相対パス": "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICE_MICRO_01/1.1.0.json",
+    "使用回": "EP004_ICE_V3 (extracted without changing original; import paths only)",
+    "権利・制作元": "Original procedural geometry. Adapted from EP004; no copied manufacturer artwork. Three.js MIT. Scientific dimensions/timing are schematic.",
+    "QC": "validation/library-ops/reuse-model-qc.json",
+    "備考": "Immutable standalone reusable version. domain",
+    "Active": true
+  },
+  {
+    "Asset ID": "NNZ_MODEL_FREEZING_CELL_01",
+    "種別": "model",
+    "名前・用途": "製氷皿の連続凍結断面",
+    "ステータス": "self_qc_render_verified",
+    "Version": "1.1.0",
+    "相対パス": "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_FREEZING_CELL_01/1.1.0.json",
+    "使用回": "EP004_ICE_V3 (extracted without changing original; import paths only)",
+    "権利・制作元": "Original procedural geometry. Adapted from EP004; no copied manufacturer artwork. Three.js MIT. Scientific dimensions/timing are schematic.",
+    "QC": "validation/library-ops/reuse-model-qc.json",
+    "備考": "Immutable standalone reusable version. domain",
+    "Active": true
+  },
+  {
+    "Asset ID": "NNZ_MODEL_ICECAN_AIR_01",
+    "種別": "model",
+    "名前・用途": "製氷缶の送気と遅い凍結",
+    "ステータス": "self_qc_render_verified",
+    "Version": "1.1.0",
+    "相対パス": "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICECAN_AIR_01/1.1.0.json",
+    "使用回": "EP004_ICE_V3 (extracted without changing original; import paths only)",
+    "権利・制作元": "Original procedural geometry. Adapted from EP004; no copied manufacturer artwork. Three.js MIT. Scientific dimensions/timing are schematic.",
+    "QC": "validation/library-ops/reuse-model-qc.json",
+    "備考": "Immutable standalone reusable version. domain",
+    "Active": true
+  },
+  {
+    "Asset ID": "NNZ_MODEL_ICECAN_DRAIN_01",
+    "種別": "model",
+    "名前・用途": "製氷缶の中心液体吸引",
+    "ステータス": "self_qc_render_verified",
+    "Version": "1.1.0",
+    "相対パス": "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICECAN_DRAIN_01/1.1.0.json",
+    "使用回": "EP004_ICE_V3 (extracted without changing original; import paths only)",
+    "権利・制作元": "Original procedural geometry. Adapted from EP004; no copied manufacturer artwork. Three.js MIT. Scientific dimensions/timing are schematic.",
+    "QC": "validation/library-ops/reuse-model-qc.json",
+    "備考": "Immutable standalone reusable version. domain",
+    "Active": true
   }
 ]

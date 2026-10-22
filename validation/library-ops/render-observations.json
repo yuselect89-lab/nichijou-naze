@@ -1,0 +1,598 @@
+[
+  {
+    "frame": 0,
+    "cut": 5,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 13,
+    "airCavities": true,
+    "rayBranches": 7,
+    "boilingBubblesRepresentDissolvedGas": false,
+    "asset_id": "NNZ_MODEL_ICE_MICRO_01",
+    "sourceFrame": 0
+  },
+  {
+    "frame": 0,
+    "cut": 5,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 13,
+    "airCavities": true,
+    "rayBranches": 7,
+    "boilingBubblesRepresentDissolvedGas": false,
+    "asset_id": "NNZ_MODEL_ICE_MICRO_01",
+    "sourceFrame": 0
+  },
+  {
+    "frame": 90,
+    "cut": 5,
+    "progress": 0.4591314800901578,
+    "halfX": 0.9657727422990232,
+    "halfY": 0.9449553719008263,
+    "halfZ": 0.686155852742299,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 13,
+    "airCavities": true,
+    "rayBranches": 7,
+    "boilingBubblesRepresentDissolvedGas": false,
+    "asset_id": "NNZ_MODEL_ICE_MICRO_01",
+    "sourceFrame": 90
+  },
+  {
+    "frame": 90,
+    "cut": 5,
+    "progress": 0.4591314800901578,
+    "halfX": 0.9657727422990232,
+    "halfY": 0.9449553719008263,
+    "halfZ": 0.686155852742299,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 13,
+    "airCavities": true,
+    "rayBranches": 7,
+    "boilingBubblesRepresentDissolvedGas": false,
+    "asset_id": "NNZ_MODEL_ICE_MICRO_01",
+    "sourceFrame": 90
+  },
+  {
+    "frame": 0,
+    "cut": 7,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false,
+    "asset_id": "NNZ_MODEL_FREEZING_CELL_01",
+    "sourceFrame": 0
+  },
+  {
+    "frame": 0,
+    "cut": 7,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false,
+    "asset_id": "NNZ_MODEL_FREEZING_CELL_01",
+    "sourceFrame": 0
+  },
+  {
+    "frame": 170,
+    "cut": 7,
+    "progress": 0.9947532626540891,
+    "halfX": 0.3658763458274201,
+    "halfY": 0.3557714110805019,
+    "halfZ": 0.3433579119013829,
+    "gasMarkerOpacity": 0,
+    "bubbleOpacity": 1,
+    "liquidOpacity": 0.0024993809114782772,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false,
+    "asset_id": "NNZ_MODEL_FREEZING_CELL_01",
+    "sourceFrame": 170
+  },
+  {
+    "frame": 170,
+    "cut": 7,
+    "progress": 0.9947532626540891,
+    "halfX": 0.3658763458274201,
+    "halfY": 0.3557714110805019,
+    "halfZ": 0.3433579119013829,
+    "gasMarkerOpacity": 0,
+    "bubbleOpacity": 1,
+    "liquidOpacity": 0.0024993809114782772,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false,
+    "asset_id": "NNZ_MODEL_FREEZING_CELL_01",
+    "sourceFrame": 170
+  },
+  {
+    "frame": 45,
+    "cut": 8,
+    "freezeProgress": 0.025483209156678538,
+    "innerHalf": 1.2436907461397257,
+    "bottom": 0.640065867616888,
+    "liquidHeight": 3.764934132383112,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405,
+    "asset_id": "NNZ_MODEL_ICECAN_AIR_01",
+    "sourceFrame": 45
+  },
+  {
+    "frame": 45,
+    "cut": 8,
+    "freezeProgress": 0.025483209156678538,
+    "innerHalf": 1.2436907461397257,
+    "bottom": 0.640065867616888,
+    "liquidHeight": 3.764934132383112,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405,
+    "asset_id": "NNZ_MODEL_ICECAN_AIR_01",
+    "sourceFrame": 45
+  },
+  {
+    "frame": 130,
+    "cut": 8,
+    "freezeProgress": 0.9745167908433215,
+    "innerHalf": 0.6363092538602743,
+    "bottom": 1.014934132383112,
+    "liquidHeight": 3.390065867616888,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405,
+    "asset_id": "NNZ_MODEL_ICECAN_AIR_01",
+    "sourceFrame": 130
+  },
+  {
+    "frame": 130,
+    "cut": 8,
+    "freezeProgress": 0.9745167908433215,
+    "innerHalf": 0.6363092538602743,
+    "bottom": 1.014934132383112,
+    "liquidHeight": 3.390065867616888,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405,
+    "asset_id": "NNZ_MODEL_ICECAN_AIR_01",
+    "sourceFrame": 130
+  },
+  {
+    "frame": 0,
+    "time": 0,
+    "insert": 0,
+    "drainFraction": 0,
+    "coreHeight": 3.38,
+    "surfaceHeight": 4.404999999999999,
+    "sourceVolume": 4.508919999999999,
+    "removedVolume": 0,
+    "receiverHeight": 0,
+    "receiverVolume": 0,
+    "flowing": false,
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "solidSignature": 5129.1689131511375,
+    "webgl": true,
+    "mode": "all",
+    "asset_id": "NNZ_MODEL_ICECAN_DRAIN_01",
+    "sourceFrame": 0
+  },
+  {
+    "frame": 0,
+    "time": 0,
+    "insert": 0,
+    "drainFraction": 0,
+    "coreHeight": 3.38,
+    "surfaceHeight": 4.404999999999999,
+    "sourceVolume": 4.508919999999999,
+    "removedVolume": 0,
+    "receiverHeight": 0,
+    "receiverVolume": 0,
+    "flowing": false,
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "solidSignature": 5129.1689131511375,
+    "webgl": true,
+    "mode": "all",
+    "asset_id": "NNZ_MODEL_ICECAN_DRAIN_01",
+    "sourceFrame": 0
+  },
+  {
+    "frame": 160,
+    "time": 5.333333333333333,
+    "insert": 1,
+    "drainFraction": 1,
+    "coreHeight": 0.03500000000000014,
+    "surfaceHeight": 1.06,
+    "sourceVolume": 0.04669000000000018,
+    "removedVolume": 4.462229999999999,
+    "receiverHeight": 1.1533886476426796,
+    "receiverVolume": 4.462229999999999,
+    "flowing": false,
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "solidSignature": 5129.1689131511375,
+    "webgl": true,
+    "mode": "all",
+    "asset_id": "NNZ_MODEL_ICECAN_DRAIN_01",
+    "sourceFrame": 160
+  },
+  {
+    "frame": 160,
+    "time": 5.333333333333333,
+    "insert": 1,
+    "drainFraction": 1,
+    "coreHeight": 0.03500000000000014,
+    "surfaceHeight": 1.06,
+    "sourceVolume": 0.04669000000000018,
+    "removedVolume": 4.462229999999999,
+    "receiverHeight": 1.1533886476426796,
+    "receiverVolume": 4.462229999999999,
+    "flowing": false,
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "solidSignature": 5129.1689131511375,
+    "webgl": true,
+    "mode": "all",
+    "asset_id": "NNZ_MODEL_ICECAN_DRAIN_01",
+    "sourceFrame": 160
+  }
+]

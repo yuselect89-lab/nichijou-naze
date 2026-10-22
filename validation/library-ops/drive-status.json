@@ -1,0 +1,9 @@
+{
+  "drive_folder": "https://drive.google.com/drive/folders/1YmGCqmzf_XndpvS62sMKFr4wdTrI-CK7",
+  "status": "not_saved",
+  "connection_result": "CONNECT tunnel failed HTTP 403",
+  "available_drive_connector": false,
+  "ready_google_identity": false,
+  "timezone": "Asia/Tokyo",
+  "checked_date": "2026-10-22"
+}

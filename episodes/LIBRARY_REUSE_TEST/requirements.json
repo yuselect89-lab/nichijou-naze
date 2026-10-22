@@ -1,0 +1,9 @@
+{
+  "project":"LIBRARY_REUSE_TEST",
+  "needs":[
+    {"key":"micro","asset_id":"NNZ_MODEL_ICE_MICRO_01","version":"1.1.0","parameters":{"cut":5,"playbackRate":1.2}},
+    {"key":"narrator","asset_id":"NNZ_CHAR_FEMALE_01","version":"v03_expressions","pose":"think"},
+    {"key":"label","asset_id":"NNZ_TMP_LABEL_01","version":"1.1.0"},
+    {"key":"motion","asset_id":"NNZ_MOTION_BASIC_01","version":"1.1.0"}
+  ]
+}

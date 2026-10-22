@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "requirements_sha256": "ecdc2e4e617b63422293b771e85f93ca89dae88b72572dcbe67dadb387c9fa2c",
+  "decisions": [
+    {
+      "key": "micro",
+      "decision": "blocked",
+      "reason": "No existing matching asset",
+      "candidates": []
+    },
+    {
+      "key": "narrator",
+      "decision": "reuse",
+      "reason": "Exact files, QC and parameters verified",
+      "ref": {
+        "asset_id": "NNZ_CHAR_FEMALE_01",
+        "version": "v03_expressions",
+        "pose": "think"
+      },
+      "selected_file": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+      "file_hashes": {
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png": "564048ae1008365874853a2648b27217058592df6d693fea9e4e575036960d74",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png": "1534b205eca595a4b82dd95a93df7f9d6d5f0edb1f93dd03bd58f68197b568fe",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png": "e64a83818064b80757f9f402e8d65954062b74a264bb8eff63d69be094d5149c",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png": "9f3bb5dae9e1fcd205d5da96a65d5c45b6696a4d19318015aa8097abc7edd4bf",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png": "aac0f521e1ed852574182f6f88df32460a1943ba68bc69c5ef2c225275836e08",
+        "public/series/v1/FONT_LICENSE.txt": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+        "validation/extension/character-8poses.jpg": "312129a0b9853451aa108ee75423644e4836e83fdd8053ae30117633191f58db",
+        "validation/extension/qc-report.json": "2d17e47f1d6bb5f82201c4b565b6896e966190b59afa5a2276de589e1d4672d1"
+      }
+    },
+    {
+      "key": "label",
+      "decision": "reuse",
+      "reason": "Exact files, QC and parameters verified",
+      "ref": {
+        "asset_id": "NNZ_TMP_LABEL_01",
+        "version": "1.1.0"
+      },
+      "selected_file": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "file_hashes": {
+        "common_assets/nichijou_naze/layouts/v1.1.0/examples/label-parameters.json": "f5c8af8bb28f46b0dfc37adacdc6c552c535f49f5a7b2344ad7780314c58d672",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx": "3ba51d73190461928301cc90f4c96cc47c497177c48ea7ba1489745ffd384bd9",
+        "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx": "9181344142cb9e6d6ad0394ec3545e92288669884b33e432737ac38bd7fad436",
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts": "ef5728b15e4c2e1e6dbf199a16455507e9822715e06def287a7ae0158c7ff357",
+        "package-lock.json": "81f8f2d46cf35b4af8398e641e09b12caf6b4503923c28a47edca84da431dd83",
+        "package.json": "92a43d4b126e9db272d64f6dd96d9892f8f196d35f1155703d4bc33c503b9d4d",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png": "564048ae1008365874853a2648b27217058592df6d693fea9e4e575036960d74",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png": "1534b205eca595a4b82dd95a93df7f9d6d5f0edb1f93dd03bd58f68197b568fe",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png": "e64a83818064b80757f9f402e8d65954062b74a264bb8eff63d69be094d5149c",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/happy.png": "5dc769a57be59c3feb254c23ea805e70f8c0f8d21f800c1f18b3f7b19146beef",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/neutral.png": "7ad4ff7aeeab8aa9d3c84828c50bc32a0a41e8c82020f0611c1435859a8185d7",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/point_left.png": "a4df8b9fe412f27f107da1c4d81bd2f5787e6166734e8b8275f619d819ea1bf4",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/point_right.png": "4472ed8717b9d833b38adbae81304f2d5c66ec4dd107a544c0ba176396a6e48d",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/surprise.png": "3118c99f2b620038b9afdeaa70e51b1850184943c1a4359bc04cb397aafde7fa",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/talk.png": "6c3394be104c8d75aa533faa4ba07e1fcf2321418cc3be258bdb83f4871d0235",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/think.png": "1152204114caacae2c7705d189c3b3191a49a9c984acb9bc536887bb547f882e",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/troubled.png": "3bddee6e4a071309a4b2658218bf3f22e6c59664257565b6ebd1a6add5befed8",
+        "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d",
+        "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png": "9f3bb5dae9e1fcd205d5da96a65d5c45b6696a4d19318015aa8097abc7edd4bf",
+        "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png": "aac0f521e1ed852574182f6f88df32460a1943ba68bc69c5ef2c225275836e08",
+        "public/series/v1/FONT_LICENSE.txt": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+        "public/series/v1/NotoSansCJKjp-Bold.otf": "6f920a5f3ca305c231f06bdc433e7e2b8da8ffe0a3444fd3a63587f2cf4cfa56",
+        "public/series/v1/opening_banner.png": "cc648108d24b3f745f07b63960c9799f76046815dacd9eda2c1813ef81aecc1e",
+        "src/integration/captions.ts": "19f4146c1ca11997fc66aa67b3252d629786d35a4015bde985dc897039bf6cf8",
+        "src/integration/character.ts": "8a477064ae8073a3b53fe5e0a5b32e8ecd4c9089f549550029e30604aac3a0dd",
+        "src/integration/v1.0.1/Series.tsx": "a95ae4c401d14dbb60583fcb480ed587a40d20db98832de47d6089f5d9940b48",
+        "src/integration/v1.0.1/Templates.tsx": "c9128100eb36edee9ec2ab9fa46c772e76b700ecf09250c561d5b0499ba945be",
+        "validation/extension/label-parameters-85.png": "10f1afd414bdcaf4ebfe9e287a5d00bc4ff659225ad1e755a82c88fa1796cd48",
+        "validation/extension/qc-report.json": "2d17e47f1d6bb5f82201c4b565b6896e966190b59afa5a2276de589e1d4672d1"
+      }
+    },
+    {
+      "key": "motion",
+      "decision": "reuse",
+      "reason": "Exact files, QC and parameters verified",
+      "ref": {
+        "asset_id": "NNZ_MOTION_BASIC_01",
+        "version": "1.1.0"
+      },
+      "selected_file": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "file_hashes": {
+        "common_assets/nichijou_naze/layouts/v1.1.0/examples/motions.json": "641342bcd10b0bbd46cbead4baae9070bc3f9a7343e8937cc5260586842e50a4",
+        "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx": "3ba51d73190461928301cc90f4c96cc47c497177c48ea7ba1489745ffd384bd9",
+        "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx": "9181344142cb9e6d6ad0394ec3545e92288669884b33e432737ac38bd7fad436",
+        "common_assets/nichijou_naze/runtime/v1.1.0/config.ts": "ef5728b15e4c2e1e6dbf199a16455507e9822715e06def287a7ae0158c7ff357",
+        "package-lock.json": "81f8f2d46cf35b4af8398e641e09b12caf6b4503923c28a47edca84da431dd83",
+        "package.json": "92a43d4b126e9db272d64f6dd96d9892f8f196d35f1155703d4bc33c503b9d4d",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png": "564048ae1008365874853a2648b27217058592df6d693fea9e4e575036960d74",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png": "1534b205eca595a4b82dd95a93df7f9d6d5f0edb1f93dd03bd58f68197b568fe",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png": "e64a83818064b80757f9f402e8d65954062b74a264bb8eff63d69be094d5149c",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/happy.png": "5dc769a57be59c3feb254c23ea805e70f8c0f8d21f800c1f18b3f7b19146beef",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/neutral.png": "7ad4ff7aeeab8aa9d3c84828c50bc32a0a41e8c82020f0611c1435859a8185d7",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/point_left.png": "a4df8b9fe412f27f107da1c4d81bd2f5787e6166734e8b8275f619d819ea1bf4",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/point_right.png": "4472ed8717b9d833b38adbae81304f2d5c66ec4dd107a544c0ba176396a6e48d",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/surprise.png": "3118c99f2b620038b9afdeaa70e51b1850184943c1a4359bc04cb397aafde7fa",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/talk.png": "6c3394be104c8d75aa533faa4ba07e1fcf2321418cc3be258bdb83f4871d0235",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/think.png": "1152204114caacae2c7705d189c3b3191a49a9c984acb9bc536887bb547f882e",
+        "public/common_assets/nichijou_naze/characters/female_v01/poses/troubled.png": "3bddee6e4a071309a4b2658218bf3f22e6c59664257565b6ebd1a6add5befed8",
+        "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d",
+        "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png": "9f3bb5dae9e1fcd205d5da96a65d5c45b6696a4d19318015aa8097abc7edd4bf",
+        "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png": "aac0f521e1ed852574182f6f88df32460a1943ba68bc69c5ef2c225275836e08",
+        "public/series/v1/FONT_LICENSE.txt": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+        "public/series/v1/NotoSansCJKjp-Bold.otf": "6f920a5f3ca305c231f06bdc433e7e2b8da8ffe0a3444fd3a63587f2cf4cfa56",
+        "public/series/v1/opening_banner.png": "cc648108d24b3f745f07b63960c9799f76046815dacd9eda2c1813ef81aecc1e",
+        "src/integration/captions.ts": "19f4146c1ca11997fc66aa67b3252d629786d35a4015bde985dc897039bf6cf8",
+        "src/integration/character.ts": "8a477064ae8073a3b53fe5e0a5b32e8ecd4c9089f549550029e30604aac3a0dd",
+        "src/integration/v1.0.1/Series.tsx": "a95ae4c401d14dbb60583fcb480ed587a40d20db98832de47d6089f5d9940b48",
+        "src/integration/v1.0.1/Templates.tsx": "c9128100eb36edee9ec2ab9fa46c772e76b700ecf09250c561d5b0499ba945be",
+        "validation/extension/motions-95.png": "36441138e218119039998a72431abc04005cec08d75e54f01ab5ee06c237b553",
+        "validation/extension/qc-report.json": "2d17e47f1d6bb5f82201c4b565b6896e966190b59afa5a2276de589e1d4672d1"
+      }
+    }
+  ],
+  "ready": false,
+  "new_material_keys": [],
+  "adapt_keys": []
+}

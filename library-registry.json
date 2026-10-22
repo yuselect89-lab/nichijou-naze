@@ -246,5 +246,19 @@
       "NNZ_MODEL_ICECAN_DRAIN_01"
     ],
     "status": "self_qc_render_verified"
+  },
+  "libraryOperations": {
+    "version": "1.0.0",
+    "implementation": "tools/library.mjs",
+    "catalog": "common_assets/nichijou_naze/management/catalog.v1.json",
+    "integrity": "common_assets/nichijou_naze/management/operations/v1/legacy-integrity.json",
+    "registrations": [
+      "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICE_MICRO_01/1.1.0.json",
+      "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_FREEZING_CELL_01/1.1.0.json",
+      "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICECAN_AIR_01/1.1.0.json",
+      "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICECAN_DRAIN_01/1.1.0.json"
+    ],
+    "candidate_manifest": "common_assets/nichijou_naze/models/ice_science/1.1.0/manifest.json",
+    "preflight_required": true
   }
 }

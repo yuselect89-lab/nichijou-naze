@@ -1,0 +1,2 @@
+# Excel ledger updates only; backup/restore use the Python standard library.
+openpyxl==3.1.5

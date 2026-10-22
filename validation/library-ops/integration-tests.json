@@ -1,0 +1,79 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "catalog lists verified versioned assets",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "search:考える",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "search:光 散乱",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "search:吸引",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "inherited character and expression resolve",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "unknown version rejected",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "duplicate registration rejected without changes",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "existing EP004 references remain valid",
+      "status": "PASS",
+      "details": {
+        "references": 18
+      }
+    },
+    {
+      "name": "unverified new version blocks production",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "post-QC preflight reuses everything",
+      "status": "PASS",
+      "details": null
+    },
+    {
+      "name": "all original assets and episodes preserved",
+      "status": "PASS",
+      "details": {
+        "baseline_files": 563,
+        "administrative_changes": [
+          "README.md",
+          "common_assets/nichijou_naze/management/asset_registry.csv",
+          "common_assets/nichijou_naze/management/asset_registry.json",
+          "common_assets/nichijou_naze/management/asset_registry.xlsx",
+          "library-registry.json"
+        ]
+      }
+    },
+    {
+      "name": "old ledger rows preserved; 4 versions appended",
+      "status": "PASS",
+      "details": null
+    }
+  ],
+  "unit_tests": 24,
+  "typescript": "PASS",
+  "paid_generation_calls": 0
+}

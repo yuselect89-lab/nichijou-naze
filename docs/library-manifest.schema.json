@@ -1,0 +1,14 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"日常のなぜ？ Episode asset references V1",
+ "type":"object",
+ "required":["project","assets"],
+ "properties":{
+   "project":{"type":"string"},
+   "assets":{"type":"array","items":{"$ref":"#/$defs/ref"}},
+   "project_files":{"type":"array","items":{"type":"string"}},
+   "playback":{"type":"string"}
+ },
+ "$defs":{"ref":{"type":"object","required":["asset_id","version"],"properties":{"asset_id":{"type":"string","pattern":"^NNZ_[A-Z0-9_]+$"},"version":{"type":"string"},"pose":{"type":"string"},"parameters":{"type":"object"}},"additionalProperties":false}},
+ "description":"Legacy cuts[].shared_assets[].id is also accepted by the resolver. Exact versions mandatory; no implicit latest. Validate semantics and file/QC hashes using node tools/library.mjs check."
+}

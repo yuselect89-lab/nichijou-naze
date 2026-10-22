@@ -1,0 +1,188 @@
+{
+  "result": "PASS",
+  "kind": "self-QC operational reuse, not independent scientific G3",
+  "verified_assets": [
+    "NNZ_MODEL_ICE_MICRO_01@1.1.0",
+    "NNZ_MODEL_FREEZING_CELL_01@1.1.0",
+    "NNZ_MODEL_ICECAN_AIR_01@1.1.0",
+    "NNZ_MODEL_ICECAN_DRAIN_01@1.1.0"
+  ],
+  "checks": [
+    {
+      "name": "NNZ_MODEL_ICE_MICRO_01 loaded and animated",
+      "status": "PASS",
+      "details": {
+        "source_frames": [
+          0,
+          90
+        ]
+      }
+    },
+    {
+      "name": "NNZ_MODEL_ICE_MICRO_01 start image",
+      "status": "PASS"
+    },
+    {
+      "name": "NNZ_MODEL_ICE_MICRO_01 end image",
+      "status": "PASS"
+    },
+    {
+      "name": "NNZ_MODEL_FREEZING_CELL_01 loaded and animated",
+      "status": "PASS",
+      "details": {
+        "source_frames": [
+          0,
+          170
+        ]
+      }
+    },
+    {
+      "name": "NNZ_MODEL_FREEZING_CELL_01 start image",
+      "status": "PASS"
+    },
+    {
+      "name": "NNZ_MODEL_FREEZING_CELL_01 end image",
+      "status": "PASS"
+    },
+    {
+      "name": "NNZ_MODEL_ICECAN_AIR_01 loaded and animated",
+      "status": "PASS",
+      "details": {
+        "source_frames": [
+          45,
+          130
+        ]
+      }
+    },
+    {
+      "name": "NNZ_MODEL_ICECAN_AIR_01 start image",
+      "status": "PASS"
+    },
+    {
+      "name": "NNZ_MODEL_ICECAN_AIR_01 end image",
+      "status": "PASS"
+    },
+    {
+      "name": "NNZ_MODEL_ICECAN_DRAIN_01 loaded and animated",
+      "status": "PASS",
+      "details": {
+        "source_frames": [
+          0,
+          160
+        ]
+      }
+    },
+    {
+      "name": "NNZ_MODEL_ICECAN_DRAIN_01 start image",
+      "status": "PASS"
+    },
+    {
+      "name": "NNZ_MODEL_ICECAN_DRAIN_01 end image",
+      "status": "PASS"
+    },
+    {
+      "name": "silent 1080x1920 30fps 60 frames",
+      "status": "PASS",
+      "details": {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1080,
+        "height": 1920,
+        "coded_width": 1088,
+        "coded_height": 1920,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuvj420p",
+        "level": 40,
+        "color_range": "pc",
+        "color_space": "bt470bg",
+        "chroma_location": "center",
+        "field_order": "progressive",
+        "refs": 4,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/90000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 180000,
+        "duration": "2.000000",
+        "bit_rate": "1060244",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "60",
+        "nb_read_frames": "60",
+        "extradata_size": 51,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]"
+        },
+        "side_data_list": [
+          {
+            "side_data_type": "ICC Profile"
+          }
+        ]
+      }
+    },
+    {
+      "name": "full MP4 decode",
+      "status": "PASS",
+      "details": ""
+    },
+    {
+      "name": "changed layout and playback parameters",
+      "status": "PASS"
+    }
+  ],
+  "file_hashes": {
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/index.mjs": "1b370fef13cfeb58d438aad3b50a73f862a6121332c2117a516ccb8fdaf821c0",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/drain3d.mjs": "c3b1b71f5f67d8c9bd35dda66e711d0095d429f852f153f8f6849591bd2c0c4d",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/industrial.mjs": "2bbf5966cb1180e0018860a19b4dcb5216fb4d6a116359d01c8817f50838bb95",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/physics.mjs": "52b5806db2c0a66337286904496eca0c56a596b744460c502d5ea24fd73143ea",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/science3d.mjs": "92425d46e4b3b1b0dd0e1deef2dd33b89b05404d40e0854471b810ea242d27c8",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/states.mjs": "711f5f231b864c5d78cfa01573e58446af85d4bd0ce63ce46b4a8325363f0e0f",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/LICENSE.txt": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/three.core.js": "94337bbcde63e61eb954f00d2ad72d122d1cc3dc3e0de68e57277eca3d30af47",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+    "validation/library-ops/NNZ_MODEL_FREEZING_CELL_01-end.png": "bc2004ac378efa31036e65a99b2cedb3e5f8eea50c7afe168c6edb081b30fb60",
+    "validation/library-ops/NNZ_MODEL_ICECAN_AIR_01-end.png": "068457e0c7e43a8b7c1097291e1201b9e9cf738a75fabd59528271f0bfc838d5",
+    "validation/library-ops/NNZ_MODEL_ICECAN_DRAIN_01-end.png": "818f116c7af2659021f31ef7456f3589581f755e87f5dd5c847ab4968f717573",
+    "validation/library-ops/NNZ_MODEL_ICE_MICRO_01-end.png": "1310f67895b889091a29451b1925b7c585103b313a7291d12ce3e980aaceca82"
+  },
+  "new_image_generations": 0,
+  "notes": [
+    "Character PNG identity and label readability require recorded visual inspection.",
+    "Model source copied from approved EP004; scientific shape unchanged except import paths."
+  ]
+}

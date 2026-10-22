@@ -1,0 +1,104 @@
+{
+  "asset_id": "NNZ_MODEL_ICE_MICRO_01",
+  "version": "1.1.0",
+  "name": "氷内部の気泡と光散乱",
+  "kind": "model",
+  "scope": "domain",
+  "tags": [
+    "氷",
+    "気泡",
+    "光",
+    "散乱",
+    "拡大",
+    "空洞",
+    "ice",
+    "bubble",
+    "light"
+  ],
+  "entrypoint": "common_assets/nichijou_naze/models/ice_science/1.1.0/index.mjs",
+  "api": "createReusableScene(canvas,{asset_id,parameters}) => {draw(frame,mode),dispose()}",
+  "files": [
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/index.mjs",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/drain3d.mjs",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/industrial.mjs",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/physics.mjs",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/science3d.mjs",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/states.mjs",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/LICENSE.txt",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/three.core.js",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/three.module.js",
+    "validation/library-ops/NNZ_MODEL_ICE_MICRO_01-end.png"
+  ],
+  "preview": "validation/library-ops/NNZ_MODEL_ICE_MICRO_01-end.png",
+  "origin_project": "EP004_ICE_V3 (extracted without changing original; import paths only)",
+  "parameter_schema": {
+    "playbackRate": {
+      "type": "number",
+      "min": 0.25,
+      "max": 2
+    },
+    "frameOffset": {
+      "type": "number",
+      "min": 0,
+      "max": 194
+    },
+    "cut": {
+      "enum": [
+        4,
+        5
+      ]
+    }
+  },
+  "dependencies": [
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/LICENSE.txt"
+  ],
+  "runtime": {
+    "node": ">=22",
+    "remotion": "4.0.526",
+    "three": "0.180.0 (vendored)",
+    "browser": "Chromium WebGL2 / swangle",
+    "canvas": [
+      1080,
+      1920
+    ],
+    "fps": 30
+  },
+  "capabilities": [
+    "3d",
+    "animation",
+    "background_model_separation",
+    "time_mapping"
+  ],
+  "rights": {
+    "basis": "Original procedural geometry. Adapted from EP004; no copied manufacturer artwork. Three.js MIT. Scientific dimensions/timing are schematic.",
+    "commercial_use": "allowed_under_MIT_and_original_content_terms",
+    "reuse": "allowed",
+    "license_files": [
+      "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/LICENSE.txt"
+    ]
+  },
+  "qc_status": "candidate_pending_reuse_QC",
+  "usage_notes": [
+    "氷の科学説明用。別分野の物理現象に無条件で転用しない。",
+    "寸法・凍結速度・気泡寸法は模式。科学形状変更は新バージョンとQC。",
+    "配置はcanvasのCSSまたは親レイヤーで変更。帯・字幕・進行バーなし。"
+  ],
+  "file_hashes": {
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/index.mjs": "1b370fef13cfeb58d438aad3b50a73f862a6121332c2117a516ccb8fdaf821c0",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/drain3d.mjs": "c3b1b71f5f67d8c9bd35dda66e711d0095d429f852f153f8f6849591bd2c0c4d",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/industrial.mjs": "2bbf5966cb1180e0018860a19b4dcb5216fb4d6a116359d01c8817f50838bb95",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/physics.mjs": "52b5806db2c0a66337286904496eca0c56a596b744460c502d5ea24fd73143ea",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/science3d.mjs": "92425d46e4b3b1b0dd0e1deef2dd33b89b05404d40e0854471b810ea242d27c8",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/source/states.mjs": "711f5f231b864c5d78cfa01573e58446af85d4bd0ce63ce46b4a8325363f0e0f",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/LICENSE.txt": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/three.core.js": "94337bbcde63e61eb954f00d2ad72d122d1cc3dc3e0de68e57277eca3d30af47",
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/three.module.js": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+    "validation/library-ops/NNZ_MODEL_ICE_MICRO_01-end.png": "1310f67895b889091a29451b1925b7c585103b313a7291d12ce3e980aaceca82"
+  },
+  "inspected": true,
+  "qc": {
+    "report": "validation/library-ops/reuse-model-qc.json",
+    "report_sha256": "0411ca57e4e3b7c80d4d99b63d3a0235c0ba74c4dd64505d347b5af0d64fe94e"
+  },
+  "production_ready": true
+}

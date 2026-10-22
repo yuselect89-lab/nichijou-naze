@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "default common/domain",
+      "status": "PASS",
+      "count": 16
+    },
+    {
+      "name": "purpose search",
+      "status": "PASS",
+      "count": 2
+    },
+    {
+      "name": "ID search",
+      "status": "PASS",
+      "count": 1
+    },
+    {
+      "name": "kind filter",
+      "status": "PASS",
+      "count": 4
+    },
+    {
+      "name": "episode toggle",
+      "status": "PASS",
+      "count": 25
+    }
+  ]
+}

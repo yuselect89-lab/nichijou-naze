@@ -1,0 +1,213 @@
+{
+  "result": "PASS",
+  "date": "2026-10-22",
+  "timezone": "Asia/Tokyo",
+  "catalog": {
+    "ids": 20,
+    "versioned_entries": 25,
+    "common_domain_entries": 16,
+    "episode_entries": 9
+  },
+  "features": [
+    "Existing registry/manifests remain authoritative; derived searchable catalog",
+    "Purpose/ID/kind search; separate episode-only photo scope",
+    "Strict exact-version/pose/file-hash/QC and parameter resolution",
+    "Preflight reuse/adapt/create/blocked decisions; AGENTS.md mandatory workflow",
+    "QC-bound, exclusive immutable registration and historical ledger preservation",
+    "Dependency-closed export with asset-lock.json",
+    "Independent project renders from copied files without EP004",
+    "Versioned ZIP backup with full SHA256 verification and tested restore"
+  ],
+  "tests": {
+    "existing_plus_new_unit_tests": 24,
+    "focused_guard_regression_tests": 7,
+    "typescript": "PASS",
+    "integration": [
+      {
+        "name": "catalog lists verified versioned assets",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "search:考える",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "search:光 散乱",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "search:吸引",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "inherited character and expression resolve",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "unknown version rejected",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "duplicate registration rejected without changes",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "existing EP004 references remain valid",
+        "status": "PASS",
+        "details": {
+          "references": 18
+        }
+      },
+      {
+        "name": "unverified new version blocks production",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "post-QC preflight reuses everything",
+        "status": "PASS",
+        "details": null
+      },
+      {
+        "name": "all original assets and episodes preserved",
+        "status": "PASS",
+        "details": {
+          "baseline_files": 563,
+          "administrative_changes": [
+            "README.md",
+            "common_assets/nichijou_naze/management/asset_registry.csv",
+            "common_assets/nichijou_naze/management/asset_registry.json",
+            "common_assets/nichijou_naze/management/asset_registry.xlsx",
+            "library-registry.json"
+          ]
+        }
+      },
+      {
+        "name": "old ledger rows preserved; 4 versions appended",
+        "status": "PASS",
+        "details": null
+      }
+    ],
+    "browser_UI": [
+      {
+        "name": "default common/domain",
+        "status": "PASS",
+        "count": 16
+      },
+      {
+        "name": "purpose search",
+        "status": "PASS",
+        "count": 2
+      },
+      {
+        "name": "ID search",
+        "status": "PASS",
+        "count": 1
+      },
+      {
+        "name": "kind filter",
+        "status": "PASS",
+        "count": 4
+      },
+      {
+        "name": "episode toggle",
+        "status": "PASS",
+        "count": 25
+      }
+    ],
+    "model_render_QC_checks": 15,
+    "independent_export": {
+      "result": "PASS",
+      "material_files_checked": 62,
+      "standalone_project": "/tmp/nnz-library-export-test",
+      "source_EP_dependencies": 0,
+      "asset_regenerations": 0,
+      "video_frames": 60,
+      "canvas": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "runtime_note": "Existing pinned node_modules reused through symlink; all material/code/public files physically copied. No link to EP004 or common asset directories."
+    },
+    "backup_restore": {
+      "result": "PASS",
+      "index": "releases/NNZ_LIBRARY_OPERATIONS_V1_20261022_130753/backup-index.json",
+      "files_verified": 262,
+      "old_1_0_0_model": "PASS",
+      "new_1_1_0_model": "PASS",
+      "character_v03_happy": "PASS",
+      "restore_destination": "/tmp/nnz-library-restored-final"
+    },
+    "source_extraction": [
+      {
+        "file": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/physics.mjs",
+        "origin": "EP004_ICE_V3/source/physics.mjs",
+        "changes": "import paths only"
+      },
+      {
+        "file": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/states.mjs",
+        "origin": "EP004_ICE_V3/source/full_v3/states.mjs",
+        "changes": "import paths only"
+      },
+      {
+        "file": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/science3d.mjs",
+        "origin": "EP004_ICE_V3/source/full_v3/science3d.mjs",
+        "changes": "import paths only"
+      },
+      {
+        "file": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/industrial.mjs",
+        "origin": "EP004_ICE_V3/source/full_v3/industrial.mjs",
+        "changes": "import paths only"
+      },
+      {
+        "file": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/drain3d.mjs",
+        "origin": "EP004_ICE_V3/source/scene3d.mjs",
+        "changes": "import paths only"
+      }
+    ]
+  },
+  "preservation": {
+    "baseline_files": 563,
+    "original_asset_EP_files_changed": 0,
+    "administrative_files_changed": [
+      "README.md",
+      "common_assets/nichijou_naze/management/asset_registry.csv",
+      "common_assets/nichijou_naze/management/asset_registry.json",
+      "common_assets/nichijou_naze/management/asset_registry.xlsx",
+      "library-registry.json"
+    ],
+    "ledger_versions_appended": 4
+  },
+  "new_image_generation_calls": 0,
+  "registered_model_version": "1.1.0",
+  "backup": {
+    "local_status": "verified_archive_created",
+    "index": "releases/NNZ_LIBRARY_OPERATIONS_V1_20261022_130753/backup-index.json",
+    "drive": {
+      "url": "https://drive.google.com/drive/folders/1YmGCqmzf_XndpvS62sMKFr4wdTrI-CK7",
+      "status": "not_saved",
+      "reason": "CONNECT returned HTTP403; no Drive connector/ready Google identity."
+    }
+  },
+  "unresolved": [
+    {
+      "item": "Google Drive backup",
+      "status": "not_saved",
+      "reason": "CONNECT HTTP403 and no Drive connector/authenticated Google identity. GitHub/local backup available."
+    }
+  ],
+  "limits": [
+    "Operational self-QC does not replace independent scientific G3 review.",
+    "Search operates on structured needs/short keywords; no background agent interprets arbitrary new requests automatically.",
+    "PNG poses are static sprites; no lip-sync or independent limb rig.",
+    "NPM runtime was reused for the export test; all material/code/public dependencies were physically copied."
+  ]
+}

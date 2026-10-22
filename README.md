@@ -121,3 +121,9 @@ Zoomは画像の実際の縦横比を読み、object-fit時の余白を含めて
 ## ChatGPT Workへの引渡し
 
 このプロジェクト一式、`examples/`、`library-registry.json`、検証プレビュー、`docs/WORK_HANDOFF.md` を渡します。既存EP003/EP004のmanifest形式は変更しません。新しいカットで生成した素材動画は、従来どおりEPのcutフォルダへ配置し、そのEPのmanifestにファイル名・仮尺・テンプレID・版・設定JSON参照を追加してください。原本EPのmanifestを共通ライブラリ導入のために書き換える必要はありません。
+
+## 共通素材の検索・再利用（運用V1）
+
+[素材一覧](common_assets/nichijou_naze/management/CATALOG.md) / [運用手順](docs/LIBRARY_OPERATIONS.md) / [別EPテスト](episodes/LIBRARY_REUSE_TEST/README.md)
+
+制作前に `node tools/library.mjs preflight <requirements.json> <report.json> --strict` を実行し、既存素材を照合します。版固定・QC照合・依存を含む書き出し・検品後登録・バックアップに対応しています。

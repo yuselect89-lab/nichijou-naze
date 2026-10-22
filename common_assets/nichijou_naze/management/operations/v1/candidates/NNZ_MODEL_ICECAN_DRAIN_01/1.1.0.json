@@ -1,0 +1,69 @@
+{
+  "asset_id": "NNZ_MODEL_ICECAN_DRAIN_01",
+  "version": "1.1.0",
+  "name": "製氷缶の中心液体吸引",
+  "kind": "model",
+  "scope": "domain",
+  "tags": [
+    "氷",
+    "吸水",
+    "排水",
+    "吸引",
+    "液体",
+    "drain"
+  ],
+  "entrypoint": "common_assets/nichijou_naze/models/ice_science/1.1.0/index.mjs",
+  "api": "createReusableScene(canvas,{asset_id,parameters}) => {draw(frame,mode),dispose()}",
+  "files": [
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/index.mjs"
+  ],
+  "preview": "validation/library-ops/NNZ_MODEL_ICECAN_DRAIN_01-end.png",
+  "origin_project": "EP004_ICE_V3 (extracted without changing original; import paths only)",
+  "parameter_schema": {
+    "playbackRate": {
+      "type": "number",
+      "min": 0.25,
+      "max": 2
+    },
+    "frameOffset": {
+      "type": "number",
+      "min": 0,
+      "max": 194
+    }
+  },
+  "dependencies": [
+    "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/LICENSE.txt"
+  ],
+  "runtime": {
+    "node": ">=22",
+    "remotion": "4.0.526",
+    "three": "0.180.0 (vendored)",
+    "browser": "Chromium WebGL2 / swangle",
+    "canvas": [
+      1080,
+      1920
+    ],
+    "fps": 30
+  },
+  "capabilities": [
+    "3d",
+    "animation",
+    "background_model_separation",
+    "time_mapping"
+  ],
+  "rights": {
+    "basis": "Original procedural geometry. Adapted from EP004; no copied manufacturer artwork. Three.js MIT. Scientific dimensions/timing are schematic.",
+    "commercial_use": "allowed_under_MIT_and_original_content_terms",
+    "reuse": "allowed",
+    "license_files": [
+      "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/LICENSE.txt"
+    ]
+  },
+  "qc_status": "candidate_pending_reuse_QC",
+  "usage_notes": [
+    "氷の科学説明用。別分野の物理現象に無条件で転用しない。",
+    "寸法・凍結速度・気泡寸法は模式。科学形状変更は新バージョンとQC。",
+    "配置はcanvasのCSSまたは親レイヤーで変更。帯・字幕・進行バーなし。"
+  ],
+  "production_ready": false
+}
