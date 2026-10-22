@@ -3,6 +3,8 @@ import path from 'node:path';
 import {bundle} from '@remotion/bundler';
 import {openBrowser,selectComposition,renderMedia} from '@remotion/renderer';
 import {validateConfig} from './config.mjs';
+import {verifyProduction} from './verify-production.mjs';
+verifyProduction();
 const [file,dest]=process.argv.slice(2);if(!file||!dest)throw new Error('Usage: npm run render -- scene.json out/cut.mp4');
 if(existsSync(dest))throw new Error('Output already exists; choose a new filename');
 const scene=JSON.parse(readFileSync(file,'utf8')),config=validateConfig(scene.config??scene);
