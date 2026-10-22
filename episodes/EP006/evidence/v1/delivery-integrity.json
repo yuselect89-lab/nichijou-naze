@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "baseline_tracked_files_checked": 660,
+  "baseline_changed_files": [],
+  "script_lock_sha256": "62946465dee6209b0a91b617fb63f20c135e223729cfe927d7fe59e8363072a5",
+  "delivery_asset_files_checked": 75,
+  "shared_character_copies_byte_identical": true,
+  "scope": "file integrity, not external G3 approval"
+}

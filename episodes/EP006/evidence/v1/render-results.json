@@ -1,0 +1,92 @@
+[
+  {
+    "type": "still",
+    "cut": "CUT01",
+    "frame": 160,
+    "output": "episodes/EP006/preview/v1/CUT01-1080.png"
+  },
+  {
+    "type": "still",
+    "cut": "CUT02",
+    "frame": 240,
+    "output": "episodes/EP006/preview/v1/CUT02-1080.png"
+  },
+  {
+    "type": "still",
+    "cut": "CUT03",
+    "frame": 345,
+    "output": "episodes/EP006/preview/v1/CUT03-1080.png"
+  },
+  {
+    "type": "still",
+    "cut": "CUT04",
+    "frame": 420,
+    "output": "episodes/EP006/preview/v1/CUT04-1080.png"
+  },
+  {
+    "type": "still",
+    "cut": "CUT05",
+    "frame": 650,
+    "output": "episodes/EP006/preview/v1/CUT05-1080.png"
+  },
+  {
+    "type": "still",
+    "cut": "CUT06",
+    "frame": 830,
+    "output": "episodes/EP006/preview/v1/CUT06-1080.png"
+  },
+  {
+    "type": "still",
+    "cut": "CUT07",
+    "frame": 970,
+    "output": "episodes/EP006/preview/v1/CUT07-1080.png"
+  },
+  {
+    "type": "science-stage",
+    "name": "01-start",
+    "frame": 0
+  },
+  {
+    "type": "science-stage",
+    "name": "02-vasoconstriction",
+    "frame": 90
+  },
+  {
+    "type": "science-stage",
+    "name": "03-volume",
+    "frame": 230
+  },
+  {
+    "type": "science-stage",
+    "name": "04-folds-hold",
+    "frame": 410
+  },
+  {
+    "type": "science-stage",
+    "name": "boundary-149",
+    "frame": 149
+  },
+  {
+    "type": "science-stage",
+    "name": "boundary-150",
+    "frame": 150
+  },
+  {
+    "type": "science-stage",
+    "name": "boundary-269",
+    "frame": 269
+  },
+  {
+    "type": "science-stage",
+    "name": "boundary-270",
+    "frame": 270
+  },
+  {
+    "type": "video",
+    "frames": 1050,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "output": "episodes/EP006/preview/v1/EP006-material-preview-1080.mp4"
+  }
+]

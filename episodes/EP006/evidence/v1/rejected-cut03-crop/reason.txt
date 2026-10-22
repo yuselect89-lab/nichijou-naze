@@ -1,0 +1,1 @@
+Pointing hand was clipped and did not align with an explanatory target. Viewport widened; independent label and leader added in pointing direction. Only CUT03 changes; all other rendered frames retained.

@@ -1,0 +1,97 @@
+{
+  "asset_id": "NNZ_CHAR_FEMALE_01",
+  "version": "v02_highres",
+  "name": "日常のなぜ？ 女性解説キャラクター 本番用5ポーズ",
+  "kind": "character",
+  "scope": "common",
+  "tags": [
+    "女性",
+    "解説",
+    "キャラ",
+    "通常",
+    "話す",
+    "考える",
+    "指差し",
+    "指差し右",
+    "指差し左",
+    "通常立ち",
+    "表情",
+    "右",
+    "左"
+  ],
+  "variants": {
+    "neutral": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+    "talk": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+    "point_right": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+    "point_left": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+    "think": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png"
+  },
+  "entrypoint": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+  "files": [
+    "common_assets/nichijou_naze/characters/female_v01/manifest.json",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+    "common_assets/nichijou_naze/characters/female_v01/preview_v02_highres.jpg",
+    "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+    "public/series/v1/FONT_LICENSE.txt",
+    "validation/highres/qc-report.json"
+  ],
+  "preview": "common_assets/nichijou_naze/characters/female_v01/preview_v02_highres.jpg",
+  "origin_project": "NNZ common character production",
+  "parameter_schema": {
+    "pose": {
+      "enum": [
+        "neutral",
+        "talk",
+        "point_right",
+        "point_left",
+        "think"
+      ]
+    }
+  },
+  "dependencies": [],
+  "capabilities": [
+    "static_pose",
+    "alpha_png"
+  ],
+  "rights": {
+    "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+    "commercial_use": "conditional_on_original_service_and_dependency_terms",
+    "reuse": "permitted_under_source_terms",
+    "license_files": [
+      "public/series/v1/FONT_LICENSE.txt"
+    ]
+  },
+  "qc": {
+    "report": "validation/highres/qc-report.json",
+    "report_sha256": "bd3c578b360400f8407e3d033c12434ee6ed53d830b6e8616ae842fcc76892e1"
+  },
+  "inspected": true,
+  "runtime": {
+    "format": "PNG/JPEG still; character PNGs use RGBA alpha"
+  },
+  "api": "Load selected_file; see parameters_note",
+  "file_hashes": {
+    "common_assets/nichijou_naze/characters/female_v01/manifest.json": "da78e8ece24fbea4b9fe5d493fb05e568bdec9e1902c3ff996c789c2d487f319",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png": "564048ae1008365874853a2648b27217058592df6d693fea9e4e575036960d74",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png": "1534b205eca595a4b82dd95a93df7f9d6d5f0edb1f93dd03bd58f68197b568fe",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png": "e64a83818064b80757f9f402e8d65954062b74a264bb8eff63d69be094d5149c",
+    "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339",
+    "common_assets/nichijou_naze/characters/female_v01/preview_v02_highres.jpg": "e1101c2470b5340977890a0ed473e317a48e518ecf2927c28e619768755274a2",
+    "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json": "9ca17a8dc0c879169192a79a23d18031e75dd2ce57d1c1bf365f5556ff2b9e57",
+    "public/series/v1/FONT_LICENSE.txt": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+    "validation/highres/qc-report.json": "bd3c578b360400f8407e3d033c12434ee6ed53d830b6e8616ae842fcc76892e1"
+  },
+  "production_ready": true,
+  "selected_file": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+  "absolute_file": "/workspace/nichijou-naze/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+  "parameters": {},
+  "check": {
+    "ok": true,
+    "errors": []
+  }
+}

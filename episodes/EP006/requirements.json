@@ -1,0 +1,31 @@
+{
+  "project": "EP006",
+  "needs": [
+    {
+      "key": "think",
+      "asset_id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "pose": "think"
+    },
+    {
+      "key": "point",
+      "asset_id": "NNZ_CHAR_FEMALE_01",
+      "version": "v02_highres",
+      "pose": "point_right"
+    },
+    {
+      "key": "happy",
+      "asset_id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "pose": "happy"
+    },
+    {
+      "key": "finger-model",
+      "query": "指 皮膚 血管 断面"
+    },
+    {
+      "key": "bath-model",
+      "query": "水 湯 指先"
+    }
+  ]
+}

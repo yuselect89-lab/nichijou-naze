@@ -1,0 +1,101 @@
+[
+  {
+    "file": "preview/v1/EP006-material-preview-1080.mp4",
+    "frames": 1050,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "preview/v1/EP006-material-preview-360.mp4",
+    "frames": 1050,
+    "width": 360,
+    "height": 640,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "preview/v1/CUT04-06-continuous-360.mp4",
+    "frames": 450,
+    "width": 360,
+    "height": 640,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "preview/v1/CUT04-06-continuous-1080.mp4",
+    "frames": 450,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "assets/v1/CUT07-review-1080.mp4",
+    "frames": 180,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "assets/v1/CUT02-review-1080.mp4",
+    "frames": 120,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "assets/v1/CUT04-review-1080.mp4",
+    "frames": 150,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "assets/v1/CUT03-review-1080.mp4",
+    "frames": 120,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "assets/v1/CUT01-review-1080.mp4",
+    "frames": 180,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "assets/v1/CUT06-review-1080.mp4",
+    "frames": 180,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  },
+  {
+    "file": "assets/v1/CUT05-review-1080.mp4",
+    "frames": 120,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0,
+    "full_decode": "PASS"
+  }
+]

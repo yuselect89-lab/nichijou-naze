@@ -1,0 +1,5 @@
+
+> nichijou-naze-studio@1.0.0 preflight
+> node tools/verify-production.mjs
+
+PRODUCTION PREFLIGHT PASS: {"assetId":"NNZ_BANNER_USER_APPROVED_20261022","path":"public/series/approved/opening_banner.png","sha256":"e6b63c322c996f543930a027db8981c2388e88441656655822c34bb4e2e2fd37"}

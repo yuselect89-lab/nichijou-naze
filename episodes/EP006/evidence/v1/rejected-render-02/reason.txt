@@ -1,0 +1,1 @@
+FAIL: End-cap / pad junction had a spatial step during volume change; blood marker positions approximated the vessel and could appear outside it; surface CG top overlapped label pill. Corrected continuous end-cap deformation, analytic Bezier marker positions, and surface layout. Rerender required.

@@ -1,0 +1,139 @@
+[
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "doctor"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"node\": \"v24.19.0\",\n  \"node_supported\": true,\n  \"remotion_installed\": true,\n  \"chromium\": true,\n  \"ffmpeg\": true\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "search",
+      "指 皮膚 血管 断面"
+    ],
+    "exit_code": 0,
+    "stdout": "[]\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "search",
+      "水 湯 指先"
+    ],
+    "exit_code": 0,
+    "stdout": "[]\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "search",
+      "考える"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"asset_id\": \"NNZ_CHAR_FEMALE_01\",\n    \"version\": \"v03_expressions\",\n    \"name\": \"女性解説キャラクター8表情（5継承）\",\n    \"kind\": \"character\",\n    \"scope\": \"common\",\n    \"production_ready\": true,\n    \"preview\": \"validation/extension/character-8poses.jpg\"\n  },\n  {\n    \"asset_id\": \"NNZ_CHAR_FEMALE_01\",\n    \"version\": \"v02_highres\",\n    \"name\": \"日常のなぜ？ 女性解説キャラクター 本番用5ポーズ\",\n    \"kind\": \"character\",\n    \"scope\": \"common\",\n    \"production_ready\": true,\n    \"preview\": \"common_assets/nichijou_naze/characters/female_v01/preview_v02_highres.jpg\"\n  }\n]\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "search",
+      "拡大"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"asset_id\": \"NNZ_LAYOUT_FOCUS_01\",\n    \"version\": \"1.1.0\",\n    \"name\": \"実物→注目箇所拡大→断面→実物\",\n    \"kind\": \"layout\",\n    \"scope\": \"common\",\n    \"production_ready\": false,\n    \"preview\": \"validation/extension/focus-crosssection-return-110.png\"\n  },\n  {\n    \"asset_id\": \"NNZ_MODEL_ICE_MICRO_01\",\n    \"version\": \"1.1.0\",\n    \"name\": \"氷内部の気泡と光散乱\",\n    \"kind\": \"model\",\n    \"scope\": \"domain\",\n    \"production_ready\": true,\n    \"preview\": \"validation/library-ops/NNZ_MODEL_ICE_MICRO_01-end.png\"\n  },\n  {\n    \"asset_id\": \"NNZ_TMP_ZOOM_01\",\n    \"version\": \"1.0.1\",\n    \"name\": \"拡大と注目\",\n    \"kind\": \"diagram\",\n    \"scope\": \"common\",\n    \"production_ready\": false,\n    \"preview\": \"validation/contact-sheet.jpg\"\n  }\n]\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "search",
+      "ラベル"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"asset_id\": \"NNZ_TMP_LABEL_01\",\n    \"version\": \"1.1.0\",\n    \"name\": \"部分ラベルの順次表示\",\n    \"kind\": \"diagram\",\n    \"scope\": \"common\",\n    \"production_ready\": false,\n    \"preview\": \"validation/extension/label-parameters-85.png\"\n  }\n]\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "resolve",
+      "NNZ_LAYOUT_FOOTAGE_01",
+      "1.1.0"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Asset blocked NNZ_LAYOUT_FOOTAGE_01: changed:package.json; unbound:public/series/approved/opening_banner.png; changed:src/integration/v1.0.1/Series.tsx\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "resolve",
+      "NNZ_LAYOUT_FOCUS_01",
+      "1.1.0"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Asset blocked NNZ_LAYOUT_FOCUS_01: changed:package.json; unbound:public/series/approved/opening_banner.png; changed:src/integration/v1.0.1/Series.tsx\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "resolve",
+      "NNZ_TMP_CROSSSECTION_01",
+      "1.1.0"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Asset blocked NNZ_TMP_CROSSSECTION_01: changed:package.json; unbound:public/series/approved/opening_banner.png; changed:src/integration/v1.0.1/Series.tsx\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "resolve",
+      "NNZ_TMP_ZOOM_01",
+      "1.0.1"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Asset blocked NNZ_TMP_ZOOM_01: changed:package.json; unbound:public/series/approved/opening_banner.png; changed:src/integration/v1.0.1/Series.tsx\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "resolve",
+      "NNZ_TMP_LABEL_01",
+      "1.1.0"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Asset blocked NNZ_TMP_LABEL_01: changed:package.json; unbound:public/series/approved/opening_banner.png; changed:src/integration/v1.0.1/Series.tsx\n"
+  },
+  {
+    "command": [
+      "node",
+      "tools/library.mjs",
+      "resolve",
+      "NNZ_MOTION_BASIC_01",
+      "1.1.0"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Asset blocked NNZ_MOTION_BASIC_01: changed:package.json; unbound:public/series/approved/opening_banner.png; changed:src/integration/v1.0.1/Series.tsx\n"
+  }
+]

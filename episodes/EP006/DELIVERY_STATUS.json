@@ -1,0 +1,28 @@
+{
+  "material_production": "complete: CUT01-CUT07 episode-specific visual assets",
+  "self_qc": "completed; external G3 not performed",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "provisional_frames": 1050,
+  "continuous_science_frames": 450,
+  "decoded_videos": 11,
+  "alpha_exports": 9,
+  "asset_manifest_files": 75,
+  "unchanged_preexisting_tracked_files": 660,
+  "source_model": "original SVG/React CG, not live-action footage",
+  "script_lock_modified": false,
+  "approved_character_redrawn": false,
+  "brand_burned_in": false,
+  "VO_generated": false,
+  "library_templates_blocked_unused": 6,
+  "github_push": "not performed",
+  "next_entry": "HANDOFF_TO_WORK.md",
+  "remaining": [
+    "VO timing and sync",
+    "Parent compositing with original approved banner / single progress / subtitles / audio",
+    "Final composite visual QC and external Gemini Pro G3"
+  ]
+}

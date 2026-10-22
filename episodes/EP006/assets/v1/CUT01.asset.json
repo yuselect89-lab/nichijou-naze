@@ -1,0 +1,80 @@
+{
+  "cut": "CUT01",
+  "asset_id": "EP006_CUT01_MATERIAL",
+  "version": "1.0.0",
+  "role": "question",
+  "source": "episodes/EP006/assets/v1/Scene.tsx",
+  "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+  "global_start_end": {
+    "start": 0,
+    "end": 180,
+    "unit": "frame",
+    "end_exclusive": true,
+    "status": "provisional"
+  },
+  "source_start_end": {
+    "start": 0,
+    "end": 180,
+    "unit": "frame",
+    "end_exclusive": true,
+    "status": "provisional"
+  },
+  "duration_status": "provisional / VO duration not supplied",
+  "scene": "CUT01",
+  "layer": [
+    "background",
+    "object",
+    "labels"
+  ],
+  "reference": [
+    "SCRIPT_LOCK_V4.md",
+    "G2_STORYBOARD_V2.md",
+    "G2_DECISION_20261022.md"
+  ],
+  "rights": {
+    "original": {
+      "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+      "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+      "license_files": [
+        "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+      ]
+    }
+  },
+  "preview": "episodes/EP006/preview/v1/CUT01-360.png",
+  "review_video": "episodes/EP006/assets/v1/CUT01-review-1080.mp4",
+  "review_video_sha256": "9ea983e2b01bdf8b09b306f73c68825043d9589093d54398ece71c777beb754b",
+  "transparent_sources": true,
+  "shared_assets": [],
+  "layer_sources": [
+    {
+      "layer": "background",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "CUT01",
+        "layer": "background",
+        "labels": false
+      }
+    },
+    {
+      "layer": "object",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "CUT01",
+        "layer": "object",
+        "labels": false
+      }
+    },
+    {
+      "layer": "labels",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "CUT01",
+        "layer": "labels",
+        "labels": true
+      }
+    }
+  ]
+}

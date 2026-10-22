@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "frames_checked": 450,
+  "shared_boundary_samples_per_frame": 279,
+  "max_surface_displacement_px_per_frame": 0.5099319999999352,
+  "final_hold_frames": 65,
+  "final_tissue_area_ratio": 0.959214217199156,
+  "scope": "Geometry invariants only; not medical validation or visual G3",
+  "checks": [
+    "skin/tissue shared boundary all frames",
+    "fixed topology",
+    "nonzero vessels",
+    "bounded local deformation",
+    "continuous frame progression",
+    "ordered cause stages",
+    "final hold"
+  ]
+}

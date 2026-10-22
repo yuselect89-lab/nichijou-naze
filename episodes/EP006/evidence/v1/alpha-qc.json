@@ -1,0 +1,119 @@
+[
+  {
+    "file": "assets/v1/science-outline-frame410.png",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "bbox": [
+      176,
+      859,
+      854,
+      1248
+    ]
+  },
+  {
+    "file": "assets/v1/science-tissue-frame410.png",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "bbox": [
+      191,
+      885,
+      838,
+      1221
+    ]
+  },
+  {
+    "file": "assets/v1/CUT02-character-alpha.png",
+    "alpha_range": [
+      0,
+      254
+    ],
+    "bbox": [
+      186,
+      962,
+      507,
+      1460
+    ]
+  },
+  {
+    "file": "assets/v1/CUT07-character-alpha.png",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "bbox": [
+      151,
+      962,
+      544,
+      1460
+    ]
+  },
+  {
+    "file": "assets/v1/science-object-frame410.png",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "bbox": [
+      176,
+      859,
+      854,
+      1248
+    ]
+  },
+  {
+    "file": "assets/v1/science-skin-frame410.png",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "bbox": [
+      180,
+      863,
+      850,
+      1245
+    ]
+  },
+  {
+    "file": "assets/v1/CUT03-character-alpha.png",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "bbox": [
+      115,
+      962,
+      649,
+      1460
+    ]
+  },
+  {
+    "file": "assets/v1/science-vessels-frame410.png",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "bbox": [
+      191,
+      990,
+      774,
+      1166
+    ]
+  },
+  {
+    "file": "assets/v1/science-labels-frame410.png",
+    "alpha_range": [
+      0,
+      255
+    ],
+    "bbox": [
+      149,
+      607,
+      891,
+      1404
+    ]
+  }
+]

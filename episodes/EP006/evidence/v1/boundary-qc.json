@@ -1,0 +1,20 @@
+[
+  {
+    "frames": [
+      149,
+      150
+    ],
+    "model_roi_mean_absolute_error": 0.3078583149436994,
+    "status": "PASS",
+    "note": "Compression tolerance; no camera/subject reset"
+  },
+  {
+    "frames": [
+      269,
+      270
+    ],
+    "model_roi_mean_absolute_error": 8.827024274316753e-05,
+    "status": "PASS",
+    "note": "Compression tolerance; no camera/subject reset"
+  }
+]

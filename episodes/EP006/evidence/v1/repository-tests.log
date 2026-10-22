@@ -1,0 +1,60 @@
+
+> nichijou-naze-studio@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ user-supplied approved banner hash matches original bytes (1.949858ms)
+✔ production series uses approved source at natural aspect ratio (0.466441ms)
+(node:6522) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/nichijou-naze/src/integration/captions.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/nichijou-naze/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ all three uploaded template examples keep their asset IDs (1.556896ms)
+✔ unimplemented templates and unknown versions cannot silently render (0.424258ms)
+✔ arrow coordinates outside the caption-free content region are rejected (0.234057ms)
+✔ captions remove Japanese commas and preserve full stops (0.178855ms)
+✔ episode progress stays global across a nonzero sequence offset (0.241288ms)
+✔ caption ranges cannot overlap or exceed the full episode (0.251653ms)
+(node:6523) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/nichijou-naze/common_assets/nichijou_naze/runtime/v1.1.0/config.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/nichijou-naze/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ all registered examples validate and local media really exists (4.447818ms)
+✔ new expression paths never substitute old prototype or rewrite V02 (0.388316ms)
+✔ protected subjects and captions are enforced on changed parameters (0.678204ms)
+✔ step and pose sequencing reject backward or too-fast cues (0.262699ms)
+✔ whole-sprite motion remains continuous with finite opacity, no scale deformation (1.225365ms)
+✔ focus holds the target through reveal and returns to original framing (0.297531ms)
+✔ parts and labels cannot end before they start; legacy overlay cannot duplicate mascot (0.341046ms)
+✔ template ID plus overrides creates a reusable scene without changing the source (1.733578ms)
+(node:6542) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/nichijou-naze/src/integration/character.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/nichijou-naze/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ legacy character selection retains exact prototype paths (0.684504ms)
+✔ v02 resolves the five named production files without silently using prototype (0.415585ms)
+✔ template validator rejects missing highres poses and unknown versions (0.456857ms)
+✔ exact version and inherited pose resolve; missing version never falls back (6.823597ms)
+✔ missing or changed source and changed QC fail closed (1.243482ms)
+✔ preflight reuses existing, proposes only missing creation and unsupported capability adaptation (2.318454ms)
+✔ uninspected records and unsupported parameters never pass (1.597957ms)
+✔ path traversal, absolute paths, and escaping symlinks are rejected (0.47942ms)
+✔ registration rejects no QC, incomplete QC and stale evidence before activating versions (0.557546ms)
+✔ existing uninspected sample blocks new generation instead of being treated as missing (0.376418ms)
+✔ promotion binds exact files and QC, then rejects duplicates and stale bytes (4.497551ms)
+✔ repository state is either blocked or verified, never silently accepted (1.375527ms)
+✔ approved original passes, but changed bytes fail (1.374826ms)
+✔ the known wrong asset hash is rejected (0.416778ms)
+✔ missing authorization fails closed (0.550755ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 244.11558
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

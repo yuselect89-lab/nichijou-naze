@@ -1,0 +1,1 @@
+FAIL: Positioned background painted over non-positioned SVG; subjects absent. Character viewport only showed head. Render aborted. Corrected SVG positioning and character crop in Scene.tsx; final delivery is separately rerendered. No initial output is accepted.

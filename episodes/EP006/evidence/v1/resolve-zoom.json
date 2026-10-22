@@ -1,0 +1,5 @@
+{
+  "status": "blocked",
+  "exit_code": 1,
+  "error": "Asset blocked NNZ_TMP_ZOOM_01: changed:package.json; unbound:public/series/approved/opening_banner.png; changed:src/integration/v1.0.1/Series.tsx"
+}

@@ -1,0 +1,120 @@
+{
+  "cut": "CUT05",
+  "asset_id": "EP006_CUT05_MATERIAL",
+  "version": "1.0.0",
+  "role": "focus_only",
+  "source": "episodes/EP006/assets/v1/Scene.tsx",
+  "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+  "global_start_end": {
+    "start": 570,
+    "end": 690,
+    "unit": "frame",
+    "end_exclusive": true,
+    "status": "provisional"
+  },
+  "source_start_end": {
+    "start": 150,
+    "end": 270,
+    "unit": "frame",
+    "end_exclusive": true,
+    "status": "provisional"
+  },
+  "duration_status": "provisional / VO duration not supplied",
+  "scene": "science",
+  "layer": [
+    "background",
+    "tissue",
+    "vessels",
+    "skin",
+    "outline",
+    "labels"
+  ],
+  "reference": [
+    "SCRIPT_LOCK_V4.md",
+    "G2_STORYBOARD_V2.md",
+    "G2_DECISION_20261022.md"
+  ],
+  "rights": {
+    "original": {
+      "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+      "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+      "license_files": [
+        "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+      ]
+    }
+  },
+  "preview": "episodes/EP006/preview/v1/CUT05-360.png",
+  "review_video": "episodes/EP006/assets/v1/CUT05-review-1080.mp4",
+  "review_video_sha256": "562a30e60b66603f68126091753aa9fe671de949214f91826f618b9a5f48fc55",
+  "transparent_sources": true,
+  "shared_assets": [],
+  "layer_sources": [
+    {
+      "layer": "background",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "science",
+        "layer": "background",
+        "labels": false
+      }
+    },
+    {
+      "layer": "tissue",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "science",
+        "layer": "tissue",
+        "labels": false
+      }
+    },
+    {
+      "layer": "vessels",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "science",
+        "layer": "vessels",
+        "labels": false
+      }
+    },
+    {
+      "layer": "skin",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "science",
+        "layer": "skin",
+        "labels": false
+      }
+    },
+    {
+      "layer": "outline",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "science",
+        "layer": "outline",
+        "labels": false
+      }
+    },
+    {
+      "layer": "labels",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "props": {
+        "scene": "science",
+        "layer": "labels",
+        "labels": true
+      }
+    }
+  ],
+  "continuous_group": "EP006_FINGER_SECTION",
+  "continuous_source": "episodes/EP006/assets/v1/geometry.ts",
+  "continuous_source_sha256": "efa57514fd271e1052e7639ac2f3315341eeba6930cb3a0631fdd273be8e157a",
+  "reset_at_cut_boundary": false,
+  "frame_argument": "single shared scienceFrame over 0..449",
+  "camera": "fixed / identity",
+  "subject_count": 1
+}

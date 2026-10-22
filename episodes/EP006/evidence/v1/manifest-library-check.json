@@ -1,0 +1,167 @@
+{
+  "result": "PASS",
+  "refs": [
+    {
+      "id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "file": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+      "dependencies": [
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/manifest.json",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png",
+        "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+        "public/series/v1/FONT_LICENSE.txt",
+        "validation/extension/character-8poses.jpg",
+        "validation/extension/qc-report.json"
+      ],
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      }
+    },
+    {
+      "id": "NNZ_CHAR_FEMALE_01",
+      "version": "v02_highres",
+      "file": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+      "dependencies": [
+        "common_assets/nichijou_naze/characters/female_v01/manifest.json",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "common_assets/nichijou_naze/characters/female_v01/preview_v02_highres.jpg",
+        "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+        "public/series/v1/FONT_LICENSE.txt",
+        "validation/highres/qc-report.json"
+      ],
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      }
+    },
+    {
+      "id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "file": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+      "dependencies": [
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/manifest.json",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png",
+        "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+        "public/series/v1/FONT_LICENSE.txt",
+        "validation/extension/character-8poses.jpg",
+        "validation/extension/qc-report.json"
+      ],
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      }
+    },
+    {
+      "id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "file": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+      "dependencies": [
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/manifest.json",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png",
+        "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+        "public/series/v1/FONT_LICENSE.txt",
+        "validation/extension/character-8poses.jpg",
+        "validation/extension/qc-report.json"
+      ],
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      }
+    },
+    {
+      "id": "NNZ_CHAR_FEMALE_01",
+      "version": "v02_highres",
+      "file": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+      "dependencies": [
+        "common_assets/nichijou_naze/characters/female_v01/manifest.json",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "common_assets/nichijou_naze/characters/female_v01/preview_v02_highres.jpg",
+        "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+        "public/series/v1/FONT_LICENSE.txt",
+        "validation/highres/qc-report.json"
+      ],
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      }
+    },
+    {
+      "id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "file": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+      "dependencies": [
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+        "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/manifest.json",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+        "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png",
+        "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+        "public/series/v1/FONT_LICENSE.txt",
+        "validation/extension/character-8poses.jpg",
+        "validation/extension/qc-report.json"
+      ],
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1271 @@
+{
+  "schema_version": 1,
+  "project": "EP006",
+  "delivery_version": "1.0.0",
+  "delivery_scope": "episode-specific visual assets; no VO, subtitles, BGM, SE, progress or approved banner burned in",
+  "base_git_commit": "9fc3089e49a5c4add628120cc5e6c3e9423afd88",
+  "delivery_commit_lookup": "git log -1 --format=%H -- episodes/EP006/manifest.json",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration_status": "provisional",
+  "total_preview_frames": 1050,
+  "script_lock": {
+    "path": "episodes/EP006/SCRIPT_LOCK_V4.md",
+    "sha256": "62946465dee6209b0a91b617fb63f20c135e223729cfe927d7fe59e8363072a5",
+    "modified": false
+  },
+  "assets": [
+    {
+      "asset_id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "pose": "think",
+      "source": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+      "sha256": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339",
+      "delivery_copy": "episodes/EP006/assets/v1/character-think.png",
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      },
+      "qc_reference": {
+        "report": "validation/extension/qc-report.json",
+        "report_sha256": "2d17e47f1d6bb5f82201c4b565b6896e966190b59afa5a2276de589e1d4672d1"
+      },
+      "verification": "episodes/EP006/evidence/v1/resolve-think.json"
+    },
+    {
+      "asset_id": "NNZ_CHAR_FEMALE_01",
+      "version": "v02_highres",
+      "pose": "point_right",
+      "source": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+      "sha256": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b",
+      "delivery_copy": "episodes/EP006/assets/v1/character-point.png",
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      },
+      "qc_reference": {
+        "report": "validation/highres/qc-report.json",
+        "report_sha256": "bd3c578b360400f8407e3d033c12434ee6ed53d830b6e8616ae842fcc76892e1"
+      },
+      "verification": "episodes/EP006/evidence/v1/resolve-point.json"
+    },
+    {
+      "asset_id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "pose": "happy",
+      "source": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+      "sha256": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d",
+      "delivery_copy": "episodes/EP006/assets/v1/character-happy.png",
+      "rights": {
+        "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+        "commercial_use": "conditional_on_original_service_and_dependency_terms",
+        "reuse": "permitted_under_source_terms",
+        "license_files": [
+          "public/series/v1/FONT_LICENSE.txt"
+        ]
+      },
+      "qc_reference": {
+        "report": "validation/extension/qc-report.json",
+        "report_sha256": "2d17e47f1d6bb5f82201c4b565b6896e966190b59afa5a2276de589e1d4672d1"
+      },
+      "verification": "episodes/EP006/evidence/v1/resolve-happy.json"
+    }
+  ],
+  "episode_assets": [
+    {
+      "asset_id": "EP006_BATH_FINGER_CG",
+      "version": "1.0.0",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "rights": {
+        "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+        "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+        "license_files": [
+          "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+        ]
+      },
+      "status": "episode-local / rendered / self-QC; not common-library registration"
+    },
+    {
+      "asset_id": "EP006_FINGER_SECTION",
+      "version": "1.0.0",
+      "source": "episodes/EP006/assets/v1/geometry.ts",
+      "sha256": "efa57514fd271e1052e7639ac2f3315341eeba6930cb3a0631fdd273be8e157a",
+      "rights": {
+        "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+        "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+        "license_files": [
+          "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+        ]
+      },
+      "status": "episode-local / rendered / self-QC; not medical or G3 approval"
+    }
+  ],
+  "cuts": [
+    {
+      "cut": "CUT01",
+      "asset_id": "EP006_CUT01_MATERIAL",
+      "version": "1.0.0",
+      "role": "question",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "global_start_end": {
+        "start": 0,
+        "end": 180,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "source_start_end": {
+        "start": 0,
+        "end": 180,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "duration_status": "provisional / VO duration not supplied",
+      "scene": "CUT01",
+      "layer": [
+        "background",
+        "object",
+        "labels"
+      ],
+      "reference": [
+        "SCRIPT_LOCK_V4.md",
+        "G2_STORYBOARD_V2.md",
+        "G2_DECISION_20261022.md"
+      ],
+      "rights": {
+        "original": {
+          "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+          "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+          "license_files": [
+            "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+          ]
+        }
+      },
+      "preview": "episodes/EP006/preview/v1/CUT01-360.png",
+      "review_video": "episodes/EP006/assets/v1/CUT01-review-1080.mp4",
+      "review_video_sha256": "9ea983e2b01bdf8b09b306f73c68825043d9589093d54398ece71c777beb754b",
+      "transparent_sources": true,
+      "shared_assets": [],
+      "layer_sources": [
+        {
+          "layer": "background",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT01",
+            "layer": "background",
+            "labels": false
+          }
+        },
+        {
+          "layer": "object",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT01",
+            "layer": "object",
+            "labels": false
+          }
+        },
+        {
+          "layer": "labels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT01",
+            "layer": "labels",
+            "labels": true
+          }
+        }
+      ]
+    },
+    {
+      "cut": "CUT02",
+      "asset_id": "EP006_CUT02_MATERIAL",
+      "version": "1.0.0",
+      "role": "reaction",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "global_start_end": {
+        "start": 180,
+        "end": 300,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "source_start_end": {
+        "start": 0,
+        "end": 120,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "duration_status": "provisional / VO duration not supplied",
+      "scene": "CUT02",
+      "layer": [
+        "background",
+        "object",
+        "labels",
+        "character"
+      ],
+      "reference": [
+        "SCRIPT_LOCK_V4.md",
+        "G2_STORYBOARD_V2.md",
+        "G2_DECISION_20261022.md"
+      ],
+      "rights": {
+        "original": {
+          "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+          "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+          "license_files": [
+            "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+          ]
+        },
+        "character": {
+          "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+          "commercial_use": "conditional_on_original_service_and_dependency_terms",
+          "reuse": "permitted_under_source_terms",
+          "license_files": [
+            "public/series/v1/FONT_LICENSE.txt"
+          ]
+        }
+      },
+      "preview": "episodes/EP006/preview/v1/CUT02-360.png",
+      "review_video": "episodes/EP006/assets/v1/CUT02-review-1080.mp4",
+      "review_video_sha256": "cf090d8f4935c8a573bf337cadc67ac5e42b4f54d48150cdf809e6f2d0082d3f",
+      "transparent_sources": true,
+      "shared_assets": [
+        {
+          "asset_id": "NNZ_CHAR_FEMALE_01",
+          "version": "v03_expressions",
+          "pose": "think"
+        }
+      ],
+      "layer_sources": [
+        {
+          "layer": "background",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT02",
+            "layer": "background",
+            "labels": false
+          }
+        },
+        {
+          "layer": "object",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT02",
+            "layer": "object",
+            "labels": false
+          }
+        },
+        {
+          "layer": "labels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT02",
+            "layer": "labels",
+            "labels": true
+          }
+        },
+        {
+          "layer": "character",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT02",
+            "layer": "character",
+            "labels": false
+          }
+        }
+      ]
+    },
+    {
+      "cut": "CUT03",
+      "asset_id": "EP006_CUT03_MATERIAL",
+      "version": "1.0.0",
+      "role": "reveal_intro",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "global_start_end": {
+        "start": 300,
+        "end": 420,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "source_start_end": {
+        "start": 0,
+        "end": 120,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "duration_status": "provisional / VO duration not supplied",
+      "scene": "CUT03",
+      "layer": [
+        "background",
+        "object",
+        "labels",
+        "character"
+      ],
+      "reference": [
+        "SCRIPT_LOCK_V4.md",
+        "G2_STORYBOARD_V2.md",
+        "G2_DECISION_20261022.md"
+      ],
+      "rights": {
+        "original": {
+          "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+          "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+          "license_files": [
+            "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+          ]
+        },
+        "character": {
+          "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+          "commercial_use": "conditional_on_original_service_and_dependency_terms",
+          "reuse": "permitted_under_source_terms",
+          "license_files": [
+            "public/series/v1/FONT_LICENSE.txt"
+          ]
+        }
+      },
+      "preview": "episodes/EP006/preview/v1/CUT03-360.png",
+      "review_video": "episodes/EP006/assets/v1/CUT03-review-1080.mp4",
+      "review_video_sha256": "e161772ba67dc82d5c1ffb6b43c1d6a189fdb3678fa4f56f8302855e9605ccdf",
+      "transparent_sources": true,
+      "shared_assets": [
+        {
+          "asset_id": "NNZ_CHAR_FEMALE_01",
+          "version": "v02_highres",
+          "pose": "point_right"
+        }
+      ],
+      "layer_sources": [
+        {
+          "layer": "background",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT03",
+            "layer": "background",
+            "labels": false
+          }
+        },
+        {
+          "layer": "object",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT03",
+            "layer": "object",
+            "labels": false
+          }
+        },
+        {
+          "layer": "labels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT03",
+            "layer": "labels",
+            "labels": true
+          }
+        },
+        {
+          "layer": "character",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT03",
+            "layer": "character",
+            "labels": false
+          }
+        }
+      ]
+    },
+    {
+      "cut": "CUT04",
+      "asset_id": "EP006_CUT04_MATERIAL",
+      "version": "1.0.0",
+      "role": "focus_only",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "global_start_end": {
+        "start": 420,
+        "end": 570,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "source_start_end": {
+        "start": 0,
+        "end": 150,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "duration_status": "provisional / VO duration not supplied",
+      "scene": "science",
+      "layer": [
+        "background",
+        "tissue",
+        "vessels",
+        "skin",
+        "outline",
+        "labels"
+      ],
+      "reference": [
+        "SCRIPT_LOCK_V4.md",
+        "G2_STORYBOARD_V2.md",
+        "G2_DECISION_20261022.md"
+      ],
+      "rights": {
+        "original": {
+          "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+          "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+          "license_files": [
+            "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+          ]
+        }
+      },
+      "preview": "episodes/EP006/preview/v1/CUT04-360.png",
+      "review_video": "episodes/EP006/assets/v1/CUT04-review-1080.mp4",
+      "review_video_sha256": "29bfbb32e2dac392a2abe0e46af8bc3a2efb36530a3e0d4f3b4ff92ca063da4a",
+      "transparent_sources": true,
+      "shared_assets": [],
+      "layer_sources": [
+        {
+          "layer": "background",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "background",
+            "labels": false
+          }
+        },
+        {
+          "layer": "tissue",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "tissue",
+            "labels": false
+          }
+        },
+        {
+          "layer": "vessels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "vessels",
+            "labels": false
+          }
+        },
+        {
+          "layer": "skin",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "skin",
+            "labels": false
+          }
+        },
+        {
+          "layer": "outline",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "outline",
+            "labels": false
+          }
+        },
+        {
+          "layer": "labels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "labels",
+            "labels": true
+          }
+        }
+      ],
+      "continuous_group": "EP006_FINGER_SECTION",
+      "continuous_source": "episodes/EP006/assets/v1/geometry.ts",
+      "continuous_source_sha256": "efa57514fd271e1052e7639ac2f3315341eeba6930cb3a0631fdd273be8e157a",
+      "reset_at_cut_boundary": false,
+      "frame_argument": "single shared scienceFrame over 0..449",
+      "camera": "fixed / identity",
+      "subject_count": 1
+    },
+    {
+      "cut": "CUT05",
+      "asset_id": "EP006_CUT05_MATERIAL",
+      "version": "1.0.0",
+      "role": "focus_only",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "global_start_end": {
+        "start": 570,
+        "end": 690,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "source_start_end": {
+        "start": 150,
+        "end": 270,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "duration_status": "provisional / VO duration not supplied",
+      "scene": "science",
+      "layer": [
+        "background",
+        "tissue",
+        "vessels",
+        "skin",
+        "outline",
+        "labels"
+      ],
+      "reference": [
+        "SCRIPT_LOCK_V4.md",
+        "G2_STORYBOARD_V2.md",
+        "G2_DECISION_20261022.md"
+      ],
+      "rights": {
+        "original": {
+          "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+          "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+          "license_files": [
+            "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+          ]
+        }
+      },
+      "preview": "episodes/EP006/preview/v1/CUT05-360.png",
+      "review_video": "episodes/EP006/assets/v1/CUT05-review-1080.mp4",
+      "review_video_sha256": "562a30e60b66603f68126091753aa9fe671de949214f91826f618b9a5f48fc55",
+      "transparent_sources": true,
+      "shared_assets": [],
+      "layer_sources": [
+        {
+          "layer": "background",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "background",
+            "labels": false
+          }
+        },
+        {
+          "layer": "tissue",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "tissue",
+            "labels": false
+          }
+        },
+        {
+          "layer": "vessels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "vessels",
+            "labels": false
+          }
+        },
+        {
+          "layer": "skin",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "skin",
+            "labels": false
+          }
+        },
+        {
+          "layer": "outline",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "outline",
+            "labels": false
+          }
+        },
+        {
+          "layer": "labels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "labels",
+            "labels": true
+          }
+        }
+      ],
+      "continuous_group": "EP006_FINGER_SECTION",
+      "continuous_source": "episodes/EP006/assets/v1/geometry.ts",
+      "continuous_source_sha256": "efa57514fd271e1052e7639ac2f3315341eeba6930cb3a0631fdd273be8e157a",
+      "reset_at_cut_boundary": false,
+      "frame_argument": "single shared scienceFrame over 0..449",
+      "camera": "fixed / identity",
+      "subject_count": 1
+    },
+    {
+      "cut": "CUT06",
+      "asset_id": "EP006_CUT06_MATERIAL",
+      "version": "1.0.0",
+      "role": "focus_only",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "global_start_end": {
+        "start": 690,
+        "end": 870,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "source_start_end": {
+        "start": 270,
+        "end": 450,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "duration_status": "provisional / VO duration not supplied",
+      "scene": "science",
+      "layer": [
+        "background",
+        "tissue",
+        "vessels",
+        "skin",
+        "outline",
+        "labels"
+      ],
+      "reference": [
+        "SCRIPT_LOCK_V4.md",
+        "G2_STORYBOARD_V2.md",
+        "G2_DECISION_20261022.md"
+      ],
+      "rights": {
+        "original": {
+          "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+          "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+          "license_files": [
+            "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+          ]
+        }
+      },
+      "preview": "episodes/EP006/preview/v1/CUT06-360.png",
+      "review_video": "episodes/EP006/assets/v1/CUT06-review-1080.mp4",
+      "review_video_sha256": "b1a6c2bf9b827cb14618e1b846d1308e1d404d8aa7aadf3954f3b1b7ea1cc720",
+      "transparent_sources": true,
+      "shared_assets": [],
+      "layer_sources": [
+        {
+          "layer": "background",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "background",
+            "labels": false
+          }
+        },
+        {
+          "layer": "tissue",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "tissue",
+            "labels": false
+          }
+        },
+        {
+          "layer": "vessels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "vessels",
+            "labels": false
+          }
+        },
+        {
+          "layer": "skin",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "skin",
+            "labels": false
+          }
+        },
+        {
+          "layer": "outline",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "outline",
+            "labels": false
+          }
+        },
+        {
+          "layer": "labels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "science",
+            "layer": "labels",
+            "labels": true
+          }
+        }
+      ],
+      "continuous_group": "EP006_FINGER_SECTION",
+      "continuous_source": "episodes/EP006/assets/v1/geometry.ts",
+      "continuous_source_sha256": "efa57514fd271e1052e7639ac2f3315341eeba6930cb3a0631fdd273be8e157a",
+      "reset_at_cut_boundary": false,
+      "frame_argument": "single shared scienceFrame over 0..449",
+      "camera": "fixed / identity",
+      "subject_count": 1
+    },
+    {
+      "cut": "CUT07",
+      "asset_id": "EP006_CUT07_MATERIAL",
+      "version": "1.0.0",
+      "role": "payoff",
+      "source": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "global_start_end": {
+        "start": 870,
+        "end": 1050,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "source_start_end": {
+        "start": 0,
+        "end": 180,
+        "unit": "frame",
+        "end_exclusive": true,
+        "status": "provisional"
+      },
+      "duration_status": "provisional / VO duration not supplied",
+      "scene": "CUT07",
+      "layer": [
+        "background",
+        "object",
+        "labels",
+        "character"
+      ],
+      "reference": [
+        "SCRIPT_LOCK_V4.md",
+        "G2_STORYBOARD_V2.md",
+        "G2_DECISION_20261022.md"
+      ],
+      "rights": {
+        "original": {
+          "basis": "Original EP006 SVG/React explanatory artwork created for this request; not live-action footage or a medical measurement.",
+          "usage": "EP006 production and editing; inherited character and font rights remain conditional on their source terms.",
+          "license_files": [
+            "episodes/EP006/assets/v1/FONT_LICENSE.txt"
+          ]
+        },
+        "character": {
+          "basis": "Original series assets and AI-assisted artwork; third-party dependencies retain licenses.",
+          "commercial_use": "conditional_on_original_service_and_dependency_terms",
+          "reuse": "permitted_under_source_terms",
+          "license_files": [
+            "public/series/v1/FONT_LICENSE.txt"
+          ]
+        }
+      },
+      "preview": "episodes/EP006/preview/v1/CUT07-360.png",
+      "review_video": "episodes/EP006/assets/v1/CUT07-review-1080.mp4",
+      "review_video_sha256": "545f4d96146275723c551802a0d66ca4993d431ced515b0aaa5ea5ff43299c61",
+      "transparent_sources": true,
+      "shared_assets": [
+        {
+          "asset_id": "NNZ_CHAR_FEMALE_01",
+          "version": "v03_expressions",
+          "pose": "happy"
+        }
+      ],
+      "layer_sources": [
+        {
+          "layer": "background",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT07",
+            "layer": "background",
+            "labels": false
+          }
+        },
+        {
+          "layer": "object",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT07",
+            "layer": "object",
+            "labels": false
+          }
+        },
+        {
+          "layer": "labels",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT07",
+            "layer": "labels",
+            "labels": true
+          }
+        },
+        {
+          "layer": "character",
+          "source": "episodes/EP006/assets/v1/Scene.tsx",
+          "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+          "props": {
+            "scene": "CUT07",
+            "layer": "character",
+            "labels": false
+          }
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "episodes/EP006/assets/v1/CUT01-review-1080.mp4",
+      "sha256": "9ea983e2b01bdf8b09b306f73c68825043d9589093d54398ece71c777beb754b",
+      "bytes": 250064
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT01.asset.json",
+      "sha256": "989e98e834f2d27a41577c7e9777c071af55355e80bd0c687d5b50ff27b3ebbf",
+      "bytes": 2287
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT02-character-alpha.png",
+      "sha256": "8facb457da9d8892683a38a9f33157c59b0e9915d6755121d6a1bed58372c3b2",
+      "bytes": 301801
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT02-review-1080.mp4",
+      "sha256": "cf090d8f4935c8a573bf337cadc67ac5e42b4f54d48150cdf809e6f2d0082d3f",
+      "bytes": 73955
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT02.asset.json",
+      "sha256": "4858d6586a478a4e44d60057b0884c1a230ad57feb2fadd43fe0642689c1090f",
+      "bytes": 3041
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT03-character-alpha.png",
+      "sha256": "40fa9d7a795979de4552e6160ee12300471ecf0fbc4dfd0347841cffb59a9621",
+      "bytes": 343195
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT03-review-1080.mp4",
+      "sha256": "e161772ba67dc82d5c1ffb6b43c1d6a189fdb3678fa4f56f8302855e9605ccdf",
+      "bytes": 159759
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT03.asset.json",
+      "sha256": "0bfab20697eb48b6ea8ef9901ae635aea27e2cb38d9e84beae97401da46cb5d9",
+      "bytes": 3047
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT04-review-1080.mp4",
+      "sha256": "29bfbb32e2dac392a2abe0e46af8bc3a2efb36530a3e0d4f3b4ff92ca063da4a",
+      "bytes": 158826
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT04.asset.json",
+      "sha256": "24053e9f7d7055039d0cb0ea16d2a181cf9550d480e9adc728fd8834f33ceedd",
+      "bytes": 3538
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT05-review-1080.mp4",
+      "sha256": "562a30e60b66603f68126091753aa9fe671de949214f91826f618b9a5f48fc55",
+      "bytes": 138287
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT05.asset.json",
+      "sha256": "47845f876921280e20799b53dc8f7c7076db9c5edf402b2f0989b1f934da2728",
+      "bytes": 3540
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT06-review-1080.mp4",
+      "sha256": "b1a6c2bf9b827cb14618e1b846d1308e1d404d8aa7aadf3954f3b1b7ea1cc720",
+      "bytes": 95033
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT06.asset.json",
+      "sha256": "d747aba9227b9f49a81bb0776233e555857abeb8489a5cf00e5cf5e2df4d49b1",
+      "bytes": 3540
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT07-character-alpha.png",
+      "sha256": "c3d4a4cdfbc1ed7f524da2fbb35c6875b95c3d5b18fdef0066729a0c73695232",
+      "bytes": 329602
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT07-review-1080.mp4",
+      "sha256": "545f4d96146275723c551802a0d66ca4993d431ced515b0aaa5ea5ff43299c61",
+      "bytes": 85859
+    },
+    {
+      "path": "episodes/EP006/assets/v1/CUT07.asset.json",
+      "sha256": "be4ea80570e23d9ae7b49444ef79514c659cab35fa1c64b970e885a684274077",
+      "bytes": 3040
+    },
+    {
+      "path": "episodes/EP006/assets/v1/FONT_LICENSE.txt",
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+      "bytes": 14712
+    },
+    {
+      "path": "episodes/EP006/assets/v1/NotoSansCJKjp-Bold-subset.otf",
+      "sha256": "3ca148dc3efefc2d35c2fd4145c87c61f59805df39924dddffad9abadb367024",
+      "bytes": 75128
+    },
+    {
+      "path": "episodes/EP006/assets/v1/Scene.tsx",
+      "sha256": "8a2c982169a068e359ca95a5e34551b8616c48f423492336bf3c5fde48292e2a",
+      "bytes": 9585
+    },
+    {
+      "path": "episodes/EP006/assets/v1/character-happy.png",
+      "sha256": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d",
+      "bytes": 1814596
+    },
+    {
+      "path": "episodes/EP006/assets/v1/character-point.png",
+      "sha256": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b",
+      "bytes": 1940161
+    },
+    {
+      "path": "episodes/EP006/assets/v1/character-think.png",
+      "sha256": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339",
+      "bytes": 1782818
+    },
+    {
+      "path": "episodes/EP006/assets/v1/export-alpha.mjs",
+      "sha256": "b392e3befb8fc29ac07d53a1a6d91b37cff61d4691e2100df10a9b3c11a8873a",
+      "bytes": 1410
+    },
+    {
+      "path": "episodes/EP006/assets/v1/finalize.py",
+      "sha256": "68582f3ebc26257c6dd56ed5064b8303befd3c984ca10c739099239f32bbbff8",
+      "bytes": 6782
+    },
+    {
+      "path": "episodes/EP006/assets/v1/geometry.ts",
+      "sha256": "efa57514fd271e1052e7639ac2f3315341eeba6930cb3a0631fdd273be8e157a",
+      "bytes": 2206
+    },
+    {
+      "path": "episodes/EP006/assets/v1/index.tsx",
+      "sha256": "4282d17dadb09f6e54ae2031782d7088074c3379eefe02f0e79df2f4fd0db0d8",
+      "bytes": 823
+    },
+    {
+      "path": "episodes/EP006/assets/v1/postprocess.py",
+      "sha256": "aed17c79b82e303b845d6e79c55b3afd9b2378f474506ac42366eca4a280bd95",
+      "bytes": 4645
+    },
+    {
+      "path": "episodes/EP006/assets/v1/render.mjs",
+      "sha256": "4d5b76f00685fbfc69a7b12636027d046add84c53bf32ce16ba4d78e740a6c6d",
+      "bytes": 3318
+    },
+    {
+      "path": "episodes/EP006/assets/v1/revise-cut03.mjs",
+      "sha256": "d83b0524c2ab15e3cec39aa16de715a8aca32c010c6f24c9be645005d5a32302",
+      "bytes": 2389
+    },
+    {
+      "path": "episodes/EP006/assets/v1/science-labels-frame410.png",
+      "sha256": "08a715c585dc4be9dfbd24e7a3ed7e378a55d9c987ba17875158c401315cea40",
+      "bytes": 83257
+    },
+    {
+      "path": "episodes/EP006/assets/v1/science-object-frame410.png",
+      "sha256": "901b14e9ae12c8aaa3e94a4d3ba664697191e90cec6820a9aa1124d0e9d035ca",
+      "bytes": 135031
+    },
+    {
+      "path": "episodes/EP006/assets/v1/science-outline-frame410.png",
+      "sha256": "4286d00c33be5653140654e5c4facdc04385b1a335825b32c6ad0da10cc2e621",
+      "bytes": 94992
+    },
+    {
+      "path": "episodes/EP006/assets/v1/science-skin-frame410.png",
+      "sha256": "ecfb3e40a9bc8d06be8af0becca49fd86a0c6bbb897091c663e1620bd85cd50b",
+      "bytes": 70299
+    },
+    {
+      "path": "episodes/EP006/assets/v1/science-tissue-frame410.png",
+      "sha256": "6489c122f10409fe74982c5b9475282c1dd732251ae4d82705098e5acda36896",
+      "bytes": 78422
+    },
+    {
+      "path": "episodes/EP006/assets/v1/science-vessels-frame410.png",
+      "sha256": "a0c12281f210765e6a4a69bbf6032db7f5b6589cb4db2feb539a8884c38806c8",
+      "bytes": 78036
+    },
+    {
+      "path": "episodes/EP006/assets/v1/tsconfig.json",
+      "sha256": "25fc069d71ae7bbd1042cc98706111b9f04acb385923cf73c2478d71bd01e620",
+      "bytes": 105
+    },
+    {
+      "path": "episodes/EP006/assets/v1/validate.mjs",
+      "sha256": "17bb24876a076bfd04fc2d4cb6938a1663a1ccc0a84c6d0ddb3905bd1e01a768",
+      "bytes": 1914
+    },
+    {
+      "path": "episodes/EP006/assets/v1/verify-delivery.mjs",
+      "sha256": "bbee8ab5a45a536ec66b09feef8d1dcf1ce9fc9073b17c79b80e7b9841a7fb95",
+      "bytes": 1210
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT01-1080.png",
+      "sha256": "6dda1d3b983cece9f25cb9d8d55fe2dfd0a2506083a71c54c157ff997e151f2e",
+      "bytes": 1315374
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT01-360.png",
+      "sha256": "ae8f65a7746976057392f4328bb53b4215b39cacec748e0cd5fa60f59542b7a9",
+      "bytes": 96830
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT02-1080.png",
+      "sha256": "7644d441b887d2d24f9c027323cabfa706a66cabc5735ac8fa1e11f777782739",
+      "bytes": 1620254
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT02-360.png",
+      "sha256": "eedaf14eae0f7cf7d75e0035a8e66cf67842ce193e58407bdc480eb4161e45cf",
+      "bytes": 126191
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT03-1080.png",
+      "sha256": "6eaf83b6c336a85cde822a3cb5f03c650f79867821068f1fc22593054e77f0f9",
+      "bytes": 1636475
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT03-360.png",
+      "sha256": "479143b19d8257bc1be43bcfae930ef5b45df2cda448da582cb6b3ffcc0577c6",
+      "bytes": 133742
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT04-06-continuous-1080.mp4",
+      "sha256": "dce71d71589180e1ac9fbe8117f43ab57482731cd8d44f537b62b36fa6e88c3d",
+      "bytes": 358403
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT04-06-continuous-360.mp4",
+      "sha256": "2e6ad8dee9be51a919eceb93d40368a879b0d5f09f92a158246d77ee4d538993",
+      "bytes": 80759
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT04-1080.png",
+      "sha256": "5d2d8b2292af3a0d739502be8f3e2cae4e5b94a4b6ee82e2f853b7f3f9cf5b59",
+      "bytes": 1387350
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT04-360.png",
+      "sha256": "aa05165bddba0ffb9c9a702d6d768cf33eb1464735a8781b637af262ac8276fd",
+      "bytes": 113980
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT05-1080.png",
+      "sha256": "2f061bf995fe028809c2bf65543def2950af174ee0b33fd8587589fd3e9170a8",
+      "bytes": 1374592
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT05-360.png",
+      "sha256": "697f14f6d348e84e912821214834ce8fe647f1f1b6718d9cc8395cc3b75aa141",
+      "bytes": 107337
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT06-1080.png",
+      "sha256": "b62b113522f8947cfdb896fe57949c3d4d689c8719d95737dfc2af176ee8c188",
+      "bytes": 1378967
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT06-360.png",
+      "sha256": "2ae90bfa7e91dfa002e48bf785bac50360ba4d94ace7dd00cace1fa3a4870707",
+      "bytes": 108631
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT07-1080.png",
+      "sha256": "c27a88624b0613fc95bba4aa72be10eb566b1681f164d9be9496a72e01e3c53c",
+      "bytes": 1632332
+    },
+    {
+      "path": "episodes/EP006/preview/v1/CUT07-360.png",
+      "sha256": "657458244d61b4a236408cdafd8ed3c5fe8422cc5227c39fa5fad42f90da14dd",
+      "bytes": 130431
+    },
+    {
+      "path": "episodes/EP006/preview/v1/EP006-material-preview-1080.mp4",
+      "sha256": "741e036b07196675d32f00c645f5a36b1c936922f4c25381ae00b63e0050adf1",
+      "bytes": 974614
+    },
+    {
+      "path": "episodes/EP006/preview/v1/EP006-material-preview-360.mp4",
+      "sha256": "57f6a5f29cbd3f7351c7cab8f43a668eb062913e197b759d55081e09caf909a9",
+      "bytes": 213234
+    },
+    {
+      "path": "episodes/EP006/preview/v1/contact-sheet-7cuts.jpg",
+      "sha256": "13cc9e8d27b0671e78497f20dc11100bbd818ded6305ab262549a3ae9733253d",
+      "bytes": 198802
+    },
+    {
+      "path": "episodes/EP006/preview/v1/decoded-science-149.png",
+      "sha256": "790c755e5542937542c3ce6db288f54f4491e87f103440de83dc50aae3293b56",
+      "bytes": 344014
+    },
+    {
+      "path": "episodes/EP006/preview/v1/decoded-science-150.png",
+      "sha256": "c733fce8fd5612487fec90c2bab22a79b54813a75a25a7d657b4a125cbf407d5",
+      "bytes": 294088
+    },
+    {
+      "path": "episodes/EP006/preview/v1/decoded-science-269.png",
+      "sha256": "e3ac169ff7b25de390887c4213e633f352868e48556f989637839d81fe4a0103",
+      "bytes": 278033
+    },
+    {
+      "path": "episodes/EP006/preview/v1/decoded-science-270.png",
+      "sha256": "94bfc1a8e2199c0b674bb265218076dd77adfb8e67309c9e2d689456ba079e42",
+      "bytes": 276838
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-01-start-360.png",
+      "sha256": "aa05165bddba0ffb9c9a702d6d768cf33eb1464735a8781b637af262ac8276fd",
+      "bytes": 113980
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-01-start.png",
+      "sha256": "5d2d8b2292af3a0d739502be8f3e2cae4e5b94a4b6ee82e2f853b7f3f9cf5b59",
+      "bytes": 1387350
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-02-vasoconstriction-360.png",
+      "sha256": "d08604957ce3c04186b52812fd4dc4bea9ad509967e937595e2063feae5ff8c4",
+      "bytes": 113491
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-02-vasoconstriction.png",
+      "sha256": "cfda0fd75674e398909a2ce16b8d8e618d3a4a79e4eb7ac623961a1786053834",
+      "bytes": 1387062
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-03-volume-360.png",
+      "sha256": "697f14f6d348e84e912821214834ce8fe647f1f1b6718d9cc8395cc3b75aa141",
+      "bytes": 107337
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-03-volume.png",
+      "sha256": "2f061bf995fe028809c2bf65543def2950af174ee0b33fd8587589fd3e9170a8",
+      "bytes": 1374592
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-04-folds-hold-360.png",
+      "sha256": "2ae90bfa7e91dfa002e48bf785bac50360ba4d94ace7dd00cace1fa3a4870707",
+      "bytes": 108631
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-04-folds-hold.png",
+      "sha256": "b62b113522f8947cfdb896fe57949c3d4d689c8719d95737dfc2af176ee8c188",
+      "bytes": 1378967
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-boundary-149.png",
+      "sha256": "0f23aa20ffb82b3e2b27b43058fb65765671d2baf29488c4caf40ff6a12a320e",
+      "bytes": 1387145
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-boundary-150.png",
+      "sha256": "c302ae6a3299cde8d40ad0b75554535267090009221a329fd9c4c67d8c51d88a",
+      "bytes": 1372362
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-boundary-269.png",
+      "sha256": "9ede034214bc58455ae1c4e2363cdb25fa6b1e16b52d9a7ec2a4e4fccfbde570",
+      "bytes": 1373750
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-boundary-270.png",
+      "sha256": "e4bd392db65e694715ef125c124c58b37d65aa5e32fa87ada8f78a63fd7613ae",
+      "bytes": 1372784
+    },
+    {
+      "path": "episodes/EP006/preview/v1/science-four-stage-QC-index.jpg",
+      "sha256": "a8ebd9c4f1b1efcca05d3999361332adc7f9fcf7139ffd4def17a546a30599b2",
+      "bytes": 106939
+    }
+  ],
+  "runtime_dependencies": {
+    "node": "24.19.0",
+    "remotion": "4.0.526",
+    "react": "18.3.1",
+    "typescript": "5.9.3",
+    "browser": "/usr/bin/chromium",
+    "ffmpeg": "7.1.5",
+    "postprocess": "Python 3 / Pillow"
+  },
+  "qc": {
+    "geometry": "episodes/EP006/evidence/v1/geometry-qc.json",
+    "media": "episodes/EP006/evidence/v1/media-qc.json",
+    "alpha": "episodes/EP006/evidence/v1/alpha-qc.json",
+    "cut_boundaries": "episodes/EP006/evidence/v1/boundary-qc.json",
+    "report": "episodes/EP006/ASSET_QC.md",
+    "external_G3": "not performed"
+  },
+  "unresolved": [
+    "VO file / timing not provided",
+    "Live-action finger footage not acquired: independent SVG CG used under production instructions",
+    "Final parent compositing and external G3 not performed",
+    "Six unused common template IDs remain blocked by integrity mismatch",
+    "GitHub push/publication not performed"
+  ]
+}

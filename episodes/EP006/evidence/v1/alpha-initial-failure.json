@@ -1,0 +1,5 @@
+{
+  "status": "FAIL_CORRECTED",
+  "cause": "Initial renderStill used composition default resolved props, ignoring intended alpha-layer inputProps. RGB output was detected by postprocess.",
+  "correction": "Override composition.props, rerender each layer, and verify actual PNG alpha extrema. Character viewport screenshots may max at 254 from source sampling; require min=0/max>=250, retain actual extrema."
+}
