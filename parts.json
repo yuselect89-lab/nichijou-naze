@@ -1,0 +1,35 @@
+{
+  "output": "EP005_materials_v2.zip",
+  "sha256": "60449b5a1fc94d182110dc7e647912b195a6011e9e03fd696b202cba91c843f1",
+  "bytes": 327860550,
+  "parts": [
+    {
+      "name": "EP005_materials_v2.zip.part01",
+      "sha256": "abbae866a994ad0291904f1e9eb87996bfaafdc33228be8218a975fbddaf0dbc"
+    },
+    {
+      "name": "EP005_materials_v2.zip.part02",
+      "sha256": "22b1027331c1f28c98f1d2764ccc70501907eccff4696d85350f1edac24e9d7d"
+    },
+    {
+      "name": "EP005_materials_v2.zip.part03",
+      "sha256": "22db54eca9ae5cf7fd3e6497d551375766a92d6091f265cc03c8cc9e200871d7"
+    },
+    {
+      "name": "EP005_materials_v2.zip.part04",
+      "sha256": "c854287e77d09d8403712f68cd2fabaf376edea0028997e8255bb2e00dec951a"
+    },
+    {
+      "name": "EP005_materials_v2.zip.part05",
+      "sha256": "256562a71e34d83889ac44cb537f6d7ba354770955c41d1520281d2a26ae6250"
+    },
+    {
+      "name": "EP005_materials_v2.zip.part06",
+      "sha256": "5696fe8c021f3a79e21927c19d529cfda7cf9406aa3b2ee6c1b817a305775098"
+    },
+    {
+      "name": "EP005_materials_v2.zip.part07",
+      "sha256": "baab9e850f271316e3493fe1f78b11616c03f7855cc7cd7c4c4438e5f47c4b9d"
+    }
+  ]
+}
