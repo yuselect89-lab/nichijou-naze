@@ -1,7 +1,7 @@
 > **2026-10-22 現在の正式黄色帯**：`public/series/approved/opening_banner.png`（ユーザー提供の透過PNG、SHA256: `e6b63c322c996f543930a027db8981c2388e88441656655822c34bb4e2e2fd37`）。本README内の「約30入り元ファイルが無い」は過去時点の説明であり、現在は適用しない。
 > 制作前に `npm run preflight` を必ず成功させる。旧 `public/series/v1/opening_banner.png` は正式素材ではない。詳細 `docs/PRODUCTION_LOCK.md`。
 
-> **2026-10-22 制作ロック：** このREADMEの旧「EP004黄色帯をそのまま再利用」という説明は現行正式帯の根拠ではありません。正式帯の原本が未確認のため、新規制作・レンダリングは `npm run preflight` で停止する設定です。元画像を推測で再生成せず、`production-lock.json` と [制作正本・検証手順](docs/PRODUCTION_LOCK.md) を先に確認してください。ChatGPTのメモリ・古いプロンプトを仕様正本として扱わないでください。
+> **2026-10-22 正式帯更新済み：** ユーザーから受領した正式元画像を `public/series/approved/opening_banner.png` に登録済みです。以前の『原本未確認』『制作停止』は解消しました。制作時は必ず `npm run preflight` を成功させ、[制作正本](docs/PRODUCTION_LOCK.md) を参照してください。
 
 ---
 
@@ -105,7 +105,7 @@ import {SeriesFrame} from './src/integration/v1.0.1/Series';
 
 `SeriesFrame` は本編のグローバルフレーム／全尺で0→100%の進行バーを描きます。各カットでリセットしません。秒数字・カウントダウンはありません。字幕はVOに合わせた `{fromFrame,toFrame,text}` を受け取り、読点「、」だけを除去して句点「。」と改行を残します。字幕が重なる・全尺を超える場合は停止します。実VOは今回未支給なので、声そのものとの同期は未検証です。検証には明示したフレーム範囲の日本語字幕を使っています。
 
-既存黄色帯は `/workspace/EP004_ICE/shared/opening_banner.png/svg` の実体を無加工でコピーしました。ユーザーのメッセージに見える「約30」入りの丸型画像はZIP内に元データがなく、今回再制作・置換していません。新たな「約30」の表記も追加していません。
+【過去の導入記録】初期導入時は `/workspace/EP004_ICE/shared/opening_banner.png/svg` を流用しましたが、当時は正式元画像が未収録でした。**2026-10-22にユーザー提供の正式PNGを登録したため、この旧流用画像は現在使用しません。**
 
 ## レイアウト
 
