@@ -1,8 +1,8 @@
-# 【最優先】正式帯の制作ロック（2026-10-22更新）
+# 【最優先】2026-10-22 正式黄色帯確定
 
-過去の本書の「EP004の既存PNGを再利用」という記載は**現在の正式帯の根拠として無効**。冒頭帯の元画像が未確認で、EP004流用品は別物と判明したため。
+ユーザー添付の2000×2000透過PNGを無加工で `public/series/approved/opening_banner.png` に登録。正式なSHA256は `e6b63c322c996f543930a027db8981c2388e88441656655822c34bb4e2e2fd37`。旧 `public/series/v1/opening_banner.png` は別素材なので正式帯としての使用を禁止。 `production-lock.json` と `docs/PRODUCTION_LOCK.md` が現在の正本。
 
-**Codex / ChatGPT Work の両方とも**、EP素材生成に着手する前・素材引渡し前・ラフ/最終MP4出力前に `node tools/verify-production.mjs` を実行すること。失敗時はそこで停止。過去のプロンプト、記憶、旧画像、近似デザインから再現しない。承認された画像と一致ハッシュが取得できた場合のみ `production-lock.json` を更新する。具体手順は `docs/PRODUCTION_LOCK.md`。旧版EP・旧レンダーは変更しない。
+CodexとChatGPT Workは `npm run preflight` を実行し、成功時のみ制作を進める。制作物の合成では正式素材を**縦横比を保って**一度だけ使用し、文字・色・形の編集は禁止。動画の見た目と配置は書き出し後のG3で別途確認する。古い説明で「原本が無かった」とある箇所は2026-10-22以前の履歴であり、現在の状態を表さない。
 
 ---
 

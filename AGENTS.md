@@ -1,10 +1,10 @@
 # 最優先：制作仕様ロック（2026-10-22）
 
-新規EPの制作・編集・ラフMP4・最終書き出し・素材納品の前に、必ず `production-lock.json` を開き、`node tools/verify-production.mjs` を実行する。非ゼロ終了なら作業を止める。元ファイルが無い場合も「似た帯」を生成・流用しない。
+新規EPの制作・編集・ラフMP4・最終書き出し・素材納品の前に、必ず `production-lock.json` を開き、`node tools/verify-production.mjs` を実行する。非ゼロ終了なら作業を止める。元ファイルは2026-10-22に承認済みで登録された。無断加工・別素材への置換は禁止。
 
 - **正式帯の判断根拠はChatGPTの記憶・過去のプロンプト・本ファイルの古い説明ではない。** `production-lock.json` と実ファイルの SHA256 が一致することだけが機械的な承認条件。
 - `public/series/v1/opening_banner.png` は旧流用画像であり、正式帯として使わない。EP005の「秒で解決!!」という誤った文言指示は撤回する。
-- ユーザー承認済みの元画像が見つかるまで `production-lock.json` は BLOCKED とし、WorkとCodexは素材を勝手に補完しない。
+- 正式元画像は `public/series/approved/opening_banner.png`。`production-lock.json` に記録された SHA256 に一致する場合のみ使用可能。不一致・欠落・未承認なら制作を停止する。
 - 背景・キャラ・図解・音声などは既存の登録台帳・原本から検証して再利用。共通素材を無断上書きせず、仕様変更は明示承認・版更新・差分テストを必要とする。
 - 本編には正式帯・単一進行バー・字幕を一度だけ合成。字幕は読点「、」のみを除去し、句点「。」を残す。
 - 変更方法と再確認事項は `docs/PRODUCTION_LOCK.md` に記載。

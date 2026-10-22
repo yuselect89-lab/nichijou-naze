@@ -17,7 +17,7 @@ export const SeriesFrame:React.FC<{children:React.ReactNode;cues?:Cue[];voiceove
  return <Clock.Provider value={{frame,totalFrames:total}}><AbsoluteFill className="nnz" style={{background:'linear-gradient(180deg,#faf8ec,#edf5f0)'}}>
  <style>{fonts}</style>{children}
  <div data-qc="progress" data-progress={progress} style={{position:'absolute',top:78,left:96,width:888,height:14,borderRadius:7,background:'#d7dfd7',overflow:'hidden'}}><div style={{height:'100%',width:`${progress*100}%`,background:'#e2aa29'}}/></div>
- {opacity>0&&<Img data-qc="banner" src={staticFile('series/approved/opening_banner.png')} style={{position:'absolute',inset:0,width:1080,height:1920,opacity,pointerEvents:'none'}}/>}
+ {opacity>0&&<Img data-qc="banner" src={staticFile('series/approved/opening_banner.png')} style={{position:'absolute',left:80,top:88,width:920,height:920,objectFit:'contain',opacity,pointerEvents:'none'}}/>}
  {cue&&<div data-qc="caption" style={{position:'absolute',left:96,top:1510,width:888,height:280,display:'flex',alignItems:'center',justifyContent:'center',textAlign:'center',fontSize:60,fontWeight:700,lineHeight:1.4,whiteSpace:'pre-line',padding:'14px 20px',borderRadius:24,background:'#152d38ee',color:'white'}}>{cleanCaption(cue.text)}</div>}
  {voiceover&&<Audio src={asset(voiceover)}/>}</AbsoluteFill></Clock.Provider>;
 };

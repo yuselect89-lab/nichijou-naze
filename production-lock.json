@@ -2,16 +2,28 @@
   "schemaVersion": 1,
   "project": "nichijou-naze",
   "banner": {
-    "status": "BLOCKED_SOURCE_NOT_VERIFIED",
-    "assetId": "NNZ_BANNER_APPROVED_EP002_V4",
+    "status": "APPROVED",
+    "assetId": "NNZ_BANNER_USER_APPROVED_20261022",
     "path": "public/series/approved/opening_banner.png",
-    "sha256": null,
-    "approvalEvidence": "EP002 V4 正式黄色帯：『日常の疑問を』『約』『30』（赤で強調）『秒で解決！』。元画像ファイルとSHA256は未確認。",
-    "sourceRequired": "ユーザー承認済みEP002〜EP004使用版の実画像。推測・再生成・旧EP004別版の流用は禁止。",
+    "sha256": "e6b63c322c996f543930a027db8981c2388e88441656655822c34bb4e2e2fd37",
+    "approvalEvidence": "2026-10-22にユーザーが添付した2000×2000透過PNGを無加工で登録。元画像のSHA256一致を承認根拠とする。旧流用画像は無効。",
+    "sourceRequired": "2026-10-22ユーザー提供の実PNG。無断の再生成・加工・近似素材への置換は禁止。",
     "legacyNotApproved": {
       "path": "public/series/v1/opening_banner.png",
       "sha256": "cc648108d24b3f745f07b63960c9799f76046815dacd9eda2c1813ef81aecc1e",
       "reason": "既存レジストリが『約30入り元データがないためEP004版を流用』と記録している旧画像"
+    },
+    "dimensions": {
+      "width": 2000,
+      "height": 2000
+    },
+    "placement": {
+      "canvas": "1080x1920",
+      "left": 80,
+      "top": 88,
+      "width": 920,
+      "height": 920,
+      "description": "透明余白を含むPNGを縦横比を維持したまま重ねる。内容のトリミング・変形は禁止"
     }
   },
   "caption": {

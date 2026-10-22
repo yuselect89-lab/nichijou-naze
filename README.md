@@ -1,3 +1,6 @@
+> **2026-10-22 現在の正式黄色帯**：`public/series/approved/opening_banner.png`（ユーザー提供の透過PNG、SHA256: `e6b63c322c996f543930a027db8981c2388e88441656655822c34bb4e2e2fd37`）。本README内の「約30入り元ファイルが無い」は過去時点の説明であり、現在は適用しない。
+> 制作前に `npm run preflight` を必ず成功させる。旧 `public/series/v1/opening_banner.png` は正式素材ではない。詳細 `docs/PRODUCTION_LOCK.md`。
+
 > **2026-10-22 制作ロック：** このREADMEの旧「EP004黄色帯をそのまま再利用」という説明は現行正式帯の根拠ではありません。正式帯の原本が未確認のため、新規制作・レンダリングは `npm run preflight` で停止する設定です。元画像を推測で再生成せず、`production-lock.json` と [制作正本・検証手順](docs/PRODUCTION_LOCK.md) を先に確認してください。ChatGPTのメモリ・古いプロンプトを仕様正本として扱わないでください。
 
 ---
