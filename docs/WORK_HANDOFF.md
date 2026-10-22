@@ -8,6 +8,8 @@ CodexとChatGPT Workは `npm run preflight` を実行し、成功時のみ制作
 
 # ChatGPT Work 引渡し
 
+**全EP共通の映像設計基準（2026-10-22）**：編集前に `docs/VISUAL_QUESTION_DIRECTION.md` を参照。冒頭の問いを長文の拡大文字だけで処理せず、実物→動作→違和感を短い言葉と視覚表現で見せる。ただし台本LOCK・既存VO・正式黄色帯・承認済み解説内容を勝手に変更しない。EP005は手すり→握る→手を鼻に近づける既存映像の活用を優先する。G2/G3では文字量・動作の伝達・帯との干渉を検査する。
+
 **保存先：`/workspace/nichijou-naze/`。Beyond Translationの制作プロジェクトには入れない。**
 
 1. この独立プロジェクトを使用し `npm ci`。既存EP003/EP004を移動・変更する必要はない。
