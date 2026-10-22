@@ -11,6 +11,8 @@
 
 検索・照合はNode.js >=22。レンダリングは既存のRemotion4.0.526、Chromium、ffmpegを利用。Excel台帳の更新はPython3とopenpyxl3.1.5が必要です（`python -m pip install -r tools/library/requirements.txt`）。バックアップと復元はPython標準ライブラリだけで動きます。
 
+本番制作では、既存の[制作引き渡し](WORK_HANDOFF.md)と[女性キャラ演出基準](PRESENTER_DIRECTION.md)を先に読みます。今回の360px全身表示はAPIの機能検証専用で、本番の推奨配置やG2/G3合格例ではありません。問い・反応・締めでは原本から表情の読める上半身を配置し、現象の核心は図解に譲ってください。
+
 ## 次回制作時
 
 ```bash

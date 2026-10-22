@@ -25,3 +25,5 @@ node tools/library/render-reuse.mjs episodes/LIBRARY_REUSE_TEST/manifest.json --
 ```
 
 `asset-lock.json`で依存ファイルを照合。export先は未作成の別ディレクトリを指定してください。Node>=22、Chromium `/usr/bin/chromium`、ffmpegが必要です。素材側は一切再生成しません。初回の`--qc-candidate`は未登録モデルの検証専用で、通常制作には使いません。
+
+この小型全身配置は読み込み・配置・ポーズ切替の機能検証専用です。本番標準にしません。新しい本編ではdocs/PRESENTER_DIRECTION.mdを読み、役割ごとの上半身クロップ・表情の読みやすさ・図解との干渉を別途QCしてください。

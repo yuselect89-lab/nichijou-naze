@@ -14,7 +14,7 @@ for directory in ['common_assets/nichijou_naze','tools/library','src/library-reu
  for p in (R/directory).rglob('*'):
   if p.is_file() and '__pycache__' not in p.parts and p.name not in ['backup-status.json','final-report.json','.register.lock']:files.add(str(p.relative_to(R)))
 for a in cat['assets']:files.update(a['files']);files.add(a['qc']['report'])
-files.update(['library-registry.json','tools/library.mjs','tools/ice-assets.mjs','docs/LIBRARY_OPERATIONS.md','docs/library-manifest.schema.json','AGENTS.md','package.json','package-lock.json','tsconfig.json','README.md'])
+files.update(['library-registry.json','tools/library.mjs','tools/ice-assets.mjs','docs/LIBRARY_OPERATIONS.md','docs/WORK_HANDOFF.md','docs/PRESENTER_DIRECTION.md','docs/library-manifest.schema.json','AGENTS.md','package.json','package-lock.json','tsconfig.json','README.md'])
 for p in (R/'tests').glob('library-*.test.mjs'):files.add(str(p.relative_to(R)))
 files=sorted(files);assert all((R/p).is_file() for p in files)
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
