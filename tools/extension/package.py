@@ -1,6 +1,7 @@
 """Create immutable download ZIPs; no former releases are modified."""
 from pathlib import Path
-import json,zipfile,hashlib
+import json,zipfile,hashlib,subprocess
+subprocess.run(['node','tools/verify-production.mjs'], check=True, cwd=Path(__file__).resolve().parents[2])
 R=Path(__file__).resolve().parents[2]
 qc=json.loads((R/'validation/extension/qc-report.json').read_text());assert qc['result']=='PASS'
 char=R/'common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions'
