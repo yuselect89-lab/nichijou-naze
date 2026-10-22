@@ -38,7 +38,7 @@ node tools/library.mjs check episodes/LIBRARY_REUSE_TEST/manifest.json
 
 `manifest.json`の `assets[]` で `asset_id` と `version` を必須にします。旧EP004の `cuts[].shared_assets[].id/version/pose` もそのまま解決できます。版が見つからなければエラーで、最新への置き換えは行いません。表情の存在しない版もエラーになります。
 
-`resolve`はentrypoint、選択表情、全依存ファイル、パラメータ、権利、QCを返します。`check`はファイルの現状を再照合します。台帳上に計画があるだけの素材や未検品候補は本番利用可能には含めません。
+`resolve`はentrypoint、選択表情、全依存ファイル、パラメータ、権利、QCを返します。`check`はファイルの現状を再照合します。台帳上に計画があるだけの素材や未検品候補は本番利用可能には含めません。実在する旧試作SVGも未検品候補として検索し、見つかった場合は新規生成せずQC・改修の判断へ回します。
 
 ## EP004の登録判定
 

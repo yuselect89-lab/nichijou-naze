@@ -6,7 +6,8 @@
     "ids": 20,
     "versioned_entries": 25,
     "common_domain_entries": 16,
-    "episode_entries": 9
+    "episode_entries": 9,
+    "uninspected_samples": 2
   },
   "features": [
     "Existing registry/manifests remain authoritative; derived searchable catalog",
@@ -19,8 +20,8 @@
     "Versioned ZIP backup with full SHA256 verification and tested restore"
   ],
   "tests": {
-    "existing_plus_new_unit_tests": 24,
-    "focused_guard_regression_tests": 7,
+    "existing_plus_new_unit_tests": 25,
+    "focused_guard_regression_tests": 8,
     "typescript": "PASS",
     "integration": [
       {
@@ -125,8 +126,8 @@
     "model_render_QC_checks": 15,
     "independent_export": {
       "result": "PASS",
-      "material_files_checked": 62,
-      "standalone_project": "/tmp/nnz-library-export-test",
+      "material_files_checked": 67,
+      "standalone_project": "/tmp/nnz-library-export-final",
       "source_EP_dependencies": 0,
       "asset_regenerations": 0,
       "video_frames": 60,
@@ -135,16 +136,18 @@
         1920
       ],
       "fps": 30,
-      "runtime_note": "Existing pinned node_modules reused through symlink; all material/code/public files physically copied. No link to EP004 or common asset directories."
+      "runtime_note": "Existing pinned node_modules reused through symlink; all material/code/public files physically copied. No link to EP004 or common asset directories.",
+      "presenter_direction": "Approved handoff and direction documents included. Small sprite is a technical fixture, not production layout acceptance."
     },
     "backup_restore": {
       "result": "PASS",
-      "index": "releases/NNZ_LIBRARY_OPERATIONS_V1_20261022_130753/backup-index.json",
-      "files_verified": 262,
+      "index": "releases/NNZ_LIBRARY_OPERATIONS_V1_20261022_131922/backup-index.json",
+      "files_verified": 288,
       "old_1_0_0_model": "PASS",
       "new_1_1_0_model": "PASS",
       "character_v03_happy": "PASS",
-      "restore_destination": "/tmp/nnz-library-restored-final"
+      "uninspected_samples_preserved": "PASS",
+      "restore_destination": "/tmp/nnz-library-restored-complete"
     },
     "source_extraction": [
       {
@@ -182,6 +185,7 @@
       "common_assets/nichijou_naze/management/asset_registry.csv",
       "common_assets/nichijou_naze/management/asset_registry.json",
       "common_assets/nichijou_naze/management/asset_registry.xlsx",
+      "docs/WORK_HANDOFF.md",
       "library-registry.json"
     ],
     "ledger_versions_appended": 4
@@ -190,7 +194,7 @@
   "registered_model_version": "1.1.0",
   "backup": {
     "local_status": "verified_archive_created",
-    "index": "releases/NNZ_LIBRARY_OPERATIONS_V1_20261022_130753/backup-index.json",
+    "index": "releases/NNZ_LIBRARY_OPERATIONS_V1_20261022_131922/backup-index.json",
     "drive": {
       "url": "https://drive.google.com/drive/folders/1YmGCqmzf_XndpvS62sMKFr4wdTrI-CK7",
       "status": "not_saved",
@@ -208,6 +212,16 @@
     "Operational self-QC does not replace independent scientific G3 review.",
     "Search operates on structured needs/short keywords; no background agent interprets arbitrary new requests automatically.",
     "PNG poses are static sprites; no lip-sync or independent limb rig.",
-    "NPM runtime was reused for the export test; all material/code/public dependencies were physically copied."
-  ]
+    "NPM runtime was reused for the export test; all material/code/public dependencies were physically copied.",
+    "Small full-body sprite in the reuse clip is a technical fixture, not a production presenter layout. Approved presenter direction must be separately applied and QCed."
+  ],
+  "upstream_integration": {
+    "preserved_commit": "61ba9c35785b1021412a5918b60d0884de885599",
+    "files": [
+      "AGENTS.md (instructions combined)",
+      "docs/WORK_HANDOFF.md",
+      "docs/PRESENTER_DIRECTION.md"
+    ],
+    "purpose": "Keep independently approved presenter direction while adding preflight requirements."
+  }
 }

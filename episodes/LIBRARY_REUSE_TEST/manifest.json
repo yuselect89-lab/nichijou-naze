@@ -1,17 +1,81 @@
 {
-  "project":"LIBRARY_REUSE_TEST",
-  "purpose":"別EPから既存素材のみを読み込む運用テスト（完成動画ではない）",
-  "width":1080,"height":1920,"fps":30,"durationFrames":60,
-  "assets":[
-    {"asset_id":"NNZ_MODEL_ICE_MICRO_01","version":"1.1.0","parameters":{"cut":5,"playbackRate":1.2}},
-    {"asset_id":"NNZ_CHAR_FEMALE_01","version":"v03_expressions","pose":"think"},
-    {"asset_id":"NNZ_CHAR_FEMALE_01","version":"v03_expressions","pose":"happy"},
-    {"asset_id":"NNZ_TMP_LABEL_01","version":"1.1.0"},
-    {"asset_id":"NNZ_MOTION_BASIC_01","version":"1.1.0"}
+  "project": "LIBRARY_REUSE_TEST",
+  "purpose": "別EPから既存素材のみを読み込む運用テスト（完成動画ではない）",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "durationFrames": 60,
+  "assets": [
+    {
+      "asset_id": "NNZ_MODEL_ICE_MICRO_01",
+      "version": "1.1.0",
+      "parameters": {
+        "cut": 5,
+        "playbackRate": 1.2
+      }
+    },
+    {
+      "asset_id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "pose": "think"
+    },
+    {
+      "asset_id": "NNZ_CHAR_FEMALE_01",
+      "version": "v03_expressions",
+      "pose": "happy"
+    },
+    {
+      "asset_id": "NNZ_TMP_LABEL_01",
+      "version": "1.1.0"
+    },
+    {
+      "asset_id": "NNZ_MOTION_BASIC_01",
+      "version": "1.1.0"
+    }
   ],
-  "view":{"scale":0.86,"x":12,"y":80},
-  "character":{"side":"right","top":1100,"height":360,"entry":"fade","enterFrame":0,"exitFrame":49,"idle":true,"nodAt":[25],"poses":[{"fromFrame":0,"pose":"think"},{"fromFrame":30,"pose":"happy"}]},
-  "project_files":["src/library-reuse/index.jsx","tools/library/render-reuse.mjs","tools/library/core.mjs","tools/library/adapters.mjs","tools/library.mjs","episodes/LIBRARY_REUSE_TEST/requirements.json","episodes/LIBRARY_REUSE_TEST/README.md"],
-  "playback":"npm ci; node tools/library/render-reuse.mjs episodes/LIBRARY_REUSE_TEST/manifest.json --locked. /usr/bin/chromium and ffmpeg required. No new images generated.",
-  "notes":["キャラと文字は別レイヤー。帯・字幕・音声なし。","初回候補QCは専用検証モード。通常の制作は必ずpreflightとバージョン照合を通す。"]
+  "view": {
+    "scale": 0.86,
+    "x": 12,
+    "y": 80
+  },
+  "character": {
+    "side": "right",
+    "top": 1100,
+    "height": 360,
+    "entry": "fade",
+    "enterFrame": 0,
+    "exitFrame": 49,
+    "idle": true,
+    "nodAt": [
+      25
+    ],
+    "poses": [
+      {
+        "fromFrame": 0,
+        "pose": "think"
+      },
+      {
+        "fromFrame": 30,
+        "pose": "happy"
+      }
+    ]
+  },
+  "project_files": [
+    "src/library-reuse/index.jsx",
+    "tools/library/render-reuse.mjs",
+    "tools/library/core.mjs",
+    "tools/library/adapters.mjs",
+    "tools/library.mjs",
+    "episodes/LIBRARY_REUSE_TEST/requirements.json",
+    "episodes/LIBRARY_REUSE_TEST/README.md",
+    "docs/WORK_HANDOFF.md",
+    "docs/PRESENTER_DIRECTION.md"
+  ],
+  "playback": "npm ci; node tools/library/render-reuse.mjs episodes/LIBRARY_REUSE_TEST/manifest.json --locked. /usr/bin/chromium and ffmpeg required. No new images generated.",
+  "notes": [
+    "キャラと文字は別レイヤー。帯・字幕・音声なし。",
+    "初回候補QCは専用検証モード。通常の制作は必ずpreflightとバージョン照合を通す。"
+  ],
+  "scene_role": "technical_reuse_validation",
+  "production_recommended_layout": false
 }

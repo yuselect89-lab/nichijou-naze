@@ -1,7 +1,7 @@
 {
   "result": "PASS",
-  "material_files_checked": 62,
-  "standalone_project": "/tmp/nnz-library-export-test",
+  "material_files_checked": 67,
+  "standalone_project": "/tmp/nnz-library-export-final",
   "source_EP_dependencies": 0,
   "asset_regenerations": 0,
   "video_frames": 60,
@@ -69,6 +69,10 @@
         "sha256": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339"
       },
       {
+        "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/manifest.json",
+        "sha256": "3d5210e00efd4460fe8c48c6a42ce56c213e31cce9dde1ad16b74306a06bce8d"
+      },
+      {
         "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
         "sha256": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d"
       },
@@ -87,6 +91,10 @@
       {
         "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/motions.json",
         "sha256": "641342bcd10b0bbd46cbead4baae9070bc3f9a7343e8937cc5260586842e50a4"
+      },
+      {
+        "path": "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+        "sha256": "9ca17a8dc0c879169192a79a23d18031e75dd2ce57d1c1bf365f5556ff2b9e57"
       },
       {
         "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/index.mjs",
@@ -137,12 +145,24 @@
         "sha256": "ef5728b15e4c2e1e6dbf199a16455507e9822715e06def287a7ae0158c7ff357"
       },
       {
+        "path": "common_assets/nichijou_naze/runtime/v1.1.0/manifest.json",
+        "sha256": "670fdc58f03ad1987aa7cd02f93663cdb571c7c902621f0415d4bc133bcecf61"
+      },
+      {
+        "path": "docs/PRESENTER_DIRECTION.md",
+        "sha256": "ed3bb8afcacefedec2d80c8d3abaa3af414a4f48364ec421deb85e2565b3d90b"
+      },
+      {
+        "path": "docs/WORK_HANDOFF.md",
+        "sha256": "90e011ac2e407d2901ab7afcc69f8da96bd81f114a339bcc08c767af594daad9"
+      },
+      {
         "path": "episodes/LIBRARY_REUSE_TEST/README.md",
-        "sha256": "6a77a14211eb805ebc8243e39a15084b9c94faeadd188fc089279bf591ebc56b"
+        "sha256": "94bbfb23f372567c80abf4cb42785386ca32c5b529c23b1301ea5c2265b15478"
       },
       {
         "path": "episodes/LIBRARY_REUSE_TEST/manifest.json",
-        "sha256": "fad0730be2856e75a92c15d896bfbdcbd9067ba811ce027c4c851d700aa96884"
+        "sha256": "d997dd711ef7c1e02ec7f2106fb7b7c48f3a13861473a688b497f8e0805743ed"
       },
       {
         "path": "episodes/LIBRARY_REUSE_TEST/requirements.json",
@@ -254,15 +274,15 @@
       },
       {
         "path": "tools/library.mjs",
-        "sha256": "30a3d0df72b4140ba11a153f583cf97f13c0a7c330c9639d37a8ed966d0c9ec3"
+        "sha256": "7c0eb13de04e23cfd4b90c498ce5e29b294a124cc6e2e47766396ff621a51ceb"
       },
       {
         "path": "tools/library/adapters.mjs",
-        "sha256": "b670eabe29b8959497735fe1f704867aa6a616b7777ca903fe62a6b1cc9b18d1"
+        "sha256": "c44b4b0e9499718bbfdc276e94420ddd05d5c63eb04910808bbcd865892ae406"
       },
       {
         "path": "tools/library/core.mjs",
-        "sha256": "1d47ea083f6cd6452516a00e6b17645a5c731c9759de9876342d20916016603c"
+        "sha256": "8f49730954159c00f6a36fac682ef6916de735320eb1cf91e898794f9a11b73a"
       },
       {
         "path": "tools/library/render-reuse.mjs",
@@ -298,5 +318,6 @@
       }
     ],
     "playback": "npm ci; node tools/library/render-reuse.mjs episodes/LIBRARY_REUSE_TEST/manifest.json --locked. /usr/bin/chromium and ffmpeg required. No new images generated."
-  }
+  },
+  "presenter_direction": "Approved handoff and direction documents included. Small sprite is a technical fixture, not production layout acceptance."
 }

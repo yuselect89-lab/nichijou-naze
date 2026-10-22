@@ -1,0 +1,1468 @@
+{
+  "schema_version": 1,
+  "backup_id": "20261022_131922",
+  "timezone": "Asia/Tokyo",
+  "scope": "common library, versioned registrations, dependency closure, tooling, reuse project and QC. Full EP movies are separately retained in original GitHub delivery.",
+  "git_base_commit": "3cd90eb4acbcc26e4a42641bd0a4a0007de08cca",
+  "working_tree_snapshot": true,
+  "parts": [
+    {
+      "file": "NNZ_LIBRARY_OPS_V1_part01.zip",
+      "bytes": 67094205,
+      "sha256": "01cbb9ac5143dd394fd28888d4999bc7d9e508aabbe7929289080d6bb7e19202"
+    },
+    {
+      "file": "NNZ_LIBRARY_OPS_V1_part02.zip",
+      "bytes": 46880235,
+      "sha256": "f40edc9b0f4ca403de53a821ea93c6ff386e3b7a75ec50ac36f63883803019dd"
+    }
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 3052,
+      "sha256": "03209c8f5e0b9956c5d690d233cc7c779e72a616df0780286735eacc16f641aa"
+    },
+    {
+      "path": "EP004_ICE_V3/cut01/main.png",
+      "bytes": 3006451,
+      "sha256": "11049423a3ed01143fac0e5fbc9020d0c45a6602c161b1abafe3fe727ddc0696"
+    },
+    {
+      "path": "EP004_ICE_V3/cut02/main.png",
+      "bytes": 2540001,
+      "sha256": "0304b77386c54f993d437127d208b293de376cba51248b0a67ed7fd8e70309f0"
+    },
+    {
+      "path": "EP004_ICE_V3/cut03/main.png",
+      "bytes": 3089153,
+      "sha256": "9addd22a3f0dbd6a83737af8e347c5dd25a8091805a1422529a6585690109acf"
+    },
+    {
+      "path": "EP004_ICE_V3/cut04/main.png",
+      "bytes": 309233,
+      "sha256": "324046532960055ff660939ba8768475db371fafbca68c442e2c8631904d643d"
+    },
+    {
+      "path": "EP004_ICE_V3/cut07/main.png",
+      "bytes": 289495,
+      "sha256": "9ffbff0577c2fc7ccbfbbf988e4e07b38cb1d75746f29ceb46943c4fde3d5b25"
+    },
+    {
+      "path": "EP004_ICE_V3/cut08/main.png",
+      "bytes": 407129,
+      "sha256": "3461d43ebf137a6b675937b79d3e7c1ad087e6f74127cda5794dbd6c8b462ba4"
+    },
+    {
+      "path": "EP004_ICE_V3/cut09/main.png",
+      "bytes": 428607,
+      "sha256": "e953786c82536644823c7e562a7e095ce4ba50ccaef0bf11bbb1a7830c4d0887"
+    },
+    {
+      "path": "EP004_ICE_V3/cut10/main.png",
+      "bytes": 2737650,
+      "sha256": "eae52f8c0a9c80411971de8d26d2499bb103d946ff140d8f4909b05a6db54760"
+    },
+    {
+      "path": "EP004_ICE_V3/licenses/THREE_LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "EP004_ICE_V3/licenses/full_v3_photos.json",
+      "bytes": 1529,
+      "sha256": "d4285c05f5fa34fe96206ca6dc0f3c9f2faad766cd5a70e6b6470c82d7d18d59"
+    },
+    {
+      "path": "EP004_ICE_V3/licenses/provenance.json",
+      "bytes": 2951,
+      "sha256": "c1396ed1ab699a0abd37f79715c8d259d851734b0740a72730a87ed85f714345"
+    },
+    {
+      "path": "EP004_ICE_V3/qc/full_v3/report.json",
+      "bytes": 16314,
+      "sha256": "04aef1113a92970df714b5f08bb27d9edf51caf03463536326ffcc533f7ab43f"
+    },
+    {
+      "path": "EP004_ICE_V3/source/full_v3/industrial.mjs",
+      "bytes": 13467,
+      "sha256": "bb479c27adb0fb210a62832e00d49d808b46dce2a8fb135d20f96f8e8a7b8842"
+    },
+    {
+      "path": "EP004_ICE_V3/source/full_v3/science3d.mjs",
+      "bytes": 8558,
+      "sha256": "92425d46e4b3b1b0dd0e1deef2dd33b89b05404d40e0854471b810ea242d27c8"
+    },
+    {
+      "path": "EP004_ICE_V3/source/full_v3/states.mjs",
+      "bytes": 736,
+      "sha256": "b56c863060dc7ff9bcdd097d9f30b6ddbe8d6e216d28a53b695527b1b6a79b2c"
+    },
+    {
+      "path": "EP004_ICE_V3/source/physics.mjs",
+      "bytes": 847,
+      "sha256": "52b5806db2c0a66337286904496eca0c56a596b744460c502d5ea24fd73143ea"
+    },
+    {
+      "path": "EP004_ICE_V3/source/scene3d.mjs",
+      "bytes": 12287,
+      "sha256": "f1e4ec9b2e269879e3e87f4907483e8b07130b9107a77790cb56c1857acdea17"
+    },
+    {
+      "path": "EP004_ICE_V3/source/vendor/three/three.core.js",
+      "bytes": 1403454,
+      "sha256": "94337bbcde63e61eb954f00d2ad72d122d1cc3dc3e0de68e57277eca3d30af47"
+    },
+    {
+      "path": "EP004_ICE_V3/source/vendor/three/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11159,
+      "sha256": "5197c54c4899352b30cc5fa124a3642c6b83667cc8b5ad727d41e686a91db0e2"
+    },
+    {
+      "path": "common_assets/nichijou_naze/animation/basic_01/1.1.0/manifest.json",
+      "bytes": 855,
+      "sha256": "bee379fa1005bc472016c8077647db926fd13e01299e31ae9509afe8b4bd97d3"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/README.md",
+      "bytes": 4441,
+      "sha256": "22c451d2d1bb04a221eb1e4a665c87c69fcbc1187d47336a1fa9292c76eb98ed"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/manifest.json",
+      "bytes": 6029,
+      "sha256": "da78e8ece24fbea4b9fe5d493fb05e568bdec9e1902c3ff996c789c2d487f319"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+      "bytes": 1840822,
+      "sha256": "564048ae1008365874853a2648b27217058592df6d693fea9e4e575036960d74"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+      "bytes": 1973029,
+      "sha256": "1534b205eca595a4b82dd95a93df7f9d6d5f0edb1f93dd03bd58f68197b568fe"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+      "bytes": 1940161,
+      "sha256": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+      "bytes": 1852495,
+      "sha256": "e64a83818064b80757f9f402e8d65954062b74a264bb8eff63d69be094d5149c"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+      "bytes": 1782818,
+      "sha256": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/preview_v02_highres.jpg",
+      "bytes": 175188,
+      "sha256": "e1101c2470b5340977890a0ed473e317a48e518ecf2927c28e619768755274a2"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/sources/v02_highres/neutral_generated.png",
+      "bytes": 1685915,
+      "sha256": "7cf81875aff64bab6b1fd415ee87db5d0585057c232bb2b1866a8756e546a3a4"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/sources/v02_highres/point_left_generated.png",
+      "bytes": 1763940,
+      "sha256": "00dcdb3eb9ba65577ce23ed0d542dafe96e31d8916f152736496dcc7c6c92e17"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/sources/v02_highres/point_right_generated.png",
+      "bytes": 1779029,
+      "sha256": "51589e59da8119da8f684f0185c097142c9e19f2540fc1da79fee874f64e16b4"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/sources/v02_highres/talk_generated.png",
+      "bytes": 1715537,
+      "sha256": "8b9104f341a14df043c0b8976ed097f0d74810f395cf28f86daa3e189c546b22"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/sources/v02_highres/think_generated.png",
+      "bytes": 1353740,
+      "sha256": "c868fce88d1575e48e9c15fa539ffa907d7ca0903538ec1d6e432a6f7a57feb1"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/thumbs/neutral_thumb.png",
+      "bytes": 84317,
+      "sha256": "e140fa37fbe60d2e22b340d1643ac2eeb843d14029979a51cdf829d4e55b1e95"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/thumbs/point_left_thumb.png",
+      "bytes": 90237,
+      "sha256": "c183675337c4cffb290b8d33886672861b688dffc620b8719317ff1badcdf32a"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/thumbs/point_right_thumb.png",
+      "bytes": 88417,
+      "sha256": "5986cfe8dcdf6dcf63eaee69f12f21f3ca49bdfe02b9795358b531e9c7fda009"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/thumbs/talk_thumb.png",
+      "bytes": 87201,
+      "sha256": "275387de984011a543ea30d3ebdc47854e5e86dc9c52faa097f3d42c147b34f2"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/thumbs/think_thumb.png",
+      "bytes": 74588,
+      "sha256": "111df7dd415581293c08029a076e0120522640d77f5752c635e46ed419655f09"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v02_highres/manifest.json",
+      "bytes": 6029,
+      "sha256": "da78e8ece24fbea4b9fe5d493fb05e568bdec9e1902c3ff996c789c2d487f319"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/README.md",
+      "bytes": 559,
+      "sha256": "6cb425a05b62b48d6dd6d0c9e4d39442fc4b612904d37c5f00ebef6b693789c6"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/manifest.json",
+      "bytes": 3649,
+      "sha256": "3d5210e00efd4460fe8c48c6a42ce56c213e31cce9dde1ad16b74306a06bce8d"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+      "bytes": 1814596,
+      "sha256": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+      "bytes": 1879588,
+      "sha256": "9f3bb5dae9e1fcd205d5da96a65d5c45b6696a4d19318015aa8097abc7edd4bf"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png",
+      "bytes": 1816213,
+      "sha256": "aac0f521e1ed852574182f6f88df32460a1943ba68bc69c5ef2c225275836e08"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/sources/happy_generated.png",
+      "bytes": 1677359,
+      "sha256": "cb2cb838d4b41977d6207d8ff9f8a5f7d1bbfbb4f6176a31075b2367f8a2ba1a"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/sources/surprise_generated.png",
+      "bytes": 1704099,
+      "sha256": "f2a02f59f61630b8ca6f2b41e1cc9ead9e7177e0625bfb96f76891371f61647e"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/sources/troubled_generated.png",
+      "bytes": 1674152,
+      "sha256": "711d44579547b0045d743563472c3c149afd65fb8dfdee2ad29c410eb0b71330"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/thumbs/happy_thumb.png",
+      "bytes": 86121,
+      "sha256": "55f4e9444a8291ecfff1a796ccb3499893fe9cf59857268fccd76f7a89749a4e"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/thumbs/surprise_thumb.png",
+      "bytes": 84787,
+      "sha256": "f54e2a74cce9bf2d55d62da0ae3f616a73d2851f281b27f923e158c62da1017c"
+    },
+    {
+      "path": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/thumbs/troubled_thumb.png",
+      "bytes": 86188,
+      "sha256": "6f2cfecf72fabf8fa2fa659c8ee4ba922de0f0e64d45561fe491f6b1739f34e7"
+    },
+    {
+      "path": "common_assets/nichijou_naze/diagram_templates/crosssection_01/1.1.0/manifest.json",
+      "bytes": 858,
+      "sha256": "68d769718f0dd0e2e01bb588520b1e4fd6ce4f449cfd92e5941b35bdb395acdf"
+    },
+    {
+      "path": "common_assets/nichijou_naze/diagram_templates/label_01/1.1.0/manifest.json",
+      "bytes": 806,
+      "sha256": "6b293db31f3aa342bc572cffe1e77152d852fd8d2d578a6d32d3288b9181aafe"
+    },
+    {
+      "path": "common_assets/nichijou_naze/diagram_templates/step3_01/1.1.0/manifest.json",
+      "bytes": 779,
+      "sha256": "43cae28e52db1f7f7f849dd9985ede49c009d97fed9fc2a675ba387441eb5a11"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/crosssection-carton.json",
+      "bytes": 1323,
+      "sha256": "b11695dd0e16f768f04016583827b34de3e50d4539f09d62c2cd36eddd51ac53"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/diagram-character.json",
+      "bytes": 1447,
+      "sha256": "155ca6312ad5ad721fe2da3929b61a7ec442bd3027b61f854f1624bc6e34c419"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/expression-happy.json",
+      "bytes": 457,
+      "sha256": "53a9805f2d602552ff53e8f4b4e4b994222d3c17de7c76bc8ca6d72a11b670bb"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/expression-surprise.json",
+      "bytes": 463,
+      "sha256": "8d1b4dcaa1352d6ac188d3a8e2a154ac53dac6d552b8c14aef427c6c637d4e23"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/expression-troubled.json",
+      "bytes": 463,
+      "sha256": "0749096edc950906bea7cf2d54048126b2491d7b0f75603663b2d3b401e85a73"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/focus-crosssection-return.json",
+      "bytes": 1498,
+      "sha256": "dc46eab67dfe1feb983b661822fdcf0a7c8658df518dd3fca7e5999206fe6b59"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/footage-character.json",
+      "bytes": 983,
+      "sha256": "c86e82940c6675353a283c72c7bdf84a049830148fb2aa07c4292bc857c0ba7c"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/label-parameters.json",
+      "bytes": 786,
+      "sha256": "f5c8af8bb28f46b0dfc37adacdc6c552c535f49f5a7b2344ad7780314c58d672"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/legacy-arrow.json",
+      "bytes": 667,
+      "sha256": "8ccc6168a48fe3d0ef2f56fc64db83d085d9539aa0b16c460898af414a716262"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/legacy-compare.json",
+      "bytes": 766,
+      "sha256": "4b0fc02d98e1b09ccc2499b239b1f0c71a51139e9507b2b45e95d36496884e89"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/legacy-zoom.json",
+      "bytes": 622,
+      "sha256": "1ec91172285051f3ee7b867b09d9411d6a176810c8bf8d89471501ac2f82e2b9"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/motions.json",
+      "bytes": 779,
+      "sha256": "641342bcd10b0bbd46cbead4baae9070bc3f9a7343e8937cc5260586842e50a4"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/playlist.json",
+      "bytes": 283,
+      "sha256": "3fcafeafe224272490c4958792c510cdb886fc01d7c0a851292b62cb3941b470"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/step3-cause.json",
+      "bytes": 526,
+      "sha256": "bb880e186731513118573ca3f1fd77926848f2b9360a2990f1cf16cc476e525e"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/examples/video-background.json",
+      "bytes": 464,
+      "sha256": "9ce952145a8ad96f42fb7163df3dd9d2cf30f3cde851a591cbb055df698dd1b2"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/manifest.json",
+      "bytes": 2939,
+      "sha256": "795f53d20c41b8fce13042d2866f9ea86a7db605f9d2ecd697917c11fd93a813"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-inner.svg",
+      "bytes": 660,
+      "sha256": "8f2a689aea3f028bfa4b11f21af68f7634a1dca65d889943bfbc4a5d62168601"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-outside.svg",
+      "bytes": 749,
+      "sha256": "a9aca4427d3533ab9d433ff1064e2d6d9f8e0f0b19f3876be2722e60937b481f"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-shell.svg",
+      "bytes": 762,
+      "sha256": "2815b4e8c4c1b4a3868c42510a13f93c905e13541e0b1284dd9e178eaa55cb70"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+      "bytes": 607,
+      "sha256": "b7506e9e51754eb83512132c7b9ed125b0df1c7b25747127768b9a34c94517b7"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+      "bytes": 7187,
+      "sha256": "887d5b40a6966753edd47e43512dc3eabca3ef59d9339076440b795a217442a7"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-liquid.svg",
+      "bytes": 695,
+      "sha256": "8607e8349e2744b2d09295e329dec4bb0e6801d0aa2ede7bb6a366cf76015433"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+      "bytes": 1017,
+      "sha256": "b6e5d26378b94f2547dcec9e4987992054c1043ad09927923a0cd407553ee149"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+      "bytes": 899,
+      "sha256": "5cb4d414747bb5b73dd634eadd230db27723745eea809b2081f5249cad5c64c2"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+      "bytes": 2275,
+      "sha256": "368700f736119fe1a3cb0a80d3dd5e824ec1d21cb46f8edc44ec1b109f80c172"
+    },
+    {
+      "path": "common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-pan-dummy.mp4",
+      "bytes": 202160,
+      "sha256": "4793351f1152162dfae16dc9cec6dc9f4cf9226c841ae8c479a5265724e11e0c"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/CATALOG.md",
+      "bytes": 4088,
+      "sha256": "7a5b843f47ec959f1cd226a64353cb0c130a59bddd31d4125255b43213bc31b6"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/asset_registry.csv",
+      "bytes": 10224,
+      "sha256": "dc9efd8a8e9867f92496b1ff65de5634c3c5798e4402b7104b075ddcf8ff1c40"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/asset_registry.json",
+      "bytes": 17501,
+      "sha256": "508bcd151e987c4dbb81cab9b2914ed80427746afdc7aeeb4478fc07b27072f5"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/asset_registry.xlsx",
+      "bytes": 9133,
+      "sha256": "b39bd61b672cc044f038af6ccf1208b0309443d2088e23409304c84edd2258ba"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/catalog.html",
+      "bytes": 140494,
+      "sha256": "06e9257874bc8215676b13209a6d782f3e88ade97ac602130215c037446d2e07"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/catalog.v1.json",
+      "bytes": 160306,
+      "sha256": "7668a92d4236caa47c31c4d8bfae623ea7196902021730e649cfaa429354b875"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/candidates/NNZ_MODEL_FREEZING_CELL_01/1.1.0.json",
+      "bytes": 2080,
+      "sha256": "c594b4db910c428b255011ba1330c298910f7b6cca6638679cc8f8e43c217819"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/candidates/NNZ_MODEL_ICECAN_AIR_01/1.1.0.json",
+      "bytes": 2055,
+      "sha256": "b4a4a4b74cced851985fa71fe68161171a9dd2d33d0cf910adebe86568a98df4"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/candidates/NNZ_MODEL_ICECAN_DRAIN_01/1.1.0.json",
+      "bytes": 2072,
+      "sha256": "7675be54018e3cda504dfa5b85b9dcdd1663779615f79d4d953329a5466ea90c"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/candidates/NNZ_MODEL_ICE_MICRO_01/1.1.0.json",
+      "bytes": 2167,
+      "sha256": "3164b6e72a433763fa16c8b3e6d1959710982ecf69c5382202d4fc43dcd8a06f"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/legacy-integrity.json",
+      "bytes": 70180,
+      "sha256": "0d073e2eac7c67bad67a9438a6edbba273a0c6363ff10e59eaa9dcdc00ac6ff4"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/legacy-registry.json",
+      "bytes": 14642,
+      "sha256": "9ca17a8dc0c879169192a79a23d18031e75dd2ce57d1c1bf365f5556ff2b9e57"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_FREEZING_CELL_01/1.1.0.json",
+      "bytes": 4486,
+      "sha256": "1a716c2cc29d2029226d4d5eec8e5757d4856ee12247cc157f9d9c1a2c612091"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICECAN_AIR_01/1.1.0.json",
+      "bytes": 4455,
+      "sha256": "6ba5463406baba12fe8c5ea7cb2eca21aa0a16d718686de84f9737ae68f2fbc2"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICECAN_DRAIN_01/1.1.0.json",
+      "bytes": 4476,
+      "sha256": "c99ebeabf817ab90cfd1649b0504ab62bc027785b2916686d98cd0e5fb24b3fb"
+    },
+    {
+      "path": "common_assets/nichijou_naze/management/operations/v1/registrations/NNZ_MODEL_ICE_MICRO_01/1.1.0.json",
+      "bytes": 4565,
+      "sha256": "7c0d677f1a73296dd104e3d30436ba2020a1d117dd109e8f98870777c07e0c1d"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/README.md",
+      "bytes": 1188,
+      "sha256": "d29c17befbc57484a31abd4d2a1e48fbb60e7ff4dcabf728214b354e93171168"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/index.mjs",
+      "bytes": 1406,
+      "sha256": "1b370fef13cfeb58d438aad3b50a73f862a6121332c2117a516ccb8fdaf821c0"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/manifest.json",
+      "bytes": 9426,
+      "sha256": "fb8f1346b576924ef97c1b878f03c6368f4e7cfbbbcb663314bdbb3548380fcc"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/drain3d.mjs",
+      "bytes": 12288,
+      "sha256": "c3b1b71f5f67d8c9bd35dda66e711d0095d429f852f153f8f6849591bd2c0c4d"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/industrial.mjs",
+      "bytes": 13466,
+      "sha256": "2bbf5966cb1180e0018860a19b4dcb5216fb4d6a116359d01c8817f50838bb95"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/physics.mjs",
+      "bytes": 847,
+      "sha256": "52b5806db2c0a66337286904496eca0c56a596b744460c502d5ea24fd73143ea"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/science3d.mjs",
+      "bytes": 8558,
+      "sha256": "92425d46e4b3b1b0dd0e1deef2dd33b89b05404d40e0854471b810ea242d27c8"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/source/states.mjs",
+      "bytes": 735,
+      "sha256": "711f5f231b864c5d78cfa01573e58446af85d4bd0ce63ce46b4a8325363f0e0f"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/three.core.js",
+      "bytes": 1403454,
+      "sha256": "94337bbcde63e61eb954f00d2ad72d122d1cc3dc3e0de68e57277eca3d30af47"
+    },
+    {
+      "path": "common_assets/nichijou_naze/models/ice_science/1.1.0/vendor/three/three.module.js",
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "common_assets/nichijou_naze/props/ice_v3/v1.0.0/README.md",
+      "bytes": 1144,
+      "sha256": "40d8339b180eec8ddc8b8c30ebbb2e053a20357a11d4ea2800b8b138b3a8e99a"
+    },
+    {
+      "path": "common_assets/nichijou_naze/props/ice_v3/v1.0.0/manifest.json",
+      "bytes": 8120,
+      "sha256": "6a4b54e4301fa45b4fed96dde7a3f967f22269f12e337c64f88935efeb8c4744"
+    },
+    {
+      "path": "common_assets/nichijou_naze/runtime/v1.1.0/Chrome.tsx",
+      "bytes": 597,
+      "sha256": "3ba51d73190461928301cc90f4c96cc47c497177c48ea7ba1489745ffd384bd9"
+    },
+    {
+      "path": "common_assets/nichijou_naze/runtime/v1.1.0/README.md",
+      "bytes": 10655,
+      "sha256": "29d7096479ed6dcdcede95bd064f6455b98e3278f7cf0735f3169a2071d8f253"
+    },
+    {
+      "path": "common_assets/nichijou_naze/runtime/v1.1.0/components.tsx",
+      "bytes": 8895,
+      "sha256": "9181344142cb9e6d6ad0394ec3545e92288669884b33e432737ac38bd7fad436"
+    },
+    {
+      "path": "common_assets/nichijou_naze/runtime/v1.1.0/config.ts",
+      "bytes": 9477,
+      "sha256": "ef5728b15e4c2e1e6dbf199a16455507e9822715e06def287a7ae0158c7ff357"
+    },
+    {
+      "path": "common_assets/nichijou_naze/runtime/v1.1.0/manifest.json",
+      "bytes": 7400,
+      "sha256": "670fdc58f03ad1987aa7cd02f93663cdb571c7c902621f0415d4bc133bcecf61"
+    },
+    {
+      "path": "common_assets/nichijou_naze/runtime/v1.1.0/preview.html",
+      "bytes": 1721,
+      "sha256": "d312d8b0aeebcaf4338590ced244132e69df15cb58fa059ad82033dc2cb6dd5f"
+    },
+    {
+      "path": "common_assets/nichijou_naze/runtime/v1.1.0/schema.json",
+      "bytes": 9782,
+      "sha256": "957a85c9bc2d8b8af5f7ea36ca8c38b3406ecee668b5a88cc4924cb3bfd6ba34"
+    },
+    {
+      "path": "docs/LIBRARY_OPERATIONS.md",
+      "bytes": 8389,
+      "sha256": "f0a4cdf085f2194b57f738070eca80fc293bbdf981194dac273ad5bd62b89f77"
+    },
+    {
+      "path": "docs/PRESENTER_DIRECTION.md",
+      "bytes": 3485,
+      "sha256": "ed3bb8afcacefedec2d80c8d3abaa3af414a4f48364ec421deb85e2565b3d90b"
+    },
+    {
+      "path": "docs/WORK_HANDOFF.md",
+      "bytes": 4089,
+      "sha256": "90e011ac2e407d2901ab7afcc69f8da96bd81f114a339bcc08c767af594daad9"
+    },
+    {
+      "path": "docs/library-manifest.schema.json",
+      "bytes": 842,
+      "sha256": "c7e8bc40068de752f97203e1ebfc5e7905be47f5199dc28f66b9614862bba0bb"
+    },
+    {
+      "path": "episodes/LIBRARY_REUSE_TEST/README.md",
+      "bytes": 1921,
+      "sha256": "94bbfb23f372567c80abf4cb42785386ca32c5b529c23b1301ea5c2265b15478"
+    },
+    {
+      "path": "episodes/LIBRARY_REUSE_TEST/manifest.json",
+      "bytes": 1998,
+      "sha256": "d997dd711ef7c1e02ec7f2106fb7b7c48f3a13861473a688b497f8e0805743ed"
+    },
+    {
+      "path": "episodes/LIBRARY_REUSE_TEST/requirements.json",
+      "bytes": 411,
+      "sha256": "a93ffe0b2e8a1f47785a546c602ef752eaf26772bddbe2dfaf263d1243a18ec8"
+    },
+    {
+      "path": "library-registry.json",
+      "bytes": 15511,
+      "sha256": "4d3624297b52f7222897489db9074b86e8e01a53d8deca16cf523d229dee7915"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 144473,
+      "sha256": "81f8f2d46cf35b4af8398e641e09b12caf6b4503923c28a47edca84da431dd83"
+    },
+    {
+      "path": "package.json",
+      "bytes": 380,
+      "sha256": "92a43d4b126e9db272d64f6dd96d9892f8f196d35f1155703d4bc33c503b9d4d"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/manifest.json",
+      "bytes": 6029,
+      "sha256": "da78e8ece24fbea4b9fe5d493fb05e568bdec9e1902c3ff996c789c2d487f319"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_neutral.png",
+      "bytes": 1840822,
+      "sha256": "564048ae1008365874853a2648b27217058592df6d693fea9e4e575036960d74"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+      "bytes": 1973029,
+      "sha256": "1534b205eca595a4b82dd95a93df7f9d6d5f0edb1f93dd03bd58f68197b568fe"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_right.png",
+      "bytes": 1940161,
+      "sha256": "d7901089c395886090e69fd6cff44c8d95d162f5fe36e19675601ffa4765d18b"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_talk.png",
+      "bytes": 1852495,
+      "sha256": "e64a83818064b80757f9f402e8d65954062b74a264bb8eff63d69be094d5149c"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+      "bytes": 1782818,
+      "sha256": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/happy.png",
+      "bytes": 63817,
+      "sha256": "5dc769a57be59c3feb254c23ea805e70f8c0f8d21f800c1f18b3f7b19146beef"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/neutral.png",
+      "bytes": 64618,
+      "sha256": "7ad4ff7aeeab8aa9d3c84828c50bc32a0a41e8c82020f0611c1435859a8185d7"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/point_left.png",
+      "bytes": 65234,
+      "sha256": "a4df8b9fe412f27f107da1c4d81bd2f5787e6166734e8b8275f619d819ea1bf4"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/point_right.png",
+      "bytes": 71609,
+      "sha256": "4472ed8717b9d833b38adbae81304f2d5c66ec4dd107a544c0ba176396a6e48d"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/surprise.png",
+      "bytes": 63693,
+      "sha256": "3118c99f2b620038b9afdeaa70e51b1850184943c1a4359bc04cb397aafde7fa"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/talk.png",
+      "bytes": 70934,
+      "sha256": "6c3394be104c8d75aa533faa4ba07e1fcf2321418cc3be258bdb83f4871d0235"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/think.png",
+      "bytes": 52396,
+      "sha256": "1152204114caacae2c7705d189c3b3191a49a9c984acb9bc536887bb547f882e"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/poses/troubled.png",
+      "bytes": 66697,
+      "sha256": "3bddee6e4a071309a4b2658218bf3f22e6c59664257565b6ebd1a6add5befed8"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/thumbs/neutral_thumb.png",
+      "bytes": 84317,
+      "sha256": "e140fa37fbe60d2e22b340d1643ac2eeb843d14029979a51cdf829d4e55b1e95"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/thumbs/point_left_thumb.png",
+      "bytes": 90237,
+      "sha256": "c183675337c4cffb290b8d33886672861b688dffc620b8719317ff1badcdf32a"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/thumbs/point_right_thumb.png",
+      "bytes": 88417,
+      "sha256": "5986cfe8dcdf6dcf63eaee69f12f21f3ca49bdfe02b9795358b531e9c7fda009"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/thumbs/talk_thumb.png",
+      "bytes": 87201,
+      "sha256": "275387de984011a543ea30d3ebdc47854e5e86dc9c52faa097f3d42c147b34f2"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/thumbs/think_thumb.png",
+      "bytes": 74588,
+      "sha256": "111df7dd415581293c08029a076e0120522640d77f5752c635e46ed419655f09"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/versions/v02_highres/manifest.json",
+      "bytes": 6029,
+      "sha256": "da78e8ece24fbea4b9fe5d493fb05e568bdec9e1902c3ff996c789c2d487f319"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/manifest.json",
+      "bytes": 3649,
+      "sha256": "3d5210e00efd4460fe8c48c6a42ce56c213e31cce9dde1ad16b74306a06bce8d"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+      "bytes": 1814596,
+      "sha256": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+      "bytes": 1879588,
+      "sha256": "9f3bb5dae9e1fcd205d5da96a65d5c45b6696a4d19318015aa8097abc7edd4bf"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_troubled.png",
+      "bytes": 1816213,
+      "sha256": "aac0f521e1ed852574182f6f88df32460a1943ba68bc69c5ef2c225275836e08"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/thumbs/happy_thumb.png",
+      "bytes": 86121,
+      "sha256": "55f4e9444a8291ecfff1a796ccb3499893fe9cf59857268fccd76f7a89749a4e"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/thumbs/surprise_thumb.png",
+      "bytes": 84787,
+      "sha256": "f54e2a74cce9bf2d55d62da0ae3f616a73d2851f281b27f923e158c62da1017c"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/thumbs/troubled_thumb.png",
+      "bytes": 86188,
+      "sha256": "6f2cfecf72fabf8fa2fa659c8ee4ba922de0f0e64d45561fe491f6b1739f34e7"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-inner.svg",
+      "bytes": 660,
+      "sha256": "8f2a689aea3f028bfa4b11f21af68f7634a1dca65d889943bfbc4a5d62168601"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-outside.svg",
+      "bytes": 749,
+      "sha256": "a9aca4427d3533ab9d433ff1064e2d6d9f8e0f0b19f3876be2722e60937b481f"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/carton-shell.svg",
+      "bytes": 762,
+      "sha256": "2815b4e8c4c1b4a3868c42510a13f93c905e13541e0b1284dd9e178eaa55cb70"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/diagram-canvas.svg",
+      "bytes": 607,
+      "sha256": "b7506e9e51754eb83512132c7b9ed125b0df1c7b25747127768b9a34c94517b7"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-bubbles.svg",
+      "bytes": 7187,
+      "sha256": "887d5b40a6966753edd47e43512dc3eabca3ef59d9339076440b795a217442a7"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-liquid.svg",
+      "bytes": 695,
+      "sha256": "8607e8349e2744b2d09295e329dec4bb0e6801d0aa2ede7bb6a366cf76015433"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-outside.svg",
+      "bytes": 1017,
+      "sha256": "b6e5d26378b94f2547dcec9e4987992054c1043ad09927923a0cd407553ee149"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/ice-shell.svg",
+      "bytes": 899,
+      "sha256": "5cb4d414747bb5b73dd634eadd230db27723745eea809b2081f5249cad5c64c2"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-ice-dummy.svg",
+      "bytes": 2275,
+      "sha256": "368700f736119fe1a3cb0a80d3dd5e824ec1d21cb46f8edc44ec1b109f80c172"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/layouts/v1.1.0/test_media/kitchen-pan-dummy.mp4",
+      "bytes": 202160,
+      "sha256": "4793351f1152162dfae16dc9cec6dc9f4cf9226c841ae8c479a5265724e11e0c"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+      "bytes": 691,
+      "sha256": "8b9053f654481240f12736f85c8fdb786f017d8ca00f4b95b7e452d9a74ee121"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/props/milk_carton/carton_plain.svg",
+      "bytes": 531,
+      "sha256": "990ca4e7170343dcbc167993857b10362abb904d02e7f844d5ace0b0e249beb1"
+    },
+    {
+      "path": "public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+      "bytes": 934,
+      "sha256": "5fda50d0b19bf1776dfa3e8ccb05664bed0fd8e12bf53c29e0a75179653c2de6"
+    },
+    {
+      "path": "public/ep004-v3/cut01/background.png",
+      "bytes": 4048210,
+      "sha256": "8d08c148f75ecb8649fd66c06de619e4b84f3ba63d2473db4fd8633fa860545f"
+    },
+    {
+      "path": "public/ep004-v3/full/boil.png",
+      "bytes": 4089252,
+      "sha256": "854c804c544d5d1eb64b49b6dad94e47042198d930f888b1bd93db90bd358778"
+    },
+    {
+      "path": "public/ep004-v3/full/compare.png",
+      "bytes": 4076240,
+      "sha256": "162e1fdf539fe4b7e9d9980edae47bdaa6aa72f17006906061e3b960f2a18968"
+    },
+    {
+      "path": "public/ep004-v3/full/cool.png",
+      "bytes": 4030453,
+      "sha256": "da5d2b44b4a50b2237eabef4b4da8aa6dd8a48fd8c44977602a7aa8cdf9904c7"
+    },
+    {
+      "path": "public/ep004-v3/full/factory.png",
+      "bytes": 4289130,
+      "sha256": "5bcfd1e20832ae0239caff4748413956e2637ecb9dd37f354414defa98c8bdb4"
+    },
+    {
+      "path": "public/ep004-v3/full/moderate.png",
+      "bytes": 4170170,
+      "sha256": "b31c6f6fb3f7b26e78bc1c9268a7e75cfee5ea08962c1ffc311f30cab0b0174c"
+    },
+    {
+      "path": "public/ep004-v3/full/pour.png",
+      "bytes": 3794298,
+      "sha256": "a550611eb868aa684b8fc1da0a66b9327a024ba09b0b7170acc67b425a8358b1"
+    },
+    {
+      "path": "public/series/v1/FONT_LICENSE.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "public/series/v1/NotoSansCJKjp-Bold.otf",
+      "bytes": 17032596,
+      "sha256": "6f920a5f3ca305c231f06bdc433e7e2b8da8ffe0a3444fd3a63587f2cf4cfa56"
+    },
+    {
+      "path": "public/series/v1/opening_banner.png",
+      "bytes": 63236,
+      "sha256": "cc648108d24b3f745f07b63960c9799f76046815dacd9eda2c1813ef81aecc1e"
+    },
+    {
+      "path": "src/integration/captions.ts",
+      "bytes": 679,
+      "sha256": "19f4146c1ca11997fc66aa67b3252d629786d35a4015bde985dc897039bf6cf8"
+    },
+    {
+      "path": "src/integration/character.ts",
+      "bytes": 575,
+      "sha256": "8a477064ae8073a3b53fe5e0a5b32e8ecd4c9089f549550029e30604aac3a0dd"
+    },
+    {
+      "path": "src/integration/v1.0.1/Series.tsx",
+      "bytes": 2665,
+      "sha256": "a95ae4c401d14dbb60583fcb480ed587a40d20db98832de47d6089f5d9940b48"
+    },
+    {
+      "path": "src/integration/v1.0.1/Templates.tsx",
+      "bytes": 6044,
+      "sha256": "c9128100eb36edee9ec2ab9fa46c772e76b700ecf09250c561d5b0499ba945be"
+    },
+    {
+      "path": "src/library-reuse/index.jsx",
+      "bytes": 1944,
+      "sha256": "4392cb3409b56800107f37547107ad67de62928a0d1b092a754f5d293f19a8a4"
+    },
+    {
+      "path": "tests/library-operations.test.mjs",
+      "bytes": 4416,
+      "sha256": "1891ee6e35ea4c53a5e605e9ec5e96a80923c7439a7b0f7b84f2d01fcf6fa632"
+    },
+    {
+      "path": "tests/library-registration.test.mjs",
+      "bytes": 1541,
+      "sha256": "12909b43106f8d0e211e22210d82604e0ae98ea8b01657e16b63cbc973e3e312"
+    },
+    {
+      "path": "tools/ice-assets.mjs",
+      "bytes": 518,
+      "sha256": "c1010e2cffc896829ea7815d2489333e62473ba44f02601c2c3e4dc2b394bfe2"
+    },
+    {
+      "path": "tools/library.mjs",
+      "bytes": 5325,
+      "sha256": "7c0eb13de04e23cfd4b90c498ce5e29b294a124cc6e2e47766396ff621a51ceb"
+    },
+    {
+      "path": "tools/library/adapters.mjs",
+      "bytes": 8166,
+      "sha256": "12ccc1c65eb17a94a94be56023717cbad8f2aa3d12d778b4a2d27797c1c47a5c"
+    },
+    {
+      "path": "tools/library/attest.mjs",
+      "bytes": 2194,
+      "sha256": "8bf36a6b63bdd666730c9b3eb4af37aa63b6922ca738e62171f178ed5c8c2fd6"
+    },
+    {
+      "path": "tools/library/backup.py",
+      "bytes": 4192,
+      "sha256": "1fa42097c8f185632663842ce0fa3ea22300965addc4d0cf682f47798cba91ec"
+    },
+    {
+      "path": "tools/library/catalog-page.py",
+      "bytes": 4537,
+      "sha256": "a00ab8de16353a809364a4efde11fd1bd872eca6f6b7a9dd1c417c0a372b843d"
+    },
+    {
+      "path": "tools/library/core.mjs",
+      "bytes": 8335,
+      "sha256": "8216f165d7d08519c7b06491b0e1affdd63987130ce1c3194dd4e654aca736f3"
+    },
+    {
+      "path": "tools/library/render-reuse.mjs",
+      "bytes": 3309,
+      "sha256": "d70c8b7f125dea9c63e948e343071f8bf66519762608150b274de82561308a29"
+    },
+    {
+      "path": "tools/library/requirements.txt",
+      "bytes": 93,
+      "sha256": "1b93b3ae2f3fd6b419a2611d154648a2be7a7fb55a8c4de572a51cf171a86637"
+    },
+    {
+      "path": "tools/library/restore.py",
+      "bytes": 1245,
+      "sha256": "89802f87a0262938ca19dc54245dc010e8a1ebf9f644fd459f10dcff984f423a"
+    },
+    {
+      "path": "tools/library/sync-ledger.py",
+      "bytes": 1385,
+      "sha256": "fd9a1cdef1508a29593842e22e6ef6237a73a5f673cd96eef0850bb0f9f78364"
+    },
+    {
+      "path": "tools/library/test-ui.mjs",
+      "bytes": 2256,
+      "sha256": "02ccac5df4786cf07b52c7e52b9d0bc335acb5dc6e7cba25bd4c07b58effa7d9"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 242,
+      "sha256": "15b137df156129919fb1133444979a8b59e84c7f8348ad7ec8e7147cc1adc009"
+    },
+    {
+      "path": "validation/contact-sheet.jpg",
+      "bytes": 124735,
+      "sha256": "e4dfb4876a201e4fddc6743de63daa794fa0738edbafb4315d26f5cdb0304e8d"
+    },
+    {
+      "path": "validation/extension/character-8poses.jpg",
+      "bytes": 293771,
+      "sha256": "312129a0b9853451aa108ee75423644e4836e83fdd8053ae30117633191f58db"
+    },
+    {
+      "path": "validation/extension/crosssection-carton-75.png",
+      "bytes": 717538,
+      "sha256": "9d15d0f2016a06d740067679604b8c226dd93a8ce7e8934353fef3bfd92badd1"
+    },
+    {
+      "path": "validation/extension/diagram-character-85.png",
+      "bytes": 780113,
+      "sha256": "46234d06b3f6b3b0e4be8853bbbaef4e217493cb1f1e712ace51c9748320d3e3"
+    },
+    {
+      "path": "validation/extension/focus-crosssection-return-110.png",
+      "bytes": 740882,
+      "sha256": "d9c888bb061bbd60382081149ae2bbdc168dd32070e4891899c91a7a54de9a72"
+    },
+    {
+      "path": "validation/extension/footage-character-85.png",
+      "bytes": 1171641,
+      "sha256": "6d8598993e6a1e0d341f8d3cbfb9c87f8c351b5c8af1fab19c4381fd5b97be96"
+    },
+    {
+      "path": "validation/extension/label-parameters-85.png",
+      "bytes": 1090499,
+      "sha256": "10f1afd414bdcaf4ebfe9e287a5d00bc4ff659225ad1e755a82c88fa1796cd48"
+    },
+    {
+      "path": "validation/extension/motions-95.png",
+      "bytes": 1162164,
+      "sha256": "36441138e218119039998a72431abc04005cec08d75e54f01ab5ee06c237b553"
+    },
+    {
+      "path": "validation/extension/qc-report.json",
+      "bytes": 28598,
+      "sha256": "2d17e47f1d6bb5f82201c4b565b6896e966190b59afa5a2276de589e1d4672d1"
+    },
+    {
+      "path": "validation/extension/step3-cause-170.png",
+      "bytes": 940281,
+      "sha256": "2478f71d43b5e45bc8a82a3150f255b3572926a9e7715730361aad63da7364a1"
+    },
+    {
+      "path": "validation/highres/qc-report.json",
+      "bytes": 2448,
+      "sha256": "bd3c578b360400f8407e3d033c12434ee6ed53d830b6e8616ae842fcc76892e1"
+    },
+    {
+      "path": "validation/library-ops/NNZ_MODEL_FREEZING_CELL_01-end.png",
+      "bytes": 123219,
+      "sha256": "bc2004ac378efa31036e65a99b2cedb3e5f8eea50c7afe168c6edb081b30fb60"
+    },
+    {
+      "path": "validation/library-ops/NNZ_MODEL_FREEZING_CELL_01-start.png",
+      "bytes": 93576,
+      "sha256": "06c4a534f74caceb9f1b3a01b358f2921d9ced3e7fad4dcd4e6541d02568f32c"
+    },
+    {
+      "path": "validation/library-ops/NNZ_MODEL_ICECAN_AIR_01-end.png",
+      "bytes": 144650,
+      "sha256": "068457e0c7e43a8b7c1097291e1201b9e9cf738a75fabd59528271f0bfc838d5"
+    },
+    {
+      "path": "validation/library-ops/NNZ_MODEL_ICECAN_AIR_01-start.png",
+      "bytes": 143561,
+      "sha256": "a62573461597755eb4da15eed2cdc41ee996a4fab004c7bdbc1abe972b85da5f"
+    },
+    {
+      "path": "validation/library-ops/NNZ_MODEL_ICECAN_DRAIN_01-end.png",
+      "bytes": 161420,
+      "sha256": "818f116c7af2659021f31ef7456f3589581f755e87f5dd5c847ab4968f717573"
+    },
+    {
+      "path": "validation/library-ops/NNZ_MODEL_ICECAN_DRAIN_01-start.png",
+      "bytes": 154734,
+      "sha256": "71e6e410764914896280d1471a9089e0052c5c79f33566cd8552424c71cd50cd"
+    },
+    {
+      "path": "validation/library-ops/NNZ_MODEL_ICE_MICRO_01-end.png",
+      "bytes": 151068,
+      "sha256": "1310f67895b889091a29451b1925b7c585103b313a7291d12ce3e980aaceca82"
+    },
+    {
+      "path": "validation/library-ops/NNZ_MODEL_ICE_MICRO_01-start.png",
+      "bytes": 149376,
+      "sha256": "da979ad1ac0ca17ac1c0a256a31dddf8ddbcf4c73872a5c6cb29239999bee5c1"
+    },
+    {
+      "path": "validation/library-ops/baseline.json",
+      "bytes": 70033,
+      "sha256": "ebe56ba632fae2f452b7be6d185d79ccc12e6252819b5103864c4bd43dd6c035"
+    },
+    {
+      "path": "validation/library-ops/catalog-search.png",
+      "bytes": 96046,
+      "sha256": "673b890843ac22f306df006f2c130e71b8a29f4fe9b43b5657fcbcc474740429"
+    },
+    {
+      "path": "validation/library-ops/catalog-ui-test.json",
+      "bytes": 472,
+      "sha256": "cfb9c29b2f11757a84c9d47e05c0ebe15ba1e4bd14f67bb950b0139ed919d2ee"
+    },
+    {
+      "path": "validation/library-ops/drive-status.json",
+      "bytes": 311,
+      "sha256": "79c6dd3697b0266bbbf0303d4f9e5a79259abb6822916902729508c4f53cd97c"
+    },
+    {
+      "path": "validation/library-ops/export-test.json",
+      "bytes": 14403,
+      "sha256": "2ce0f2b5c3c947f07b354e83dbdb7baeba5a883e358c72ebe790b52ee4d63d89"
+    },
+    {
+      "path": "validation/library-ops/exported-reuse-12.png",
+      "bytes": 264581,
+      "sha256": "8d79b6399c3eb560992923d0e14314583d2f2ed6e143d428f74364cb0b2f34ae"
+    },
+    {
+      "path": "validation/library-ops/exported-reuse-42.png",
+      "bytes": 280464,
+      "sha256": "16a19ecfbe1ab0d97f5147cd7d7eb338b27216839ffd3eb4ee8d210b9bbf0a79"
+    },
+    {
+      "path": "validation/library-ops/exported-reuse-test.mp4",
+      "bytes": 267114,
+      "sha256": "762af9c047f95c116dc3f1f757ad1b9d7bc1b57d17e007e75f3a3f8e368a362b"
+    },
+    {
+      "path": "validation/library-ops/integration-tests.json",
+      "bytes": 1822,
+      "sha256": "f216034eb86ec140e0f429aea1411465c81581d7c6e3148de1993a6b8c6d343b"
+    },
+    {
+      "path": "validation/library-ops/preflight-before-qc.json",
+      "bytes": 12186,
+      "sha256": "2fcbfd80a377e18c86fc98874266fecf3ce254c0e96502752a7a7300990d26a2"
+    },
+    {
+      "path": "validation/library-ops/preflight.json",
+      "bytes": 14884,
+      "sha256": "dbdc0d705ec9988d6e4b2d0c6f8ef21747cd2ac74bde0ce24ab166783f1fa2af"
+    },
+    {
+      "path": "validation/library-ops/render-observations.json",
+      "bytes": 14347,
+      "sha256": "d43706335ebda8058cda37e37bb91f48cfa87e6da33d5b75decd133fca165291"
+    },
+    {
+      "path": "validation/library-ops/restore-test.json",
+      "bytes": 282,
+      "sha256": "c221d291d1af83869ec1007d39f848a4bd23212ab80e4c43381ea02c0a00cefd"
+    },
+    {
+      "path": "validation/library-ops/reuse-12.png",
+      "bytes": 264581,
+      "sha256": "8d79b6399c3eb560992923d0e14314583d2f2ed6e143d428f74364cb0b2f34ae"
+    },
+    {
+      "path": "validation/library-ops/reuse-42.png",
+      "bytes": 280464,
+      "sha256": "16a19ecfbe1ab0d97f5147cd7d7eb338b27216839ffd3eb4ee8d210b9bbf0a79"
+    },
+    {
+      "path": "validation/library-ops/reuse-contact-sheet.jpg",
+      "bytes": 40432,
+      "sha256": "3b5fe8176e2ad733da3986099b47d900c93865cfda4fd3bb3f2ef23e94380afa"
+    },
+    {
+      "path": "validation/library-ops/reuse-model-qc.json",
+      "bytes": 6146,
+      "sha256": "0411ca57e4e3b7c80d4d99b63d3a0235c0ba74c4dd64505d347b5af0d64fe94e"
+    },
+    {
+      "path": "validation/library-ops/reuse-test.mp4",
+      "bytes": 267114,
+      "sha256": "762af9c047f95c116dc3f1f757ad1b9d7bc1b57d17e007e75f3a3f8e368a362b"
+    },
+    {
+      "path": "validation/library-ops/visual-review.json",
+      "bytes": 629,
+      "sha256": "49b10cf05d8b1dd1774adda3565457765cc6335a50eab9969f1a9e6e53e816f7"
+    },
+    {
+      "path": "validation/qc-report.json",
+      "bytes": 1287,
+      "sha256": "128f1e632a54e51f4f7de718624ce727b386b2dc73e75b7be5b3027e5077695f"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/README.md",
+      "bytes": 271,
+      "sha256": "33588a24c792564485727ff8ff5b57321da0dadde98edcc9fa869fe32e408f53"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/README.md",
+      "bytes": 316,
+      "sha256": "bdc407a13cae9dc87a5d01ac8566dae31a925a75a6fd19a12e066e4e300505eb"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/faces/README.md",
+      "bytes": 62,
+      "sha256": "646871de7c80f49e991c1555e227c3a157fc6e76157691b38071f654805e07e3"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/manifest.json",
+      "bytes": 779,
+      "sha256": "3bb38b11bb7393b3414484ecd8d822b0638be2c230e592bbdebb07c21f269745"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/mouth/README.md",
+      "bytes": 62,
+      "sha256": "b85c908c265b2c0f352558c515017461a3cff4a175aa09116836c2a8a010033a"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/happy.png",
+      "bytes": 63817,
+      "sha256": "5dc769a57be59c3feb254c23ea805e70f8c0f8d21f800c1f18b3f7b19146beef"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/neutral.png",
+      "bytes": 64618,
+      "sha256": "7ad4ff7aeeab8aa9d3c84828c50bc32a0a41e8c82020f0611c1435859a8185d7"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/point_left.png",
+      "bytes": 65234,
+      "sha256": "a4df8b9fe412f27f107da1c4d81bd2f5787e6166734e8b8275f619d819ea1bf4"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/point_right.png",
+      "bytes": 71609,
+      "sha256": "4472ed8717b9d833b38adbae81304f2d5c66ec4dd107a544c0ba176396a6e48d"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/surprise.png",
+      "bytes": 63693,
+      "sha256": "3118c99f2b620038b9afdeaa70e51b1850184943c1a4359bc04cb397aafde7fa"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/talk.png",
+      "bytes": 70934,
+      "sha256": "6c3394be104c8d75aa533faa4ba07e1fcf2321418cc3be258bdb83f4871d0235"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/think.png",
+      "bytes": 52396,
+      "sha256": "1152204114caacae2c7705d189c3b3191a49a9c984acb9bc536887bb547f882e"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/poses/troubled.png",
+      "bytes": 66697,
+      "sha256": "3bddee6e4a071309a4b2658218bf3f22e6c59664257565b6ebd1a6add5befed8"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/preview.jpg",
+      "bytes": 103148,
+      "sha256": "4e245db00378d38a8e0e873589ac7a565d913186c3664bbf7242e15222397d65"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/female_v01/props/README.md",
+      "bytes": 68,
+      "sha256": "546b1a47a14d1b03bd31cafd5594663826f4656ce1a494198263e2afeee0233d"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/characters/male_v01/README.md",
+      "bytes": 145,
+      "sha256": "0b89002bbc115a7ec97406774634b548d219e39a2bc973047aacde69213a88c1"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/_shared/layout.tsx",
+      "bytes": 1705,
+      "sha256": "6a4e07342e28a917514ac24d01bd6f12b8c0efc597a0a9dad8357f555cca565c"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/arrow_01/README.md",
+      "bytes": 736,
+      "sha256": "6a7b6142ee79ad40b2a00e4c6823b604fa36726114525657d38a02bc356c5866"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/arrow_01/example.json",
+      "bytes": 694,
+      "sha256": "50624da5a8d788435bbe4d96dc10ee603ce2e8ed251ea05b9c47cac6f179cc0d"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/arrow_01/preview.mp4",
+      "bytes": 373179,
+      "sha256": "921c7d67aaa33c07487f845f4c9c255d7ff44741ed03dca287473576421afd52"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/arrow_01/schema.json",
+      "bytes": 1952,
+      "sha256": "aa126230d513a3aca6670699e83832a3b2c8c307bab66f572ffcfb393a964799"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/arrow_01/template.tsx",
+      "bytes": 1650,
+      "sha256": "10e40b9164938f8c1da0b62cccce22359d103260e7278fe9dfca22f05a23bcbe"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/arrow_01/thumb.png",
+      "bytes": 295196,
+      "sha256": "32c07ccdc5d44f4d12077ddc8b063ef2e3cba39dee13a09e22538ef076fb6911"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/compare_01/README.md",
+      "bytes": 732,
+      "sha256": "d2b5fb9f06ddfec70a1f919d20d03a9d584824a36d10af522b5f43d73967148c"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/compare_01/example.json",
+      "bytes": 486,
+      "sha256": "1d03ea07cf72ac1560188fa6b315ce6cc787a2a0927f58a90e55e38d27740df1"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/compare_01/preview.mp4",
+      "bytes": 380853,
+      "sha256": "3afc6e44404ddc9e7aa52aa37cb7c112f1627bff224cdc96cf802ed4b35a185b"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/compare_01/schema.json",
+      "bytes": 1954,
+      "sha256": "8fa4997d70120f0b28da7df01f2b87aedba056a2b861b74de68e861f6c835885"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/compare_01/template.tsx",
+      "bytes": 1436,
+      "sha256": "39a00941f840a1786c301fb7e039560b5a86e2c34f83e2673ae32b3884f2eef4"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/compare_01/thumb.png",
+      "bytes": 296467,
+      "sha256": "44f40d1dd39f16b78b88b0d9715f4be8b65dda00632e306fe33bffd3ba08d934"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/crosssection_01/README.md",
+      "bytes": 313,
+      "sha256": "320e2c7b09b5a244ab5cad28afb5dba19e991cb732a6616f8b3c156cf5ffff02"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/label_01/README.md",
+      "bytes": 296,
+      "sha256": "a4c26c2976e66de784520accfb187835b61901d31bc93d32d56a44e9949948fd"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/step3_01/README.md",
+      "bytes": 292,
+      "sha256": "a0cef92565ae877f6e437748de522ef87b0721b357c66d1f7bd834c8eb6cee6c"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/zoom_01/README.md",
+      "bytes": 741,
+      "sha256": "d56f8190d0f7c6cc86b9896663e0f2b808c57e03635b2dc208403ef6660fe89d"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/zoom_01/example.json",
+      "bytes": 356,
+      "sha256": "97b6b1634dacd39b97cee6ac67b67b060ec11e4a490b6c8097876c6fdd2386c5"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/zoom_01/preview.mp4",
+      "bytes": 431607,
+      "sha256": "0e523c351056f6b1c5e3e87a73fb3833aa65239c715031405d413aa33e4b37b2"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/zoom_01/schema.json",
+      "bytes": 1978,
+      "sha256": "af38c9ce1eb9a64ff708ff771297081b8cff147dc6be6319b7235070f70dafe2"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/zoom_01/template.tsx",
+      "bytes": 2028,
+      "sha256": "b486c409b67d3de532b39cbf5fe25c47615225b2bc4a659a12611b084c1ed3bc"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/diagram_templates/zoom_01/thumb.png",
+      "bytes": 331411,
+      "sha256": "270bed434891a070877745f034171b5cc1927c8ad16c20b16206df30e1b0e1f8"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/management/NAMING_AND_QC.md",
+      "bytes": 1075,
+      "sha256": "6af97ee7681313def820ddbe1327f019861349eee0dcdc0ee3583498089379ee"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/management/asset_registry.csv",
+      "bytes": 2213,
+      "sha256": "b8025cf977227869a8ee389aee03b37e8c671db3716e817cff24650b4f5b3c05"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/management/asset_registry.json",
+      "bytes": 4253,
+      "sha256": "706e6ecdfff054ca835aa000ab1ab5e9276f34efb89345686dc6b105b658fc62"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/management/asset_registry.xlsx",
+      "bytes": 7375,
+      "sha256": "ec07c54dcca0e6f82cd4a2a750d2e316a27d5947e9a1b61b85c40c1b7c438360"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/props/arrows/README.md",
+      "bytes": 122,
+      "sha256": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/props/glass/README.md",
+      "bytes": 122,
+      "sha256": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/props/ice/README.md",
+      "bytes": 122,
+      "sha256": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/props/icons/README.md",
+      "bytes": 122,
+      "sha256": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/props/manhole/README.md",
+      "bytes": 122,
+      "sha256": "6eb62a10881b55813c4b80c6e333da35ff4566985a106c2e646e863ea184e688"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+      "bytes": 691,
+      "sha256": "8b9053f654481240f12736f85c8fdb786f017d8ca00f4b95b7e452d9a74ee121"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/props/milk_carton/carton_plain.svg",
+      "bytes": 531,
+      "sha256": "990ca4e7170343dcbc167993857b10362abb904d02e7f844d5ace0b0e249beb1"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+      "bytes": 934,
+      "sha256": "5fda50d0b19bf1776dfa3e8ccb05664bed0fd8e12bf53c29e0a75179653c2de6"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/scenes/episode_001/README.md",
+      "bytes": 119,
+      "sha256": "ccd01a233f5c84801731b11d8684b1716ac55f780081d19378ae981785b558be"
+    },
+    {
+      "path": "vendor/common-library/1.0.0/common_assets/nichijou_naze/scenes/episode_002/README.md",
+      "bytes": 119,
+      "sha256": "ccd01a233f5c84801731b11d8684b1716ac55f780081d19378ae981785b558be"
+    }
+  ],
+  "drive": {
+    "url": "https://drive.google.com/drive/folders/1YmGCqmzf_XndpvS62sMKFr4wdTrI-CK7",
+    "status": "not_saved",
+    "reason": "CONNECT returned HTTP403; no Drive connector/ready Google identity."
+  },
+  "restore": "python tools/library/restore.py <backup-index.json> <new_destination>"
+}

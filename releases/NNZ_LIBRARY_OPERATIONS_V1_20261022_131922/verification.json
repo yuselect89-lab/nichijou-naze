@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "files_restored_and_verified": 288,
+  "baseline_files_checked": 563,
+  "asset_episode_files_changed": 0,
+  "unit_tests": 25,
+  "browser_tests": 5,
+  "independent_project_render": "PASS",
+  "upstream_direction_preserved": true,
+  "drive_saved": false,
+  "full_report": "validation/library-ops/final-report.json"
+}

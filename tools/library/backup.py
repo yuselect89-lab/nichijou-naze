@@ -10,7 +10,7 @@ def release_lock():
  os.close(lock_fd);lock.unlink(missing_ok=True)
 atexit.register(release_lock)
 files=set()
-for directory in ['common_assets/nichijou_naze','tools/library','src/library-reuse','episodes/LIBRARY_REUSE_TEST','validation/library-ops','vendor/common-library/1.0.0/common_assets/nichijou_naze']:
+for directory in ['common_assets/nichijou_naze','public/common_assets/nichijou_naze','tools/library','src/library-reuse','episodes/LIBRARY_REUSE_TEST','validation/library-ops','vendor/common-library/1.0.0/common_assets/nichijou_naze']:
  for p in (R/directory).rglob('*'):
   if p.is_file() and '__pycache__' not in p.parts and p.name not in ['backup-status.json','final-report.json','.register.lock']:files.add(str(p.relative_to(R)))
 for a in cat['assets']:files.update(a['files']);files.add(a['qc']['report'])

@@ -1,6 +1,42 @@
 {
   "schema_version": 1,
-  "candidates": [],
+  "candidates": [
+    {
+      "asset_id": "NNZ_PROP_PETBOTTLE_01",
+      "version": "1.0.0",
+      "name": "ペットボトル模式図",
+      "kind": "image",
+      "scope": "common",
+      "status": "sample_uninspected",
+      "tags": [
+        "ペットボトル模式図"
+      ],
+      "entrypoint": "public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+      "preview": "public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg",
+      "files": [
+        "public/common_assets/nichijou_naze/props/pet_bottle/bottle_diagram.svg"
+      ],
+      "production_ready": false
+    },
+    {
+      "asset_id": "NNZ_PROP_MILKCARTON_01",
+      "version": "1.0.0",
+      "name": "紙パック切欠き有無模式図",
+      "kind": "image",
+      "scope": "common",
+      "status": "sample_uninspected",
+      "tags": [
+        "紙パック切欠き有無模式図"
+      ],
+      "entrypoint": "public/common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+      "preview": "public/common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+      "files": [
+        "public/common_assets/nichijou_naze/props/milk_carton/carton_notch.svg",
+        "public/common_assets/nichijou_naze/props/milk_carton/carton_plain.svg"
+      ],
+      "production_ready": false
+    }
+  ],
   "generated_from": [
     "library-registry.json",
     "existing character/runtime/EP004 manifests",
@@ -2881,16 +2917,6 @@
       "asset_id": "NNZ_CHAR_MALE_01",
       "status": "planned",
       "name": "男性キャラ未制作"
-    },
-    {
-      "asset_id": "NNZ_PROP_PETBOTTLE_01",
-      "status": "sample",
-      "name": "ペットボトル模式図"
-    },
-    {
-      "asset_id": "NNZ_PROP_MILKCARTON_01",
-      "status": "sample",
-      "name": "紙パック切欠き有無模式図"
     }
   ]
 }

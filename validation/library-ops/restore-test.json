@@ -1,9 +1,10 @@
 {
   "result": "PASS",
-  "index": "releases/NNZ_LIBRARY_OPERATIONS_V1_20261022_130753/backup-index.json",
-  "files_verified": 262,
+  "index": "releases/NNZ_LIBRARY_OPERATIONS_V1_20261022_131922/backup-index.json",
+  "files_verified": 288,
   "old_1_0_0_model": "PASS",
   "new_1_1_0_model": "PASS",
   "character_v03_happy": "PASS",
-  "restore_destination": "/tmp/nnz-library-restored-final"
+  "uninspected_samples_preserved": "PASS",
+  "restore_destination": "/tmp/nnz-library-restored-complete"
 }
