@@ -87,10 +87,16 @@
     "NNZ_CHAR_MALE_01"
   ],
   "banner": {
-    "path": "public/series/v1/opening_banner.png",
-    "source": "Existing EP004_ICE/shared/opening_banner.png",
-    "sha256": "cc648108d24b3f745f07b63960c9799f76046815dacd9eda2c1813ef81aecc1e",
-    "note": "Uploaded message also shows a round 30-second banner, but no separate original file was present in the supplied ZIP. Existing EP004 banner reused without redesign."
+    "status": "BLOCKED_SOURCE_NOT_VERIFIED",
+    "authority": "production-lock.json",
+    "path": "public/series/approved/opening_banner.png",
+    "sha256": null,
+    "source": "EP002 V4 ユーザー承認済み正式黄色帯（元ファイル未確認）",
+    "legacyNotApproved": {
+      "path": "public/series/v1/opening_banner.png",
+      "sha256": "cc648108d24b3f745f07b63960c9799f76046815dacd9eda2c1813ef81aecc1e",
+      "reason": "EP004からの流用品。正式元画像とは未照合で使用禁止。"
+    }
   },
   "originalFiles": {
     ".gitignore": "e146a7d868ece075b324e8703041a17153e63ec6c929d643ea95d6bd00a385fa",
