@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {freezingState,aerationState,degasState,durationFrames} from './states.mjs';
+test('household freezing concentrates gas before replacing liquid by ice cavities',()=>{let p=0;for(let f=0;f<195;f++){const s=freezingState(f);assert(s.progress>=p);p=s.progress;assert(s.halfX>0&&s.halfY>0&&s.halfZ>0);assert(s.liquidOpacity>=0&&s.liquidOpacity<=1)}assert.equal(freezingState(0).bubbleOpacity,0);assert.equal(freezingState(194).gasMarkerOpacity,0);assert.equal(freezingState(194).bubbleOpacity,1);assert.equal(freezingState(194).liquidOpacity,0)});
+test('aeration retains central water and ends with approved suction starting dimensions',()=>{for(let f=0;f<165;f++){const s=aerationState(f);assert.equal(s.liquidRemoved,0);assert(Math.abs(s.bottom+s.liquidHeight-4.405)<1e-10)}const s=aerationState(164);assert(Math.abs(s.innerHalf-.62)<1e-10);assert(Math.abs(s.bottom-1.025)<1e-10);assert(Math.abs(s.liquidHeight-3.38)<1e-10);assert.equal(s.airActive,false);assert.equal(s.withdraw,1)});
+test('heating never eliminates all gas',()=>{for(let f=0;f<75;f++){const s=degasState(f);assert(s.retained>0);assert.equal(s.fullyDepleted,false)}});
+test('individual cut frame counts complete 1398 frames with approved two cuts',()=>assert.equal(Object.values(durationFrames).reduce((a,b)=>a+b,0)+105+165,1398));

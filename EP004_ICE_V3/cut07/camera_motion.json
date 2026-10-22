@@ -1,0 +1,20 @@
+{
+  "source": "base_render.mp4",
+  "output": "base_animation.mp4",
+  "kind": "continuous orthographic-style finishing push on rendered 3D base",
+  "from_frame": 95,
+  "to_frame": 194,
+  "zoom_from": 1,
+  "zoom_to": 1.8,
+  "anchor_px": [
+    500,
+    790
+  ],
+  "ease": "smoothstep",
+  "labels_affected": false,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 30
+}

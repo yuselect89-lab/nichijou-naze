@@ -1,0 +1,66 @@
+[
+  {
+    "name": "boil",
+    "native": [
+      941,
+      1672
+    ],
+    "file": "source/full_v3/masters/boil.png",
+    "processing": "Lanczos fit/crop1080x1920",
+    "origin": "new AI reenactment, not experiment evidence"
+  },
+  {
+    "name": "cool",
+    "native": [
+      941,
+      1672
+    ],
+    "file": "source/full_v3/masters/cool.png",
+    "processing": "Lanczos fit/crop1080x1920",
+    "origin": "new AI reenactment, not experiment evidence"
+  },
+  {
+    "name": "pour",
+    "native": [
+      941,
+      1672
+    ],
+    "file": "source/full_v3/masters/pour.png",
+    "processing": "Lanczos fit/crop1080x1920",
+    "origin": "new AI reenactment, not experiment evidence"
+  },
+  {
+    "name": "moderate",
+    "native": [
+      941,
+      1672
+    ],
+    "file": "source/full_v3/masters/moderate.png",
+    "processing": "Lanczos fit/crop1080x1920",
+    "origin": "new AI reenactment, not experiment evidence"
+  },
+  {
+    "name": "compare",
+    "native": [
+      941,
+      1672
+    ],
+    "file": "source/full_v3/masters/compare.png",
+    "processing": "Lanczos fit/crop1080x1920",
+    "origin": "new AI reenactment, not experiment evidence"
+  },
+  {
+    "name": "factory",
+    "native_resolution": [
+      941,
+      1672
+    ],
+    "delivery_resolution": [
+      1080,
+      1920
+    ],
+    "origin": "original AI photographic reenactment, OpenAI image tool; not an actual factory record",
+    "source": "source/full_v3/masters/factory.png",
+    "usage": "Cut08 factory to 3D cutaway; no official photos copied"
+  }
+]

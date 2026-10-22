@@ -1,0 +1,20 @@
+[
+  {
+    "file": "releases/EP004_ICE_V3_full_A_cuts01-05.zip",
+    "bytes": 75525650,
+    "files": 37,
+    "sha256": "40d95c16625b2cb4832927fa63409ffe8938cc609690733ef84f6ec124141596"
+  },
+  {
+    "file": "releases/EP004_ICE_V3_full_B_cuts06-10.zip",
+    "bytes": 39823476,
+    "files": 39,
+    "sha256": "0de25d21f3a79829c687d447e0d35c3ee848bd98f9a53358a58a7d6388e31bce"
+  },
+  {
+    "file": "releases/EP004_ICE_V3_full_C_sources-preview.zip",
+    "bytes": 70382133,
+    "files": 104,
+    "sha256": "8e0bcb48cd554e891d2c8a8dfd3c1a2d1faeacce8e497ccd4b3099c5c5972613"
+  }
+]

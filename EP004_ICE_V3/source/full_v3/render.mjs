@@ -1,0 +1,19 @@
+import {bundle} from '@remotion/bundler';
+import {openBrowser,selectComposition,renderStill,renderMedia} from '@remotion/renderer';
+import {writeFileSync,rmSync,copyFileSync,existsSync} from 'node:fs';
+import {spawnSync} from 'node:child_process';
+import {durationFrames} from './states.mjs';
+const root=process.cwd(),serveUrl=await bundle({entryPoint:root+'/EP004_ICE_V3/source/full_v3/index.jsx'});
+const browser=await openBrowser('chrome',{browserExecutable:'/usr/bin/chromium',chromiumOptions:{gl:'swangle'}});
+const opts={serveUrl,puppeteerInstance:browser,chromiumOptions:{gl:'swangle'},logLevel:'error',timeoutInMilliseconds:120000};
+const observations=[];const log=l=>{const n=l.text.indexOf('EP004_FULL_QC ');if(n>=0)observations.push(JSON.parse(l.text.slice(n+14)))};
+const run=args=>{const r=spawnSync('ffmpeg',['-v','error','-y',...args],{stdio:'inherit'});if(r.status)throw Error('ffmpeg failed')};
+const selected=process.env.CUTS?.split(',').map(Number)??Object.keys(durationFrames).map(Number);
+try{for(const cut of selected){const id='EP004-V3-CUT'+String(cut).padStart(2,'0'),n=durationFrames[cut],dir=process.env.OUT_DIR??('EP004_ICE_V3/cut'+String(cut).padStart(2,'0'));
+ if(process.argv.includes('--plates')){for(const layer of ['background','model']){const frame=({4:120,5:52,7:135,8:80})[cut],inputProps={cut,layer},composition=await selectComposition({...opts,id,inputProps});await renderStill({...opts,composition,inputProps,frame,output:dir+'/'+layer+'.png',imageFormat:'png'});}console.log('plates',cut);continue;}
+ if(!process.argv.includes('--media')){const frames=cut===2?[20,95,170]:cut===4?[0,65,120]:cut===7?[0,75,135,194]:cut===8?[0,80,164]:[Math.floor(n/2)];for(const frame of frames){const inputProps={cut,layer:'composite',report:true},composition=await selectComposition({...opts,id,inputProps});await renderStill({...opts,composition,inputProps,frame,output:`EP004_ICE_V3/preview/full_v3/cut${String(cut).padStart(2,'0')}-${frame}.png`,imageFormat:'png',onBrowserLog:log});console.log('still',cut,frame)}copyFileSync(`EP004_ICE_V3/preview/full_v3/cut${String(cut).padStart(2,'0')}-${frames[Math.floor(frames.length/2)]}.png`,dir+'/main.png');}
+ if(process.argv.includes('--stills'))continue;
+ for(const layer of (process.env.LAYERS?.split(',')??['base','labels',...([2,3,4,8,10].includes(cut)?['character']:[])])){const output=dir+(layer==='base'?'/base_animation.mp4':`/${layer}_overlay.webm`);if(existsSync(output))continue;const inputProps={cut,layer},composition=await selectComposition({...opts,id,inputProps});let prev=-1;await renderMedia({...opts,composition,inputProps,outputLocation:output,codec:layer==='base'?'h264':'vp9',crf:layer==='base'?17:15,pixelFormat:layer==='base'?'yuv420p':'yuva420p',...(layer==='base'?{}:{imageFormat:'png'}),concurrency:2,onProgress:p=>{const pc=Math.floor(p.progress*5);if(pc!==prev){prev=pc;console.log('render',cut,layer,pc*20+'%')}}});}
+ if(cut===7){const r=spawnSync('python',['EP004_ICE_V3/source/full_v3/camera_push.py',dir],{stdio:'inherit'});if(r.status)throw Error('camera push failed');}
+ const char=[2,3,4,8,10].includes(cut);run(['-i',dir+'/base_animation.mp4','-c:v','libvpx-vp9','-i',dir+'/labels_overlay.webm',...(char?['-c:v','libvpx-vp9','-i',dir+'/character_overlay.webm']:[]),'-filter_complex',char?'[0:v][1:v]overlay=0:0[a];[a][2:v]overlay=0:0,format=yuv420p[out]':'[0:v][1:v]overlay=0:0,format=yuv420p[out]','-map','[out]','-an','-c:v','libx264','-crf','17','-preset','medium','-r','30','-frames:v',String(n),'-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709',dir+'/animation.mp4']);console.log('complete',cut);
+}writeFileSync('EP004_ICE_V3/qc/full_v3/render_observations.json',JSON.stringify(observations,null,2));}finally{await browser.close({silent:true});rmSync(serveUrl,{recursive:true,force:true})}

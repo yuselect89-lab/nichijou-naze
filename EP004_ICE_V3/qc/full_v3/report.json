@@ -1,0 +1,827 @@
+{
+  "technical_result": "PASS",
+  "scope": "10 individual cuts; no whole-episode MP4",
+  "fps": 30,
+  "total_provisional_frames": 1398,
+  "total_provisional_seconds": 46.6,
+  "approved_stage1_preserved": [
+    "EP004_ICE_V3/cut01/animation.mp4",
+    "EP004_ICE_V3/cut01/background.png",
+    "EP004_ICE_V3/cut01/main.png",
+    "EP004_ICE_V3/cut09/animation.mp4",
+    "EP004_ICE_V3/cut09/background.png",
+    "EP004_ICE_V3/cut09/base_animation.mp4",
+    "EP004_ICE_V3/cut09/character_motion.json",
+    "EP004_ICE_V3/cut09/character_overlay.webm",
+    "EP004_ICE_V3/cut09/character_point_right.png",
+    "EP004_ICE_V3/cut09/labels_overlay.webm",
+    "EP004_ICE_V3/cut09/main.png",
+    "EP004_ICE_V3/cut09/model.png"
+  ],
+  "existing_files_changed_only_administrative": [
+    "EP004_ICE_V3/README.md",
+    "EP004_ICE_V3/SHA256SUMS.txt",
+    "EP004_ICE_V3/index.html",
+    "EP004_ICE_V3/manifest.json",
+    "common_assets/nichijou_naze/management/asset_registry.csv",
+    "common_assets/nichijou_naze/management/asset_registry.json",
+    "common_assets/nichijou_naze/management/asset_registry.xlsx",
+    "library-registry.json"
+  ],
+  "existing_files_missing": [],
+  "videos": [
+    {
+      "file": "cut01/animation.mp4",
+      "frames": 105,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut02/animation.mp4",
+      "frames": 195,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut02/base_animation.mp4",
+      "frames": 195,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut02/character_overlay.webm",
+      "frames": 195,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut02/labels_overlay.webm",
+      "frames": 195,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut03/animation.mp4",
+      "frames": 120,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut03/base_animation.mp4",
+      "frames": 120,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut03/character_overlay.webm",
+      "frames": 120,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut03/labels_overlay.webm",
+      "frames": 120,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut04/animation.mp4",
+      "frames": 150,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut04/base_animation.mp4",
+      "frames": 150,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut04/character_overlay.webm",
+      "frames": 150,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut04/labels_overlay.webm",
+      "frames": 150,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut05/animation.mp4",
+      "frames": 105,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut05/base_animation.mp4",
+      "frames": 105,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut05/labels_overlay.webm",
+      "frames": 105,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut06/animation.mp4",
+      "frames": 75,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut06/base_animation.mp4",
+      "frames": 75,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut06/labels_overlay.webm",
+      "frames": 75,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut07/animation.mp4",
+      "frames": 195,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut07/base_animation.mp4",
+      "frames": 195,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut07/base_render.mp4",
+      "frames": 195,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut07/labels_overlay.webm",
+      "frames": 195,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut08/animation.mp4",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut08/base_animation.mp4",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut08/character_overlay.webm",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut08/labels_overlay.webm",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut09/animation.mp4",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut09/base_animation.mp4",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut09/character_overlay.webm",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut09/labels_overlay.webm",
+      "frames": 165,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut10/animation.mp4",
+      "frames": 123,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut10/base_animation.mp4",
+      "frames": 123,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS"
+    },
+    {
+      "file": "cut10/character_overlay.webm",
+      "frames": 123,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    },
+    {
+      "file": "cut10/labels_overlay.webm",
+      "frames": 123,
+      "resolution": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "silent": true,
+      "full_decode": "PASS",
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "verified": true
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "cut01/background.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut01/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut02/boil.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut02/character_think.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut02/character_troubled.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut02/cool.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut02/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut02/pour.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut03/character_surprise.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut03/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut03/moderate.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut04/background.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut04/character_point_right.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut04/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut04/model.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut05/background.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut05/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut05/model.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut06/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut07/background.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut07/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut07/model.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut08/background.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut08/character_point_right.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut08/factory.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut08/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut08/model.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut09/background.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut09/character_point_right.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut09/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut09/model.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut10/character_happy.png",
+      "resolution": [
+        1536,
+        2304
+      ],
+      "mode": "RGBA",
+      "opens": true
+    },
+    {
+      "file": "cut10/compare.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    },
+    {
+      "file": "cut10/main.png",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "mode": "RGB",
+      "opens": true
+    }
+  ],
+  "existing_library_checks": "TypeScript PASS; 17 existing tests PASS",
+  "numeric_tests": "7 passing tests: source/physics.test.mjs and source/full_v3/states.test.mjs",
+  "visual_checks": {
+    "Cut02": "boil/cool/pour with no completed transparent ice",
+    "Cut03": "condition-dependent cloudy-center example",
+    "Cut04_05": "internal cavities visible through cutaway; contrast corrected after first preview",
+    "Cut06": "separate symbolic dissolved gas panel; six markers retained; large background vapor bubbles are distinct",
+    "Cut07": "continuous inward freezing; gas markers concentrate before internal air cavities remain; freezing geometry explicitly schematic",
+    "Cut08": "orange air inlet and rising air bubbles; central liquid retained; no suction",
+    "Cut09": "approved continuous liquid transfer; original MP4s unchanged; solid shell remains",
+    "Cut10": "equal-size/light cloudy left and clearer right; finishing-stage time jump",
+    "character": "canonical v02/v03 PNGs only; fades, idle and nod motion; no redraw of limbs/mouth",
+    "safe_zones": "360px guide images; main diagrams/labels clear of subtitle and opening-band zones",
+    "brands": "no names/logos/packaging observed"
+  },
+  "limitations": [
+    "Official reference pages could not be fetched under current network policy; no official artwork reused.",
+    "Scientific visualizations are schematic, not experimental measurements.",
+    "G3 and VO/caption synchronization remain with ChatGPT Work/Gemini.",
+    "Formal original yellow banner file not independently available; not baked into assets."
+  ],
+  "failures": [],
+  "registry_result": "PASS",
+  "prior_ledger_rows_preserved": 19,
+  "new_ledger_rows": 9
+}

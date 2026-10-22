@@ -1,0 +1,17 @@
+{
+  "id": "NNZ_CHAR_FEMALE_01",
+  "character_asset": "v02_highres + v03_expressions",
+  "poses": [
+    "happy"
+  ],
+  "entry": "fade14frames",
+  "idle": "3px vertical / 60frame half-cycle",
+  "pose_crossfade_frames": 10,
+  "no_limb_or_mouth_reconstruction": true,
+  "config_source": "../source/full_v3/index.jsx:configs",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 30
+}

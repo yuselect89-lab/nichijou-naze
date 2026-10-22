@@ -1,0 +1,219 @@
+{
+  "library": "nichijou-naze",
+  "version": "1.0.0",
+  "resource_set": "EP004_ICE_V3",
+  "assets": [
+    {
+      "asset_id": "NNZ_PROP_ICE_CLOUDY_PHOTO_01",
+      "name": "家庭の白い氷 実写風",
+      "version": "1.0.0",
+      "kind": "photograph",
+      "status": "self_qc_render_verified",
+      "source": "public/ep004-v3/cut01/background.png",
+      "cuts": [
+        1
+      ],
+      "api": null,
+      "parameters": {},
+      "usage_notes": "AI再現。中心の白濁。実験映像ではない。",
+      "preview": "EP004_ICE_V3/cut01/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused.",
+      "sha256": "8d08c148f75ecb8649fd66c06de619e4b84f3ba63d2473db4fd8633fa860545f"
+    },
+    {
+      "asset_id": "NNZ_PROP_ICE_PROCESS_PHOTO_01",
+      "name": "沸騰・冷却・注水の実写風セット",
+      "version": "1.0.0",
+      "kind": "photo_set",
+      "status": "self_qc_render_verified",
+      "source": "public/ep004-v3/full/",
+      "cuts": [
+        2,
+        6
+      ],
+      "api": null,
+      "parameters": {
+        "files": [
+          "boil.png",
+          "cool.png",
+          "pour.png"
+        ]
+      },
+      "usage_notes": "液体の工程。完成した透明氷は含まない。",
+      "preview": "EP004_ICE_V3/cut02/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused."
+    },
+    {
+      "asset_id": "NNZ_PROP_ICE_CONDITION_PHOTO_01",
+      "name": "条件による白濁量の例 実写風",
+      "version": "1.0.0",
+      "kind": "photograph",
+      "status": "self_qc_render_verified",
+      "source": "public/ep004-v3/full/moderate.png",
+      "cuts": [
+        3
+      ],
+      "api": null,
+      "parameters": {},
+      "usage_notes": "沸騰後も白濁が残る一例。必ず白くなる意味ではない。",
+      "preview": "EP004_ICE_V3/cut03/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused.",
+      "sha256": "b31c6f6fb3f7b26e78bc1c9268a7e75cfee5ea08962c1ffc311f30cab0b0174c"
+    },
+    {
+      "asset_id": "NNZ_PROP_ICE_COMPARE_PHOTO_01",
+      "name": "同条件の氷比較 実写風",
+      "version": "1.0.0",
+      "kind": "photograph",
+      "status": "self_qc_render_verified",
+      "source": "public/ep004-v3/full/compare.png",
+      "cuts": [
+        10
+      ],
+      "api": null,
+      "parameters": {},
+      "usage_notes": "左右同照明・同程度サイズ。白濁量は条件依存。",
+      "preview": "EP004_ICE_V3/cut10/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused.",
+      "sha256": "162e1fdf539fe4b7e9d9980edae47bdaa6aa72f17006906061e3b960f2a18968"
+    },
+    {
+      "asset_id": "NNZ_PROP_ICE_FACTORY_PHOTO_01",
+      "name": "製氷工場 実写風",
+      "version": "1.0.0",
+      "kind": "photograph",
+      "status": "self_qc_render_verified",
+      "source": "public/ep004-v3/full/factory.png",
+      "cuts": [
+        8
+      ],
+      "api": null,
+      "parameters": {},
+      "usage_notes": "AI再現。公式工場写真ではない。",
+      "preview": "EP004_ICE_V3/cut08/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused.",
+      "sha256": "5bcfd1e20832ae0239caff4748413956e2637ecb9dd37f354414defa98c8bdb4"
+    },
+    {
+      "asset_id": "NNZ_MODEL_ICE_MICRO_01",
+      "name": "氷内部の気泡と光散乱",
+      "version": "1.0.0",
+      "kind": "Three.js scene",
+      "status": "self_qc_render_verified",
+      "source": "EP004_ICE_V3/source/full_v3/science3d.mjs",
+      "cuts": [
+        4,
+        5
+      ],
+      "api": "createScienceScene(canvas,cut) -> {draw(frame,mode),dispose}",
+      "parameters": {
+        "cut": [
+          4,
+          5
+        ],
+        "mode": [
+          "all",
+          "background",
+          "model"
+        ],
+        "canvas": [
+          1080,
+          1920
+        ],
+        "fps": 30
+      },
+      "usage_notes": "光線の分岐・泡の寸法は拡大模式。キャラクターと文字は別レイヤー。",
+      "preview": "EP004_ICE_V3/cut04/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused.",
+      "sha256": "92425d46e4b3b1b0dd0e1deef2dd33b89b05404d40e0854471b810ea242d27c8"
+    },
+    {
+      "asset_id": "NNZ_MODEL_FREEZING_CELL_01",
+      "name": "家庭の製氷皿 連続凍結断面",
+      "version": "1.0.0",
+      "kind": "Three.js scene",
+      "status": "self_qc_render_verified",
+      "source": "EP004_ICE_V3/source/full_v3/science3d.mjs",
+      "cuts": [
+        7
+      ],
+      "api": "createScienceScene(canvas,7) -> {draw(frame,mode),dispose}",
+      "parameters": {
+        "frames": 195,
+        "mode": [
+          "all",
+          "background",
+          "model"
+        ]
+      },
+      "usage_notes": "凍結形は模式。外側凍結→中心の気体集積→微細空洞。",
+      "preview": "EP004_ICE_V3/cut07/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused.",
+      "sha256": "92425d46e4b3b1b0dd0e1deef2dd33b89b05404d40e0854471b810ea242d27c8"
+    },
+    {
+      "asset_id": "NNZ_MODEL_ICECAN_AIR_01",
+      "name": "製氷缶 送気と遅い凍結",
+      "version": "1.0.0",
+      "kind": "Three.js scene",
+      "status": "self_qc_render_verified",
+      "source": "EP004_ICE_V3/source/full_v3/industrial.mjs",
+      "cuts": [
+        8
+      ],
+      "api": "createAerationScene(canvas) -> {draw(frame,mode),dispose}",
+      "parameters": {
+        "frames": 165,
+        "mode": [
+          "all",
+          "background",
+          "model"
+        ]
+      },
+      "usage_notes": "橙色管は送気。吸引ではない。中心の水を保持。",
+      "preview": "EP004_ICE_V3/cut08/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused.",
+      "sha256": "bb479c27adb0fb210a62832e00d49d808b46dce2a8fb135d20f96f8e8a7b8842"
+    },
+    {
+      "asset_id": "NNZ_MODEL_ICECAN_DRAIN_01",
+      "name": "製氷缶 中心液体の吸引",
+      "version": "1.0.0",
+      "kind": "Three.js scene",
+      "status": "self_qc_render_verified",
+      "source": "EP004_ICE_V3/source/scene3d.mjs",
+      "cuts": [
+        9
+      ],
+      "api": "createIceScene(canvas) -> {draw(frame,mode),dispose}",
+      "parameters": {
+        "frames": 165,
+        "mode": [
+          "all",
+          "background",
+          "model"
+        ],
+        "physics": "EP004_ICE_V3/source/physics.mjs"
+      },
+      "usage_notes": "青色管は吸水。固体を削らない。中心液体と受器の体積保存。",
+      "preview": "EP004_ICE_V3/cut09/main.png",
+      "qc": "EP004_ICE_V3/qc/full_v3/report.json",
+      "rights": "Original AI reenactment / original Three.js geometry. See EP004_ICE_V3/licenses/. No official artwork reused.",
+      "sha256": "f1e4ec9b2e269879e3e87f4907483e8b07130b9107a77790cb56c1857acdea17"
+    }
+  ],
+  "dependencies": [
+    "EP004_ICE_V3/source/vendor/three/",
+    "EP004_ICE_V3/source/physics.mjs",
+    "EP004_ICE_V3/source/full_v3/states.mjs"
+  ],
+  "reuse": "Read descriptor by asset_id. Photographs use source/staticFile; 3D scenes expose draw(frame,mode), allowing background/model alpha separation. Version changes require a new version directory; do not mutate old resources."
+}

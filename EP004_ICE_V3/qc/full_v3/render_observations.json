@@ -1,0 +1,1764 @@
+[
+  {
+    "frame": 0,
+    "cut": 4,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 4,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 65,
+    "cut": 4,
+    "progress": 0.24324812866961626,
+    "halfX": 1.2075620958900297,
+    "halfY": 1.182427058463422,
+    "halfZ": 0.8243211976514455,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 65,
+    "cut": 4,
+    "progress": 0.24324812866961626,
+    "halfX": 1.2075620958900297,
+    "halfY": 1.182427058463422,
+    "halfZ": 0.8243211976514455,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 120,
+    "cut": 4,
+    "progress": 0.7244357625845229,
+    "halfX": 0.6686319459053343,
+    "halfY": 0.6531206611570247,
+    "halfZ": 0.5163611119459053,
+    "gasMarkerOpacity": 0.909853405448626,
+    "bubbleOpacity": 0.10555405828841098,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 120,
+    "cut": 4,
+    "progress": 0.7244357625845229,
+    "halfX": 0.6686319459053343,
+    "halfY": 0.6531206611570247,
+    "halfZ": 0.5163611119459053,
+    "gasMarkerOpacity": 0.909853405448626,
+    "bubbleOpacity": 0.10555405828841098,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 52,
+    "cut": 5,
+    "progress": 0.14781423045885858,
+    "halfX": 1.3144480618860783,
+    "halfY": 1.2874043464952556,
+    "halfZ": 0.8853988925063305,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 13,
+    "airCavities": true,
+    "rayBranches": 7,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 52,
+    "cut": 5,
+    "progress": 0.14781423045885858,
+    "halfX": 1.3144480618860783,
+    "halfY": 1.2874043464952556,
+    "halfZ": 0.8853988925063305,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 13,
+    "airCavities": true,
+    "rayBranches": 7,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 7,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 7,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 75,
+    "cut": 7,
+    "progress": 0.32602854996243424,
+    "halfX": 1.1148480240420735,
+    "halfY": 1.0913685950413223,
+    "halfZ": 0.771341728024042,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 75,
+    "cut": 7,
+    "progress": 0.32602854996243424,
+    "halfX": 1.1148480240420735,
+    "halfY": 1.0913685950413223,
+    "halfZ": 0.771341728024042,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 135,
+    "cut": 7,
+    "progress": 0.8386055597295267,
+    "halfX": 0.54076177310293,
+    "halfY": 0.5275338842975206,
+    "halfZ": 0.4432924417731029,
+    "gasMarkerOpacity": 0.2670395154207009,
+    "bubbleOpacity": 0.6828412425909839,
+    "liquidOpacity": 0.9701562338092723,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 135,
+    "cut": 7,
+    "progress": 0.8386055597295267,
+    "halfX": 0.54076177310293,
+    "halfY": 0.5275338842975206,
+    "halfZ": 0.4432924417731029,
+    "gasMarkerOpacity": 0.2670395154207009,
+    "bubbleOpacity": 0.6828412425909839,
+    "liquidOpacity": 0.9701562338092723,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 194,
+    "cut": 7,
+    "progress": 1,
+    "halfX": 0.3599999999999999,
+    "halfY": 0.34999999999999987,
+    "halfZ": 0.33999999999999997,
+    "gasMarkerOpacity": 0,
+    "bubbleOpacity": 1,
+    "liquidOpacity": 0,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 194,
+    "cut": 7,
+    "progress": 1,
+    "halfX": 0.3599999999999999,
+    "halfY": 0.34999999999999987,
+    "halfZ": 0.33999999999999997,
+    "gasMarkerOpacity": 0,
+    "bubbleOpacity": 1,
+    "liquidOpacity": 0,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 8,
+    "freezeProgress": 0,
+    "innerHalf": 1.26,
+    "bottom": 0.63,
+    "liquidHeight": 3.775,
+    "airActive": false,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 0,
+    "cut": 8,
+    "freezeProgress": 0,
+    "innerHalf": 1.26,
+    "bottom": 0.63,
+    "liquidHeight": 3.775,
+    "airActive": false,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 80,
+    "cut": 8,
+    "freezeProgress": 0.39358600583090375,
+    "innerHalf": 1.0081049562682216,
+    "bottom": 0.785466472303207,
+    "liquidHeight": 3.619533527696793,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 80,
+    "cut": 8,
+    "freezeProgress": 0.39358600583090375,
+    "innerHalf": 1.0081049562682216,
+    "bottom": 0.785466472303207,
+    "liquidHeight": 3.619533527696793,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 164,
+    "cut": 8,
+    "freezeProgress": 1,
+    "innerHalf": 0.62,
+    "bottom": 1.025,
+    "liquidHeight": 3.38,
+    "airActive": false,
+    "withdraw": 1,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": true,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 164,
+    "cut": 8,
+    "freezeProgress": 1,
+    "innerHalf": 0.62,
+    "bottom": 1.025,
+    "liquidHeight": 3.38,
+    "airActive": false,
+    "withdraw": 1,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": true,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 0,
+    "cut": 4,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 4,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 65,
+    "cut": 4,
+    "progress": 0.24324812866961626,
+    "halfX": 1.2075620958900297,
+    "halfY": 1.182427058463422,
+    "halfZ": 0.8243211976514455,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 65,
+    "cut": 4,
+    "progress": 0.24324812866961626,
+    "halfX": 1.2075620958900297,
+    "halfY": 1.182427058463422,
+    "halfZ": 0.8243211976514455,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 120,
+    "cut": 4,
+    "progress": 0.7244357625845229,
+    "halfX": 0.6686319459053343,
+    "halfY": 0.6531206611570247,
+    "halfZ": 0.5163611119459053,
+    "gasMarkerOpacity": 0.909853405448626,
+    "bubbleOpacity": 0.10555405828841098,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 120,
+    "cut": 4,
+    "progress": 0.7244357625845229,
+    "halfX": 0.6686319459053343,
+    "halfY": 0.6531206611570247,
+    "halfZ": 0.5163611119459053,
+    "gasMarkerOpacity": 0.909853405448626,
+    "bubbleOpacity": 0.10555405828841098,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 52,
+    "cut": 5,
+    "progress": 0.14781423045885858,
+    "halfX": 1.3144480618860783,
+    "halfY": 1.2874043464952556,
+    "halfZ": 0.8853988925063305,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 13,
+    "airCavities": true,
+    "rayBranches": 7,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 52,
+    "cut": 5,
+    "progress": 0.14781423045885858,
+    "halfX": 1.3144480618860783,
+    "halfY": 1.2874043464952556,
+    "halfZ": 0.8853988925063305,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 13,
+    "airCavities": true,
+    "rayBranches": 7,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 7,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 7,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 75,
+    "cut": 7,
+    "progress": 0.32602854996243424,
+    "halfX": 1.1148480240420735,
+    "halfY": 1.0913685950413223,
+    "halfZ": 0.771341728024042,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 75,
+    "cut": 7,
+    "progress": 0.32602854996243424,
+    "halfX": 1.1148480240420735,
+    "halfY": 1.0913685950413223,
+    "halfZ": 0.771341728024042,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 135,
+    "cut": 7,
+    "progress": 0.8386055597295267,
+    "halfX": 0.54076177310293,
+    "halfY": 0.5275338842975206,
+    "halfZ": 0.4432924417731029,
+    "gasMarkerOpacity": 0.2670395154207009,
+    "bubbleOpacity": 0.6828412425909839,
+    "liquidOpacity": 0.9701562338092723,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 135,
+    "cut": 7,
+    "progress": 0.8386055597295267,
+    "halfX": 0.54076177310293,
+    "halfY": 0.5275338842975206,
+    "halfZ": 0.4432924417731029,
+    "gasMarkerOpacity": 0.2670395154207009,
+    "bubbleOpacity": 0.6828412425909839,
+    "liquidOpacity": 0.9701562338092723,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 194,
+    "cut": 7,
+    "progress": 1,
+    "halfX": 0.3599999999999999,
+    "halfY": 0.34999999999999987,
+    "halfZ": 0.33999999999999997,
+    "gasMarkerOpacity": 0,
+    "bubbleOpacity": 1,
+    "liquidOpacity": 0,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 194,
+    "cut": 7,
+    "progress": 1,
+    "halfX": 0.3599999999999999,
+    "halfY": 0.34999999999999987,
+    "halfZ": 0.33999999999999997,
+    "gasMarkerOpacity": 0,
+    "bubbleOpacity": 1,
+    "liquidOpacity": 0,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 76,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 8,
+    "freezeProgress": 0,
+    "innerHalf": 1.26,
+    "bottom": 0.63,
+    "liquidHeight": 3.775,
+    "airActive": false,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 0,
+    "cut": 8,
+    "freezeProgress": 0,
+    "innerHalf": 1.26,
+    "bottom": 0.63,
+    "liquidHeight": 3.775,
+    "airActive": false,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 80,
+    "cut": 8,
+    "freezeProgress": 0.39358600583090375,
+    "innerHalf": 1.0081049562682216,
+    "bottom": 0.785466472303207,
+    "liquidHeight": 3.619533527696793,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 80,
+    "cut": 8,
+    "freezeProgress": 0.39358600583090375,
+    "innerHalf": 1.0081049562682216,
+    "bottom": 0.785466472303207,
+    "liquidHeight": 3.619533527696793,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 164,
+    "cut": 8,
+    "freezeProgress": 1,
+    "innerHalf": 0.62,
+    "bottom": 1.025,
+    "liquidHeight": 3.38,
+    "airActive": false,
+    "withdraw": 1,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": true,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 164,
+    "cut": 8,
+    "freezeProgress": 1,
+    "innerHalf": 0.62,
+    "bottom": 1.025,
+    "liquidHeight": 3.38,
+    "airActive": false,
+    "withdraw": 1,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": true,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 0,
+    "cut": 8,
+    "freezeProgress": 0,
+    "innerHalf": 1.26,
+    "bottom": 0.63,
+    "liquidHeight": 3.775,
+    "airActive": false,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 0,
+    "cut": 8,
+    "freezeProgress": 0,
+    "innerHalf": 1.26,
+    "bottom": 0.63,
+    "liquidHeight": 3.775,
+    "airActive": false,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 80,
+    "cut": 8,
+    "freezeProgress": 0.39358600583090375,
+    "innerHalf": 1.0081049562682216,
+    "bottom": 0.785466472303207,
+    "liquidHeight": 3.619533527696793,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 80,
+    "cut": 8,
+    "freezeProgress": 0.39358600583090375,
+    "innerHalf": 1.0081049562682216,
+    "bottom": 0.785466472303207,
+    "liquidHeight": 3.619533527696793,
+    "airActive": true,
+    "withdraw": 0,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": false,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 164,
+    "cut": 8,
+    "freezeProgress": 1,
+    "innerHalf": 0.62,
+    "bottom": 1.025,
+    "liquidHeight": 3.38,
+    "airActive": false,
+    "withdraw": 1,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": true,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 164,
+    "cut": 8,
+    "freezeProgress": 1,
+    "innerHalf": 0.62,
+    "bottom": 1.025,
+    "liquidHeight": 3.38,
+    "airActive": false,
+    "withdraw": 1,
+    "liquidRemoved": 0,
+    "mode": "all",
+    "anchors": {
+      "solid": {
+        "x": 186.3082059557518,
+        "y": 743.8696408645936
+      },
+      "water": {
+        "x": 347.15233136818716,
+        "y": 812.7649353516231
+      },
+      "pipe": {
+        "x": 401.91895893123416,
+        "y": 544.4116886906452
+      },
+      "outlet": {
+        "x": 720.9530456621403,
+        "y": 936.142744663547
+      },
+      "receiver": {
+        "x": 709.6550350809522,
+        "y": 1086.975770980384
+      },
+      "coreBottom": {
+        "x": 347.15233136818716,
+        "y": 1096.0504023258582
+      }
+    },
+    "importantBounds": {
+      "left": 100.00000000000009,
+      "right": 900.0000000000001,
+      "top": 408.2160443395214,
+      "bottom": 1321.7839556604777
+    },
+    "geometryMatchesCut09AtEnd": true,
+    "airInjection": true,
+    "suction": false,
+    "fastVortex": false,
+    "waterLevel": 4.405
+  },
+  {
+    "frame": 0,
+    "cut": 7,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 0,
+    "cut": 7,
+    "progress": 0,
+    "halfX": 1.48,
+    "halfY": 1.45,
+    "halfZ": 0.98,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 75,
+    "cut": 7,
+    "progress": 0.32602854996243424,
+    "halfX": 1.1148480240420735,
+    "halfY": 1.0913685950413223,
+    "halfZ": 0.771341728024042,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 75,
+    "cut": 7,
+    "progress": 0.32602854996243424,
+    "halfX": 1.1148480240420735,
+    "halfY": 1.0913685950413223,
+    "halfZ": 0.771341728024042,
+    "gasMarkerOpacity": 1,
+    "bubbleOpacity": 0,
+    "liquidOpacity": 1,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 135,
+    "cut": 7,
+    "progress": 0.8386055597295267,
+    "halfX": 0.54076177310293,
+    "halfY": 0.5275338842975206,
+    "halfZ": 0.4432924417731029,
+    "gasMarkerOpacity": 0.2670395154207009,
+    "bubbleOpacity": 0.6828412425909839,
+    "liquidOpacity": 0.9701562338092723,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 135,
+    "cut": 7,
+    "progress": 0.8386055597295267,
+    "halfX": 0.54076177310293,
+    "halfY": 0.5275338842975206,
+    "halfZ": 0.4432924417731029,
+    "gasMarkerOpacity": 0.2670395154207009,
+    "bubbleOpacity": 0.6828412425909839,
+    "liquidOpacity": 0.9701562338092723,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 194,
+    "cut": 7,
+    "progress": 1,
+    "halfX": 0.3599999999999999,
+    "halfY": 0.34999999999999987,
+    "halfZ": 0.33999999999999997,
+    "gasMarkerOpacity": 0,
+    "bubbleOpacity": 1,
+    "liquidOpacity": 0,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  },
+  {
+    "frame": 194,
+    "cut": 7,
+    "progress": 1,
+    "halfX": 0.3599999999999999,
+    "halfY": 0.34999999999999987,
+    "halfZ": 0.33999999999999997,
+    "gasMarkerOpacity": 0,
+    "bubbleOpacity": 1,
+    "liquidOpacity": 0,
+    "mode": "all",
+    "bounds": {
+      "left": 83.66266380071842,
+      "right": 916.3373361992813,
+      "top": 360.239226687332,
+      "bottom": 1229.1597262696187
+    },
+    "bubbleCount": 200,
+    "airCavities": true,
+    "rayBranches": 0,
+    "boilingBubblesRepresentDissolvedGas": false
+  }
+]

@@ -230,5 +230,21 @@
       "inherits": "v02_highres",
       "status": "render_verified"
     }
+  },
+  "iceProps": {
+    "version": "1.0.0",
+    "manifest": "common_assets/nichijou_naze/props/ice_v3/v1.0.0/manifest.json",
+    "assets": [
+      "NNZ_PROP_ICE_CLOUDY_PHOTO_01",
+      "NNZ_PROP_ICE_PROCESS_PHOTO_01",
+      "NNZ_PROP_ICE_CONDITION_PHOTO_01",
+      "NNZ_PROP_ICE_COMPARE_PHOTO_01",
+      "NNZ_PROP_ICE_FACTORY_PHOTO_01",
+      "NNZ_MODEL_ICE_MICRO_01",
+      "NNZ_MODEL_FREEZING_CELL_01",
+      "NNZ_MODEL_ICECAN_AIR_01",
+      "NNZ_MODEL_ICECAN_DRAIN_01"
+    ],
+    "status": "self_qc_render_verified"
   }
 }
