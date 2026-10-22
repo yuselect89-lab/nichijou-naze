@@ -1,3 +1,5 @@
+import {verifyProduction} from './verify-production.mjs';
+verifyProduction();
 import {execFileSync} from 'node:child_process';
 execFileSync('python',['-c',String.raw`from pathlib import Path
 from zipfile import ZipFile,ZIP_DEFLATED
