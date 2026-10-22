@@ -1,3 +1,11 @@
+# 【最優先】正式帯の制作ロック（2026-10-22更新）
+
+過去の本書の「EP004の既存PNGを再利用」という記載は**現在の正式帯の根拠として無効**。冒頭帯の元画像が未確認で、EP004流用品は別物と判明したため。
+
+**Codex / ChatGPT Work の両方とも**、EP素材生成に着手する前・素材引渡し前・ラフ/最終MP4出力前に `node tools/verify-production.mjs` を実行すること。失敗時はそこで停止。過去のプロンプト、記憶、旧画像、近似デザインから再現しない。承認された画像と一致ハッシュが取得できた場合のみ `production-lock.json` を更新する。具体手順は `docs/PRODUCTION_LOCK.md`。旧版EP・旧レンダーは変更しない。
+
+---
+
 # ChatGPT Work 引渡し
 
 **保存先：`/workspace/nichijou-naze/`。Beyond Translationの制作プロジェクトには入れない。**
