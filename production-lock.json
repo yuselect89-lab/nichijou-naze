@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "project": "nichijou-naze",
+  "banner": {
+    "status": "BLOCKED_SOURCE_NOT_VERIFIED",
+    "assetId": "NNZ_BANNER_APPROVED_EP002_V4",
+    "path": "public/series/approved/opening_banner.png",
+    "sha256": null,
+    "approvalEvidence": "EP002 V4 正式黄色帯：『日常の疑問を』『約』『30』（赤で強調）『秒で解決！』。元画像ファイルとSHA256は未確認。",
+    "sourceRequired": "ユーザー承認済みEP002〜EP004使用版の実画像。推測・再生成・旧EP004別版の流用は禁止。",
+    "legacyNotApproved": {
+      "path": "public/series/v1/opening_banner.png",
+      "sha256": "cc648108d24b3f745f07b63960c9799f76046815dacd9eda2c1813ef81aecc1e",
+      "reason": "既存レジストリが『約30入り元データがないためEP004版を流用』と記録している旧画像"
+    }
+  },
+  "caption": {
+    "remove": "、",
+    "preserve": "。"
+  },
+  "presenter": {
+    "source": "docs/PRESENTER_DIRECTION.md"
+  },
+  "sharedAssetRegistry": "library-registry.json"
+}
