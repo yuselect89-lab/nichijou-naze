@@ -7,7 +7,8 @@
     "render": "node tools/render.mjs",
     "check": "tsc --noEmit",
     "test": "node --test tests/*.test.mjs",
-    "preflight": "node tools/verify-production.mjs"
+    "preflight": "node tools/verify-production.mjs",
+    "prestudio": "node tools/verify-production.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.526",
