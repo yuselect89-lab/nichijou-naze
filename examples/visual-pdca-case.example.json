@@ -1,0 +1,37 @@
+{
+  "_note": "EP-specific example only. Copy to episodes/EPXXX/visual_pdca_case.json and replace ALL EPXXX paths and SHA values. Relative paths resolve from JSON folder. Never use this sample as evidence of verification.",
+  "candidate": "../../output/EPXXX/rough.mp4",
+  "audio_reference": "../../output/EPXXX/reference_with_original_vo.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": "30/1",
+  "frames": 900,
+  "duration": 30,
+  "source_files": {
+    "official_banner": {
+      "path": "../../public/series/approved/opening_banner.png",
+      "sha256": "e6b63c322c996f543930a027db8981c2388e88441656655822c34bb4e2e2fd37"
+    },
+    "original_vo": {
+      "path": "../../episodes/EPXXX/vo-original.mp3",
+      "sha256": "REPLACE_WITH_VERIFIED_SHA256"
+    }
+  },
+  "subtitles": "../../episodes/EPXXX/captions.srt",
+  "locked_script": "../../episodes/EPXXX/SCRIPT_LOCK.md",
+  "caption_count": 0,
+  "motion_windows": [
+    {
+      "name": "expected_explanation_change",
+      "start": 10,
+      "end": 12,
+      "crop": [
+        160,
+        580,
+        760,
+        650
+      ],
+      "min_motion": 2
+    }
+  ]
+}
