@@ -26,8 +26,7 @@ jobs:
         run: npm ci
       - name: Install required video tools
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y ffmpeg
+          sudo env DEBIAN_FRONTEND=noninteractive timeout 180 apt-get install -y -qq --no-install-recommends ffmpeg
       - name: Verify required runtime tools
         run: |
           node --version
