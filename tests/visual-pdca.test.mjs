@@ -9,6 +9,7 @@ import {fileURLToPath} from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const checker = path.join(root, 'tools', 'visual_pdca_qc.py');
 const toolsPresent = ['python3', 'ffmpeg', 'ffprobe'].every(bin => spawnSync(bin, [bin === 'python3' ? '--version' : '-version'], {stdio:'ignore'}).status === 0);
+if (process.env.CI === 'true') assert.ok(toolsPresent, 'CI must run motion tests with Python3, FFmpeg and FFprobe; skipping is not allowed');
 
 function spawn(command, args) {
   const result = spawnSync(command, args, {encoding:'utf8', timeout:30000});
