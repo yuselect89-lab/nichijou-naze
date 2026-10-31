@@ -1,0 +1,16 @@
+{
+  "scope": "All six cuts implemented as G2 V3 review-candidate separated assets",
+  "technical_result": "PASS",
+  "native_cut_scenes": 6,
+  "lossless_alpha_movies": 22,
+  "review_movies_1080_and_360": 16,
+  "full_decodes": 38,
+  "external_g2_visual_pass": false,
+  "v3_locked": false,
+  "upstream_photo_binary_match_verified": false,
+  "audio_year_1950_vs_1951_resolved": false,
+  "audio_accessed_or_modified": false,
+  "publication_status": "HOLD pending external G2, audio-year resolution and Work G3 / final license scope",
+  "v2_lock_unchanged": true,
+  "paid_generation_used": false
+}

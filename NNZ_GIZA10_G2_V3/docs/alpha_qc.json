@@ -1,0 +1,178 @@
+[
+  {
+    "file": "C01/diagram_motion_RGBA.mov",
+    "sample_s": 3.344,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C01/labels_motion_RGBA.mov",
+    "sample_s": 3.344,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C01/photos_motion_RGBA.mov",
+    "sample_s": 3.344,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C01/presenter_motion_RGBA.mov",
+    "sample_s": 3.344,
+    "alpha_min": 0,
+    "alpha_max": 251,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C02/diagram_motion_RGBA.mov",
+    "sample_s": 3.7680000000000002,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C02/labels_motion_RGBA.mov",
+    "sample_s": 3.7680000000000002,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C02/photos_motion_RGBA.mov",
+    "sample_s": 3.7680000000000002,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C03/diagram_motion_RGBA.mov",
+    "sample_s": 4.408,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C03/labels_motion_RGBA.mov",
+    "sample_s": 4.408,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C03/photos_motion_RGBA.mov",
+    "sample_s": 4.408,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C03/presenter_motion_RGBA.mov",
+    "sample_s": 4.408,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C04/diagram_motion_RGBA.mov",
+    "sample_s": 4.072,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C04/labels_motion_RGBA.mov",
+    "sample_s": 4.072,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C04/photos_motion_RGBA.mov",
+    "sample_s": 4.072,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C04/presenter_motion_RGBA.mov",
+    "sample_s": 0.9,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C05/diagram_motion_RGBA.mov",
+    "sample_s": 5.112,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C05/labels_motion_RGBA.mov",
+    "sample_s": 5.112,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C05/photos_motion_RGBA.mov",
+    "sample_s": 5.112,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C06/diagram_motion_RGBA.mov",
+    "sample_s": 3.6424000000000003,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C06/labels_motion_RGBA.mov",
+    "sample_s": 3.6424000000000003,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C06/photos_motion_RGBA.mov",
+    "sample_s": 3.6424000000000003,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C06/presenter_motion_RGBA.mov",
+    "sample_s": 3.6424000000000003,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  }
+]

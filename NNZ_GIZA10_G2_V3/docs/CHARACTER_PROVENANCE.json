@@ -1,0 +1,62 @@
+{
+  "question": {
+    "id": "NNZ_CHAR_FEMALE_01",
+    "version": "v03_expressions",
+    "source": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_think.png",
+    "original_sha256": "b8e96ad5a8ce0768913b01e1fd13f15baaba3e2b5e3f9755cc55db0aeb462339",
+    "crop_bbox": [
+      353,
+      48,
+      1182,
+      1250
+    ],
+    "original": "shared/characters/question_original.png",
+    "crop": "shared/characters/question_upperbody.png",
+    "license": "User existing registered character; provenance preserved; no new public license asserted"
+  },
+  "reaction": {
+    "id": "NNZ_CHAR_FEMALE_01",
+    "version": "v03_expressions",
+    "source": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_surprise.png",
+    "original_sha256": "9f3bb5dae9e1fcd205d5da96a65d5c45b6696a4d19318015aa8097abc7edd4bf",
+    "crop_bbox": [
+      326,
+      48,
+      1209,
+      1250
+    ],
+    "original": "shared/characters/reaction_original.png",
+    "crop": "shared/characters/reaction_upperbody.png",
+    "license": "User existing registered character; provenance preserved; no new public license asserted"
+  },
+  "process": {
+    "id": "NNZ_CHAR_FEMALE_01",
+    "version": "v03_expressions",
+    "pose": "point_left",
+    "source": "common_assets/nichijou_naze/characters/female_v01/poses/NNZ_CHAR_FEMALE_01_pose_point_left.png",
+    "original_sha256": "1534b205eca595a4b82dd95a93df7f9d6d5f0edb1f93dd03bd58f68197b568fe",
+    "crop_bbox": [
+      111,
+      48,
+      1425,
+      1250
+    ],
+    "delivery_crop": "assets/characters/process.png",
+    "processing": "upper-body crop and downsample; no redraw or mirroring"
+  },
+  "payoff": {
+    "id": "NNZ_CHAR_FEMALE_01",
+    "version": "v03_expressions",
+    "source": "common_assets/nichijou_naze/characters/female_v01/versions/v03_expressions/poses/NNZ_CHAR_FEMALE_01_pose_happy.png",
+    "original_sha256": "fff01c571977af0084f3032f8a140c85d399d1c4e7a5218ee6c3e9c6539eca3d",
+    "crop_bbox": [
+      277,
+      48,
+      1259,
+      1250
+    ],
+    "original": "shared/characters/payoff_original.png",
+    "crop": "shared/characters/payoff_upperbody.png",
+    "license": "User existing registered character; provenance preserved; no new public license asserted"
+  }
+}

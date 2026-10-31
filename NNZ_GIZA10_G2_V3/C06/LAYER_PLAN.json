@@ -1,0 +1,283 @@
+{
+  "cut": "C06",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "duration": 4.553,
+  "timing_status": "editorial timing from V3 proposal; not measured from audio",
+  "background": "assets/background.png",
+  "items": [
+    {
+      "id": "compare",
+      "group": "labels",
+      "asset": "assets/labels/compare.png",
+      "keys": [
+        [
+          0,
+          95,
+          320,
+          348,
+          77,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "y1951",
+      "group": "labels",
+      "asset": "assets/labels/y1951.png",
+      "keys": [
+        [
+          0,
+          130,
+          1030,
+          150,
+          54,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "y1959small",
+      "group": "labels",
+      "asset": "assets/labels/y1959small.png",
+      "keys": [
+        [
+          0,
+          130,
+          1450,
+          150,
+          54,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "reeded",
+      "group": "labels",
+      "asset": "assets/labels/reeded.png",
+      "keys": [
+        [
+          0,
+          570,
+          730,
+          248,
+          69,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "smooth",
+      "group": "labels",
+      "asset": "assets/labels/smooth.png",
+      "keys": [
+        [
+          0,
+          570,
+          1150,
+          248,
+          69,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "schema",
+      "group": "labels",
+      "asset": "assets/labels/schema.png",
+      "keys": [
+        [
+          0,
+          630,
+          900,
+          122,
+          48,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "schema_lower",
+      "group": "labels",
+      "asset": "assets/labels/schema.png",
+      "keys": [
+        [
+          0,
+          630,
+          1320,
+          122,
+          48,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "old_ten",
+      "group": "photos",
+      "asset": "assets/photos/ten_old_1.png",
+      "keys": [
+        [
+          0,
+          130,
+          680,
+          340,
+          340,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "new_ten",
+      "group": "photos",
+      "asset": "assets/photos/ten_new_1.png",
+      "keys": [
+        [
+          0,
+          130,
+          1100,
+          340,
+          340,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "reeded_strip",
+      "group": "diagram",
+      "asset": "assets/diagrams/reeded.png",
+      "keys": [
+        [
+          0,
+          570,
+          805,
+          300,
+          69,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "smooth_strip",
+      "group": "diagram",
+      "asset": "assets/diagrams/smooth.png",
+      "keys": [
+        [
+          0,
+          570,
+          1225,
+          300,
+          69,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "summit_return",
+      "group": "diagram",
+      "asset": "assets/diagrams/top_light.png",
+      "keys": [
+        [
+          0,
+          100,
+          970,
+          400,
+          100,
+          0
+        ],
+        [
+          0.8,
+          100,
+          970,
+          400,
+          100,
+          0
+        ],
+        [
+          1.6,
+          100,
+          970,
+          400,
+          100,
+          1
+        ],
+        [
+          3.1,
+          100,
+          970,
+          400,
+          100,
+          0.45
+        ]
+      ]
+    },
+    {
+      "id": "memory",
+      "group": "labels",
+      "asset": "assets/labels/memory.png",
+      "keys": [
+        [
+          0,
+          95,
+          440,
+          448,
+          52,
+          0
+        ],
+        [
+          1.1,
+          95,
+          440,
+          448,
+          52,
+          0
+        ],
+        [
+          1.3,
+          95,
+          440,
+          448,
+          52,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "presenter",
+      "group": "presenter",
+      "asset": "assets/characters/payoff.png",
+      "keys": [
+        [
+          0,
+          650,
+          310,
+          360,
+          340,
+          0
+        ],
+        [
+          2.5,
+          650,
+          310,
+          360,
+          340,
+          0
+        ],
+        [
+          2.82,
+          650,
+          285,
+          360,
+          340,
+          1
+        ]
+      ]
+    }
+  ],
+  "layer_order": [
+    "diagram",
+    "photos",
+    "labels",
+    "presenter"
+  ]
+}

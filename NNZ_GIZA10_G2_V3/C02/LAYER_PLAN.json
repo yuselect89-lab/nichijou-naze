@@ -1,0 +1,184 @@
+{
+  "cut": "C02",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "duration": 4.71,
+  "timing_status": "editorial timing from V3 proposal; not measured from audio",
+  "background": "assets/background.png",
+  "items": [
+    {
+      "id": "concept",
+      "group": "labels",
+      "asset": "assets/labels/concept.png",
+      "keys": [
+        [
+          0,
+          110,
+          320,
+          440,
+          82,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "era",
+      "group": "labels",
+      "asset": "assets/labels/era.png",
+      "keys": [
+        [
+          0,
+          110,
+          430,
+          92,
+          52,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "top_podium",
+      "group": "diagram",
+      "asset": "assets/diagrams/podium.png",
+      "keys": [
+        [
+          0,
+          330,
+          1160,
+          420,
+          240,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "lower_left",
+      "group": "diagram",
+      "asset": "assets/diagrams/podium.png",
+      "keys": [
+        [
+          0,
+          145,
+          1280,
+          140,
+          120,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "lower_right",
+      "group": "diagram",
+      "asset": "assets/diagrams/podium.png",
+      "keys": [
+        [
+          0,
+          790,
+          1080,
+          130,
+          320,
+          0.5
+        ]
+      ]
+    },
+    {
+      "id": "summit_light",
+      "group": "diagram",
+      "asset": "assets/diagrams/top_light.png",
+      "keys": [
+        [
+          0,
+          785,
+          1035,
+          140,
+          75,
+          0
+        ],
+        [
+          1.8,
+          785,
+          1035,
+          140,
+          75,
+          0.8
+        ],
+        [
+          4.71,
+          785,
+          1035,
+          140,
+          75,
+          0.8
+        ]
+      ]
+    },
+    {
+      "id": "old_ten",
+      "group": "photos",
+      "asset": "assets/photos/ten_old_1.png",
+      "keys": [
+        [
+          0,
+          370,
+          820,
+          340,
+          340,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "photo",
+      "group": "labels",
+      "asset": "assets/labels/photo.png",
+      "keys": [
+        [
+          0,
+          370,
+          760,
+          136,
+          44,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "summit_target",
+      "group": "labels",
+      "asset": "assets/labels/summit.png",
+      "keys": [
+        [
+          0,
+          795,
+          1000,
+          96,
+          54,
+          0
+        ],
+        [
+          1.8,
+          795,
+          1000,
+          96,
+          54,
+          0
+        ],
+        [
+          2.1,
+          795,
+          1000,
+          96,
+          54,
+          1
+        ]
+      ]
+    }
+  ],
+  "layer_order": [
+    "diagram",
+    "photos",
+    "labels",
+    "presenter"
+  ]
+}

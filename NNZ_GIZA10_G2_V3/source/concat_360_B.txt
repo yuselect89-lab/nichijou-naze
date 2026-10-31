@@ -1,0 +1,3 @@
+file '../previews_360/C04_G2_V3_silent.mp4'
+file '../previews_360/C05_G2_V3_silent.mp4'
+file '../previews_360/C06_G2_V3_silent.mp4'

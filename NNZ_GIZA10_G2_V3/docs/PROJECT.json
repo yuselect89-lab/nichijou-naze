@@ -1,0 +1,31 @@
+{
+  "design": "G2 V3 CANDIDATE - NOT LOCKED / NOT EXTERNAL QC PASS",
+  "cuts": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06"
+  ],
+  "audio_accessed": false,
+  "audio_year_1950_vs_1951": "UNRESOLVED",
+  "upstream_photo_binary_match": false,
+  "v2_lock_overwritten": false,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 24,
+  "native_layers": [
+    "photos",
+    "diagram",
+    "labels",
+    "presenter"
+  ],
+  "reserved_caption_y": [
+    1510,
+    1790
+  ],
+  "right_ui_start_x": 940
+}

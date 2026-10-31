@@ -1,0 +1,155 @@
+[
+  {
+    "file": "photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/TEN_YEN_1951_REFERENCE_COPY.jpg",
+    "upstream_name": "10yen-S26.jpg",
+    "upstream_page": "https://commons.wikimedia.org/wiki/File:10yen-S26.jpg",
+    "original_binary_verified": false,
+    "sha256_transfer_copy": "e99e678b4f5e4ac16b16ca0741ecd64fd4278450c4b7f321848e6c6f0de23747",
+    "bytes": 50525,
+    "width": 800,
+    "height": 400,
+    "author": "As6673",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "role": "昭和26年（1951年）の10円ギザ縁。表裏を参照",
+    "modification_status": "Google Slides / PowerPoint transit copy; JPEG recompression may have occurred. Any subsequent crops/retouch must be recorded.",
+    "changes_in_this_package": "Circular crop of each face; downsample only; flat positional animation. No retouch, relighting, invented edge or 3D conversion.",
+    "crop_centers_radii": [
+      [
+        200,
+        200,
+        188
+      ],
+      [
+        600,
+        200,
+        188
+      ]
+    ],
+    "delivered_transfer_copy": "assets/reference_input/photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/TEN_YEN_1951_REFERENCE_COPY.jpg",
+    "commons_author_license_metadata_rechecked": "2026-10-31 via connected web tool",
+    "upstream_original_binary_verified": false,
+    "adaptation_license": "CC BY-SA 3.0 for supplied photographs and their photo-layer adaptations",
+    "credit_text": "10yen-S26.jpg — As6673 / Wikimedia Commons / CC BY-SA 3.0 / https://commons.wikimedia.org/wiki/File:10yen-S26.jpg / https://creativecommons.org/licenses/by-sa/3.0/ / 変更：転送コピーを使用。切出し・円形マスク・縮小・平面移動。原本バイナリ未照合。"
+  },
+  {
+    "file": "photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/FIFTY_YEN_1955_REFERENCE_COPY.jpg",
+    "upstream_name": "50yen-S30.jpg",
+    "upstream_page": "https://commons.wikimedia.org/wiki/File:50yen-S30.jpg",
+    "original_binary_verified": false,
+    "sha256_transfer_copy": "88a03560dbcb2991918fce1725f58f01c363a117fe0c9fc8ec77830d8cd81d70",
+    "bytes": 68645,
+    "width": 960,
+    "height": 480,
+    "author": "As6673",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "role": "昭和30年（1955年）の穴なし50円ニッケル貨、菊花。表裏を参照",
+    "modification_status": "Google Slides / PowerPoint transit copy; JPEG recompression may have occurred. Any subsequent crops/retouch must be recorded.",
+    "changes_in_this_package": "Circular crop of each face; downsample only; flat positional animation. No retouch, relighting, invented edge or 3D conversion.",
+    "crop_centers_radii": [
+      [
+        240,
+        240,
+        196
+      ],
+      [
+        720,
+        240,
+        196
+      ]
+    ],
+    "delivered_transfer_copy": "assets/reference_input/photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/FIFTY_YEN_1955_REFERENCE_COPY.jpg",
+    "commons_author_license_metadata_rechecked": "2026-10-31 via connected web tool",
+    "upstream_original_binary_verified": false,
+    "adaptation_license": "CC BY-SA 3.0 for supplied photographs and their photo-layer adaptations",
+    "credit_text": "50yen-S30.jpg — As6673 / Wikimedia Commons / CC BY-SA 3.0 / https://commons.wikimedia.org/wiki/File:50yen-S30.jpg / https://creativecommons.org/licenses/by-sa/3.0/ / 変更：転送コピーを使用。切出し・円形マスク・縮小・平面移動。原本バイナリ未照合。"
+  },
+  {
+    "file": "photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/HUNDRED_YEN_1957_REFERENCE_COPY.jpg",
+    "upstream_name": "100yen-S32.jpg",
+    "upstream_page": "https://commons.wikimedia.org/wiki/File:100yen-S32.jpg",
+    "original_binary_verified": false,
+    "sha256_transfer_copy": "1ef038ef0e474270233f1106af38fea20cbd79cac27a8ef26938fe6a7bbd5d9e",
+    "bytes": 70342,
+    "width": 800,
+    "height": 400,
+    "author": "As6673",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "role": "昭和32年（1957年）の鳳凰100円銀貨。表裏を参照",
+    "modification_status": "Google Slides / PowerPoint transit copy; JPEG recompression may have occurred. Any subsequent crops/retouch must be recorded.",
+    "changes_in_this_package": "Circular crop of each face; downsample only; flat positional animation. No retouch, relighting, invented edge or 3D conversion.",
+    "crop_centers_radii": [
+      [
+        195,
+        200,
+        184
+      ],
+      [
+        602,
+        200,
+        184
+      ]
+    ],
+    "delivered_transfer_copy": "assets/reference_input/photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/HUNDRED_YEN_1957_REFERENCE_COPY.jpg",
+    "commons_author_license_metadata_rechecked": "2026-10-31 via connected web tool",
+    "upstream_original_binary_verified": false,
+    "adaptation_license": "CC BY-SA 3.0 for supplied photographs and their photo-layer adaptations",
+    "credit_text": "100yen-S32.jpg — As6673 / Wikimedia Commons / CC BY-SA 3.0 / https://commons.wikimedia.org/wiki/File:100yen-S32.jpg / https://creativecommons.org/licenses/by-sa/3.0/ / 変更：転送コピーを使用。切出し・円形マスク・縮小・平面移動。原本バイナリ未照合。"
+  },
+  {
+    "file": "photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/TEN_YEN_1959_REFERENCE_COPY.jpg",
+    "upstream_name": "10yen-S34.jpg",
+    "upstream_page": "https://commons.wikimedia.org/wiki/File:10yen-S34.jpg",
+    "original_binary_verified": false,
+    "sha256_transfer_copy": "4f8ef58981c16f21d5302ef57e4f882fb216db93c2b27024647302aaf2d45772",
+    "bytes": 59044,
+    "width": 800,
+    "height": 400,
+    "author": "As6673",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "role": "昭和34年（1959年）のギザなし10円。表裏を参照",
+    "modification_status": "Google Slides / PowerPoint transit copy; JPEG recompression may have occurred. Any subsequent crops/retouch must be recorded.",
+    "changes_in_this_package": "Circular crop of each face; downsample only; flat positional animation. No retouch, relighting, invented edge or 3D conversion.",
+    "crop_centers_radii": [
+      [
+        200,
+        200,
+        188
+      ],
+      [
+        600,
+        200,
+        188
+      ]
+    ],
+    "delivered_transfer_copy": "assets/reference_input/photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/TEN_YEN_1959_REFERENCE_COPY.jpg",
+    "commons_author_license_metadata_rechecked": "2026-10-31 via connected web tool",
+    "upstream_original_binary_verified": false,
+    "adaptation_license": "CC BY-SA 3.0 for supplied photographs and their photo-layer adaptations",
+    "credit_text": "10yen-S34.jpg — As6673 / Wikimedia Commons / CC BY-SA 3.0 / https://commons.wikimedia.org/wiki/File:10yen-S34.jpg / https://creativecommons.org/licenses/by-sa/3.0/ / 変更：転送コピーを使用。切出し・円形マスク・縮小・平面移動。原本バイナリ未照合。"
+  },
+  {
+    "file": "photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/C01_giza10_S29_REFERENCE_COPY.jpg",
+    "upstream_name": "S29-10yen.jpg",
+    "upstream_page": "https://commons.wikimedia.org/wiki/File:S29-10yen.jpg",
+    "original_binary_verified": false,
+    "sha256_transfer_copy": "9df6f9371fb71c73ab279d7b7c5194fdfbe3255ec26fe380c906aaebd914d02a",
+    "bytes": 505282,
+    "width": 1200,
+    "height": 900,
+    "author": "ぽん56",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "role": "ギザ10縁の実物写真。1200×900。ただしCommons個別ページ再照合・ギザ有効画素の検査は未完了",
+    "modification_status": "Google Slides / PowerPoint transit copy; JPEG recompression may have occurred. Any subsequent crops/retouch must be recorded.",
+    "changes_in_this_package": "Crop [150,100,1020,720], downsample to width 860; slow translation and separate guide; no retouch or generated detail",
+    "delivered_transfer_copy": "assets/reference_input/photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/C01_giza10_S29_REFERENCE_COPY.jpg",
+    "commons_author_license_metadata_rechecked": "2026-10-31 via connected web tool",
+    "upstream_original_binary_verified": false,
+    "adaptation_license": "CC BY-SA 3.0 for supplied photographs and their photo-layer adaptations",
+    "credit_text": "S29-10yen.jpg — ぽん56 / Wikimedia Commons / CC BY-SA 3.0 / https://commons.wikimedia.org/wiki/File:S29-10yen.jpg / https://creativecommons.org/licenses/by-sa/3.0/ / 変更：転送コピーを使用。切出し・円形マスク・縮小・平面移動。原本バイナリ未照合。"
+  }
+]

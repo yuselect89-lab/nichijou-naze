@@ -1,0 +1,3 @@
+Pillow>=9.1
+numpy>=1.24
+# ffmpeg/ffprobe must also be available on PATH.

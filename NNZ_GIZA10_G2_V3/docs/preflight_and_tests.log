@@ -1,0 +1,66 @@
+$ npm run preflight
+
+> nichijou-naze-studio@1.0.0 preflight
+> node tools/verify-production.mjs
+
+PRODUCTION PREFLIGHT PASS: {"assetId":"NNZ_BANNER_USER_APPROVED_20261022","path":"public/series/approved/opening_banner.png","sha256":"e6b63c322c996f543930a027db8981c2388e88441656655822c34bb4e2e2fd37"}
+
+EXIT_CODE=0
+$ npm test
+
+> nichijou-naze-studio@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ user-supplied approved banner hash matches original bytes (2.054498ms)
+✔ production series uses approved source at natural aspect ratio (0.701391ms)
+(node:5149) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/nichijou-naze/src/integration/captions.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/nichijou-naze/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ all three uploaded template examples keep their asset IDs (2.078004ms)
+✔ unimplemented templates and unknown versions cannot silently render (1.056439ms)
+✔ arrow coordinates outside the caption-free content region are rejected (0.377641ms)
+✔ captions remove Japanese commas and preserve full stops (0.378801ms)
+✔ episode progress stays global across a nonzero sequence offset (0.219144ms)
+✔ caption ranges cannot overlap or exceed the full episode (0.342251ms)
+(node:5156) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/nichijou-naze/common_assets/nichijou_naze/runtime/v1.1.0/config.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/nichijou-naze/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ all registered examples validate and local media really exists (4.851799ms)
+✔ new expression paths never substitute old prototype or rewrite V02 (0.526974ms)
+✔ protected subjects and captions are enforced on changed parameters (0.887508ms)
+✔ step and pose sequencing reject backward or too-fast cues (0.334986ms)
+✔ whole-sprite motion remains continuous with finite opacity, no scale deformation (1.537889ms)
+✔ focus holds the target through reveal and returns to original framing (0.400656ms)
+✔ parts and labels cannot end before they start; legacy overlay cannot duplicate mascot (0.508019ms)
+✔ template ID plus overrides creates a reusable scene without changing the source (1.613934ms)
+(node:5163) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///workspace/nichijou-naze/src/integration/character.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /workspace/nichijou-naze/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ legacy character selection retains exact prototype paths (0.928567ms)
+✔ v02 resolves the five named production files without silently using prototype (0.481136ms)
+✔ template validator rejects missing highres poses and unknown versions (0.649294ms)
+✔ exact version and inherited pose resolve; missing version never falls back (6.188429ms)
+✔ missing or changed source and changed QC fail closed (1.227246ms)
+✔ preflight reuses existing, proposes only missing creation and unsupported capability adaptation (2.259335ms)
+✔ uninspected records and unsupported parameters never pass (1.706544ms)
+✔ path traversal, absolute paths, and escaping symlinks are rejected (0.81968ms)
+✔ registration rejects no QC, incomplete QC and stale evidence before activating versions (0.989685ms)
+✔ existing uninspected sample blocks new generation instead of being treated as missing (0.66548ms)
+✔ promotion binds exact files and QC, then rejects duplicates and stale bytes (4.140155ms)
+✔ repository state is either blocked or verified, never silently accepted (1.546191ms)
+✔ approved original passes, but changed bytes fail (2.741129ms)
+✔ the known wrong asset hash is rejected (0.605061ms)
+✔ missing authorization fails closed (0.770017ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 729.838974
+
+EXIT_CODE=0

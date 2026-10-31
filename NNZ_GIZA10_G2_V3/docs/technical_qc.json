@@ -1,0 +1,503 @@
+{
+  "technical_result": "PASS",
+  "records": [
+    {
+      "file": "C01/diagram_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.208333,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 953390
+    },
+    {
+      "file": "C01/labels_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.208333,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 923776
+    },
+    {
+      "file": "C01/photos_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.208333,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 70923852
+    },
+    {
+      "file": "C01/presenter_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.208333,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 3647576
+    },
+    {
+      "file": "C02/diagram_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.75,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 1386982
+    },
+    {
+      "file": "C02/labels_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.75,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 1227129
+    },
+    {
+      "file": "C02/photos_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.75,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 4522233
+    },
+    {
+      "file": "C03/diagram_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.541667,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 2445083
+    },
+    {
+      "file": "C03/labels_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.541667,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 1457971
+    },
+    {
+      "file": "C03/photos_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.541667,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 22323534
+    },
+    {
+      "file": "C03/presenter_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.541667,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 8185868
+    },
+    {
+      "file": "C04/diagram_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.125,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 2003519
+    },
+    {
+      "file": "C04/labels_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.125,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 2068002
+    },
+    {
+      "file": "C04/photos_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.125,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 23999262
+    },
+    {
+      "file": "C04/presenter_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.125,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 3975995
+    },
+    {
+      "file": "C05/diagram_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 6.416667,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 5338781
+    },
+    {
+      "file": "C05/labels_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 6.416667,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 2252913
+    },
+    {
+      "file": "C05/photos_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 6.416667,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 27134678
+    },
+    {
+      "file": "C06/diagram_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.583333,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 2129953
+    },
+    {
+      "file": "C06/labels_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.583333,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 1662168
+    },
+    {
+      "file": "C06/photos_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.583333,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 8166219
+    },
+    {
+      "file": "C06/presenter_motion_RGBA.mov",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.583333,
+      "codec": "qtrle",
+      "pixel_format": "argb",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 3955135
+    },
+    {
+      "file": "previews_1080/C01_G2_V3_silent.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.208333,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 359561
+    },
+    {
+      "file": "previews_1080/C02_G2_V3_silent.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.75,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 101036
+    },
+    {
+      "file": "previews_1080/C03_G2_V3_silent.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.541667,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 253734
+    },
+    {
+      "file": "previews_1080/C04_G2_V3_silent.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 5.125,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 401059
+    },
+    {
+      "file": "previews_1080/C05_G2_V3_silent.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 6.416667,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 434151
+    },
+    {
+      "file": "previews_1080/C06_G2_V3_silent.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 4.583333,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 210856
+    },
+    {
+      "file": "previews_1080/PREVIEW_A_G2_V3_silent.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 14.5,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 712732
+    },
+    {
+      "file": "previews_1080/PREVIEW_B_G2_V3_silent.mp4",
+      "resolution": [
+        1080,
+        1920
+      ],
+      "duration_s": 16.125,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 1044475
+    },
+    {
+      "file": "previews_360/C01_G2_V3_silent.mp4",
+      "resolution": [
+        360,
+        640
+      ],
+      "duration_s": 4.208333,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 83369
+    },
+    {
+      "file": "previews_360/C02_G2_V3_silent.mp4",
+      "resolution": [
+        360,
+        640
+      ],
+      "duration_s": 4.75,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 22796
+    },
+    {
+      "file": "previews_360/C03_G2_V3_silent.mp4",
+      "resolution": [
+        360,
+        640
+      ],
+      "duration_s": 5.541667,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 68932
+    },
+    {
+      "file": "previews_360/C04_G2_V3_silent.mp4",
+      "resolution": [
+        360,
+        640
+      ],
+      "duration_s": 5.125,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 101893
+    },
+    {
+      "file": "previews_360/C05_G2_V3_silent.mp4",
+      "resolution": [
+        360,
+        640
+      ],
+      "duration_s": 6.416667,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 94266
+    },
+    {
+      "file": "previews_360/C06_G2_V3_silent.mp4",
+      "resolution": [
+        360,
+        640
+      ],
+      "duration_s": 4.583333,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 42103
+    },
+    {
+      "file": "previews_360/PREVIEW_A_G2_V3_silent.mp4",
+      "resolution": [
+        360,
+        640
+      ],
+      "duration_s": 14.5,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 173497
+    },
+    {
+      "file": "previews_360/PREVIEW_B_G2_V3_silent.mp4",
+      "resolution": [
+        360,
+        640
+      ],
+      "duration_s": 16.125,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "audio_streams": 0,
+      "full_decode": "PASS",
+      "bytes": 236670
+    }
+  ],
+  "errors": [],
+  "v3_external_visual_approval": false,
+  "upstream_photo_original_match": false,
+  "audio_year_issue_resolved": false
+}

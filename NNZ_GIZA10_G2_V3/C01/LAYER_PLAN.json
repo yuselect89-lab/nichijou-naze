@@ -1,0 +1,149 @@
+{
+  "cut": "C01",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "duration": 4.18,
+  "timing_status": "editorial timing from V3 proposal; not measured from audio",
+  "background": "assets/background.png",
+  "items": [
+    {
+      "id": "actual_photo",
+      "group": "photos",
+      "asset": "assets/photos/C01_photo_crop.png",
+      "keys": [
+        [
+          0,
+          95,
+          700,
+          860,
+          613,
+          1
+        ],
+        [
+          2.55,
+          110,
+          694,
+          860,
+          613,
+          1
+        ],
+        [
+          3.05,
+          370,
+          800,
+          560,
+          399,
+          1
+        ],
+        [
+          4.18,
+          380,
+          794,
+          560,
+          399,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "question",
+      "group": "labels",
+      "asset": "assets/labels/question.png",
+      "keys": [
+        [
+          0,
+          105,
+          600,
+          378,
+          84,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "edge_guide",
+      "group": "diagram",
+      "asset": "assets/diagrams/guide.png",
+      "keys": [
+        [
+          0,
+          578.9080459770115,
+          1217.1854838709678,
+          80,
+          84,
+          1
+        ],
+        [
+          1.2,
+          654.9424468510707,
+          1204.5627876666908,
+          80,
+          84,
+          1
+        ],
+        [
+          2.55,
+          729.3333333333334,
+          1173.6145161290324,
+          80,
+          84,
+          1
+        ],
+        [
+          3.05,
+          774.1379310344828,
+          1104.032258064516,
+          80,
+          84,
+          1
+        ],
+        [
+          4.18,
+          800.2298850574713,
+          1085.1612903225807,
+          80,
+          84,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "presenter",
+      "group": "presenter",
+      "asset": "assets/characters/question.png",
+      "keys": [
+        [
+          0,
+          20,
+          1065,
+          360,
+          338,
+          0
+        ],
+        [
+          3.08,
+          20,
+          1065,
+          360,
+          338,
+          0
+        ],
+        [
+          3.4,
+          20,
+          1040,
+          360,
+          338,
+          1
+        ]
+      ]
+    }
+  ],
+  "layer_order": [
+    "photos",
+    "diagram",
+    "labels",
+    "presenter"
+  ]
+}

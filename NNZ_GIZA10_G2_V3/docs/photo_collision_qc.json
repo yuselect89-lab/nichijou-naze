@@ -1,0 +1,38 @@
+[
+  {
+    "cut": "C01",
+    "frames_checked": 101,
+    "photo_photo_presenter_and_label_max_overlap_pixels": 0,
+    "overlaps": []
+  },
+  {
+    "cut": "C02",
+    "frames_checked": 114,
+    "photo_photo_presenter_and_label_max_overlap_pixels": 0,
+    "overlaps": []
+  },
+  {
+    "cut": "C03",
+    "frames_checked": 133,
+    "photo_photo_presenter_and_label_max_overlap_pixels": 0,
+    "overlaps": []
+  },
+  {
+    "cut": "C04",
+    "frames_checked": 123,
+    "photo_photo_presenter_and_label_max_overlap_pixels": 0,
+    "overlaps": []
+  },
+  {
+    "cut": "C05",
+    "frames_checked": 154,
+    "photo_photo_presenter_and_label_max_overlap_pixels": 0,
+    "overlaps": []
+  },
+  {
+    "cut": "C06",
+    "frames_checked": 110,
+    "photo_photo_presenter_and_label_max_overlap_pixels": 0,
+    "overlaps": []
+  }
+]
