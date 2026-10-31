@@ -1,0 +1,36 @@
+{
+  "cut": "C04",
+  "script_locked": "ところが50円、100円も登場。どちらもギザ付き。",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "background": "shared/backgrounds/exhibition_clean_1080x1920.png",
+  "labels": [
+    {
+      "png": "C04/labels/fifty.png",
+      "svg": "C04/labels/fifty.svg",
+      "text": "50円"
+    },
+    {
+      "png": "C04/labels/fifty_year.png",
+      "svg": "C04/labels/fifty_year.svg",
+      "text": "1955"
+    },
+    {
+      "png": "C04/labels/hundred.png",
+      "svg": "C04/labels/hundred.svg",
+      "text": "100円"
+    },
+    {
+      "png": "C04/labels/hundred_year.png",
+      "svg": "C04/labels/hundred_year.svg",
+      "text": "1957"
+    }
+  ],
+  "presenter": "shared/characters/process_upperbody.png",
+  "presenter_role": "process",
+  "timing": "Unsynced editorial handles. Work aligns to existing locked audio. Audio was not accessed.",
+  "status": "PARTIAL - photography and historically verified coin faces missing",
+  "no_baked_caption_banner_progress_or_cta": true
+}

@@ -1,0 +1,30 @@
+$ npm run preflight
+
+> nichijou-naze-studio@1.0.0 preflight
+> node tools/verify-production.mjs
+
+PRODUCTION PREFLIGHT PASS: {"assetId":"NNZ_BANNER_USER_APPROVED_20261022","path":"public/series/approved/opening_banner.png","sha256":"e6b63c322c996f543930a027db8981c2388e88441656655822c34bb4e2e2fd37"}
+
+EXIT_CODE=0
+$ npm test
+
+> nichijou-naze-studio@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ tests/approved-banner.test.mjs (107.795765ms)
+✔ tests/config.test.mjs (141.760879ms)
+✔ tests/extension.test.mjs (161.458943ms)
+✔ tests/highres.test.mjs (134.248286ms)
+✔ tests/library-operations.test.mjs (103.217632ms)
+✔ tests/library-registration.test.mjs (81.182254ms)
+✔ tests/production-lock.test.mjs (120.988152ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 871.832746
+
+EXIT_CODE=0

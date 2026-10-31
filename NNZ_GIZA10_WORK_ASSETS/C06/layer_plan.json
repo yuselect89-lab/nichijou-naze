@@ -1,0 +1,26 @@
+{
+  "cut": "C06",
+  "script_locked": "あのギザは、10円玉が硬貨の頂点だった時代の名残なんです。",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "background": "shared/backgrounds/exhibition_clean_1080x1920.png",
+  "labels": [
+    {
+      "png": "C06/labels/reeded.png",
+      "svg": "C06/labels/reeded.svg",
+      "text": "ギザあり"
+    },
+    {
+      "png": "C06/labels/smooth.png",
+      "svg": "C06/labels/smooth.svg",
+      "text": "ギザなし"
+    }
+  ],
+  "presenter": "shared/characters/payoff_upperbody.png",
+  "presenter_role": "payoff",
+  "timing": "Unsynced editorial handles. Work aligns to existing locked audio. Audio was not accessed.",
+  "status": "PARTIAL - photography and historically verified coin faces missing",
+  "no_baked_caption_banner_progress_or_cta": true
+}

@@ -1,0 +1,12 @@
+{
+  "sequence": "presenter_entrance_sequence/%04d.png",
+  "start": 1,
+  "frames": 36,
+  "fps": 24,
+  "duration_editorial_seconds": 1.5,
+  "alpha": "straight RGBA",
+  "role": "payoff",
+  "motion": "short slide and ease-in alpha, then hold; no lip-sync",
+  "placement": "Work places sprite after coin reveal; do not cover rims, labels or subtitle area",
+  "audio": "not accessed"
+}

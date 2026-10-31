@@ -1,0 +1,54 @@
+{
+  "technical_result": "PASS",
+  "production_complete": false,
+  "notice": "File integrity only. C01 photo absent; historical faces missing; external visual QC not performed; distribution unresolved.",
+  "files_by_extension": {
+    ".md": 13,
+    ".json": 21,
+    ".png": 261,
+    ".blend": 8,
+    ".log": 1,
+    ".mtl": 4,
+    ".glb": 8,
+    ".obj": 8,
+    ".svg": 12,
+    ".py": 8,
+    ".ttc": 2,
+    ".txt": 1
+  },
+  "transparent_pngs": 248,
+  "sequences": [
+    {
+      "sequence": "C01/guide_sequence",
+      "frames": 48,
+      "different_frames": 47
+    },
+    {
+      "sequence": "shared/podium/rise_sequence",
+      "frames": 30,
+      "different_frames": 30
+    },
+    {
+      "sequence": "C01/presenter_entrance_sequence",
+      "frames": 36,
+      "different_frames": 16
+    },
+    {
+      "sequence": "C03/presenter_entrance_sequence",
+      "frames": 36,
+      "different_frames": 16
+    },
+    {
+      "sequence": "C04/presenter_entrance_sequence",
+      "frames": 36,
+      "different_frames": 16
+    },
+    {
+      "sequence": "C06/presenter_entrance_sequence",
+      "frames": 36,
+      "different_frames": 16
+    }
+  ],
+  "blend_readback_count": 8,
+  "errors": []
+}

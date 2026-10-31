@@ -1,0 +1,90 @@
+[
+  {
+    "name": "GIZA10_1951_REEDED",
+    "diameter_m": [
+      0.023500001057982445,
+      0.023500001057982445,
+      0.0015000017592683434
+    ],
+    "vertices": 6338,
+    "faces": 12672,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "face_design": "MISSING",
+    "rim_parameters": "UNVERIFIED",
+    "production_ready": false,
+    "files": [
+      "3d_models/GIZA10_1951_REEDED/model_UNFINISHED.mtl",
+      "3d_models/GIZA10_1951_REEDED/model_UNFINISHED.glb",
+      "3d_models/GIZA10_1951_REEDED/model_UNFINISHED.obj",
+      "3d_models/GIZA10_1951_REEDED/audit_same_camera.png",
+      "3d_models/GIZA10_1951_REEDED/model_UNFINISHED.blend"
+    ]
+  },
+  {
+    "name": "JPY10_1959_SMOOTH",
+    "diameter_m": [
+      0.023500001057982445,
+      0.023500001057982445,
+      0.0015000017592683434
+    ],
+    "vertices": 1442,
+    "faces": 2880,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "face_design": "MISSING",
+    "rim_parameters": "UNVERIFIED",
+    "production_ready": false,
+    "files": [
+      "3d_models/JPY10_1959_SMOOTH/model_UNFINISHED.mtl",
+      "3d_models/JPY10_1959_SMOOTH/model_UNFINISHED.glb",
+      "3d_models/JPY10_1959_SMOOTH/model_UNFINISHED.obj",
+      "3d_models/JPY10_1959_SMOOTH/audit_same_camera.png",
+      "3d_models/JPY10_1959_SMOOTH/model_UNFINISHED.blend"
+    ]
+  },
+  {
+    "name": "JPY50_1955_REEDED",
+    "diameter_m": [
+      0.02500000037252903,
+      0.024992702528834343,
+      0.0017000020015984774
+    ],
+    "vertices": 6242,
+    "faces": 12480,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "face_design": "MISSING",
+    "rim_parameters": "UNVERIFIED",
+    "production_ready": false,
+    "files": [
+      "3d_models/JPY50_1955_REEDED/model_UNFINISHED.mtl",
+      "3d_models/JPY50_1955_REEDED/model_UNFINISHED.glb",
+      "3d_models/JPY50_1955_REEDED/model_UNFINISHED.obj",
+      "3d_models/JPY50_1955_REEDED/audit_same_camera.png",
+      "3d_models/JPY50_1955_REEDED/model_UNFINISHED.blend"
+    ]
+  },
+  {
+    "name": "JPY100_1957_REEDED",
+    "diameter_m": [
+      0.022600000724196434,
+      0.02259340137243271,
+      0.0017000018851831555
+    ],
+    "vertices": 6242,
+    "faces": 12480,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "face_design": "MISSING",
+    "rim_parameters": "UNVERIFIED",
+    "production_ready": false,
+    "files": [
+      "3d_models/JPY100_1957_REEDED/model_UNFINISHED.mtl",
+      "3d_models/JPY100_1957_REEDED/model_UNFINISHED.glb",
+      "3d_models/JPY100_1957_REEDED/model_UNFINISHED.obj",
+      "3d_models/JPY100_1957_REEDED/audit_same_camera.png",
+      "3d_models/JPY100_1957_REEDED/model_UNFINISHED.blend"
+    ]
+  }
+]

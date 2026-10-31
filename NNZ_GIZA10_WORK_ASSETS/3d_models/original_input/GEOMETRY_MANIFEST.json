@@ -1,0 +1,82 @@
+[
+  {
+    "name": "GIZA10_1951_REEDED",
+    "diameter_mm": 23.5,
+    "thickness_mm": 1.5,
+    "reed_count_reference": 132,
+    "ridge_depth_mm_design": 0.13,
+    "mesh_vertices": 6338,
+    "mesh_faces": 12672,
+    "is_watertight": true,
+    "actual_face_relief_present": false,
+    "files": [
+      "GIZA10_1951_REEDED.glb",
+      "GIZA10_1951_REEDED.obj"
+    ],
+    "intended_use": "Editable rim geometry for Codex; not finished depiction",
+    "qc_status": "GEOMETRY_ONLY_NOT_G2_PASS",
+    "description": "1951 old 10-yen bronze; reeded edge; face design not yet modeled",
+    "dimensions_source": "Diameter based on G2 V2 specification; thickness/ridge parameters are modeling estimates, NOT certified coin specifications",
+    "ridge_count_source": "Unverified design placeholder; do not claim historically accurate; must validate against primary reference before final"
+  },
+  {
+    "name": "JPY10_1959_SMOOTH",
+    "diameter_mm": 23.5,
+    "thickness_mm": 1.5,
+    "reed_count_reference": 0,
+    "ridge_depth_mm_design": 0.0,
+    "mesh_vertices": 1442,
+    "mesh_faces": 2880,
+    "is_watertight": true,
+    "actual_face_relief_present": false,
+    "files": [
+      "JPY10_1959_SMOOTH.glb",
+      "JPY10_1959_SMOOTH.obj"
+    ],
+    "intended_use": "Editable rim geometry for Codex; not finished depiction",
+    "qc_status": "GEOMETRY_ONLY_NOT_G2_PASS",
+    "description": "1959 10-yen bronze; smooth edge; face design not yet modeled",
+    "dimensions_source": "Diameter based on G2 V2 specification; thickness/ridge parameters are modeling estimates, NOT certified coin specifications",
+    "ridge_count_source": "Unverified design placeholder; do not claim historically accurate; must validate against primary reference before final"
+  },
+  {
+    "name": "JPY50_1955_REEDED",
+    "diameter_mm": 25.0,
+    "thickness_mm": 1.7,
+    "reed_count_reference": 130,
+    "ridge_depth_mm_design": 0.11,
+    "mesh_vertices": 6242,
+    "mesh_faces": 12480,
+    "is_watertight": true,
+    "actual_face_relief_present": false,
+    "files": [
+      "JPY50_1955_REEDED.glb",
+      "JPY50_1955_REEDED.obj"
+    ],
+    "intended_use": "Editable rim geometry for Codex; not finished depiction",
+    "qc_status": "GEOMETRY_ONLY_NOT_G2_PASS",
+    "description": "1955 50-yen nickel; reeded edge; face design not yet modeled",
+    "dimensions_source": "Diameter based on G2 V2 specification; thickness/ridge parameters are modeling estimates, NOT certified coin specifications",
+    "ridge_count_source": "Unverified design placeholder; do not claim historically accurate; must validate against primary reference before final"
+  },
+  {
+    "name": "JPY100_1957_REEDED",
+    "diameter_mm": 22.6,
+    "thickness_mm": 1.7,
+    "reed_count_reference": 130,
+    "ridge_depth_mm_design": 0.11,
+    "mesh_vertices": 6242,
+    "mesh_faces": 12480,
+    "is_watertight": true,
+    "actual_face_relief_present": false,
+    "files": [
+      "JPY100_1957_REEDED.glb",
+      "JPY100_1957_REEDED.obj"
+    ],
+    "intended_use": "Editable rim geometry for Codex; not finished depiction",
+    "qc_status": "GEOMETRY_ONLY_NOT_G2_PASS",
+    "description": "1957 100-yen silver; reeded edge; face design not yet modeled",
+    "dimensions_source": "Diameter based on G2 V2 specification; thickness/ridge parameters are modeling estimates, NOT certified coin specifications",
+    "ridge_count_source": "Unverified design placeholder; do not claim historically accurate; must validate against primary reference before final"
+  }
+]

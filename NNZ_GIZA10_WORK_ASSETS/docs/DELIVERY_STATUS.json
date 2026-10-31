@@ -1,0 +1,14 @@
+{
+  "scope": "Editable assets only; no finished movie or cut shorts",
+  "overall": "PARTIAL_NOT_PRODUCTION_COMPLETE",
+  "C01": "HOLD_PHOTO_MISSING; background/labels/guide/character layers exist",
+  "C02": "supporting layers and continuous animation source exist; coin face missing",
+  "C03": "supporting layers and continuous animation source exist; coin face missing",
+  "C04": "labels/character/succession rig exist; historic faces missing",
+  "C05": "labels/separate old and new model rig exist; historic faces missing",
+  "C06": "comparison labels/dividers/same-scale tilt rig exist; faces and historical edge verification missing",
+  "models": "4 editable but unfinished working models; face relief absent",
+  "audio": "Not accessed; no audio/BGM/SE created",
+  "distribution": "Specified /codex output root does not exist and cannot be created; writable /workspace copy is not user delivery",
+  "external_visual_qc": "Not performed / not claimed"
+}

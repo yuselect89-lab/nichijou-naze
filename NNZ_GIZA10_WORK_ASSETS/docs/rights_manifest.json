@@ -1,0 +1,36 @@
+[
+  {
+    "asset_group": "shared/characters",
+    "origin": "NNZ_CHAR_FEMALE_01 v03_expressions; five inherited poses resolve unchanged v02 originals",
+    "license": "Existing user project asset; public sublicense not asserted",
+    "changes": "Unchanged original files plus separate upper-body crop and entrance sequence; provenance.json records source hashes",
+    "use": "C01 question / C03 reaction / C04 process_intro / C06 payoff; no mouth or limb rig"
+  },
+  {
+    "asset_group": "shared/fonts",
+    "origin": "System-installed Noto Sans CJK Regular/Bold",
+    "license": "SIL Open Font License 1.1; full system package copyright included",
+    "changes": "Unmodified font files; text rasterized to transparent PNG, editable SVG also included"
+  },
+  {
+    "asset_group": "3d_models/original_input",
+    "origin": "User supplied 04_GEOMETRY_INPUT",
+    "license": "User provided; no new external license asserted",
+    "changes": "Original files preserved; working copies converted mm to metres and assigned separate source objects and materials; rim parameters not altered without evidence",
+    "use": "UNFINISHED; faces absent, reed dimensions unverified"
+  },
+  {
+    "asset_group": "shared/backgrounds, shared/podium, C01/guide_sequence, labels, C06/comparison_dividers.png",
+    "origin": "Procedural assets created for this request",
+    "license": "Created for user project; no third-party photograph included",
+    "changes": "Original vector/raster/mesh creation",
+    "use": "Editable isolated supporting assets"
+  },
+  {
+    "asset_group": "C01 photography",
+    "origin": "Not obtained",
+    "license": "NOT INCLUDED / HOLD",
+    "changes": "None",
+    "use": "Do not replace with render or generated photograph"
+  }
+]

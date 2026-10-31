@@ -1,0 +1,26 @@
+{
+  "cut": "C03",
+  "script_locked": "1951年に製造が始まった10円玉が、なんと最高額！",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "background": "shared/backgrounds/exhibition_clean_1080x1920.png",
+  "labels": [
+    {
+      "png": "C03/labels/year.png",
+      "svg": "C03/labels/year.svg",
+      "text": "1951年"
+    },
+    {
+      "png": "C03/labels/discovery.png",
+      "svg": "C03/labels/discovery.svg",
+      "text": "硬貨の最高額＝10円"
+    }
+  ],
+  "presenter": "shared/characters/reaction_upperbody.png",
+  "presenter_role": "reaction",
+  "timing": "Unsynced editorial handles. Work aligns to existing locked audio. Audio was not accessed.",
+  "status": "PARTIAL - photography and historically verified coin faces missing",
+  "no_baked_caption_banner_progress_or_cta": true
+}

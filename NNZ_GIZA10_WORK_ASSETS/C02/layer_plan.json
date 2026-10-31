@@ -1,0 +1,21 @@
+{
+  "cut": "C02",
+  "script_locked": "当時は最高額の硬貨にギザを付ける慣習がありました。",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "background": "shared/backgrounds/exhibition_clean_1080x1920.png",
+  "labels": [
+    {
+      "png": "C02/labels/concept.png",
+      "svg": "C02/labels/concept.svg",
+      "text": "最高額の硬貨"
+    }
+  ],
+  "presenter": null,
+  "presenter_role": "focus_only",
+  "timing": "Unsynced editorial handles. Work aligns to existing locked audio. Audio was not accessed.",
+  "status": "PARTIAL - photography and historically verified coin faces missing",
+  "no_baked_caption_banner_progress_or_cta": true
+}

@@ -1,0 +1,374 @@
+[
+  {
+    "file": "3d_models/GIZA10_1951_REEDED/model_UNFINISHED.blend",
+    "open_ok": true,
+    "mesh_objects": 1,
+    "actions": 1,
+    "audio_datablocks": 0,
+    "animation_moves": [
+      {
+        "object": "GIZA10_1951_REEDED",
+        "start": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          6.2831854820251465
+        ],
+        "different": true
+      }
+    ]
+  },
+  {
+    "file": "3d_models/JPY100_1957_REEDED/model_UNFINISHED.blend",
+    "open_ok": true,
+    "mesh_objects": 1,
+    "actions": 1,
+    "audio_datablocks": 0,
+    "animation_moves": [
+      {
+        "object": "JPY100_1957_REEDED",
+        "start": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          6.2831854820251465
+        ],
+        "different": true
+      }
+    ]
+  },
+  {
+    "file": "3d_models/JPY10_1959_SMOOTH/model_UNFINISHED.blend",
+    "open_ok": true,
+    "mesh_objects": 1,
+    "actions": 1,
+    "audio_datablocks": 0,
+    "animation_moves": [
+      {
+        "object": "JPY10_1959_SMOOTH",
+        "start": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          6.2831854820251465
+        ],
+        "different": true
+      }
+    ]
+  },
+  {
+    "file": "3d_models/JPY50_1955_REEDED/model_UNFINISHED.blend",
+    "open_ok": true,
+    "mesh_objects": 1,
+    "actions": 1,
+    "audio_datablocks": 0,
+    "animation_moves": [
+      {
+        "object": "JPY50_1955_REEDED",
+        "start": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          6.2831854820251465
+        ],
+        "different": true
+      }
+    ]
+  },
+  {
+    "file": "C02/C02_C03_continuous_motion_UNFINISHED.blend",
+    "open_ok": true,
+    "mesh_objects": 2,
+    "actions": 3,
+    "audio_datablocks": 0,
+    "animation_moves": [
+      {
+        "object": "Camera",
+        "start": [
+          0.029999999329447746,
+          -0.07500000298023224,
+          0.10000000149011612,
+          0.6794639229774475,
+          1.218606993091953e-08,
+          0.3805065155029297
+        ],
+        "end": [
+          0.019999999552965164,
+          -0.054999999701976776,
+          0.11999999731779099,
+          0.6794639229774475,
+          1.218606993091953e-08,
+          0.3805065155029297
+        ],
+        "different": true
+      },
+      {
+        "object": "GIZA10_1951_REEDED",
+        "start": [
+          0.0,
+          0.0,
+          0.0,
+          1.2000000476837158,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.012000000104308128,
+          0.012000000104308128,
+          0.18000000715255737,
+          0.0,
+          1.1440000534057617
+        ],
+        "different": true
+      },
+      {
+        "object": "Top_podium",
+        "start": [
+          0.0,
+          0.012000000104308128,
+          -0.00800000037997961,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.012000000104308128,
+          0.004999999888241291,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "different": true
+      }
+    ]
+  },
+  {
+    "file": "C04/C04_C05_succession_motion_UNFINISHED.blend",
+    "open_ok": true,
+    "mesh_objects": 4,
+    "actions": 4,
+    "audio_datablocks": 0,
+    "animation_moves": [
+      {
+        "object": "GIZA10_1951_REEDED",
+        "start": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          -0.02500000037252903,
+          0.017999999225139618,
+          -0.014999999664723873,
+          0.8999999761581421,
+          0.0,
+          0.0
+        ],
+        "different": true
+      },
+      {
+        "object": "JPY50_1955_REEDED",
+        "start": [
+          -0.07999999821186066,
+          0.004999999888241291,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.00800000037997961,
+          0.012000000104308128,
+          0.8999999761581421,
+          0.0,
+          0.0
+        ],
+        "different": true
+      },
+      {
+        "object": "JPY100_1957_REEDED",
+        "start": [
+          0.07999999821186066,
+          0.009999999776482582,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.017999999225139618,
+          0.026000000536441803,
+          0.024000000208616257,
+          0.8999999761581421,
+          0.0,
+          0.0
+        ],
+        "different": true
+      },
+      {
+        "object": "JPY10_1959_SMOOTH",
+        "start": [
+          0.09000000357627869,
+          -0.009999999776482582,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          -0.017999999225139618,
+          -0.012000000104308128,
+          0.0,
+          0.8999999761581421,
+          0.0,
+          0.0
+        ],
+        "different": true
+      }
+    ]
+  },
+  {
+    "file": "C06/C06_matched_tilt_UNFINISHED.blend",
+    "open_ok": true,
+    "mesh_objects": 2,
+    "actions": 2,
+    "audio_datablocks": 0,
+    "animation_moves": [
+      {
+        "object": "GIZA10_1951_REEDED",
+        "start": [
+          0.0,
+          0.017999999225139618,
+          0.0,
+          0.15000000596046448,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.017999999225139618,
+          0.0,
+          1.0499999523162842,
+          0.0,
+          0.0
+        ],
+        "different": true
+      },
+      {
+        "object": "JPY10_1959_SMOOTH",
+        "start": [
+          0.0,
+          -0.017999999225139618,
+          0.0,
+          0.15000000596046448,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          -0.017999999225139618,
+          0.0,
+          1.0499999523162842,
+          0.0,
+          0.0
+        ],
+        "different": true
+      }
+    ]
+  },
+  {
+    "file": "shared/podium/podium_rise.blend",
+    "open_ok": true,
+    "mesh_objects": 6,
+    "actions": 2,
+    "audio_datablocks": 0,
+    "animation_moves": [
+      {
+        "object": "Podium_Top",
+        "start": [
+          0.0,
+          0.006000000052154064,
+          -0.006000000052154064,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.006000000052154064,
+          0.006000000052154064,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "different": true
+      },
+      {
+        "object": "Podium_highlight_Top",
+        "start": [
+          0.0,
+          0.006000000052154064,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "end": [
+          0.0,
+          0.006000000052154064,
+          0.01209999993443489,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "different": true
+      }
+    ]
+  }
+]
