@@ -1,0 +1,94 @@
+{
+  "cut": "C02",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "frames": 113,
+  "duration": 4.708333333333333,
+  "timing_status": "Frame boundaries from supplied CURRENT_EDIT_REFERENCE_NOT_APPROVED.json; audio not accessed",
+  "background": "assets/background.png",
+  "items": [
+    {
+      "id": "custom",
+      "group": "labels",
+      "asset": "assets/labels/custom.png",
+      "keys": [
+        [
+          0,
+          90,
+          610,
+          362,
+          64,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "reeded_custom",
+      "group": "labels",
+      "asset": "assets/labels/reeded_custom.png",
+      "keys": [
+        [
+          0,
+          90,
+          680,
+          164,
+          88,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "old10",
+      "group": "photos",
+      "asset": "assets/photos/C01_photo_crop.png",
+      "keys": [
+        [
+          0,
+          120,
+          820,
+          700,
+          499,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "actual_edge_guide",
+      "group": "diagram",
+      "asset": "assets/diagrams/guide.png",
+      "keys": [
+        [
+          0,
+          640,
+          1160,
+          76,
+          80,
+          1
+        ],
+        [
+          2.2,
+          675,
+          1144,
+          76,
+          80,
+          1
+        ],
+        [
+          4.708333333333333,
+          640,
+          1160,
+          76,
+          80,
+          1
+        ]
+      ]
+    }
+  ],
+  "layer_order": [
+    "photos",
+    "diagram",
+    "labels",
+    "presenter"
+  ]
+}

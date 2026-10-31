@@ -1,0 +1,93 @@
+{
+  "result": "PASS",
+  "files": [
+    {
+      "path": "INVESTIGATION.md",
+      "match": true
+    },
+    {
+      "path": "RIGHTS.md",
+      "match": true
+    },
+    {
+      "path": "START_CODEX.md",
+      "match": true
+    },
+    {
+      "path": "evidence/06.50_1080.png",
+      "match": true
+    },
+    {
+      "path": "evidence/06.50_360.png",
+      "match": true
+    },
+    {
+      "path": "evidence/09.50_1080.png",
+      "match": true
+    },
+    {
+      "path": "evidence/09.50_360.png",
+      "match": true
+    },
+    {
+      "path": "evidence/12.90_1080.png",
+      "match": true
+    },
+    {
+      "path": "evidence/12.90_360.png",
+      "match": true
+    },
+    {
+      "path": "evidence/15.65_1080.png",
+      "match": true
+    },
+    {
+      "path": "evidence/15.65_360.png",
+      "match": true
+    },
+    {
+      "path": "evidence/16.40_1080.png",
+      "match": true
+    },
+    {
+      "path": "evidence/16.40_360.png",
+      "match": true
+    },
+    {
+      "path": "evidence/20.10_1080.png",
+      "match": true
+    },
+    {
+      "path": "evidence/20.10_360.png",
+      "match": true
+    },
+    {
+      "path": "evidence/24.40_1080.png",
+      "match": true
+    },
+    {
+      "path": "evidence/24.40_360.png",
+      "match": true
+    },
+    {
+      "path": "evidence/29.70_1080.png",
+      "match": true
+    },
+    {
+      "path": "evidence/29.70_360.png",
+      "match": true
+    },
+    {
+      "path": "references/COMMONS_COMPARISON_ORIGINAL.jpg",
+      "match": true
+    },
+    {
+      "path": "references/CURRENT_EDIT_REFERENCE_NOT_APPROVED.json",
+      "match": true
+    },
+    {
+      "path": "references/R1_PHOTO_RIGHTS.json",
+      "match": true
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "adopted": [
+    {
+      "id": "M01",
+      "use": "Photo-attached highest denomination title, independent values and connectors; PNG/SVG plus labels/diagram movies"
+    },
+    {
+      "id": "M02",
+      "use": "Three individually connected edge schematics with local 模式図 labels; C05"
+    },
+    {
+      "id": "M03",
+      "use": "Actual edge crops 650x250, same 600x231 downsample; C06",
+      "coordinates": "docs/CROP_COORDINATES.json"
+    },
+    {
+      "id": "M05",
+      "use": "Manufacture/type labels; no false specimen dates"
+    },
+    {
+      "id": "R1_CHARACTERS",
+      "use": "Unchanged whole upper-body derivatives; only uniform scale/translation"
+    }
+  ],
+  "optional_not_adopted": [
+    {
+      "id": "M04",
+      "reason": "Actual crops distinguish multiple grooves and a smooth side in sampled 360px output; large linked fallback supplied separately",
+      "files": [
+        "shared/C06_M04_FALLBACK.json",
+        "shared/C06_M04_FALLBACK.svg"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "id": "EMPTY_SUMMIT",
+      "reason": "No referent or denomination; all podiums, summit labels and halos removed"
+    },
+    {
+      "id": "FACE_ONLY_C06",
+      "reason": "Face images do not demonstrate edge difference"
+    },
+    {
+      "id": "M03_WIDER_750x315",
+      "reason": "Wider context requires 720px width; selected tighter 650px crops retain grooves at 600px width and leave the complete presenter visible"
+    },
+    {
+      "id": "FAILED_3D_R0_ANIMATION",
+      "reason": "Not reused or included as production assets"
+    }
+  ]
+}

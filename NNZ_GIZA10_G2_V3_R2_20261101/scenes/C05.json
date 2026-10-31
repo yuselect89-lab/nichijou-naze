@@ -1,0 +1,731 @@
+{
+  "cut": "C05",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "frames": 153,
+  "duration": 6.375,
+  "timing_status": "Frame boundaries from supplied CURRENT_EDIT_REFERENCE_NOT_APPROVED.json; audio not accessed",
+  "background": "assets/background.png",
+  "items": [
+    {
+      "id": "c5value10",
+      "group": "labels",
+      "asset": "assets/labels/c5value10.png",
+      "keys": [
+        [
+          0,
+          80,
+          610,
+          117,
+          57,
+          1
+        ],
+        [
+          2.4,
+          80,
+          610,
+          117,
+          57,
+          1
+        ],
+        [
+          2.72,
+          80,
+          610,
+          117,
+          57,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "coin10",
+      "group": "photos",
+      "asset": "assets/photos/ten_old_1.png",
+      "keys": [
+        [
+          0,
+          80,
+          700,
+          212,
+          212,
+          1
+        ],
+        [
+          2.4,
+          80,
+          700,
+          212,
+          212,
+          1
+        ],
+        [
+          2.72,
+          80,
+          700,
+          212,
+          212,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "schema10",
+      "group": "diagram",
+      "asset": "assets/diagrams/schema10.png",
+      "keys": [
+        [
+          0,
+          70,
+          1000,
+          230,
+          110,
+          1
+        ],
+        [
+          2.4,
+          70,
+          1000,
+          230,
+          110,
+          1
+        ],
+        [
+          2.72,
+          70,
+          1000,
+          230,
+          110,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "reeded10",
+      "group": "labels",
+      "asset": "assets/labels/reeded10.png",
+      "keys": [
+        [
+          0,
+          70,
+          1125,
+          172,
+          53,
+          1
+        ],
+        [
+          2.4,
+          70,
+          1125,
+          172,
+          53,
+          1
+        ],
+        [
+          2.72,
+          70,
+          1125,
+          172,
+          53,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "schema_label10",
+      "group": "labels",
+      "asset": "assets/labels/schema_label10.png",
+      "keys": [
+        [
+          0,
+          80,
+          1182,
+          120,
+          50,
+          1
+        ],
+        [
+          2.4,
+          80,
+          1182,
+          120,
+          50,
+          1
+        ],
+        [
+          2.72,
+          80,
+          1182,
+          120,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "link10",
+      "group": "diagram",
+      "asset": "assets/diagrams/link10.png",
+      "keys": [
+        [
+          0,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ],
+        [
+          2.4,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ],
+        [
+          2.72,
+          0,
+          0,
+          1080,
+          1920,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "c5value50",
+      "group": "labels",
+      "asset": "assets/labels/c5value50.png",
+      "keys": [
+        [
+          0,
+          360,
+          610,
+          117,
+          57,
+          1
+        ],
+        [
+          2.4,
+          360,
+          610,
+          117,
+          57,
+          1
+        ],
+        [
+          2.72,
+          360,
+          610,
+          117,
+          57,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "coin50",
+      "group": "photos",
+      "asset": "assets/photos/fifty_0.png",
+      "keys": [
+        [
+          0,
+          360,
+          700,
+          225,
+          225,
+          1
+        ],
+        [
+          2.4,
+          360,
+          700,
+          225,
+          225,
+          1
+        ],
+        [
+          2.72,
+          360,
+          700,
+          225,
+          225,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "schema50",
+      "group": "diagram",
+      "asset": "assets/diagrams/schema50.png",
+      "keys": [
+        [
+          0,
+          350,
+          1000,
+          230,
+          110,
+          1
+        ],
+        [
+          2.4,
+          350,
+          1000,
+          230,
+          110,
+          1
+        ],
+        [
+          2.72,
+          350,
+          1000,
+          230,
+          110,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "reeded50",
+      "group": "labels",
+      "asset": "assets/labels/reeded50.png",
+      "keys": [
+        [
+          0,
+          350,
+          1125,
+          172,
+          53,
+          1
+        ],
+        [
+          2.4,
+          350,
+          1125,
+          172,
+          53,
+          1
+        ],
+        [
+          2.72,
+          350,
+          1125,
+          172,
+          53,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "schema_label50",
+      "group": "labels",
+      "asset": "assets/labels/schema_label50.png",
+      "keys": [
+        [
+          0,
+          360,
+          1182,
+          120,
+          50,
+          1
+        ],
+        [
+          2.4,
+          360,
+          1182,
+          120,
+          50,
+          1
+        ],
+        [
+          2.72,
+          360,
+          1182,
+          120,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "link50",
+      "group": "diagram",
+      "asset": "assets/diagrams/link50.png",
+      "keys": [
+        [
+          0,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ],
+        [
+          2.4,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ],
+        [
+          2.72,
+          0,
+          0,
+          1080,
+          1920,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "c5value100",
+      "group": "labels",
+      "asset": "assets/labels/c5value100.png",
+      "keys": [
+        [
+          0,
+          660,
+          610,
+          145,
+          57,
+          1
+        ],
+        [
+          2.4,
+          660,
+          610,
+          145,
+          57,
+          1
+        ],
+        [
+          2.72,
+          660,
+          610,
+          145,
+          57,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "coin100",
+      "group": "photos",
+      "asset": "assets/photos/hundred_0.png",
+      "keys": [
+        [
+          0,
+          660,
+          700,
+          203,
+          203,
+          1
+        ],
+        [
+          2.4,
+          660,
+          700,
+          203,
+          203,
+          1
+        ],
+        [
+          2.72,
+          660,
+          700,
+          203,
+          203,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "schema100",
+      "group": "diagram",
+      "asset": "assets/diagrams/schema100.png",
+      "keys": [
+        [
+          0,
+          650,
+          1000,
+          230,
+          110,
+          1
+        ],
+        [
+          2.4,
+          650,
+          1000,
+          230,
+          110,
+          1
+        ],
+        [
+          2.72,
+          650,
+          1000,
+          230,
+          110,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "reeded100",
+      "group": "labels",
+      "asset": "assets/labels/reeded100.png",
+      "keys": [
+        [
+          0,
+          650,
+          1125,
+          172,
+          53,
+          1
+        ],
+        [
+          2.4,
+          650,
+          1125,
+          172,
+          53,
+          1
+        ],
+        [
+          2.72,
+          650,
+          1125,
+          172,
+          53,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "schema_label100",
+      "group": "labels",
+      "asset": "assets/labels/schema_label100.png",
+      "keys": [
+        [
+          0,
+          660,
+          1182,
+          120,
+          50,
+          1
+        ],
+        [
+          2.4,
+          660,
+          1182,
+          120,
+          50,
+          1
+        ],
+        [
+          2.72,
+          660,
+          1182,
+          120,
+          50,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "link100",
+      "group": "diagram",
+      "asset": "assets/diagrams/link100.png",
+      "keys": [
+        [
+          0,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ],
+        [
+          2.4,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ],
+        [
+          2.72,
+          0,
+          0,
+          1080,
+          1920,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "separate1959",
+      "group": "photos",
+      "asset": "assets/photos/ten_new_1.png",
+      "keys": [
+        [
+          0,
+          320,
+          900,
+          300,
+          300,
+          0
+        ],
+        [
+          2.82,
+          320,
+          900,
+          300,
+          300,
+          0
+        ],
+        [
+          3.12,
+          320,
+          900,
+          300,
+          300,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "change1959",
+      "group": "labels",
+      "asset": "assets/labels/change1959.png",
+      "keys": [
+        [
+          0,
+          110,
+          670,
+          493,
+          69,
+          0
+        ],
+        [
+          2.82,
+          110,
+          670,
+          493,
+          69,
+          0
+        ],
+        [
+          3.12,
+          110,
+          670,
+          493,
+          69,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "separate1959_edge_schema",
+      "group": "diagram",
+      "asset": "assets/diagrams/c5_smooth.png",
+      "keys": [
+        [
+          0,
+          230,
+          1260,
+          480,
+          120,
+          0
+        ],
+        [
+          3.12,
+          230,
+          1260,
+          480,
+          120,
+          0
+        ],
+        [
+          3.32,
+          230,
+          1260,
+          480,
+          120,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "new_schema_label",
+      "group": "labels",
+      "asset": "assets/labels/new_schema_label.png",
+      "keys": [
+        [
+          0,
+          390,
+          1400,
+          126,
+          52,
+          0
+        ],
+        [
+          3.12,
+          390,
+          1400,
+          126,
+          52,
+          0
+        ],
+        [
+          3.32,
+          390,
+          1400,
+          126,
+          52,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "new1959link",
+      "group": "diagram",
+      "asset": "assets/diagrams/new1959link.png",
+      "keys": [
+        [
+          0,
+          0,
+          0,
+          1080,
+          1920,
+          0
+        ],
+        [
+          3.12,
+          0,
+          0,
+          1080,
+          1920,
+          0
+        ],
+        [
+          3.32,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ]
+      ]
+    }
+  ],
+  "layer_order": [
+    "photos",
+    "diagram",
+    "labels",
+    "presenter"
+  ]
+}

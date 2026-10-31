@@ -1,0 +1,194 @@
+[
+  {
+    "file": "C01/diagram_motion_RGBA.mov",
+    "sample_s": 3.333333333333334,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C01/labels_motion_RGBA.mov",
+    "sample_s": 3.333333333333334,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C01/photos_motion_RGBA.mov",
+    "sample_s": 3.333333333333334,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C01/presenter_motion_RGBA.mov",
+    "sample_s": 3.333333333333334,
+    "alpha_min": 0,
+    "alpha_max": 226,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C02/diagram_motion_RGBA.mov",
+    "sample_s": 3.7666666666666666,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C02/labels_motion_RGBA.mov",
+    "sample_s": 3.7666666666666666,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C02/photos_motion_RGBA.mov",
+    "sample_s": 3.7666666666666666,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C02/presenter_motion_RGBA.mov",
+    "sample_s": 3.7666666666666666,
+    "alpha_min": 0,
+    "alpha_max": 0,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C03/diagram_motion_RGBA.mov",
+    "sample_s": 4.433333333333334,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C03/labels_motion_RGBA.mov",
+    "sample_s": 4.433333333333334,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C03/photos_motion_RGBA.mov",
+    "sample_s": 4.433333333333334,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C03/presenter_motion_RGBA.mov",
+    "sample_s": 4.433333333333334,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C04/diagram_motion_RGBA.mov",
+    "sample_s": 4.066666666666666,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C04/labels_motion_RGBA.mov",
+    "sample_s": 4.066666666666666,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C04/photos_motion_RGBA.mov",
+    "sample_s": 4.066666666666666,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C04/presenter_motion_RGBA.mov",
+    "sample_s": 0.9,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C05/diagram_motion_RGBA.mov",
+    "sample_s": 5.1000000000000005,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C05/labels_motion_RGBA.mov",
+    "sample_s": 5.1000000000000005,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C05/photos_motion_RGBA.mov",
+    "sample_s": 5.1000000000000005,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C05/presenter_motion_RGBA.mov",
+    "sample_s": 5.1000000000000005,
+    "alpha_min": 0,
+    "alpha_max": 0,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C06/diagram_motion_RGBA.mov",
+    "sample_s": 3.6666666666666665,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C06/labels_motion_RGBA.mov",
+    "sample_s": 3.6666666666666665,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C06/photos_motion_RGBA.mov",
+    "sample_s": 3.6666666666666665,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  },
+  {
+    "file": "C06/presenter_motion_RGBA.mov",
+    "sample_s": 3.6666666666666665,
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_background": true,
+    "right_ui_transparent": true
+  }
+]

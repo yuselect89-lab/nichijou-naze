@@ -1,0 +1,112 @@
+[
+  {
+    "path": "INVESTIGATION.md",
+    "bytes": 6140,
+    "sha256": "d58d05888cd51af66bdd9fd35ce963148fe432575095f21ba1eb8250113fe6da"
+  },
+  {
+    "path": "RIGHTS.md",
+    "bytes": 2557,
+    "sha256": "dfd18593e611f7b1dc67c6ca2189ca7f30b0319b49480bfe6b3d4286b32eee5d"
+  },
+  {
+    "path": "START_CODEX.md",
+    "bytes": 12238,
+    "sha256": "4ab8d3a2bffb2eb19c853831440d566059fcac7901f9279401019b8939e1807c"
+  },
+  {
+    "path": "evidence/06.50_1080.png",
+    "bytes": 442595,
+    "sha256": "cf32a440e3240f7d219bb9f89640aa9bb878f1b5e757669c20ef9984f8a9d82f"
+  },
+  {
+    "path": "evidence/06.50_360.png",
+    "bytes": 94509,
+    "sha256": "83d70aa9733de21b68505fe8a055a6356ab19e8f63d1607d2f4cb76747865b40"
+  },
+  {
+    "path": "evidence/09.50_1080.png",
+    "bytes": 353389,
+    "sha256": "035487adffde484d3e6d41b2492cd86fc52368c0081ccd26c1da6783153849df"
+  },
+  {
+    "path": "evidence/09.50_360.png",
+    "bytes": 74225,
+    "sha256": "2f15fdf625e4a977737b3ffc83e014d33cd5d8913b7a1bc99ea0b7cf3633ad18"
+  },
+  {
+    "path": "evidence/12.90_1080.png",
+    "bytes": 425364,
+    "sha256": "19d400e5c5d08a72962de9b0e8771601c62646fa9888ca4484bc1e880c9afa0e"
+  },
+  {
+    "path": "evidence/12.90_360.png",
+    "bytes": 86155,
+    "sha256": "1c71e49612fc9ae5008413ef8d19efe7ab2920b4509e8be87850db99d5189998"
+  },
+  {
+    "path": "evidence/15.65_1080.png",
+    "bytes": 527382,
+    "sha256": "a16a9953f6f3bf6adc66f25c895056c54a71894c6a5422c8967f84efde46e53e"
+  },
+  {
+    "path": "evidence/15.65_360.png",
+    "bytes": 100501,
+    "sha256": "3a28cbbfbc031fe2f3c75751583aef8249a47f733ec9ec9a8613b2afd5f920a8"
+  },
+  {
+    "path": "evidence/16.40_1080.png",
+    "bytes": 735961,
+    "sha256": "c8b87635b260365815ffface1ff10dbcccb8ae878037e61ca3baa2ad05f1ba24"
+  },
+  {
+    "path": "evidence/16.40_360.png",
+    "bytes": 126115,
+    "sha256": "1672380d69380a1ea0fea78692608fc17423c6ed03546f9f2df62da838bc41f0"
+  },
+  {
+    "path": "evidence/20.10_1080.png",
+    "bytes": 643070,
+    "sha256": "86cf86a101c90dace86cb4c48fd7bea0b175a52099e6bdcb74121e489659f8f7"
+  },
+  {
+    "path": "evidence/20.10_360.png",
+    "bytes": 123929,
+    "sha256": "bc6c2e5d08a9831c0a2915ddd91829a5eeb9cc79affe026d6958a2969754f388"
+  },
+  {
+    "path": "evidence/24.40_1080.png",
+    "bytes": 673946,
+    "sha256": "20fd25fcfa9344ae8ca62c61098dd42a103794741d02b5701c3aadb0ca5533b9"
+  },
+  {
+    "path": "evidence/24.40_360.png",
+    "bytes": 116924,
+    "sha256": "2fa46b950d8cd1aa32c28b4dd620b3cc5444c143b5a4e4c0bf2f0e56c452bf82"
+  },
+  {
+    "path": "evidence/29.70_1080.png",
+    "bytes": 927691,
+    "sha256": "d0e9e6ce4f07d206f67a1011f8e4534c8300a6b819959d6c1928ede07b5eba2f"
+  },
+  {
+    "path": "evidence/29.70_360.png",
+    "bytes": 156327,
+    "sha256": "4bdd27a1d5d9d8f8e42e070a20c0fe7bda2eb7d1f7b82e0157fc2dcbf7fc4eb0"
+  },
+  {
+    "path": "references/COMMONS_COMPARISON_ORIGINAL.jpg",
+    "bytes": 1142673,
+    "sha256": "37b031e4b8b13e147aeda6625e620913024dc2b433f4805669da44a6244ac0b7"
+  },
+  {
+    "path": "references/CURRENT_EDIT_REFERENCE_NOT_APPROVED.json",
+    "bytes": 4236,
+    "sha256": "c2eb6593124bb1757bc79e28d5c8e5f1271ac2586d8144aa6f1aebae71eb5040"
+  },
+  {
+    "path": "references/R1_PHOTO_RIGHTS.json",
+    "bytes": 8729,
+    "sha256": "a0792c9ae07967cc9fba3880428ac3cc0861d2939f054329ca4fd383ae057fd4"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "cut": "C01",
+    "sampled_frames": 25,
+    "max_presenter_photo_overlap_pixels": 0,
+    "overlap_times_s": [],
+    "max_content_pixels_in_caption_reservation": 0,
+    "max_content_pixels_in_right_ui_reservation": 0
+  },
+  {
+    "cut": "C02",
+    "sampled_frames": 25,
+    "max_presenter_photo_overlap_pixels": 0,
+    "overlap_times_s": [],
+    "max_content_pixels_in_caption_reservation": 0,
+    "max_content_pixels_in_right_ui_reservation": 0
+  },
+  {
+    "cut": "C03",
+    "sampled_frames": 25,
+    "max_presenter_photo_overlap_pixels": 0,
+    "overlap_times_s": [],
+    "max_content_pixels_in_caption_reservation": 0,
+    "max_content_pixels_in_right_ui_reservation": 0
+  },
+  {
+    "cut": "C04",
+    "sampled_frames": 25,
+    "max_presenter_photo_overlap_pixels": 0,
+    "overlap_times_s": [],
+    "max_content_pixels_in_caption_reservation": 0,
+    "max_content_pixels_in_right_ui_reservation": 0
+  },
+  {
+    "cut": "C05",
+    "sampled_frames": 25,
+    "max_presenter_photo_overlap_pixels": 0,
+    "overlap_times_s": [],
+    "max_content_pixels_in_caption_reservation": 0,
+    "max_content_pixels_in_right_ui_reservation": 0
+  },
+  {
+    "cut": "C06",
+    "sampled_frames": 25,
+    "max_presenter_photo_overlap_pixels": 0,
+    "overlap_times_s": [],
+    "max_content_pixels_in_caption_reservation": 0,
+    "max_content_pixels_in_right_ui_reservation": 0
+  }
+]

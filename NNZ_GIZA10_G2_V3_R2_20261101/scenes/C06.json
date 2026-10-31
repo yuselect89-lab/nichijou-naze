@@ -1,0 +1,262 @@
+{
+  "cut": "C06",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "frames": 110,
+  "duration": 4.583333333333333,
+  "timing_status": "Frame boundaries from supplied CURRENT_EDIT_REFERENCE_NOT_APPROVED.json; audio not accessed",
+  "background": "assets/background.png",
+  "items": [
+    {
+      "id": "edge_old",
+      "group": "photos",
+      "asset": "assets/photos/edge_old.png",
+      "keys": [
+        [
+          0,
+          30,
+          690,
+          600,
+          231,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "whole_old",
+      "group": "photos",
+      "asset": "assets/photos/whole_old.png",
+      "keys": [
+        [
+          0,
+          30,
+          950,
+          180,
+          130,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "crop_trace_old",
+      "group": "diagram",
+      "asset": "assets/diagrams/crop_trace_old.png",
+      "keys": [
+        [
+          0,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "edge_new",
+      "group": "photos",
+      "asset": "assets/photos/edge_new.png",
+      "keys": [
+        [
+          0,
+          30,
+          1150,
+          600,
+          231,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "whole_new",
+      "group": "photos",
+      "asset": "assets/photos/whole_new.png",
+      "keys": [
+        [
+          0,
+          30,
+          1390,
+          160,
+          112,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "crop_trace_new",
+      "group": "diagram",
+      "asset": "assets/diagrams/crop_trace_new.png",
+      "keys": [
+        [
+          0,
+          0,
+          0,
+          1080,
+          1920,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "old_type",
+      "group": "labels",
+      "asset": "assets/labels/old_type.png",
+      "keys": [
+        [
+          0,
+          30,
+          620,
+          320,
+          58,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "new_type",
+      "group": "labels",
+      "asset": "assets/labels/new_type.png",
+      "keys": [
+        [
+          0,
+          30,
+          1092,
+          482,
+          52,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "memory",
+      "group": "labels",
+      "asset": "assets/labels/memory.png",
+      "keys": [
+        [
+          0,
+          240,
+          960,
+          318,
+          48,
+          0
+        ],
+        [
+          2,
+          240,
+          960,
+          318,
+          48,
+          0
+        ],
+        [
+          2.25,
+          240,
+          960,
+          318,
+          48,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "memory_value",
+      "group": "labels",
+      "asset": "assets/labels/memory_value.png",
+      "keys": [
+        [
+          0,
+          240,
+          1010,
+          147,
+          70,
+          0
+        ],
+        [
+          2,
+          240,
+          1010,
+          147,
+          70,
+          0
+        ],
+        [
+          2.25,
+          240,
+          1010,
+          147,
+          70,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "presenter",
+      "group": "presenter",
+      "asset": "assets/characters/payoff.png",
+      "keys": [
+        [
+          0,
+          630,
+          635,
+          300,
+          367,
+          0
+        ],
+        [
+          2.5,
+          630,
+          635,
+          300,
+          367,
+          0
+        ],
+        [
+          2.82,
+          630,
+          610,
+          300,
+          367,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "memory_attachment",
+      "group": "diagram",
+      "asset": "assets/diagrams/memory_attachment.png",
+      "keys": [
+        [
+          0,
+          300,
+          922,
+          180,
+          35,
+          0
+        ],
+        [
+          2,
+          300,
+          922,
+          180,
+          35,
+          0
+        ],
+        [
+          2.25,
+          300,
+          922,
+          180,
+          35,
+          1
+        ]
+      ]
+    }
+  ],
+  "layer_order": [
+    "photos",
+    "diagram",
+    "labels",
+    "presenter"
+  ]
+}

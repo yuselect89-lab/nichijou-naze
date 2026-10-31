@@ -1,0 +1,211 @@
+{
+  "cut": "C03",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "frames": 133,
+  "duration": 5.541666666666667,
+  "timing_status": "Frame boundaries from supplied CURRENT_EDIT_REFERENCE_NOT_APPROVED.json; audio not accessed",
+  "background": "assets/background.png",
+  "items": [
+    {
+      "id": "old10",
+      "group": "photos",
+      "asset": "assets/photos/C01_photo_crop.png",
+      "keys": [
+        [
+          0,
+          120,
+          820,
+          700,
+          499,
+          1
+        ],
+        [
+          2.7,
+          390,
+          620,
+          540,
+          385,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "actual_edge_guide",
+      "group": "diagram",
+      "asset": "assets/diagrams/guide.png",
+      "keys": [
+        [
+          0,
+          640,
+          1160,
+          76,
+          80,
+          1
+        ],
+        [
+          2.7,
+          791,
+          882,
+          62,
+          65,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "manufacture1951",
+      "group": "labels",
+      "asset": "assets/labels/manufacture1951.png",
+      "keys": [
+        [
+          0,
+          400,
+          1380,
+          346,
+          58,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "highest10",
+      "group": "labels",
+      "asset": "assets/labels/highest10.png",
+      "keys": [
+        [
+          0,
+          400,
+          1040,
+          360,
+          71,
+          0
+        ],
+        [
+          3.15,
+          400,
+          1040,
+          360,
+          71,
+          0
+        ],
+        [
+          3.4,
+          400,
+          1040,
+          360,
+          71,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "value10",
+      "group": "labels",
+      "asset": "assets/labels/value10.png",
+      "keys": [
+        [
+          0,
+          400,
+          1120,
+          226,
+          101,
+          0
+        ],
+        [
+          3.15,
+          400,
+          1120,
+          226,
+          101,
+          0
+        ],
+        [
+          3.4,
+          400,
+          1120,
+          226,
+          101,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "presenter",
+      "group": "presenter",
+      "asset": "assets/characters/reaction.png",
+      "keys": [
+        [
+          0,
+          20,
+          985,
+          340,
+          463,
+          0
+        ],
+        [
+          3.55,
+          20,
+          985,
+          340,
+          463,
+          0
+        ],
+        [
+          3.87,
+          20,
+          960,
+          340,
+          463,
+          1
+        ],
+        [
+          5.1,
+          20,
+          960,
+          340,
+          463,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "attached",
+      "group": "diagram",
+      "asset": "assets/diagrams/highest_attachment.png",
+      "keys": [
+        [
+          0,
+          400,
+          1007,
+          500,
+          35,
+          0
+        ],
+        [
+          3.15,
+          400,
+          1007,
+          500,
+          35,
+          0
+        ],
+        [
+          3.4,
+          400,
+          1007,
+          500,
+          35,
+          1
+        ]
+      ]
+    }
+  ],
+  "layer_order": [
+    "photos",
+    "diagram",
+    "labels",
+    "presenter"
+  ]
+}

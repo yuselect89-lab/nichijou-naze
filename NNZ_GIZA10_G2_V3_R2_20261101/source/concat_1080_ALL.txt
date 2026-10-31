@@ -1,0 +1,6 @@
+file '../previews_1080/C01_G2_V3_silent.mp4'
+file '../previews_1080/C02_G2_V3_silent.mp4'
+file '../previews_1080/C03_G2_V3_silent.mp4'
+file '../previews_1080/C04_G2_V3_silent.mp4'
+file '../previews_1080/C05_G2_V3_silent.mp4'
+file '../previews_1080/C06_G2_V3_silent.mp4'

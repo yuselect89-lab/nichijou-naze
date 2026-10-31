@@ -1,0 +1,25 @@
+[
+  {
+    "command": [
+      "npm",
+      "run",
+      "preflight"
+    ],
+    "cwd": "/workspace/nichijou-naze",
+    "r2_material_source_installed_at": "/workspace/nichijou-naze/work/giza10_v3_r2_20261101",
+    "started_utc": "2026-10-31T22:58:24.146810+00:00",
+    "exit_code": 0,
+    "log": "docs/npm_preflight.log"
+  },
+  {
+    "command": [
+      "npm",
+      "test"
+    ],
+    "cwd": "/workspace/nichijou-naze",
+    "r2_material_source_installed_at": "/workspace/nichijou-naze/work/giza10_v3_r2_20261101",
+    "started_utc": "2026-10-31T22:58:24.594281+00:00",
+    "exit_code": 0,
+    "log": "docs/npm_test.log"
+  }
+]

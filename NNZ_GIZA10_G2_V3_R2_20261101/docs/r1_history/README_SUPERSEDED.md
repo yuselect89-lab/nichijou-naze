@@ -1,0 +1,1 @@
+履歴資料。R1時点のHOLD・台座・頂点・顔面主体比較の演出指示はR2には適用しない。実行入口はルートSTART_WORK_R2.mdとdocs/WORK_HANDOFF.md。

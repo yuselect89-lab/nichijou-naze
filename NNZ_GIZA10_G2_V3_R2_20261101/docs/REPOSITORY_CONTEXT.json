@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/yuselect89-lab/nichijou-naze",
+  "full_repository_commit": "8fb8598bad6e4d79c3e7eeb93e2634856351ad39",
+  "full_repository_checks": "docs/repository_checks.json",
+  "test_count": 31,
+  "note": "R2 material source, scenes and dependencies copied into the full production repository before checks. Repository npm tests check shared production/library invariants; actual R2 media are checked separately by included Python validators."
+}

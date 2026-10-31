@@ -1,0 +1,128 @@
+[
+  {
+    "id": "old",
+    "source": "references/repair_order_20261101/references/COMMONS_COMPARISON_ORIGINAL.jpg",
+    "box_xyxy": [
+      1085,
+      1030,
+      1835,
+      1345
+    ],
+    "size": [
+      750,
+      315
+    ],
+    "processing": "rectangular crop only; no mask, restoration, relighting or distortion"
+  },
+  {
+    "id": "new",
+    "source": "references/repair_order_20261101/references/COMMONS_COMPARISON_ORIGINAL.jpg",
+    "box_xyxy": [
+      2000,
+      1020,
+      2750,
+      1335
+    ],
+    "size": [
+      750,
+      315
+    ],
+    "processing": "rectangular crop only; no mask, restoration, relighting or distortion"
+  },
+  {
+    "id": "old_selected",
+    "box_xyxy": [
+      1135,
+      1090,
+      1785,
+      1340
+    ],
+    "size": [
+      650,
+      250
+    ],
+    "display_xywh": [
+      30,
+      690,
+      600,
+      231
+    ],
+    "scale": 0.9230769230769231,
+    "processing": "crop and uniform downsample only"
+  },
+  {
+    "id": "new_selected",
+    "box_xyxy": [
+      2050,
+      1080,
+      2700,
+      1330
+    ],
+    "size": [
+      650,
+      250
+    ],
+    "display_xywh": [
+      30,
+      1150,
+      600,
+      231
+    ],
+    "scale": 0.9230769230769231,
+    "processing": "crop and uniform downsample only"
+  },
+  {
+    "id": "old_source_thumbnail",
+    "source_box": [
+      1080,
+      800,
+      1840,
+      1350
+    ],
+    "display_xywh": [
+      30,
+      950,
+      180,
+      130
+    ],
+    "crop_frame_display_xyxy": [
+      43.026315789473685,
+      1018.6842105263158,
+      196.9736842105263,
+      1077.8947368421052
+    ],
+    "actual_enlargement_xywh": [
+      30,
+      690,
+      600,
+      231
+    ]
+  },
+  {
+    "id": "new_source_thumbnail",
+    "source_box": [
+      1990,
+      800,
+      2760,
+      1340
+    ],
+    "display_xywh": [
+      30,
+      1390,
+      160,
+      112
+    ],
+    "crop_frame_display_xyxy": [
+      42.467532467532465,
+      1448.1818181818182,
+      177.53246753246754,
+      1500.1298701298701
+    ],
+    "actual_enlargement_xywh": [
+      30,
+      1150,
+      600,
+      231
+    ]
+  }
+]

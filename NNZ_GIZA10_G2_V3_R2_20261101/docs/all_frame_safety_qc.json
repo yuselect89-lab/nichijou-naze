@@ -1,0 +1,91 @@
+{
+  "result": "PASS",
+  "scope": "Every output-frame time, native alpha before clipping; actual approved banner alpha + original R1 caption reservation + UI + progress; text/leader/character collisions",
+  "cuts": [
+    {
+      "cut": "C01",
+      "frames": 100,
+      "max_overlap_pixels": {
+        "banner": 0,
+        "caption": 0,
+        "right_ui": 0,
+        "progress": 0,
+        "text_text": 0,
+        "presenter_text": 0,
+        "diagram_text": 0
+      },
+      "violations": []
+    },
+    {
+      "cut": "C02",
+      "frames": 113,
+      "max_overlap_pixels": {
+        "banner": 0,
+        "caption": 0,
+        "right_ui": 0,
+        "progress": 0,
+        "text_text": 0,
+        "presenter_text": 0,
+        "diagram_text": 0
+      },
+      "violations": []
+    },
+    {
+      "cut": "C03",
+      "frames": 133,
+      "max_overlap_pixels": {
+        "banner": 0,
+        "caption": 0,
+        "right_ui": 0,
+        "progress": 0,
+        "text_text": 0,
+        "presenter_text": 0,
+        "diagram_text": 0
+      },
+      "violations": []
+    },
+    {
+      "cut": "C04",
+      "frames": 122,
+      "max_overlap_pixels": {
+        "banner": 0,
+        "caption": 0,
+        "right_ui": 0,
+        "progress": 0,
+        "text_text": 0,
+        "presenter_text": 0,
+        "diagram_text": 0
+      },
+      "violations": []
+    },
+    {
+      "cut": "C05",
+      "frames": 153,
+      "max_overlap_pixels": {
+        "banner": 0,
+        "caption": 0,
+        "right_ui": 0,
+        "progress": 0,
+        "text_text": 0,
+        "presenter_text": 0,
+        "diagram_text": 0
+      },
+      "violations": []
+    },
+    {
+      "cut": "C06",
+      "frames": 110,
+      "max_overlap_pixels": {
+        "banner": 0,
+        "caption": 0,
+        "right_ui": 0,
+        "progress": 0,
+        "text_text": 0,
+        "presenter_text": 0,
+        "diagram_text": 0
+      },
+      "violations": []
+    }
+  ],
+  "errors": []
+}

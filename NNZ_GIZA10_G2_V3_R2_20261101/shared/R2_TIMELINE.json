@@ -1,0 +1,80 @@
+{
+  "fps": 24,
+  "total_frames": 731,
+  "duration_seconds": 30.458333333333332,
+  "cuts": [
+    {
+      "cut": "C01",
+      "global_start_frame": 0,
+      "frames": 100,
+      "local_to_edit_time": "identity",
+      "layer_groups": [
+        "photos",
+        "diagram",
+        "labels",
+        "presenter"
+      ]
+    },
+    {
+      "cut": "C02",
+      "global_start_frame": 100,
+      "frames": 113,
+      "local_to_edit_time": "identity",
+      "layer_groups": [
+        "photos",
+        "diagram",
+        "labels",
+        "presenter"
+      ]
+    },
+    {
+      "cut": "C03",
+      "global_start_frame": 213,
+      "frames": 133,
+      "local_to_edit_time": "identity",
+      "layer_groups": [
+        "photos",
+        "diagram",
+        "labels",
+        "presenter"
+      ]
+    },
+    {
+      "cut": "C04",
+      "global_start_frame": 346,
+      "frames": 122,
+      "local_to_edit_time": "identity",
+      "layer_groups": [
+        "photos",
+        "diagram",
+        "labels",
+        "presenter"
+      ]
+    },
+    {
+      "cut": "C05",
+      "global_start_frame": 468,
+      "frames": 153,
+      "local_to_edit_time": "identity",
+      "layer_groups": [
+        "photos",
+        "diagram",
+        "labels",
+        "presenter"
+      ]
+    },
+    {
+      "cut": "C06",
+      "global_start_frame": 621,
+      "frames": 110,
+      "local_to_edit_time": "identity",
+      "layer_groups": [
+        "photos",
+        "diagram",
+        "labels",
+        "presenter"
+      ]
+    }
+  ],
+  "note": "R2 scenes already use current edit durations; do not reapply the R1 remapping in the supplied reference JSON. Any final retiming must use the same map for all four layers. Audio is unchanged."
+}
