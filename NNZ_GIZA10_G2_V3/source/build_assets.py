@@ -24,8 +24,8 @@ for key,fn,faces in photo_specs:
  entry=next(x for x in manifest['photos'] if x['file'].endswith(fn)).copy();entry['changes_in_this_package']='Circular crop of each face; downsample only; flat positional animation. No retouch, relighting, invented edge or 3D conversion.';entry['crop_centers_radii']=faces;rights.append(entry)
 src=R/'photos_TRANSFER_COPIES_NOT_VERIFIED_ORIGINALS/C01_giza10_S29_REFERENCE_COPY.jpg';shutil.copy2(src,A/'photos'/src.name);im=Image.open(src).convert('RGBA').crop((150,100,1020,720));save(im,Path('photos/C01_photo_crop.png'));entry=manifest['photos'][0].copy();entry['changes_in_this_package']='Crop [150,100,1020,720], downsample to width 860; slow translation and separate guide; no retouch or generated detail';rights.append(entry)
 (B/'docs/PHOTO_RIGHTS.json').write_text(json.dumps(rights,ensure_ascii=False,indent=2))
-for role,w,h in [('question',480,450),('reaction',440,420),('process',400,300),('payoff',360,340)]:
- im=Image.open(O/'shared/characters'/f'{role}_upperbody.png').convert('RGBA');im=im.resize((w,round(im.height*w/im.width)),Image.Resampling.LANCZOS);im=im.crop((0,0,w,h));save(im,Path('characters')/(role+'.png'))
+for role,w in [('question',360),('reaction',340),('process',400),('payoff',340)]:
+ im=Image.open(O/'shared/characters'/f'{role}_upperbody.png').convert('RGBA');im=im.resize((w,round(im.height*w/im.width)),Image.Resampling.LANCZOS);save(im,Path('characters')/(role+'.png'))
 shutil.copy2(O/'shared/characters/provenance.json',B/'docs/CHARACTER_PROVENANCE.json')
 # Isometric explanatory podium, deliberately separate from actual coin photographs.
 im=Image.new('RGBA',(440,360));d=ImageDraw.Draw(im);d.polygon([(0,30),(390,30),(440,0),(50,0)],fill='#627E90');d.polygon([(0,30),(390,30),(390,360),(0,360)],fill='#304E60');d.polygon([(390,30),(440,0),(440,330),(390,360)],fill='#1C3647');d.line([(0,30),(390,30),(440,0)],fill='#D5B77A',width=5);save(im,Path('diagrams/podium.png'))

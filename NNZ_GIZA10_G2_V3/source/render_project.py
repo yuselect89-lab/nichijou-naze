@@ -17,9 +17,15 @@ def layers(s,t):
  for o in s['items']:
   x,y,w,h,a=value(o,t);x,y,w,h=round(x),round(y),round(w),round(h)
   if a<.005 or w<1 or h<1 or x>1080 or y>1920 or x+w<0 or y+h<0:continue
+  if o['group']=='presenter':
+   native=load(o['asset'])
+   if abs(h-native.height*w/native.width)>1:raise ValueError('Presenter aspect ratio changed: '+s['cut'])
   key=(o['asset'],w,h)
   if key not in CACHE:CACHE[key]=load(o['asset']).resize((w,h),Image.Resampling.LANCZOS)
   im=CACHE[key]
+  if o['group']=='presenter':
+   bb=im.getchannel('A').getbbox()
+   if bb and (x+bb[0]<0 or y+bb[1]<0 or x+bb[2]>940 or y+bb[3]>1510):raise ValueError('Presenter would be truncated before safety clip: '+s['cut'])
   if a<.999:
    im=im.copy();im.putalpha(im.getchannel('A').point(lambda z:round(z*a)))
   out[o['group']].alpha_composite(im,(x,y))

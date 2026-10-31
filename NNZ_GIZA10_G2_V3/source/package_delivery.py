@@ -2,13 +2,17 @@ from pathlib import Path
 import json,hashlib,zipfile,subprocess,shutil,math
 B=Path(__file__).resolve().parents[1]
 tech=json.loads((B/'docs/technical_qc.json').read_text());layout=json.loads((B/'docs/layout_qc.json').read_text());alpha=json.loads((B/'docs/alpha_qc.json').read_text())
+presenter=json.loads((B/'docs/presenter_integrity_qc.json').read_text());assert presenter['result']=='PASS'
+assert hashlib.sha256((B/'docs/reference_locks/02_G2_V2_VISUAL_DESIGN_LOCK_UNCHANGED.md').read_bytes()).hexdigest()=='8abf8efbee0a32c41967a860ba49deafdf3e858a9e18ef99db43ad3513287010'
 assert tech['technical_result']=='PASS' and len(tech['records'])==38 and len(alpha)==22
 collisions=json.loads((B/'docs/photo_collision_qc.json').read_text());assert all(r['photo_photo_presenter_and_label_max_overlap_pixels']==0 for r in collisions)
 assert all(r['max_presenter_photo_overlap_pixels']==r['max_content_pixels_in_caption_reservation']==r['max_content_pixels_in_right_ui_reservation']==0 for r in layout)
 for i in range(1,7):
  c=f'C{i:02d}';s=json.loads((B/'scenes'/(c+'.json')).read_text());n=math.ceil(s['duration']*24);frames=sorted(set([0,n//4,n//2,3*n//4,n-1]));expression='+'.join(f'eq(n\\,{f})'for f in frames)
  subprocess.run(['ffmpeg','-v','error','-y','-i',str(B/'previews_1080'/(c+'_G2_V3_silent.mp4')),'-vf',f'select={expression},scale=360:640,tile=5x1','-frames:v','1','-threads','1',str(B/'qc'/(c+'_ACTUAL_VIDEO_MOTION_STRIP.png'))],check=True)
-(B/'docs/INTERNAL_VISUAL_QC.md').write_text('''# G2 V3 内部実画検査
+(B/'docs/INTERNAL_VISUAL_QC.md').write_text('''# G2 V3 R1 内部実画検査
+
+旧版の実画受入はMAJOR。旧版の内部検査では人物切れを見落とした。本R1では固定切抜きを廃止し、髪・手・上半身全体の派生画像一致、クリップ前の全フレーム境界、実動画アルファ一致の検査を追加。受入再判定・Gemini外部審査は未実施。詳細はMAJOR_R1_REPAIR.md。
 
 全6カットを候補として実装。外部G2実画PASS、V3正式LOCK、本編完成・公開PASSは取得していない。
 
@@ -26,7 +30,7 @@ for i in range(1,7):
 
 残る制約：写真は転送コピーで原本バイト未照合。公開前に最終動画のCC BY-SA継承範囲と表示方法を確認。音声の1950/1951不一致は未解決。BGM/SE/字幕/正式帯/CTA/進行バーは素材へ合成していない。V2正本は保持。
 ''')
-status={'scope':'All six cuts implemented as G2 V3 review-candidate separated assets','technical_result':'PASS','native_cut_scenes':6,'lossless_alpha_movies':22,'review_movies_1080_and_360':16,'full_decodes':38,'external_g2_visual_pass':False,'v3_locked':False,'upstream_photo_binary_match_verified':False,'audio_year_1950_vs_1951_resolved':False,'audio_accessed_or_modified':False,'publication_status':'HOLD pending external G2, audio-year resolution and Work G3 / final license scope','v2_lock_unchanged':True,'paid_generation_used':False}
+status={'revision':'R1','previous_acceptance':'MAJOR','presenter_integrity_result':'PASS','work_acceptance_recheck':'NOT_PERFORMED','scope':'All six cuts implemented as G2 V3 review-candidate separated assets','technical_result':'PASS','native_cut_scenes':6,'lossless_alpha_movies':22,'review_movies_1080_and_360':16,'full_decodes':38,'external_g2_visual_pass':False,'v3_locked':False,'upstream_photo_binary_match_verified':False,'audio_year_1950_vs_1951_resolved':False,'audio_accessed_or_modified':False,'publication_status':'HOLD pending external G2, audio-year resolution and Work G3 / final license scope','v2_lock_unchanged':True,'paid_generation_used':False}
 (B/'docs/DELIVERY_STATUS.json').write_text(json.dumps(status,ensure_ascii=False,indent=2))
 # Only authoritative validation logs are delivered; earlier render revisions remain in work/.
 archive_logs=B.parent/'giza10_v3_intermediate_logs';archive_logs.mkdir(exist_ok=True)
@@ -38,7 +42,7 @@ for p in sorted(B.rglob('*')):
   files.append({'file':str(p.relative_to(B)),'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
 (B/'ASSET_MANIFEST.json').write_text(json.dumps({'design':'G2 V3 CANDIDATE','files':files},ensure_ascii=False,indent=2))
 (B/'SHA256SUMS.txt').write_text('\n'.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(B)) for p in sorted(B.rglob('*')) if p.is_file()and p.name!='SHA256SUMS.txt')+'\n')
-zpath=B.parent/'NNZ_GIZA10_G2_V3_ALL_CUTS_20261031.zip'
+zpath=B.parent/'NNZ_GIZA10_G2_V3_R1_ALL_CUTS_20261031.zip'
 with zipfile.ZipFile(zpath,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for p in sorted(B.rglob('*')):
   if p.is_file():z.write(p,arcname=str(Path(B.name)/p.relative_to(B)))

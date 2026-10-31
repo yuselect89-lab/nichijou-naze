@@ -12,7 +12,13 @@
     ],
     "original": "shared/characters/question_original.png",
     "crop": "shared/characters/question_upperbody.png",
-    "license": "User existing registered character; provenance preserved; no new public license asserted"
+    "license": "User existing registered character; provenance preserved; no new public license asserted",
+    "delivery_crop": "assets/characters/question.png",
+    "delivery_resolution": [
+      360,
+      522
+    ],
+    "processing": "Whole approved upper-body crop downsampled with preserved aspect ratio. No post-resize crop. Full hair and hand gestures retained."
   },
   "reaction": {
     "id": "NNZ_CHAR_FEMALE_01",
@@ -27,7 +33,13 @@
     ],
     "original": "shared/characters/reaction_original.png",
     "crop": "shared/characters/reaction_upperbody.png",
-    "license": "User existing registered character; provenance preserved; no new public license asserted"
+    "license": "User existing registered character; provenance preserved; no new public license asserted",
+    "delivery_crop": "assets/characters/reaction.png",
+    "delivery_resolution": [
+      340,
+      463
+    ],
+    "processing": "Whole approved upper-body crop downsampled with preserved aspect ratio. No post-resize crop. Full hair and hand gestures retained."
   },
   "process": {
     "id": "NNZ_CHAR_FEMALE_01",
@@ -42,7 +54,11 @@
       1250
     ],
     "delivery_crop": "assets/characters/process.png",
-    "processing": "upper-body crop and downsample; no redraw or mirroring"
+    "processing": "Whole approved upper-body crop downsampled with preserved aspect ratio. No post-resize crop. Full hair and hand gestures retained.",
+    "delivery_resolution": [
+      400,
+      366
+    ]
   },
   "payoff": {
     "id": "NNZ_CHAR_FEMALE_01",
@@ -57,6 +73,12 @@
     ],
     "original": "shared/characters/payoff_original.png",
     "crop": "shared/characters/payoff_upperbody.png",
-    "license": "User existing registered character; provenance preserved; no new public license asserted"
+    "license": "User existing registered character; provenance preserved; no new public license asserted",
+    "delivery_crop": "assets/characters/payoff.png",
+    "delivery_resolution": [
+      340,
+      416
+    ],
+    "processing": "Whole approved upper-body crop downsampled with preserved aspect ratio. No post-resize crop. Full hair and hand gestures retained."
   }
 }

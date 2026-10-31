@@ -27,5 +27,9 @@
     1510,
     1790
   ],
-  "right_ui_start_x": 940
+  "right_ui_start_x": 940,
+  "revision": "R1",
+  "previous_acceptance": "MAJOR",
+  "presenter_fixed_crop_removed": true,
+  "presenter_preclip_integrity_guard": true
 }

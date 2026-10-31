@@ -1,0 +1,54 @@
+{
+  "baseline_commit": "8453097ce6c606929e453775846e8a448e8aa123",
+  "old_version_acceptance": "MAJOR",
+  "cases": [
+    {
+      "cut": "C01",
+      "old_delivered_size": [
+        480,
+        450
+      ],
+      "full_seed_resize_expected_size": [
+        480,
+        696
+      ],
+      "old_asset_rejected_by_full_upper_body_rule": true
+    },
+    {
+      "cut": "C03",
+      "old_delivered_size": [
+        440,
+        420
+      ],
+      "full_seed_resize_expected_size": [
+        440,
+        599
+      ],
+      "old_asset_rejected_by_full_upper_body_rule": true
+    },
+    {
+      "cut": "C04",
+      "old_delivered_size": [
+        400,
+        300
+      ],
+      "full_seed_resize_expected_size": [
+        400,
+        366
+      ],
+      "old_asset_rejected_by_full_upper_body_rule": true
+    },
+    {
+      "cut": "C06",
+      "old_delivered_size": [
+        360,
+        340
+      ],
+      "full_seed_resize_expected_size": [
+        360,
+        441
+      ],
+      "old_asset_rejected_by_full_upper_body_rule": true
+    }
+  ]
+}

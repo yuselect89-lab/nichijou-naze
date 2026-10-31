@@ -1,0 +1,83 @@
+{
+  "result": "PASS",
+  "scope": "Full upper-body crop of the registered character and encoded alpha; no post-resize crop or safety-clip truncation",
+  "cuts": [
+    {
+      "cut": "C01",
+      "role": "question",
+      "seed_upper_body_size": [
+        829,
+        1202
+      ],
+      "derivative_size": [
+        360,
+        522
+      ],
+      "whole_seed_resize_match": true,
+      "timeline_frames_checked": 101,
+      "visible_frames_checked": 26,
+      "presenter_bounds_checked_before_safety_clip": true,
+      "clipped_frames": [],
+      "encoded_alpha_full_gesture_match": true,
+      "encoded_sample_s": 3.8
+    },
+    {
+      "cut": "C03",
+      "role": "reaction",
+      "seed_upper_body_size": [
+        883,
+        1202
+      ],
+      "derivative_size": [
+        340,
+        463
+      ],
+      "whole_seed_resize_match": true,
+      "timeline_frames_checked": 133,
+      "visible_frames_checked": 38,
+      "presenter_bounds_checked_before_safety_clip": true,
+      "clipped_frames": [],
+      "encoded_alpha_full_gesture_match": true,
+      "encoded_sample_s": 4.4
+    },
+    {
+      "cut": "C04",
+      "role": "process",
+      "seed_upper_body_size": [
+        1314,
+        1202
+      ],
+      "derivative_size": [
+        400,
+        366
+      ],
+      "whole_seed_resize_match": true,
+      "timeline_frames_checked": 123,
+      "visible_frames_checked": 24,
+      "presenter_bounds_checked_before_safety_clip": true,
+      "clipped_frames": [],
+      "encoded_alpha_full_gesture_match": true,
+      "encoded_sample_s": 0.8
+    },
+    {
+      "cut": "C06",
+      "role": "payoff",
+      "seed_upper_body_size": [
+        982,
+        1202
+      ],
+      "derivative_size": [
+        340,
+        416
+      ],
+      "whole_seed_resize_match": true,
+      "timeline_frames_checked": 110,
+      "visible_frames_checked": 49,
+      "presenter_bounds_checked_before_safety_clip": true,
+      "clipped_frames": [],
+      "encoded_alpha_full_gesture_match": true,
+      "encoded_sample_s": 3.8
+    }
+  ],
+  "errors": []
+}

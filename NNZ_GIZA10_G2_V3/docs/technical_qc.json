@@ -51,7 +51,7 @@
       "pixel_format": "argb",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 3647576
+      "bytes": 5094568
     },
     {
       "file": "C02/diagram_motion_RGBA.mov",
@@ -142,7 +142,7 @@
       "pixel_format": "argb",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 8185868
+      "bytes": 7391208
     },
     {
       "file": "C04/diagram_motion_RGBA.mov",
@@ -194,7 +194,7 @@
       "pixel_format": "argb",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 3975995
+      "bytes": 4584219
     },
     {
       "file": "C05/diagram_motion_RGBA.mov",
@@ -285,7 +285,7 @@
       "pixel_format": "argb",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 3955135
+      "bytes": 4806464
     },
     {
       "file": "previews_1080/C01_G2_V3_silent.mp4",
@@ -298,7 +298,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 359561
+      "bytes": 396331
     },
     {
       "file": "previews_1080/C02_G2_V3_silent.mp4",
@@ -324,7 +324,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 253734
+      "bytes": 252425
     },
     {
       "file": "previews_1080/C04_G2_V3_silent.mp4",
@@ -337,7 +337,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 401059
+      "bytes": 410124
     },
     {
       "file": "previews_1080/C05_G2_V3_silent.mp4",
@@ -363,7 +363,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 210856
+      "bytes": 221739
     },
     {
       "file": "previews_1080/PREVIEW_A_G2_V3_silent.mp4",
@@ -376,7 +376,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 712732
+      "bytes": 748193
     },
     {
       "file": "previews_1080/PREVIEW_B_G2_V3_silent.mp4",
@@ -389,7 +389,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 1044475
+      "bytes": 1064439
     },
     {
       "file": "previews_360/C01_G2_V3_silent.mp4",
@@ -402,7 +402,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 83369
+      "bytes": 88560
     },
     {
       "file": "previews_360/C02_G2_V3_silent.mp4",
@@ -428,7 +428,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 68932
+      "bytes": 70112
     },
     {
       "file": "previews_360/C04_G2_V3_silent.mp4",
@@ -441,7 +441,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 101893
+      "bytes": 105871
     },
     {
       "file": "previews_360/C05_G2_V3_silent.mp4",
@@ -467,7 +467,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 42103
+      "bytes": 44523
     },
     {
       "file": "previews_360/PREVIEW_A_G2_V3_silent.mp4",
@@ -480,7 +480,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 173497
+      "bytes": 179860
     },
     {
       "file": "previews_360/PREVIEW_B_G2_V3_silent.mp4",
@@ -493,7 +493,7 @@
       "pixel_format": "yuv420p",
       "audio_streams": 0,
       "full_decode": "PASS",
-      "bytes": 236670
+      "bytes": 243068
     }
   ],
   "errors": [],

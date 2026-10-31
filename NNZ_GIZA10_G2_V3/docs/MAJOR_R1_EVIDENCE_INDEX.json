@@ -1,0 +1,38 @@
+[
+  {
+    "cut": "C01",
+    "encoded_source": "previews_1080/C01_G2_V3_silent.mp4",
+    "sample_times_seconds": {
+      "entry": 3.3,
+      "full_gesture": 3.8,
+      "ending": 4.125
+    }
+  },
+  {
+    "cut": "C03",
+    "encoded_source": "previews_1080/C03_G2_V3_silent.mp4",
+    "sample_times_seconds": {
+      "entry": 3.78,
+      "full_gesture": 4.4,
+      "ending": 5.0
+    }
+  },
+  {
+    "cut": "C04",
+    "encoded_source": "previews_1080/C04_G2_V3_silent.mp4",
+    "sample_times_seconds": {
+      "entry": 0.45,
+      "full_gesture": 0.8,
+      "ending": 1.05
+    }
+  },
+  {
+    "cut": "C06",
+    "encoded_source": "previews_1080/C06_G2_V3_silent.mp4",
+    "sample_times_seconds": {
+      "entry": 2.74,
+      "full_gesture": 3.8,
+      "ending": 4.5
+    }
+  }
+]

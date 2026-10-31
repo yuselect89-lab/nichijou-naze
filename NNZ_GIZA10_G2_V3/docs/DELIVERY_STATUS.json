@@ -1,4 +1,8 @@
 {
+  "revision": "R1",
+  "previous_acceptance": "MAJOR",
+  "presenter_integrity_result": "PASS",
+  "work_acceptance_recheck": "NOT_PERFORMED",
   "scope": "All six cuts implemented as G2 V3 review-candidate separated assets",
   "technical_result": "PASS",
   "native_cut_scenes": 6,
