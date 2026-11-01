@@ -42,7 +42,7 @@ for(const name of all){
    const out=path.join(tmp,`frame_${String(n).padStart(4,'0')}.jpg`);
    const args=['-hide_banner','-v','error','-y'];
    if(second!==null)args.push('-ss',String(second));
-   args.push('-i',file,'-frames:v','1','-vf','scale=440:440:force_original_aspect_ratio=decrease,pad=440:440:(ow-iw)/2:(oh-ih)/2:color=black','-q:v','3',out);
+   args.push('-i',file,'-frames:v','1','-vf','scale=440:440:force_original_aspect_ratio=decrease,pad=440:440:(ow-iw)/2:(oh-ih)/2:color=black,format=yuv420p','-q:v','3',out);
    const r=spawnSync('ffmpeg',args,{encoding:'utf8',maxBuffer:1048576});
    if(r.status!==0)throw Error((r.stderr||'ffmpeg extract failed').slice(0,500));
    info.frameIds.push(n);frames.push({frameIndex:n,file:name,seconds:second});n++;
