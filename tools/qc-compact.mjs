@@ -15,7 +15,7 @@ for(let i=0;i<opts.length;i++){
 if(!Number.isInteger(tailCount)||tailCount<1||tailCount>100)process.exit(2);
 if(!logPath)logPath=`out/qc/${path.basename(cmd[0]).replace(/[^\w.-]/g,'_')}-${Date.now()}-${process.pid}.log`;
 mkdirSync(path.dirname(path.resolve(logPath)),{recursive:true});
-const stream=createWriteStream(logPath,{flags:'wx'}),child=spawn(cmd[0],cmd.slice(1),{stdio:['inherit','pipe','pipe'],shell:false});
+const stream=createWriteStream(logPath,{flags:'wx'}),child=spawn(cmd[0],cmd.slice(1),{stdio:['inherit','pipe','pipe'],shell:process.platform==='win32'});
 let lines=0,tail=[],issues=[],issueCount=0,bytes=0;
 const buffers={stdout:'',stderr:''};
 const important=/(?:\b(?:ERROR|WARN|FAIL|BLOCK|HOLD|MISSING|PASS)\b|警告|未確認|不一致|エラー|失敗|異常|不足|指摘|要修正|要判断|★)/i;
