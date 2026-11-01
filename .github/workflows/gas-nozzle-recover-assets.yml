@@ -44,6 +44,7 @@ jobs:
           assert b'ftyp' in v.read_bytes()[:64], 'Video does not resemble MP4'
           print('Video size:',v.stat().st_size,'PDF size:',p.stat().st_size)
           PY
+          if ! command -v ffprobe >/dev/null 2>&1; then sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; fi
           ffprobe -v error -show_entries format=duration:stream=codec_name,width,height -of default=noprint_wrappers=1 episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4
           sha256sum episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4 > episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4.sha256
 
