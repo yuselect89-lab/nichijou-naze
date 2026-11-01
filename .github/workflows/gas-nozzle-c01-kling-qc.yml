@@ -1,0 +1,32 @@
+name: Gas nozzle C01 Kling candidate QC retrieval
+on:
+  push:
+    paths:
+      - .github/workflows/gas-nozzle-c01-kling-qc.yml
+permissions:
+  contents: read
+jobs:
+  retrieve-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Retrieve the generated candidate without changing existing assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p candidate
+          curl --fail --location --show-error --silent --max-time 180 --output candidate/C01_kling_candidate.mp4 'https://v3b.fal.media/files/b/0ab0b062/4IVmbPxhASN9tV_qmGEEE_output.mp4'
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          p=Path('candidate/C01_kling_candidate.mp4')
+          assert p.stat().st_size==6271924
+          assert b'ftyp' in p.read_bytes()[:64]
+          record={'file':p.name,'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'status':'UNREVIEWED_CANDIDATE_NOT_QC_PASS','classification':'AI_GENERATED_REENACTMENT'}
+          Path('candidate/receipt.json').write_text(json.dumps(record,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gas-nozzle-c01-kling-qc
+          path: candidate/
+          retention-days: 7
