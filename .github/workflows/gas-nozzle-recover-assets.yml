@@ -1,0 +1,67 @@
+name: Gas nozzle - recover blocked source assets
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/gas-nozzle-recover-assets.yml
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Download the already-generated C01 clip and manufacturer's reference for internal QC
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p episodes/GAS_NOZZLE/assets/generated
+          mkdir -p /tmp/gas-nozzle-reference
+          curl --fail --location --show-error --silent --retry 4 --retry-all-errors --retry-delay 2 \
+            --output episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4 \
+            'https://v3b.fal.media/files/b/0ab0af95/8wO7zAHU5wm_AOCjvp0oq_minimax-h3.mp4'
+          curl --fail --location --show-error --silent --retry 4 --retry-all-errors --retry-delay 2 \
+            --output /tmp/gas-nozzle-reference/tatsuno_nozzle_reference.pdf \
+            'https://tatsuno-corporation.com/wp-content/uploads/sites/2/2024/09/nozzle.pdf'
+
+      - name: Validate binary files and record SHA256
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          v=Path('episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4')
+          p=Path('/tmp/gas-nozzle-reference/tatsuno_nozzle_reference.pdf')
+          assert v.stat().st_size>100_000, 'Video too small'
+          assert p.read_bytes()[:4]==b'%PDF', 'Reference is not a PDF'
+          assert b'ftyp' in v.read_bytes()[:64], 'Video does not resemble MP4'
+          print('Video size:',v.stat().st_size,'PDF size:',p.stat().st_size)
+          PY
+          ffprobe -v error -show_entries format=duration:stream=codec_name,width,height -of default=noprint_wrappers=1 episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4
+          sha256sum episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4 > episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4.sha256
+
+      - name: Publish C01 in repository for Codex without fal.media download
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4 episodes/GAS_NOZZLE/assets/generated/C01_autostop_ai_reenactment.mp4.sha256
+          if ! git diff --cached --quiet; then
+            git commit -m 'assets(gas nozzle): recover existing C01 AI video for Codex'
+            git push
+          fi
+
+      - name: Retain maker reference privately as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gas-nozzle-reference-for-qc
+          path: /tmp/gas-nozzle-reference/tatsuno_nozzle_reference.pdf
+          retention-days: 7
