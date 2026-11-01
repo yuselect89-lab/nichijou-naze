@@ -60,7 +60,7 @@ for(let k=0;k<n;k+=12){
  sheets.push(out);
 }
 rmSync(tmp,{recursive:true,force:true});
-const packet={status:errors.length?'EVIDENCE_INCOMPLETE':'EVIDENCE_ONLY_NOT_QC_PASS',source:root,generatedAt:new Date().toISOString(),fileCount:all.length,sampledFiles:selected,skippedByLimit:files.filter(f=>f.preview==='NOT_SAMPLED_LIMIT').length,sheets,frames,files,errors};
+const packet={status:(errors.length||files.some(f=>f.preview==='NOT_SAMPLED_LIMIT'))?'EVIDENCE_INCOMPLETE':'EVIDENCE_ONLY_NOT_QC_PASS',source:root,generatedAt:new Date().toISOString(),fileCount:all.length,sampledFiles:selected,skippedByLimit:files.filter(f=>f.preview==='NOT_SAMPLED_LIMIT').length,sheets,frames,files,errors};
 const json=path.join(dest,'evidence.json');writeFileSync(json,JSON.stringify(packet,null,2)+'\n');
 console.log(JSON.stringify({status:packet.status,files:all.length,sampled:selected,skippedByLimit:packet.skippedByLimit,unchanged:files.filter(f=>!f.changed).length,contactSheets:sheets,summary:json,errors},null,2));
-if(errors.length)process.exitCode=1;
+if(errors.length||packet.skippedByLimit)process.exitCode=1;
