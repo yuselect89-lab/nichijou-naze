@@ -13,6 +13,8 @@
 
 ## 2026-11-01｜制作のトークン浪費防止
 
+素材プレビューの一覧化は `tools/media-evidence.mjs`、QCログの圧縮は `tools/qc-compact.mjs` を使用する。元の証拠・実MP4確認・LOCK検証は省かない。詳細は同ポリシーに記載。
+
 工程別に必要文書を読む・差分素材だけを再確認する手順は [docs/CONTEXT_EFFICIENCY_POLICY.md](docs/CONTEXT_EFFICIENCY_POLICY.md)。正式帯のSHA照合、共通素材検品、承認済みLOCK、G1/G2/G3、制作担当の分担は**省略・変更しない**。素材の再納品差分は `node tools/handoff-diff.mjs` で機械確認し、未変更の実ファイルをモデルへ何度も読み込まない。
 
 ---
