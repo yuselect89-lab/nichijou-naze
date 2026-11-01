@@ -1,0 +1,42 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {existsSync,readFileSync,mkdtempSync,mkdirSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {spawnSync} from 'node:child_process';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const tool=n=>['scripts','tools'].map(d=>path.join(root,d,n)).find(existsSync);
+const temp=mkdtempSync(path.join(tmpdir(),'ai-cost-tools-'));
+test('compact QC keeps full log, does not mark QC PASS',()=>{
+ const file=path.join(temp,'log.txt');
+ const run=spawnSync(process.execPath,[tool('qc-compact.mjs'),'--out',file,'--',process.execPath,'-e','for(let i=0;i<100;i++)console.log("line "+i);console.log("WARN: check")'],{encoding:'utf8'});
+ assert.equal(run.status,0,run.stderr);
+ const data=JSON.parse(run.stdout);
+ assert.equal(data.status,'EXECUTED_ZERO_EXIT_NOT_QC_PASS');
+ assert.match(readFileSync(file,'utf8'),/line 99/);
+ assert.match(data.interesting.join(' '),/WARN/);
+});
+test('compact QC preserves failing command exit status',()=>{
+ const file=path.join(temp,'failed.txt');
+ const run=spawnSync(process.execPath,[tool('qc-compact.mjs'),'--out',file,'--',process.execPath,'-e','process.exit(7)'],{encoding:'utf8'});
+ assert.equal(run.status,7);
+ assert.equal(JSON.parse(run.stdout).status,'COMMAND_FAILED');
+});
+test('media preview builds evidence and skips unchanged file',{skip:spawnSync('ffmpeg',['-version'],{stdio:'ignore'}).status!==0||spawnSync('ffprobe',['-version'],{stdio:'ignore'}).status!==0},()=>{
+ const input=path.join(temp,'media');mkdirSync(input);
+ const made=spawnSync('ffmpeg',['-hide_banner','-loglevel','error','-y','-f','lavfi','-i','color=c=blue:size=320x480:rate=1','-frames:v','1',path.join(input,'one.png')],{encoding:'utf8'});
+ assert.equal(made.status,0,made.stderr);
+ const dest=path.join(temp,'evidence1');
+ const one=spawnSync(process.execPath,[tool('media-evidence.mjs'),input,'--out',dest],{encoding:'utf8'});
+ assert.equal(one.status,0,one.stderr);
+ assert.ok(existsSync(path.join(dest,'contact_01.jpg')));
+ const first=JSON.parse(readFileSync(path.join(dest,'evidence.json'),'utf8'));
+ assert.equal(first.status,'EVIDENCE_ONLY_NOT_QC_PASS');
+ const second=path.join(temp,'evidence2');
+ const two=spawnSync(process.execPath,[tool('media-evidence.mjs'),input,'--prior',path.join(dest,'evidence.json'),'--out',second],{encoding:'utf8'});
+ assert.equal(two.status,0,two.stderr);
+ const b=JSON.parse(readFileSync(path.join(second,'evidence.json'),'utf8'));
+ assert.match(b.files[0].preview,/UNCHANGED|REUSED_PRIOR/);
+ assert.equal(b.sampledFiles,0);
+});
