@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "file": "NNZ_TIRE_VENT_SPEWS_ASSETS_V1_20261102.zip",
+  "bytes": 61694843,
+  "sha256": "5a85b590becdc61d9a0056b06af9e857f320da8a02a717455439d2d0b94ac756",
+  "entries": 256,
+  "reopened_zip_full_video_decode": 16,
+  "portable_common_masters_loaded": 2,
+  "core_checks": 20,
+  "font_originals_restored_and_sha_checked": true,
+  "original_voice_unchanged": true,
+  "crc": "PASS",
+  "all_hashes": "PASS"
+}
