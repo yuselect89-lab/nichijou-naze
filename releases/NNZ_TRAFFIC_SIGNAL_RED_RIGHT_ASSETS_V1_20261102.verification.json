@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "file": "NNZ_TRAFFIC_SIGNAL_RED_RIGHT_ASSETS_V1_20261102.zip",
+  "bytes": 102749187,
+  "sha256": "539f9a664bf4734384048276ffa31bf0bd335587de5b7471215ba7a95e1d8830",
+  "entries": 222,
+  "reopened_zip_full_decode": 40,
+  "portable_blend_sources_loaded": 8,
+  "crc": "PASS",
+  "all_hashes": "PASS"
+}
