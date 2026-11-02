@@ -13,3 +13,7 @@ ZIP：`releases/NNZ_TIRE_VENT_SPEWS_ASSETS_V1_20261102.zip`（61694843 bytes）�
 画像生成1回・独立AI動画生成0回・形状調整2回。C06は根元修正後も全117フレームの形状が不変で、不要な再描画を省いた。フォントは字形を削らず可逆圧縮で約7.19MB削減。総工数・トークン・課金額の削減率は比較可能な実測がないため断定しない。
 
 ZIP内`qc/performance.json`は梱包直前の計測スナップショット。梱包・掲載・実ダウンロードを含む確定計測と納品確認は、検証後に本ディレクトリへ保存する。
+
+GitHub納品URLから全ZIPを実ダウンロードし、全SHA・CRC・原音声一致を確認済み。確定計測は`PERFORMANCE_REPORT_20261102.json`。計測開始から実ダウンロード確認まで59.72分（初回環境確認は計測範囲外）。
+
+[ZIPをダウンロード](https://github.com/yuselect89-lab/nichijou-naze/raw/1f03243c2e13bc2d5caa5dfe1bfac63b4bf6cd11/releases/NNZ_TIRE_VENT_SPEWS_ASSETS_V1_20261102.zip)
