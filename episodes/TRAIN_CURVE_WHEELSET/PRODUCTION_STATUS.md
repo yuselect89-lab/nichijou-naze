@@ -14,4 +14,6 @@
 
 G2書面PASSと実画セルフレビューを区別する。独立した実画G2／完成本編G3は未実施。確定VO尺は未実測。発話アンカーを同梱し、Workで原音声に合わせる。素材合計37秒は本編尺ではない。
 
-ZIP内の`WORK_ASSEMBLY.md`を組立の入口とし、`PROVENANCE.md`とQC JSONで根拠・科学的限定・生成元を確認できる。GitHubへの掲載後、納品URLの実ダウンロードでZIPのSHAを再照合する。
+ZIP内の`WORK_ASSEMBLY.md`を組立の入口とし、`PROVENANCE.md`とQC JSONで根拠・科学的限定・生成元を確認できる。GitHub納品URLからZIP全体を実ダウンロードし、サイズ・SHA256・CRC・全ファイルSHA一致を確認済み。証拠は`GITHUB_DOWNLOAD_VERIFIED.json`。
+
+[ZIPをダウンロード](https://github.com/yuselect89-lab/nichijou-naze/raw/4273e46e09104748643292d33e6da33be30a83e7/releases/NNZ_TRAIN_CURVE_WHEELSET_ASSETS_V1_20261102.zip)
