@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "file": "NNZ_ELECTRIC_KETTLE_AUTO_OFF_ASSETS_V1_20261102.zip",
+  "bytes": 100566366,
+  "sha256": "164ccc8fb662c13c56b19e5006a4698c9c5f0c9e426fbe695752a6b0169b3285",
+  "entries": 330,
+  "reopened_zip_full_decode": 48,
+  "portable_blend_sources_loaded": 8,
+  "crc": "PASS",
+  "all_hashes": "PASS"
+}
