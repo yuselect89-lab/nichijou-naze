@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "file": "NNZ_TRAIN_CURVE_WHEELSET_ASSETS_V1_20261102.zip",
+  "bytes": 103221287,
+  "sha256": "21772dcd4eb13af8dac15bef61238d99a4b8f2ed3975766f0fe76f489a18650e",
+  "entries": 239,
+  "reopened_zip_full_decode": 40,
+  "portable_blend_sources_loaded": 8,
+  "crc": "PASS",
+  "all_hashes": "PASS"
+}
